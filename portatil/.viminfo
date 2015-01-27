@@ -17,8 +17,10 @@
 $\r:Resposta:\r
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:wqa
+:q
 :w
+:wq
+:wqa
 :!
 :%s/^$/\r:Resposta:\r
 :%s/$/\r
@@ -27,8 +29,6 @@ $\r:Resposta:\r
 :%s/^/\=printf('%4s ', line('.'))
 :q!
 :qa
-:q
-:wq
 :wa
 :.,85y
 :.,120y
@@ -444,7 +444,7 @@ $\r:Resposta:\r
 # Registros:
 "0	LINE	0
 	    Tots els esmentats a l'exercici **2**, i si no s'indica cap, es package.
-""1	LINE	0
+"1	LINE	0
 	    
 "2	LINE	0
 	|
@@ -476,22 +476,28 @@ $\r:Resposta:\r
 	  #echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$( git_prompt_status )%{$reset_color%}$ZSH_THEME_GIT_PROMPT_SUFFIX  " 
 	}
 	
-"-	CHAR	0
-	hholaholaholaholaholaola
+""-	CHAR	0
+	#
 
 # Marcas en el archivo:
-'0  57  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
-'1  4  13  ~/a.java
-'2  32  20  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
-'3  85  37  ~/.zshrc
-'4  59  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
-'5  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
-'6  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/acceso.php
-'7  2  40  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
-'8  70  0  ~/Documentos/CLASE/M8/UF2/apache/apache.rst
-'9  27  0  ~/Documentos/CLASE/M9/UF2/practica1/practica1.rst
+'0  23  0  /tmp/crontab.7dAvRK/crontab
+'1  22  0  ~/scripts/backupConfig.sh
+'2  23  0  /tmp/crontab.gAXCXL/crontab
+'3  57  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+'4  4  13  ~/a.java
+'5  32  20  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
+'6  85  37  ~/.zshrc
+'7  59  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+'8  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+'9  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/acceso.php
 
 # Lista de saltos (el más reciente va primero):
+-'  23  0  /tmp/crontab.7dAvRK/crontab
+-'  1  0  /tmp/crontab.7dAvRK/crontab
+-'  22  0  ~/scripts/backupConfig.sh
+-'  1  0  ~/scripts/backupConfig.sh
+-'  23  0  /tmp/crontab.gAXCXL/crontab
+-'  1  0  /tmp/crontab.gAXCXL/crontab
 -'  57  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
 -'  22  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
 -'  26  27  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
@@ -563,8 +569,51 @@ $\r:Resposta:\r
 -'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
 -'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/creacion/Usuaris.sql
 -'  131  0  ~/Documentos/CLASE/M6/UF3/teoria/html5.rst
+-'  57  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  22  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  26  27  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  78  153  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  99  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  98  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  15  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  4  13  ~/a.java
+-'  2  4  ~/a.java
+-'  1  0  ~/a.java
+-'  32  20  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
+-'  85  37  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  59  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  270  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  268  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  240  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  238  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  212  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  210  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  183  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  181  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  150  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> /tmp/crontab.7dAvRK/crontab
+	"	23	0
+	.	23	0
+	+	23	0
+
+> ~/scripts/backupConfig.sh
+	"	22	0
+	^	22	1
+	.	22	0
+	+	1	18
+	+	1	0
+	+	23	0
+	+	22	0
+
+> /tmp/crontab.gAXCXL/crontab
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
 
 > ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
 	"	57	0
@@ -2338,12 +2387,6 @@ $\r:Resposta:\r
 	+	27	14
 	+	34	16
 
-> ~/scripts/backupConfig.sh
-	"	1	0
-	.	1	0
-	+	1	18
-	+	1	0
-
 > /tmp/crontab.qhrV74/crontab
 	"	23	44
 	^	23	45
@@ -2522,18 +2565,3 @@ $\r:Resposta:\r
 	"	1	0
 	.	1	0
 	+	1	0
-
-> /tmp/pruebas/org/estudi_poo/sergio/META-INF/MANIFEST.MF
-	"	1	0
-	^	3	33
-	.	3	0
-	+	3	4
-	+	3	0
-
-> /tmp/META-INF/MANIFEST.MF
-	"	3	0
-	^	4	1
-	.	3	0
-	+	3	0
-	+	4	0
-	+	3	0

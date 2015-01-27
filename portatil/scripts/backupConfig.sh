@@ -19,6 +19,8 @@ cp -R $ORIG/.zsh* $DEST;
 cp -R $ORIG/.oh-my-zsh $DEST;
 cp -R $ORIG/scripts $DEST;
 cp -R $ORIG/.conky $DEST;
+ 
+rm .zsh_history;
 
 git add *;
 git add .vim*;
