@@ -23,11 +23,11 @@ cp -R $ORIG/.conky $DEST;
 rm .zsh_history;
 
 git add *;
-git add .vim*;
+git add .vim/*;
 git add .bash*;
 git add .zsh*;
 git add .conky*;
-git add .oh-my-zsh;
+git add .oh-my-zsh/*;
 
 NOW=$(date +"%d-%m-%Y");
 git commit -m $NOW; 
