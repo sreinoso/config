@@ -1,0 +1,1361 @@
+# Aquest fitxer viminfo ha estat generat pel Vim 7.3.
+# El podeu editar si aneu amb compte!
+
+# Valor de 'encoding' en el moment d'escriure aquest fitxer
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Últim Patró de Cerca:
+~MSle0~/tab
+
+# Últim Substitute Patró de Cerca:
+~Msle0&=======
+
+# Última cadena substituïda:
+$-
+
+# Historial d'ordres (de més a menys recent):
+:wqa
+:w
+:q
+:sp ../hundirLaFlota.html
+:tabe ../hundirLaFlota.html
+:tabe ../../ideas/pseudocodigo.rst
+:wq
+:sav backupConfig.sh
+:qa
+:tabe pendienteNavidades.rst
+:q!
+:tabe ~/scripts/mkcd.sh
+:tabe ../codigo/Exercici.css
+:!rm hola.pdf
+:!rm hola.rst
+:s//-/g
+:tabe hola.rst
+:s//aside
+:tabe ~/.vim/bundle/snipMate/snippets/
+:vs
+:vs ../DAW-M9-UF1-Practica-8/Exercici.html
+:sp ../DAW-M9-UF1-Practica-8/Exercici.html
+:tabe ../DAW-M9-UF1-Practica-8/Exercici.html
+:PluginInstall
+:PluginSearch! power
+:PluginInstall Powerline
+:tabe ~/.viminfo
+:.,164s//arr_maq
+:s//j/g
+:sp 
+:tabe ~/.vim/bundle/285colors-with-az-menu/plugin/colors-menu.vim
+:PluginSearch! uml
+:tabe ejemplos.html
+:tabe html5.rst
+:tabe README.txt
+:tabe source/c_gpio.c
+:set relativenumber
+:.,427"y
+:.,427y
+:tab all
+:args ex4/*.java
+:tabs
+:tab all ex4/*.java
+:Edit ex4/*.java
+:tab sall
+:args *.java
+:sall
+:args
+:e ex4/*
+:help tabp
+:help tabr
+:help <c-f>
+:help ~
+:help c
+:tabe ex4/Garfield.java
+:tabe ex4/Garfield.jav
+:reg
+:map
+:colorscheme calmar256-dark
+:.,16y
+:.,12y
+:tabe examen2_desglossaradress.php
+:tabe examen1_mcm.php
+:106,110s//canvasJugador
+:.
+:.,22s//arr_maq/g
+:.,14y
+:tabe ./scripts/main.js
+:%s//Contacte/Ig
+:%s//Client/Ig
+:%s//Client/g
+:%s//Client/ig
+:!nautilus .
+:w ImplementacionUML1.txt
+:!pwd
+:tabe uml.uml
+:tabe 
+:tabe uml2.uml
+:!gnome-open %
+
+# Historial de cadenes cercades (de més a menys recent):
+?/tab
+? =======
+? \<nav\>
+? \Vdiv\%#
+? \<arr_jug\>
+? \<i\>
+? \Vfi\%#
+? \Vpu\%#
+? \Vst\%#
+? \Vhead-\%#
+?/leader
+?/<leader>
+?//
+?/<F4>
+? \V$_\%#
+??>
+? \Velse\%#
+? \<ctx\>
+? \<x\>
+? \<B\>
+? \<A\>
+?/var
+
+# Historial d'expressions (de més a menys recent):
+
+# Historial de línies d'entrada (de més a menys recent):
+
+# Historial de línies d'entrada (de més a menys recent):
+
+# Registres:
+"0	LINE	0
+	            for(var i=fila; i<tamanyo;i++){
+	
+	            }
+""1	CHAR	0
+	fila
+"2	LINE	0
+	
+"3	CHAR	0
+	 var 
+"4	LINE	0
+	
+"5	CHAR	0
+	fila
+"6	CHAR	0
+	r
+"7	CHAR	0
+	-
+"8	CHAR	0
+	 
+"9	CHAR	0
+	m
+"y	LINE	0
+	if !exists('g:airline_symbols')
+	    let g:airline_symbols = {}
+	endif
+	"let g:airline_left_sep = '»'
+	let g:airline_left_sep = '▶'
+	"let g:airline_right_sep = '«'
+	let g:airline_right_sep = '◀'
+	let g:airline_symbols.linenr = '␊'
+	"let g:airline_symbols.linenr = '␤'
+	"let g:airline_symbols.linenr = '¶'
+	let g:airline_symbols.branch = '⎇'
+	"let g:airline_symbols.paste = 'ρ'
+	let g:airline_symbols.paste = 'Þ'
+	"let g:airline_symbols.paste = '∥'
+	let g:airline_symbols.whitespace = 'Ξ'
+	
+	" powerline symbols
+	"let g:airline_left_sep = ''
+	let g:airline_left_alt_sep = ''
+	"let g:airline_right_sep = ''
+	let g:airline_right_alt_sep = ''
+	"let g:airline_symbols.branch = ''
+	let g:airline_symbols.readonly = ''
+	let g:airline_symbols.linenr = ''
+	let g:airline#extensions#tabline#enabled = 1
+
+# Marques de fitxer:
+'0  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'1  14  21  ~/scripts/backupConfig.sh
+'2  21  7  ~/scripts/backupConfig.sh
+'3  22  12  ~/scripts/backupConfig.sh
+'4  5  22  ~/scripts/backupConfig.sh
+'5  18  18  ~/scripts/backupConfig.sh
+'6  23  63  /tmp/crontab.dL8kxu/crontab
+'7  24  21  ~/scripts/backupConfig.sh
+'8  28  12  ~/scripts/backupConfig.sh
+'9  1  0  ~/scripts/backupConfig
+
+# Llista de salts (de més a menys recent):
+-'  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  10  0  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  130  4  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  1  0  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  14  21  ~/scripts/backupConfig.sh
+-'  1  0  ~/scripts/backupConfig.sh
+-'  21  7  ~/scripts/backupConfig.sh
+-'  22  12  ~/scripts/backupConfig.sh
+-'  5  22  ~/scripts/backupConfig.sh
+-'  18  18  ~/scripts/backupConfig.sh
+-'  23  63  /tmp/crontab.dL8kxu/crontab
+-'  1  0  /tmp/crontab.dL8kxu/crontab
+-'  24  21  ~/scripts/backupConfig.sh
+-'  28  12  ~/scripts/backupConfig.sh
+-'  8  1  ~/scripts/backupConfig.sh
+-'  1  0  ~/scripts/backupConfig
+-'  15  0  ~/scripts/backupConfig.sh
+-'  23  12  ~/scripts/backupConfig.sh
+-'  155  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  154  37  ~/.bashrc
+-'  138  0  ~/.bashrc
+-'  143  41  ~/.bashrc
+-'  145  26  ~/.bashrc
+-'  1  0  ~/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
+-'  1  0  ~/CLASE/M7/UF3/ex2/bbdd/creacion/DATABASE.sql
+-'  14  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+-'  119  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+-'  112  17  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  158  1  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
+-'  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.css
+-'  42  24  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  40  13  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  44  15  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  39  11  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  37  26  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  35  11  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  34  13  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  49  3  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
+-'  3  9  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
+-'  7  0  /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
+-'  112  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/acceso.php
+-'  7  50  /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/index.php
+-'  133  12  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  164  40  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  170  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  178  16  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  181  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  173  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  162  21  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  147  15  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  107  4  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  131  26  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  115  15  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  117  12  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/hundirLaFlota.html
+-'  436  0  ~/.vimrc
+-'  123  0  ~/.vimrc
+-'  403  0  ~/.vimrc
+-'  3  26  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  4  14  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  2  24  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  13  15  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  14  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  12  6  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  11  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  10  6  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  11  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/ImplementacionUML1.txt
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/ImplementacionUML1.txt
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/UML.rst
+-'  3  2  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/__Tagbar__
+-'  4  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/__Tagbar__
+-'  253  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
+-'  237  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
+-'  1  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
+-'  4  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/uml.uml
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/uml.uml
+-'  69  0  ~/.vimrc
+-'  119  58  ~/.bashrc
+-'  29  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejemplos.html
+-'  271  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
+-'  348  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
+-'  42  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/pintaTabSeleccion.js
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/tabJugador.js
+-'  486  0  /media/13194DCD211F8F37/backupClase/CLASE/M8/UF4/GIT/git.rst
+-'  28  2  /media/13194DCD211F8F37/backupClase/CLASE/M8/UF4/GIT/__Tagbar__
+
+# Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+	"	202	28
+	^	202	29
+	.	202	28
+	+	211	0
+	+	189	46
+	+	190	46
+	+	189	44
+	+	191	64
+	+	193	0
+	+	188	55
+	+	195	93
+	+	192	42
+	+	210	3
+	+	209	4
+	+	206	15
+	+	208	15
+	+	201	8
+	+	198	43
+	+	200	12
+	+	205	8
+	+	202	0
+	+	205	0
+	+	202	28
+
+> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/ideas/pseudocodigo.rst
+	"	10	8
+	^	12	9
+	.	12	8
+	+	12	8
+
+> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/ideas/__Tagbar__
+	"	1	0
+	.	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+
+> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/__Tagbar__
+	"	7	4
+	.	22	0
+	+	22	0
+
+> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/hundirLaFlota.html
+	"	1	0
+
+> ~/CLASE/.git/info/exclude
+	"	7	5
+	^	7	6
+	.	7	5
+	+	5	0
+	+	7	5
+
+> ~/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+	"	23	0
+	^	23	3
+	.	23	2
+	+	158	399
+	+	74	0
+	+	1	0
+	+	1	0
+	+	2	0
+	+	11	0
+	+	100	0
+	+	151	0
+	+	19	2
+	+	21	89
+	+	21	0
+	+	21	90
+	+	23	2
+
+> ~/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/__Tagbar__
+	"	3	2
+	.	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+
+> ~/scripts/backupConfig.sh
+	"	14	21
+	^	14	22
+	.	14	21
+	+	1	11
+	+	12	0
+	+	7	3
+	+	16	36
+	+	17	46
+	+	10	19
+	+	7	0
+	+	3	0
+	+	5	4
+	+	3	26
+	+	7	10
+	+	10	14
+	+	16	38
+	+	17	40
+	+	16	11
+	+	17	6
+	+	11	8
+	+	6	35
+	+	11	14
+	+	23	0
+	+	29	0
+	+	29	0
+	+	23	0
+	+	29	0
+	+	25	20
+	+	26	14
+	+	23	0
+	+	24	26
+	+	13	32
+	+	14	11
+	+	15	0
+	+	6	35
+	+	7	4
+	+	8	1
+	+	28	12
+	+	13	17
+	+	14	21
+	+	13	23
+	+	14	27
+	+	24	21
+	+	18	18
+	+	7	7
+	+	5	22
+	+	21	10
+	+	22	12
+	+	21	7
+	+	10	13
+	+	4	18
+	+	5	10
+	+	10	13
+	+	13	17
+	+	14	21
+
+> /tmp/crontab.dL8kxu/crontab
+	"	23	63
+	^	23	64
+	.	23	63
+	+	23	63
+
+> ~/scripts/backupConfig
+	"	1	0
+
+> ~/.bashrc
+	"	142	0
+	^	154	37
+	.	155	0
+	+	130	60
+	+	119	58
+	+	138	14
+	+	156	28
+	+	156	0
+	+	156	12
+	+	146	0
+	+	146	12
+	+	156	0
+	+	146	0
+	+	146	0
+	+	146	14
+	+	146	8
+	+	146	10
+	+	146	2
+	+	146	11
+	+	146	1
+	+	146	0
+	+	148	0
+	+	148	3
+	+	146	0
+	+	148	0
+	+	148	0
+	+	149	14
+	+	146	0
+	+	144	0
+	+	145	32
+	+	149	1
+	+	149	0
+	+	156	0
+	+	147	3
+	+	148	0
+	+	149	0
+	+	143	44
+	+	142	12
+	+	143	44
+	+	142	0
+	+	143	44
+	+	116	0
+	+	139	0
+	+	151	0
+	+	150	0
+	+	152	3
+	+	151	14
+	+	154	36
+	+	155	0
+
+> ~/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/php/index.php
+	"	19	3
+	.	19	3
+	+	19	3
+
+> ~/CLASE/M7/UF3/ex2/php/funciones.php
+	"	15	0
+	.	42	0
+	+	43	5
+	+	58	0
+	+	48	26
+	+	48	0
+	+	42	0
+
+> ~/CLASE/M7/UF3/ex2/php/config.php
+	"	13	27
+	.	13	27
+	+	13	27
+
+> ~/CLASE/M7/UF3/ex2/php/acceso.php
+	"	52	1
+	^	52	2
+	.	52	1
+	+	1	0
+	+	2	0
+	+	1	0
+	+	52	30
+	+	49	0
+	+	52	1
+
+> ~/CLASE/M7/UF3/ex2/php/__Tagbar__
+	"	4	4
+	.	31	0
+	+	31	0
+	+	31	0
+	+	31	0
+
+> ~/CLASE/M7/UF3/ex2/php/estilos.css
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/php/gest_clients.php
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/php/gestion_hotel.php
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/php/logout.php
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/php/mod_client.php
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/php/p_gest_clients.php
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/bbdd/creacion/DATABASE.sql
+	"	1	0
+
+> ~/CLASE/M7/UF3/ex2/bbdd/creacion/Usuaris.sql
+	"	5	111
+
+> /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+	"	14	0
+	^	14	94
+
+> /media/13194DCD211F8F37/backupClase/CLASE/__Tagbar__
+	"	5	6
+	.	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+	+	17	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/pendienteNavidades.rst
+	"	39	19
+	^	39	20
+	.	39	19
+	+	1	0
+	+	13	0
+	+	28	0
+	+	31	0
+	+	34	0
+	+	40	0
+	+	41	0
+	+	46	0
+	+	47	0
+	+	54	0
+	+	8	0
+	+	9	10
+	+	11	13
+	+	12	3
+	+	10	0
+	+	14	24
+	+	16	26
+	+	21	17
+	+	22	60
+	+	25	2
+	+	31	0
+	+	32	14
+	+	39	6
+	+	45	5
+	+	51	9
+	+	52	0
+	+	53	0
+	+	52	9
+	+	53	9
+	+	19	14
+	+	52	0
+	+	52	0
+	+	39	0
+	+	9	19
+	+	14	33
+	+	19	20
+	+	32	21
+	+	45	11
+	+	38	14
+	+	39	15
+	+	51	17
+	+	52	17
+	+	53	21
+	+	9	22
+	+	14	35
+	+	53	24
+	+	45	14
+	+	51	20
+	+	52	20
+	+	32	24
+	+	38	17
+	+	19	23
+	+	39	19
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+	"	1	0
+	^	3	0
+	.	3	0
+	+	6	0
+	+	8	0
+	+	3	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/__Tagbar__
+	"	3	0
+	.	8	0
+	+	67	0
+	+	67	0
+	+	62	0
+	+	57	0
+	+	52	0
+	+	47	0
+	+	42	0
+	+	37	0
+	+	32	0
+	+	27	0
+	+	22	0
+	+	17	0
+	+	13	0
+	+	13	0
+	+	8	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/.git/rebase-merge/git-rebase-todo
+	"	1	0
+	^	1	1
+	.	1	0
+	+	3	68
+	+	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/.git/objects/e9/7abc0425d8d7188cf51dc61f3678b100bf6e74
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/.git/index
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+	"	158	1
+	^	149	26
+	.	133	0
+	+	122	0
+	+	118	0
+	+	116	0
+	+	122	13
+	+	123	0
+	+	122	12
+	+	119	0
+	+	116	0
+	+	123	0
+	+	118	12
+	+	122	74
+	+	117	37
+	+	120	30
+	+	121	0
+	+	131	11
+	+	124	0
+	+	131	11
+	+	117	0
+	+	125	0
+	+	126	61
+	+	117	0
+	+	110	0
+	+	129	29
+	+	131	43
+	+	131	45
+	+	131	44
+	+	131	23
+	+	131	53
+	+	131	23
+	+	18	0
+	+	131	63
+	+	131	18
+	+	131	57
+	+	95	26
+	+	131	31
+	+	111	0
+	+	109	0
+	+	131	0
+	+	138	51
+	+	131	11
+	+	129	13
+	+	83	34
+	+	86	34
+	+	103	20
+	+	102	28
+	+	105	4
+	+	102	9
+	+	104	21
+	+	107	5
+	+	103	0
+	+	131	0
+	+	137	0
+	+	142	0
+	+	141	0
+	+	145	0
+	+	135	28
+	+	129	15
+	+	158	28
+	+	186	0
+	+	183	4
+	+	161	32
+	+	168	8
+	+	168	34
+	+	168	0
+	+	172	0
+	+	179	30
+	+	132	0
+	+	131	11
+	+	130	42
+	+	17	17
+	+	148	18
+	+	147	18
+	+	151	0
+	+	147	0
+	+	162	0
+	+	170	0
+	+	173	0
+	+	181	0
+	+	159	15
+	+	168	45
+	+	169	28
+	+	177	0
+	+	179	0
+	+	180	0
+	+	135	0
+	+	184	23
+	+	168	44
+	+	177	44
+	+	174	33
+	+	174	27
+	+	174	27
+	+	176	21
+	+	178	16
+	+	175	0
+	+	163	0
+	+	168	0
+	+	164	0
+	+	149	25
+	+	136	25
+	+	133	0
+	a	100	4
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/hundirLaFlota.html
+	"	1	0
+	^	22	59
+	.	22	58
+	+	8	44
+	+	18	42
+	+	8	53
+	+	21	38
+	+	22	37
+	+	20	13
+	+	21	27
+	+	22	41
+	+	21	60
+	+	22	58
+
+> ~/.vimrc
+	"	112	17
+	^	70	8
+	.	70	7
+	+	368	28
+	+	379	0
+	+	381	0
+	+	380	27
+	+	379	16
+	+	380	0
+	+	85	11
+	+	435	0
+	+	436	0
+	+	436	110
+	+	436	0
+	+	401	0
+	+	403	0
+	+	403	15
+	+	403	0
+	+	403	0
+	+	402	0
+	+	69	0
+	+	437	0
+	+	437	0
+	+	70	7
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Gat.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Picarol.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Ull.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/UsaGat.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/__Tagbar__
+	"	8	0
+	.	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+
+> ~/scripts/mkcd.sh
+	"	2	0
+	.	3	0
+	+	1	10
+	+	3	5
+	+	3	11
+	+	3	15
+	+	3	9
+	+	3	9
+	+	3	19
+	+	3	13
+	+	3	3
+	+	3	7
+	+	3	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
+	"	1	0
+	.	17	0
+	+	17	17
+	+	17	0
+	+	22	176
+	+	22	0
+	+	17	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+	"	38	13
+	^	42	28
+	.	42	27
+	+	9	4
+	+	33	0
+	+	34	25
+	+	47	0
+	+	35	0
+	+	35	0
+	+	35	15
+	+	36	17
+	+	38	0
+	+	37	27
+	+	50	0
+	+	50	0
+	+	38	0
+	+	44	0
+	+	39	15
+	+	44	0
+	+	40	8
+	+	44	0
+	+	42	12
+	+	39	15
+	+	40	12
+	+	40	0
+	+	42	19
+	+	43	13
+	+	44	0
+	+	47	0
+	+	47	0
+	+	39	27
+	+	40	29
+	+	42	27
+
+> ~/.vim/bundle/snipMate/NERD_tree_1
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/bundle/snipMate/snippets/html.snippets
+	"	53	0
+
+> ~/.vim/bundle/snipMate/NERD_tree_2
+	"	9	0
+	.	1	0
+	+	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/hola.rst
+	"	1	0
+	.	1	0
+	+	1	22
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	15
+	+	1	7
+	+	1	0
+	+	1	0
+	+	1	19
+	+	1	0
+	+	1	16
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	15
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	7
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	17
+	+	1	24
+	+	1	0
+	+	1	0
+	+	1	17
+	+	1	16
+	+	1	9
+	+	1	16
+	+	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/__Tagbar__
+	"	3	4
+	.	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.css
+	"	9	4
+	^	31	6
+	.	9	4
+	+	31	4
+	+	9	4
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/calendario.js
+	"	16	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/eventos.html
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/fotos.html
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/habitaciones.html
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/indexfinal.png
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/index.html
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/mapa.html
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/style.css
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
+	"	7	0
+
+> ~/[Vundle] Installer
+	"	42	0
+	.	1	0
+	+	44	0
+	+	1	0
+
+> /tmp/viLWLY5/8
+	"	1	0
+
+> ~/[Vundle] search
+	"	3	0
+	.	1	0
+	+	10	0
+	+	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/acceso.php
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/config.php
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/funciones.php
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/gest_clients.php
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/gestion_hotel.php
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/index.php
+	"	1	0
+	^	7	51
+	.	7	50
+	+	7	50
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/logout.php
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/mod_client.php
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/p_gest_clients.php
+	"	1	0
+
+> ~/.viminfo
+	"	31	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/__Tagbar__
+	"	17	4
+	.	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+	+	22	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Cotxe.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/enunciatsensegats.rst
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Moto.java
+	"	10	61
+	^	10	62
+	.	10	61
+	+	8	0
+	+	5	52
+	+	3	32
+	+	6	40
+	+	4	74
+	+	12	0
+	+	11	7
+	+	10	61
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/test.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/UsaVehicles.java
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+	"	3	26
+	^	3	27
+	.	3	26
+	+	14	0
+	+	13	21
+	+	2	27
+	+	13	0
+	+	2	66
+	+	4	17
+	+	3	26
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/__Tagbar__
+	"	6	3
+	.	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+
+> ~/.vim/bundle/285colors-with-az-menu/plugin/colors-menu.vim
+	"	6	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/ImplementacionUML1.txt
+	"	11	0
+	^	11	11
+	.	11	0
+	+	11	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/UML.rst
+	"	1	0
+	^	21	6
+	.	21	5
+	+	23	5
+	+	21	5
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/__Tagbar__
+	"	3	2
+	.	4	0
+	+	5	0
+	+	5	0
+	+	4	0
+
+> ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
+	"	253	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/uml.uml
+	"	1	0
+	^	6	5
+	.	8	0
+	+	3	18
+	+	4	38
+	+	5	0
+	+	4	27
+	+	5	43
+	+	7	0
+	+	8	0
+	+	6	4
+	+	7	25
+	+	8	0
+
+> ~/Baixades/plantuml/uml.uml
+	"	12	6
+	^	5	1
+	.	9	35
+	+	5	0
+	+	4	24
+	+	8	39
+	+	9	35
+
+> ~/Baixades/plantuml/uml2.uml
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
+	"	42	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
+	"	271	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/__Tagbar__
+	"	16	4
+	.	30	0
+	+	30	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejemplos.html
+	"	29	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/functions.js
+	"	1	0
+
+> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/pintaTabSeleccion.js
+	"	1	0

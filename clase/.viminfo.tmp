@@ -1,0 +1,241 @@
+# Aquest fitxer viminfo ha estat generat pel Vim 7.3.
+# El podeu editar si aneu amb compte!
+
+# Valor de 'encoding' en el moment d'escriure aquest fitxer
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Últim Patró de Cerca:
+~Msle0/\<\$usr\>
+
+# Últim Substitute Patró de Cerca:
+~MSle0~&usr
+
+# Última cadena substituïda:
+$pass
+
+# Historial d'ordres (de més a menys recent):
+:w
+:.s/usr/pass/g
+:.s//
+:q
+:qa
+:wqa
+:wq
+:tabe pendienteNavidades.rst
+:tabe ../hundirLaFlota.html
+:q!
+:tabe ~/scripts/mkcd.sh
+:tabe ../codigo/Exercici.css
+:!rm hola.pdf
+:!rm hola.rst
+:s//-/g
+:tabe hola.rst
+:s//aside
+:tabe ~/.vim/bundle/snipMate/snippets/
+:vs
+:vs ../DAW-M9-UF1-Practica-8/Exercici.html
+:sp ../DAW-M9-UF1-Practica-8/Exercici.html
+:tabe ../DAW-M9-UF1-Practica-8/Exercici.html
+:PluginInstall
+:PluginSearch! power
+:PluginInstall Powerline
+:tabe ~/.viminfo
+:.,164s//arr_maq
+:s//j/g
+:sp 
+:tabe ~/.vim/bundle/285colors-with-az-menu/plugin/colors-menu.vim
+:PluginSearch! uml
+:tabe ejemplos.html
+:tabe html5.rst
+:tabe README.txt
+:tabe source/c_gpio.c
+:set relativenumber
+:.,427"y
+:.,427y
+:tab all
+:args ex4/*.java
+:tabs
+:tab all ex4/*.java
+:Edit ex4/*.java
+:tab sall
+:args *.java
+:sall
+:args
+:e ex4/*
+:help tabp
+:help tabr
+:help <c-f>
+:help ~
+:help c
+:tabe ex4/Garfield.java
+:tabe ex4/Garfield.jav
+:reg
+:map
+:colorscheme calmar256-dark
+:.,16y
+:.,12y
+:tabe examen2_desglossaradress.php
+:tabe examen1_mcm.php
+:106,110s//canvasJugador
+:.
+:.,22s//arr_maq/g
+:.,14y
+:tabe ./scripts/main.js
+:%s//Contacte/Ig
+:%s//Client/Ig
+:%s//Client/g
+:%s//Client/ig
+:!nautilus .
+:w ImplementacionUML1.txt
+:!pwd
+:tabe uml.uml
+:tabe 
+:tabe uml2.uml
+:!gnome-open %
+
+# Historial de cadenes cercades (de més a menys recent):
+? usr
+? \<\$usr\>
+?/tab
+? =======
+? \<nav\>
+? \Vdiv\%#
+? \<arr_jug\>
+? \<i\>
+? \Vfi\%#
+? \Vpu\%#
+? \Vst\%#
+? \Vhead-\%#
+?/leader
+?/<leader>
+?//
+?/<F4>
+? \V$_\%#
+??>
+? \Velse\%#
+? \<ctx\>
+? \<x\>
+? \<B\>
+? \<A\>
+
+# Historial d'expressions (de més a menys recent):
+
+# Historial de línies d'entrada (de més a menys recent):
+
+# Historial de línies d'entrada (de més a menys recent):
+
+# Registres:
+"0	LINE	0
+	$usr = htmlspecialchars($_POST['usr']);
+""1	LINE	0
+	-->
+"2	LINE	0
+	    <!--
+"3	CHAR	0
+	)
+"4	CHAR	0
+	htmlspecialchars($_POST['pass']
+"5	CHAR	0
+	$_POST['pass'] 
+"6	CHAR	0
+	usr
+"7	LINE	0
+	    $_POST['usr']="Sergio";
+	    $_POST['pass']="1234";
+"8	CHAR	0
+	Sergio
+"9	CHAR	0
+	usr
+"y	LINE	0
+	if !exists('g:airline_symbols')
+	    let g:airline_symbols = {}
+	endif
+	"let g:airline_left_sep = '»'
+	let g:airline_left_sep = '▶'
+	"let g:airline_right_sep = '«'
+	let g:airline_right_sep = '◀'
+	let g:airline_symbols.linenr = '␊'
+	"let g:airline_symbols.linenr = '␤'
+	"let g:airline_symbols.linenr = '¶'
+	let g:airline_symbols.branch = '⎇'
+	"let g:airline_symbols.paste = 'ρ'
+	let g:airline_symbols.paste = 'Þ'
+	"let g:airline_symbols.paste = '∥'
+	let g:airline_symbols.whitespace = 'Ξ'
+	
+	" powerline symbols
+	"let g:airline_left_sep = ''
+	let g:airline_left_alt_sep = ''
+	"let g:airline_right_sep = ''
+	let g:airline_right_alt_sep = ''
+	"let g:airline_symbols.branch = ''
+	let g:airline_symbols.readonly = ''
+	let g:airline_symbols.linenr = ''
+	let g:airline#extensions#tabline#enabled = 1
+
+# Marques de fitxer:
+'0  32  0  ~/CLASE/M7/UF3/ex2/php/funciones.php
+'1  1  0  ~/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
+'2  1  0  ~/CLASE/M7/UF3/ex2/bbdd/creacion/DATABASE.sql
+'3  14  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+'4  112  17  ~/.vimrc
+'5  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
+'6  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.css
+'7  3  9  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
+'8  7  0  /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
+'9  1  0  ~/.vimrc
+
+# Llista de salts (de més a menys recent):
+-'  32  0  ~/CLASE/M7/UF3/ex2/php/funciones.php
+-'  79  4  ~/CLASE/M7/UF3/ex2/php/funciones.php
+-'  31  1  ~/CLASE/M7/UF3/ex2/php/funciones.php
+-'  1  0  ~/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
+-'  1  0  ~/CLASE/M7/UF3/ex2/bbdd/creacion/DATABASE.sql
+-'  14  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+-'  119  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
+-'  112  17  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  158  1  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
+-'  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.css
+-'  42  24  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  40  13  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  44  15  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  39  11  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  37  26  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  35  11  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  34  13  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  49  3  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
+-'  3  9  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
+-'  7  0  /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
+-'  112  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/acceso.php
+-'  7  50  /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/index.php
+-'  133  12  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  164  40  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  170  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  178  16  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  181  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  173  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  162  21  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  147  15  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  107  4  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  131  26  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  115  15  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  117  12  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/hundirLaFlota.html
+-'  436  0  ~/.vimrc
+-'  123  0  ~/.vimrc
+-'  403  0  ~/.vimrc
+-'  3  26  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
+-'  4  14  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/V

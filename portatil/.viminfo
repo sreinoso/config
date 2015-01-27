@@ -1,0 +1,2539 @@
+# Vim 7.4 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último Patrón de búsqueda:
+~MSle0/foreach
+
+# Último SustituciónPatrón de búsqueda:
+~MSle0~&^$
+
+# Última cadena de sustitución:
+$\r:Resposta:\r
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wqa
+:w
+:!
+:%s/^$/\r:Resposta:\r
+:%s/$/\r
+:%s/^/\=printf('%s- ', line('.'))
+:%s/^/\=printf('%s ', line('.'))
+:%s/^/\=printf('%4s ', line('.'))
+:q!
+:qa
+:q
+:wq
+:wa
+:.,85y
+:.,120y
+:.,150y
+:!rm .reserves_serveis.php.swo
+:tabe reserves_serveis.php
+:%s//INNODB
+:.,51y
+:.,140y
+:.,32y
+:s//$modificado
+:s//modificado
+:.,131y
+:W
+:tabe logout.php
+:.,52y
+:.,30y
+:.,88y
+:.,66y
+:ww
+:tabe index.php
+:set wrap!
+:color calmar256-dark
+:.,34y
+:qa!
+:tabe contacto.html
+:tabe config.php
+://
+:.,102y
+:s//Calamar/g
+:%s//369
+:%s//642
+:%s//
+:%s//ctx
+:tab sball
+:AirlineRefresh
+:.,304y
+:colorscheme BlackSea
+:sav ~/scripts/backupConfig.sh!
+:sav ! ~/scripts/backupConfig.sh
+:sav ~/scripts/backupConfig.sh
+:!bash %
+:%s//sal2/
+:s//sal1/g
+:tabe a.java
+:s//sal
+:%s//vim
+:s//vim
+:.,252d
+:tabe /usr/lib/python2.7/dist-packages/reportlab/platypus/paragraph.py
+:tabe Salutator.java
+:tabe Salutator.class
+:!ls
+:sav Salutator.java
+:wq!
+:Wq
+:!javac -version
+:%s//#FFFFF0/g
+:%s//En/g
+:li
+:set cursorline!
+:color
+:help fold
+:set foldmethod=syntax
+:set foldmethod=synta	
+:.,378d
+:348,376s//arr_maq/g
+:s//arr_maq/g
+:.,317y
+:.,317yy
+:.s// \&\& /g
+:.s// && /g
+:.,315g//left/g
+:tabe lesscss/elements.less
+:$s///g
+:$s/\*//g
+:$s/*//g
+:.,$s//.float/g
+:%s/100%/@cien/g
+:sav estilo.less
+:!gnome-open %
+:syntax on
+:sav calendario.conkyrc
+:sav calendario
+:tabe ../hundirLaFlota.html
+:sp ComandaText.java
+:vs ComandaText.java
+:tabe ComandaText.java
+:21
+:tabe ../config/conkyrc
+:v//d
+:%s//\r&\r/g
+:set spelllang=ca
+:%s//&\r/g
+:syntax off
+:syntax on!
+:syntax
+:syntax!
+:\*\*\w{0,}\*\*s//g
+: ps axo user,pid,ppid,uid,gid,comm,stat,tty,time,pcpu,pmem
+:syntax of
+:syntax !
+:noh
+:.s///g
+:set relativenumber!
+:set relativenumber
+:reg
+:! conky-manager
+:tabe 
+:!gnome-open ../DAW-M9-UF1-Practica-8.odt
+:set norelativenumber
+:tabe ../DAW-M9-UF1-Practica-8/Exercici.html
+:set linebreak
+:set nolinebreak
+:map
+:colorscheme
+:tabe ../polimorfisme.rst
+:!pwd
+:help airline
+:tabe ../../herencia/ex1/UsaGat.java
+:tabe ex2/Gat.java
+:!mkdir ex2
+:set !number
+:sav %<.rst
+:set number
+:set num
+:set nu
+:tabe ex1/Analisi.java
+:sav Analisi.java
+:tabe ex1/Analisi.rst
+:!mkdir ex1
+:tabe ../herencia/herencia.rst
+:!mkdir img
+:color astronaut
+:color aqua
+:color adrian
+:color adobe
+:color adaryn
+:colorscheme Mustang
+:set relnum
+:color BlackSea
+:colorscheme PapayaWhip
+:tabe ../clasesiobjetos/
+:e polimorfisme.rst
+:!mkdir ~/.mediatomb
+:.,98y
+:tabe
+:imap <c-n> <c-o>o
+:tabe red.rst
+:tabedit 29.09.14.rst
+:sav VadePizza.rst
+:sav expr.sh
+:sav expr.sed
+:sav expr.awk
+:sav expr.php
+:sav expr.perl
+:tabedit ../herencia.rst
+:tabe /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex3/Gat.java
+:tabe /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex3/
+:!javac %
+:javac %
+:.,38d
+:.,38y
+:.,45y
+:sp ../ex1/Gat.java
+:diffthis
+:tabe Gat.java
+:tabe ../herencia.rst
+:.,96y
+:.,86y
+:sp GatRenat.java
+:!cp ../ex3/*.java ./
+:tabe ex4/Garfield.java
+:!mkdir ex4
+:e ~/script.sh
+:tabe script.sh
+:tabe GatRenat.java
+:.,17s//renat/g
+:tabe ex3/UsaGat.java
+:tabe /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+:tabe UsaGat.java
+:tabe ex3/Gat.java
+:4tabe ex3/*.java
+:!cp ex2/*.java ex3/
+:!mkdir ex3
+:! cp ../ex1/*.java ./
+:tabe ../ex1/Gat.java
+:tabe sortida.out
+:!java UsaGat RenatJR Misifú Garfield > sortida.out
+:tabe ex1/UsaGat.java
+:!java ex1/UsaGat RenatJR Misifú Garfield > sortida.out
+:help count
+:help tabedit
+:.!
+:!cd ex2
+:!rm ProbesGatRenat.*
+:!java UsaGat renat misifu garfield
+:.,355y
+:.,63y
+:%s/GatRenat/Gat/g
+:tabe ProbesGatRenat.java
+:!cp ../../relacionsEntreClasses/ex2/ProbesGatRenat.java ./
+:%s/GatRenat/Gat/s
+:tabe ex1/Gat.java
+:! mv ex1/GatRenat.java ex1/Gat.java
+:!mv *.java ex1/
+:!cp ../relacionsEntreClasses/ex2/Ull.java ./
+:!cp ../relacionsEntreClasses/ex2/Picarol.java ./
+:!cp ../relacionsEntreClasses/ex2/GatEstat.java ./
+:!cp ../relacionsEntreClasses/ex2/GatRenat.java ./
+:e /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+:e
+:.,456d
+:.,456y
+:2
+:.,18y
+:tabe ../constructorsI/constructorsI.rst
+:tabe ex3/
+:tabe Ull.java
+:tabe ex2/ProbesGatRenat.java
+:sp
+:w!
+:.,77y
+:tabe ~/.vim/bundle/snipMate/snippets/java.snippets
+:sp Ull.java
+:tabe ex2/GatRenat.java
+:!cp ex1/Gat*.java ex2/
+:tabe ../relacionsEntreClasses.rst
+:map <C-+> <C-w>+
+:.,116y
+:.116y
+:help snipmate
+:sp CLIGatRenat.java
+:sp 
+:tabe ex1/CLIGatRenat.java
+:tabe a.html
+:tabe ../clasesiobjetos/ex10/GatRenat.java
+:e Documentos/documentacion/vadepizza/servidores/servidores.rst
+:TagbarShowTag
+:Tagbar
+:tags
+:tabe ~/.vim/bundle/285colors-with-az-menu/plugin/colors-menu.vim
+:PluginInstall!
+:PluginClean
+:.,114d
+:.,92y
+:tabe vimrcIris
+:.,178y
+:AirlineTheme luna
+:AirlineTheme hybrid
+:AirlineTheme kalisi
+:tabe CLASE/DAW2/Exercicis1.rst
+:tabe .vim/bundle/285colors-with-az-menu/plugin/colors-menu.vim
+:199,204y
+:.,204
+:tabe GatEstat.java
+:tabedit Gat.java
+:sp a
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? ^$
+? $
+? ^
+? \Vmain\%#
+? \V$_\%#
+? \<NDBCLUSTER\>
+? \<\$eliminado\>
+?/foreach
+?/var
+? \Vcodeblock\%#
+? \<\$direc_imagenes\>
+? \<0666\>
+?/query
+?/mysql
+?//
+?/bn
+? \<BlancoNegro\>
+? \<alto\>
+? \<ancho\>
+? \<context\>
+? \<Enumeration\>
+? \<salutacio\>
+? \<salutacioraul\>
+? \<mate\>
+?/\[2\]
+?/ParaFrag
+?/width
+? \Vsout\%#
+? \<White\>
+? \<Ivory\>
+? \<color1\>
+? \<color0\>
+?/hdd
+?/omni
+? \<arr_jug\>
+?/,
+? \<right\>
+? \*
+? *
+? \<margin\>
+? \<float\>
+?/float:left
+? 100%
+? \<100\>
+? \Vbody\%#
+? \Vdoctype\%#
+? \Vhead\%#
+? \Vhtml\%#
+?/2\.
+?/2\,
+?/Pregunta
+? \<Pregunta\>
+?/MPD
+?/temp
+?/Bla
+?/Black
+?/lua
+?/mixer
+?/ami
+?/.conky
+?/conky
+?/Conky
+?/bg
+?/png
+?/\<\*\*.\{-\}\*\*\>
+?/\<.\{-\}\>
+?/\<.\+\>
+?/\<\*.\+\>
+?/\<\w\+\>
+?/\*\*\<\w\+\>\*\*
+?/\*\*\w{0,}\*\*/g
+?/**\w{0,}**/g
+?/**\w{0,}**
+?/\*\*\w{0,}\*\*
+?/\*\*\w\*\*
+?/^\[\*\*\]*$
+?/\^\[\*\*\]*$
+?/\^\[\*\*\]\***\$
+?/\^**\***\$
+?/^\*\**\*\*$
+?/^\*\**$
+? \<una\>
+?/lua_load
+? \<var\>
+?/:
+?/git\:
+? \V:\%#
+? \<own_window_hints\>
+?/update
+?/sec
+?/relati
+?/lorem ip
+?/<F4>
+?/bashrc
+?/he nas
+?/Enumeration
+?/\#
+?/A exce
+?/caur
+?/\[2
+? \<no\>
+?/colors
+?/imap
+?/<c-n
+?/map
+? \Vhead-\%#
+?/home
+?/sergio
+? \s\+$
+? \Vh-atr\%#
+?/**
+? \Vpu\%#
+? \Vh-met\%#
+? \Vcl\%#
+? \<misifu\>
+? GatRenat
+?/\*\*
+? \<hidding\>
+?/tota
+? \Vel\%#
+? \Vcs\%#
+? \Vpr\%#
+?/date
+?/<F6>
+?/filetype.vim
+? \<smarttab\>
+?/pathogen
+?/\<FileType\>
+? \<FileType\>
+?/Filetype
+?/line
+?/symbols
+? \<ttimeoutlen\>
+?/utf
+? \V\/*\%#
+?/getEda
+?/\Vsout\%#
+? \Vscan\%#
+? \<ordenado\>
+? \<min\>
+?/colore
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+=acp#onPopupPost()
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+@y
+@n
+@Y
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	LINE	0
+	    Tots els esmentats a l'exercici **2**, i si no s'indica cap, es package.
+""1	LINE	0
+	    
+"2	LINE	0
+	|
+"3	LINE	0
+	. 
+"4	LINE	0
+	   
+"5	LINE	0
+	<br/>
+"6	LINE	0
+	 
+"7	LINE	0
+	|
+"8	LINE	0
+	    +=============+=======+==========+==========+=======+
+"9	LINE	0
+	<F12>
+"a	CHAR	0
+	${color #00ff00}
+"q	CHAR	0
+	:q:�kb
+"y	CHAR	0
+	function mygit() {
+	  ref1=$(git symbolic-ref HEAD 2> /dev/null) || return
+	  ref2=$(git rev-parse HEAD | head -c 6) || return
+	  ref="$ref1 %{$fg[red]%}$ref2"
+	  #ref=$(git symbolic-ref HEAD 2> /dev/null) $(git rev-parse HEAD | head -c 6) || return
+	  echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$( git_prompt_status )%{$fg[blue]%}$ZSH_THEME_GIT_PROMPT_SUFFIX" 
+	  #echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$( git_prompt_status )%{$reset_color%}$ZSH_THEME_GIT_PROMPT_SUFFIX  " 
+	}
+	
+"-	CHAR	0
+	hholaholaholaholaholaola
+
+# Marcas en el archivo:
+'0  57  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+'1  4  13  ~/a.java
+'2  32  20  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
+'3  85  37  ~/.zshrc
+'4  59  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+'5  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+'6  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/acceso.php
+'7  2  40  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
+'8  70  0  ~/Documentos/CLASE/M8/UF2/apache/apache.rst
+'9  27  0  ~/Documentos/CLASE/M9/UF2/practica1/practica1.rst
+
+# Lista de saltos (el más reciente va primero):
+-'  57  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  22  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  26  27  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  78  153  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  99  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  98  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  15  0  ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+-'  4  13  ~/a.java
+-'  2  4  ~/a.java
+-'  1  0  ~/a.java
+-'  32  20  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
+-'  85  37  ~/.zshrc
+-'  1  0  ~/.zshrc
+-'  59  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  270  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  268  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  240  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  238  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  212  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  210  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  183  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  181  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  150  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  148  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  122  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  120  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  95  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  93  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  65  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  63  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  36  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  34  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  308  98  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  269  36  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  239  32  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  211  28  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  182  24  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  149  20  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  121  16  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  94  12  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  64  8  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  35  4  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/acceso.php
+-'  2  40  ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
+-'  1  14  ~/Documentos/CLASE/M7/UF3/ex2/php/index.php
+-'  70  0  ~/Documentos/CLASE/M8/UF2/apache/apache.rst
+-'  5  2  ~/Documentos/CLASE/M8/UF2/apache/__Tagbar__
+-'  41  0  ~/Documentos/CLASE/M8/UF2/apache/__Tagbar__
+-'  1  0  ~/Documentos/CLASE/M8/UF2/apache/apache.rst
+-'  27  0  ~/Documentos/CLASE/M9/UF2/practica1/practica1.rst
+-'  8  2  ~/Documentos/CLASE/M9/UF2/practica1/__Tagbar__
+-'  9  0  ~/Documentos/CLASE/M9/UF2/practica1/__Tagbar__
+-'  2  0  ~/Documentos/CLASE/M9/UF2/practica1/practica1.rst
+-'  244  0  /media/sergio/W7_AIO_SP/.vimrc
+-'  1  0  /media/sergio/W7_AIO_SP/.vimrc
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/ver_imagen_bdd.php
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/carga_imagen_bdd.php
+-'  32  207  ~/Documentos/CLASE/M7/UF3/ejemplos/formsimagenes/formbotones3.php
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/php/Doxyfile
+-'  53  0  ~/Documentos/CLASE/M7/UF3/ex2/php/acceso.php
+-'  79  11  ~/.zshrc
+-'  51  16  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+-'  69  59  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+-'  71  14  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+-'  56  0  ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+-'  13  26  ~/Documentos/CLASE/M7/UF3/ex2/php/config.php
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
+-'  1  0  ~/Documentos/CLASE/M7/UF3/ex2/bbdd/creacion/Usuaris.sql
+-'  131  0  ~/Documentos/CLASE/M6/UF3/teoria/html5.rst
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+	"	57	0
+	.	57	0
+	+	15	61
+	+	15	6
+	+	15	47
+	+	15	134
+	+	15	200
+	+	15	253
+	+	15	357
+	+	15	458
+	+	15	53
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	16	0
+	+	18	97
+	+	11	113
+	+	2	0
+	+	9	0
+	+	11	60
+	+	13	44
+	+	14	0
+	+	11	0
+	+	12	0
+	+	12	0
+	+	35	20
+	+	29	0
+	+	26	0
+	+	29	0
+	+	27	0
+	+	26	4
+	+	28	4
+	+	26	4
+	+	28	16
+	+	26	16
+	+	27	18
+	+	26	24
+	+	27	24
+	+	28	34
+	+	26	34
+	+	27	34
+	+	26	34
+	+	28	46
+	+	26	46
+	+	27	46
+	+	26	49
+	+	28	52
+	+	27	54
+	+	26	54
+	+	27	54
+	+	28	54
+	+	29	54
+	+	30	54
+	+	32	0
+	+	34	0
+	+	37	47
+	+	35	16
+	+	37	16
+	+	34	16
+	+	33	17
+	+	34	17
+	+	35	16
+	+	37	16
+	+	32	16
+	+	30	16
+	+	28	16
+	+	26	16
+	+	27	16
+	+	29	17
+	+	31	56
+	+	33	56
+	+	26	4
+	+	37	0
+	+	36	0
+	+	26	1
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	2
+	+	26	0
+	+	23	0
+	+	27	54
+	+	24	0
+	+	24	0
+	+	22	0
+	+	24	1
+	+	41	50
+	+	46	49
+	+	51	75
+	+	57	3
+	+	56	0
+	+	57	0
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/visibilitat/__Tagbar__
+	"	1	0
+	.	4	0
+	+	4	0
+
+> ~/a.java
+	"	4	13
+	^	4	4
+	.	3	0
+	+	1	0
+	+	2	0
+	+	3	0
+
+> ~/__Tagbar__
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/acceso.php
+	"	1	0
+	^	57	30
+	.	57	26
+	+	27	38
+	+	25	5
+	+	27	5
+	+	26	0
+	+	27	0
+	+	26	25
+	+	27	4
+	+	25	4
+	+	1	0
+	+	61	5
+	+	60	25
+	+	53	0
+	+	61	4
+	+	50	0
+	+	57	26
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/config.php
+	"	1	0
+	^	13	27
+	.	13	26
+	+	13	26
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/funciones.php
+	"	1	0
+	^	106	31
+	.	106	30
+	+	27	0
+	+	65	0
+	+	66	67
+	+	69	0
+	+	70	17
+	+	85	0
+	+	109	0
+	+	114	15
+	+	112	20
+	+	110	82
+	+	121	0
+	+	122	54
+	+	124	0
+	+	129	10
+	+	15	0
+	+	16	0
+	+	17	44
+	+	19	36
+	+	25	0
+	+	143	0
+	+	124	22
+	+	139	55
+	+	131	35
+	+	139	8
+	+	139	4
+	+	132	14
+	+	139	29
+	+	132	41
+	+	139	46
+	+	139	16
+	+	139	60
+	+	139	0
+	+	139	17
+	+	133	41
+	+	134	34
+	+	136	0
+	+	139	10
+	+	135	0
+	+	136	0
+	+	135	58
+	+	139	0
+	+	131	53
+	+	153	0
+	+	151	3
+	+	147	23
+	+	137	22
+	+	83	0
+	+	197	0
+	+	196	28
+	+	197	24
+	+	198	0
+	+	153	1
+	+	151	22
+	+	62	23
+	+	62	0
+	+	61	22
+	+	148	32
+	+	150	12
+	+	152	17
+	+	138	14
+	+	142	0
+	+	127	18
+	+	151	0
+	+	155	0
+	+	195	0
+	+	155	16
+	+	159	61
+	+	155	26
+	+	173	0
+	+	166	0
+	+	173	0
+	+	170	25
+	+	170	0
+	+	170	0
+	+	170	0
+	+	169	100
+	+	170	0
+	+	149	48
+	+	159	77
+	+	194	0
+	+	194	4
+	+	180	0
+	+	182	14
+	+	182	237
+	+	133	0
+	+	184	36
+	+	186	42
+	+	194	0
+	+	87	0
+	+	86	0
+	+	88	29
+	+	101	29
+	+	106	23
+	+	94	13
+	+	179	16
+	+	104	40
+	+	106	16
+	+	104	10
+	+	104	0
+	+	106	30
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/gest_clients.php
+	"	1	0
+	^	37	44
+	.	37	43
+	+	35	1
+	+	35	0
+	+	12	33
+	+	15	0
+	+	12	17
+	+	33	0
+	+	31	15
+	+	17	73
+	+	15	26
+	+	17	97
+	+	29	26
+	+	24	87
+	+	29	0
+	+	28	77
+	+	18	56
+	+	15	35
+	+	17	84
+	+	18	40
+	+	38	0
+	+	11	0
+	+	15	15
+	+	15	26
+	+	17	84
+	+	18	0
+	+	15	0
+	+	15	22
+	+	15	0
+	+	18	41
+	+	17	84
+	+	17	0
+	+	9	9
+	+	68	0
+	+	18	52
+	+	17	90
+	+	36	22
+	+	15	0
+	+	24	26
+	+	23	99
+	+	13	28
+	+	17	87
+	+	23	81
+	+	13	13
+	+	18	14
+	+	35	0
+	+	65	26
+	+	8	30
+	+	60	0
+	+	65	0
+	+	60	44
+	+	63	0
+	+	61	41
+	+	64	0
+	+	62	28
+	+	24	71
+	+	28	71
+	+	26	38
+	+	18	66
+	+	19	24
+	+	20	23
+	+	19	28
+	+	23	0
+	+	20	24
+	+	18	24
+	+	20	37
+	+	18	70
+	+	21	0
+	+	27	0
+	+	23	56
+	+	22	93
+	+	14	22
+	+	34	12
+	+	16	0
+	+	12	0
+	+	52	44
+	+	49	43
+	+	37	43
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/gestion_hotel.php
+	"	1	0
+	^	32	41
+	.	32	40
+	+	6	30
+	+	46	5
+	+	35	9
+	+	36	25
+	+	28	85
+	+	30	88
+	+	32	71
+	+	35	8
+	+	24	18
+	+	25	16
+	+	32	40
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/index.php
+	"	1	0
+	.	19	0
+	+	15	0
+	+	11	31
+	+	12	41
+	+	13	0
+	+	14	0
+	+	13	29
+	+	19	4
+	+	11	0
+	+	19	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/logout.php
+	"	1	0
+	^	3	20
+	.	3	19
+	+	5	0
+	+	2	0
+	+	6	0
+	+	3	19
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/mod_client.php
+	"	1	0
+	^	14	32
+	.	14	31
+	+	4	17
+	+	4	0
+	+	44	0
+	+	15	7
+	+	9	20
+	+	2	16
+	+	15	0
+	+	43	0
+	+	15	38
+	+	43	8
+	+	25	33
+	+	10	0
+	+	15	0
+	+	10	33
+	+	16	35
+	+	26	31
+	+	15	30
+	+	16	23
+	+	25	30
+	+	26	28
+	+	22	48
+	+	32	0
+	+	17	0
+	+	22	0
+	+	17	44
+	+	11	28
+	+	12	31
+	+	11	29
+	+	13	33
+	+	17	62
+	+	43	0
+	+	10	26
+	+	45	0
+	+	44	38
+	+	45	5
+	+	7	18
+	+	9	29
+	+	44	0
+	+	17	69
+	+	21	12
+	+	20	0
+	+	19	0
+	+	18	43
+	+	19	26
+	+	21	12
+	+	20	0
+	+	3	29
+	+	31	0
+	+	27	12
+	+	28	0
+	+	29	53
+	+	27	31
+	+	17	0
+	+	35	0
+	+	34	8
+	+	35	27
+	+	36	37
+	+	37	23
+	+	38	52
+	+	14	31
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/reserves_serveis.php
+	"	32	20
+	.	32	19
+	+	39	1
+	+	40	0
+	+	38	0
+	+	6	42
+	+	35	6
+	+	37	0
+	+	36	19
+	+	37	0
+	+	8	27
+	+	2	29
+	+	8	10
+	+	17	0
+	+	16	127
+	+	15	4
+	+	10	41
+	+	14	0
+	+	11	9
+	+	12	129
+	+	14	0
+	+	9	13
+	+	4	0
+	+	6	0
+	+	4	21
+	+	36	13
+	+	36	5
+	+	3	15
+	+	5	15
+	+	16	95
+	+	18	19
+	+	8	17
+	+	8	16
+	+	12	40
+	+	13	24
+	+	8	0
+	+	18	0
+	+	15	0
+	+	34	0
+	+	36	0
+	+	33	4
+	+	20	26
+	+	34	4
+	+	21	50
+	+	23	8
+	+	33	7
+	+	25	31
+	+	28	0
+	+	23	11
+	+	33	0
+	+	30	53
+	+	26	0
+	+	27	0
+	+	30	62
+	+	32	19
+
+> ~/Documentos/programame/semanales/27-1-15/main.java
+	"	1	0
+
+> ~/Documentos/programame/semanales/27-1-15/__Tagbar__
+	"	1	0
+
+> ~/Documentos/programame/semanales/27-1-15
+	"	1	0
+
+> ~/.zshrc
+	"	85	37
+	^	79	12
+	.	85	37
+	+	14	0
+	+	39	16
+	+	46	0
+	+	47	0
+	+	40	0
+	+	41	0
+	+	45	0
+	+	43	0
+	+	48	19
+	+	8	19
+	+	79	0
+	+	80	0
+	+	81	0
+	+	89	0
+	+	82	36
+	+	81	26
+	+	80	32
+	+	79	30
+	+	83	40
+	+	84	40
+	+	85	7
+	+	84	7
+	+	85	37
+	+	86	38
+	+	87	38
+	+	88	38
+	+	86	38
+	+	88	38
+	+	85	37
+	+	79	10
+	+	85	37
+
+> ~/Documentos/CLASE/M7/UF3/ex2/bbdd/bbdd_completa/bbdd.sql
+	"	59	0
+	^	308	99
+	.	30	0
+	+	308	98
+	+	30	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/p_gest_clients.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/bbdd/creacion/bbdd_total.sql
+	"	1	0
+	^	12	45
+	.	12	0
+	+	69	48
+	+	11	0
+	+	14	0
+	+	22	0
+	+	25	0
+	+	27	0
+	+	30	0
+	+	33	0
+	+	36	0
+	+	40	0
+	+	43	0
+	+	49	0
+	+	52	0
+	+	57	0
+	+	60	0
+	+	65	0
+	+	68	0
+	+	69	0
+	+	35	0
+	+	37	45
+	+	38	35
+	+	40	20
+	+	9	43
+	+	11	28
+	+	12	0
+	+	15	29
+	+	16	33
+	+	17	38
+	+	18	23
+	+	19	34
+	+	20	42
+	+	22	21
+	+	23	0
+	+	4	38
+	+	6	12
+	+	26	0
+	+	27	22
+	+	28	0
+	+	31	48
+	+	33	27
+	+	34	0
+	+	44	47
+	+	45	38
+	+	46	28
+	+	47	44
+	+	49	27
+	+	50	0
+	+	53	29
+	+	54	32
+	+	55	30
+	+	57	21
+	+	58	0
+	+	61	24
+	+	62	31
+	+	63	29
+	+	65	33
+	+	66	0
+	+	12	0
+
+> ~/Documentos/CLASE/M8/UF2/apache/apache.rst
+	"	70	0
+	^	248	1
+	.	248	0
+	+	502	0
+	+	510	0
+	+	521	0
+	+	541	0
+	+	564	0
+	+	15	0
+	+	182	0
+	+	181	0
+	+	201	0
+	+	289	0
+	+	375	0
+	+	408	0
+	+	438	0
+	+	453	0
+	+	479	0
+	+	518	0
+	+	557	0
+	+	199	2
+	+	201	1
+	+	197	0
+	+	195	0
+	+	199	18
+	+	195	0
+	+	194	0
+	+	198	19
+	+	198	0
+	+	198	0
+	+	199	3
+	+	199	0
+	+	198	0
+	+	199	0
+	+	201	0
+	+	199	0
+	+	200	0
+	+	208	0
+	+	211	4
+	+	210	0
+	+	211	27
+	+	213	100
+	+	219	0
+	+	217	26
+	+	218	8
+	+	223	0
+	+	221	0
+	+	213	6
+	+	219	0
+	+	221	0
+	+	222	0
+	+	233	2
+	+	231	42
+	+	233	72
+	+	237	141
+	+	239	71
+	+	237	124
+	+	239	6
+	+	237	124
+	+	278	0
+	+	247	0
+	+	274	0
+	+	272	45
+	+	252	4
+	+	262	4
+	+	263	4
+	+	264	4
+	+	265	4
+	+	266	4
+	+	267	4
+	+	268	4
+	+	263	0
+	+	270	4
+	+	271	4
+	+	272	4
+	+	271	0
+	+	274	27
+	+	295	127
+	+	299	35
+	+	309	51
+	+	295	113
+	+	310	13
+	+	319	0
+	+	321	0
+	+	307	0
+	+	308	0
+	+	307	0
+	+	309	51
+	+	327	0
+	+	329	0
+	+	330	0
+	+	331	0
+	+	325	59
+	+	327	0
+	+	245	183
+	+	249	35
+	+	250	0
+	+	274	1
+	+	276	3
+	+	278	3
+	+	280	3
+	+	282	3
+	+	248	0
+
+> ~/Documentos/CLASE/M8/UF2/apache/__Tagbar__
+	"	5	2
+	.	41	0
+	+	227	0
+	+	192	0
+	+	192	0
+	+	155	0
+	+	116	0
+	+	77	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+
+> ~/Documentos/CLASE/M9/UF2/practica1/practica1.rst
+	"	27	0
+	^	24	1
+	.	27	0
+	+	92	0
+	+	28	0
+	+	31	0
+	+	34	0
+	+	37	0
+	+	40	0
+	+	43	0
+	+	46	0
+	+	50	0
+	+	50	0
+	+	53	48
+	+	55	48
+	+	58	48
+	+	61	0
+	+	58	0
+	+	55	0
+	+	53	0
+	+	50	332
+	+	50	166
+	+	50	0
+	+	64	0
+	+	67	0
+	+	70	0
+	+	73	0
+	+	76	0
+	+	78	0
+	+	79	0
+	+	81	0
+	+	84	0
+	+	87	0
+	+	84	29548
+	+	84	14110
+	+	84	0
+	+	90	0
+	+	11	0
+	+	2	0
+	+	1	0
+	+	10	0
+	+	17	0
+	+	29	0
+	+	32	0
+	+	35	0
+	+	38	0
+	+	41	0
+	+	44	0
+	+	47	0
+	+	49	0
+	+	56	0
+	+	59	0
+	+	62	0
+	+	65	0
+	+	68	0
+	+	71	0
+	+	74	0
+	+	77	0
+	+	80	0
+	+	85	0
+	+	88	0
+	+	91	0
+	+	27	59
+	+	27	78
+	+	27	0
+	+	21	0
+	+	25	0
+	+	26	0
+	+	25	10
+	+	21	299
+	+	25	63
+	+	25	0
+	+	27	0
+	+	27	129
+	+	21	326
+	+	25	30
+	+	27	0
+	+	27	77
+	+	19	206
+	+	21	116
+	+	23	479
+	+	21	150
+	+	23	500
+	+	25	172
+	+	24	0
+	+	27	0
+
+> ~/Documentos/CLASE/M9/UF2/practica1/__Tagbar__
+	"	8	2
+	.	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+
+> /media/sergio/W7_AIO_SP/.vimrc
+	"	244	0
+
+> ~/Documentos/CLASE/M7/UF2/ejercicios/cabecera_clase.php
+	"	88	2
+	^	88	3
+	.	96	25
+	+	93	36
+	+	53	38
+	+	93	0
+	+	93	0
+	+	100	2
+	+	100	1
+	+	100	4
+	+	93	0
+	+	57	44
+	+	56	40
+	+	55	46
+	+	58	0
+	+	92	2
+	+	93	36
+	+	53	51
+	+	61	11
+	+	64	0
+	+	61	12
+	+	70	12
+	+	61	24
+	+	64	31
+	+	67	28
+	+	70	30
+	+	73	21
+	+	76	2
+	+	77	11
+	+	80	0
+	+	79	0
+	+	78	33
+	+	77	31
+	+	82	0
+	+	80	48
+	+	81	27
+	+	83	45
+	+	85	0
+	+	84	0
+	+	85	0
+	+	84	41
+	+	86	46
+	+	88	0
+	+	87	45
+	+	84	4
+	+	81	4
+	+	89	28
+	+	91	0
+	+	90	0
+	+	91	0
+	+	90	26
+	+	63	0
+	+	62	27
+	+	66	0
+	+	65	34
+	+	69	0
+	+	68	31
+	+	72	0
+	+	71	33
+	+	75	0
+	+	74	24
+	+	59	2
+	+	60	2
+	+	96	25
+
+> ~/Documentos/CLASE/M7/UF2/ejercicios/index.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/a.sql
+	"	1	0
+	.	21	0
+	+	1	0
+	+	2	0
+	+	6	0
+	+	11	0
+	+	16	0
+	+	21	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/__Tagbar__
+	"	36	4
+	.	41	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	56	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+	+	41	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/carga_imagen_bdd.php
+	"	26	0
+	^	15	0
+	.	60	43
+	+	1	0
+	+	60	43
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/cargamultiple.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/carga.php
+	"	1	0
+	^	37	37
+	.	54	26
+	+	54	26
+	n	31	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/config.php
+	"	1	0
+	^	10	11
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/funcionesarchivos.php
+	"	16	1
+	^	10	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/funciones_bdd.php
+	"	1	0
+	^	11	1
+	.	26	11
+	+	26	11
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/ver_imagen_bdd.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/formsimagenes/cancelar.png
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/formsimagenes/editar.png
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/formsimagenes/formbotones3.php
+	"	32	207
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/Doxyfile
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/estilos.css
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/acceso.php
+	"	1	0
+	^	37	2
+	.	3	0
+	+	1	0
+	+	35	0
+	+	3	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/config.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/funciones.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/gest_clients.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/gestion_hotel.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/index.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/logout.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/mod_client.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/php/backup/p_gest_clients.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/bbdd/creacion/DATABASE.sql
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ex2/bbdd/creacion/Usuaris.sql
+	"	1	0
+
+> ~/Documentos/CLASE/M6/UF3/teoria/html5.rst
+	"	131	0
+	^	131	31
+	.	131	30
+	+	3	0
+	+	132	0
+	+	6	34
+	+	10	14
+	+	3	19
+	+	15	87
+	+	6	48
+	+	13	0
+	+	12	0
+	+	19	0
+	+	132	0
+	+	19	20
+	+	21	24
+	+	22	26
+	+	30	0
+	+	17	1
+	+	24	0
+	+	25	12
+	+	26	0
+	+	29	21
+	+	33	0
+	+	132	0
+	+	37	12
+	+	17	34
+	+	39	0
+	+	132	0
+	+	41	22
+	+	43	7
+	+	44	0
+	+	47	20
+	+	43	0
+	+	49	11
+	+	53	21
+	+	49	4
+	+	55	18
+	+	59	24
+	+	61	13
+	+	65	20
+	+	67	13
+	+	71	25
+	+	76	7
+	+	61	0
+	+	78	11
+	+	82	21
+	+	78	8
+	+	84	13
+	+	88	21
+	+	90	28
+	+	92	63
+	+	132	0
+	+	94	0
+	+	93	0
+	+	94	26
+	+	98	37
+	+	99	0
+	+	105	34
+	+	100	0
+	+	102	0
+	+	106	4
+	+	107	12
+	+	109	61
+	+	132	0
+	+	113	62
+	+	111	19
+	+	113	0
+	+	115	46
+	+	116	4
+	+	117	14
+	+	120	39
+	+	121	21
+	+	119	0
+	+	123	0
+	+	124	0
+	+	125	43
+	+	83	0
+	+	83	0
+	+	126	0
+	+	132	8
+	+	131	13
+	+	132	0
+	+	131	30
+
+> ~/Documentos/CLASE/M6/UF3/teoria/__Tagbar__
+	"	1	0
+	.	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/config.php
+	"	12	1
+	^	8	20
+	.	9	40
+	+	1	0
+	+	9	0
+	+	11	0
+	+	2	0
+	+	4	27
+	+	5	18
+	+	9	40
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/contacte.php
+	"	26	70
+	^	26	71
+	.	26	70
+	+	1	4
+	+	1	26
+	+	1	0
+	+	1	0
+	+	1	4
+	+	1	0
+	+	1	0
+	+	1	6
+	+	1	0
+	+	1	13
+	+	1	13
+	+	1	0
+	+	1	0
+	+	2	15
+	+	112	0
+	+	71	0
+	+	77	21
+	+	80	15
+	+	6	0
+	+	7	0
+	+	6	59
+	+	2	22
+	+	15	34
+	+	17	31
+	+	18	26
+	+	19	29
+	+	62	0
+	+	40	0
+	+	37	0
+	+	61	0
+	+	41	41
+	+	43	41
+	+	44	36
+	+	45	39
+	+	34	18
+	+	16	8
+	+	40	0
+	+	16	8
+	+	39	4
+	+	28	83
+	+	26	4
+	+	25	33
+	+	31	35
+	+	27	0
+	+	26	70
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/contacte.php~
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/contacto.html
+	"	1	19
+	^	4	0
+	.	1	97
+	+	1	97
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/contacto.html~
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/funcionalitats.php
+	"	51	27
+	^	108	143
+	.	108	142
+	+	1	0
+	+	117	2
+	+	73	4
+	+	2	11
+	+	4	24
+	+	74	0
+	+	92	0
+	+	34	5
+	+	33	41
+	+	43	41
+	+	45	49
+	+	46	37
+	+	48	38
+	+	60	37
+	+	62	37
+	+	73	20
+	+	77	18
+	+	81	18
+	+	83	17
+	+	88	20
+	+	93	10
+	+	94	5
+	+	33	49
+	+	77	18
+	+	76	17
+	+	115	3
+	+	34	0
+	+	108	142
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/funcionalitats.php~
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/listado.html
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/models.zip
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/__Tagbar__
+	"	19	4
+	.	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+	+	35	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/correccion/funcionalitats.php
+	"	13	7
+	^	13	8
+	.	13	7
+	+	1	0
+	+	15	0
+	+	11	0
+	+	7	8
+	+	8	0
+	+	7	14
+	+	7	22
+	+	7	32
+	+	7	41
+	+	7	50
+	+	7	30
+	+	7	39
+	+	7	16
+	+	7	14
+	+	8	17
+	+	8	16
+	+	8	28
+	+	6	23
+	+	8	0
+	+	8	36
+	+	9	41
+	+	10	0
+	+	9	57
+	+	8	0
+	+	13	7
+
+> ~/Documentos/CLASE/M7/UF3/examenes/correccion/contacte.php
+	"	16	7
+	^	16	8
+	.	16	7
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	61	0
+	+	62	0
+	+	64	0
+	+	66	0
+	+	62	0
+	+	78	0
+	+	77	52
+	+	78	0
+	+	31	3
+	+	32	0
+	+	37	0
+	+	1	5
+	+	27	1
+	+	4	0
+	+	19	0
+	+	4	0
+	+	19	0
+	+	4	86
+	+	19	0
+	+	4	130
+	+	4	7
+	+	14	0
+	+	5	10
+	+	4	106
+	+	5	0
+	+	5	106
+	+	14	0
+	+	6	4
+	+	6	23
+	+	7	4
+	+	7	24
+	+	8	4
+	+	5	16
+	+	6	15
+	+	7	16
+	+	8	16
+	+	5	24
+	+	6	15
+	+	7	16
+	+	8	8
+	+	7	7
+	+	6	6
+	+	5	0
+	+	10	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	10	45
+	+	9	52
+	+	8	32
+	+	7	31
+	+	6	29
+	+	5	31
+	+	6	43
+	+	10	3
+	+	38	23
+	+	8	2
+	+	10	85
+	+	12	0
+	+	11	12
+	+	13	60
+	+	19	0
+	+	6	0
+	+	22	0
+	+	20	25
+	+	11	26
+	+	18	0
+	+	15	0
+	+	18	0
+	+	15	35
+	+	17	0
+	+	16	7
+
+> ~/Documentos/CLASE/M7/UF3/examenes/correccion/llistats.php
+	"	3	0
+	.	4	0
+	+	1	0
+	+	4	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/correccion/gestio.php
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/correccion/config.php
+	"	3	0
+	^	9	0
+	.	9	0
+	+	10	1
+	+	5	0
+	+	10	0
+	+	9	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/llistats.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/examenes/models/gestio.php
+	"	1	0
+
+> ~/Documentos/CLASE/M7/UF3/ejemplos/subida_archivos_servidor_web/__Tagbar__
+	"	14	4
+	.	15	0
+	+	15	0
+	+	15	0
+
+> ~/Documentos/CLASE/M6/UF2/teoria/canvasAvanzado.html
+	"	130	54
+	^	130	55
+	.	130	54
+	+	79	0
+	+	90	0
+	+	114	0
+	+	26	65
+	+	112	5
+	+	104	23
+	+	112	4
+	+	114	0
+	+	105	0
+	+	105	0
+	+	124	4
+	+	89	0
+	+	125	21
+	+	129	32
+	+	141	39
+	+	144	4
+	+	130	52
+	+	142	73
+	+	144	0
+	+	27	77
+	+	130	52
+	+	142	9
+	+	143	9
+	+	142	8
+	+	130	54
+
+> ~/Documentos/CLASE/M3/UF4/ejercicios/polimorfisme/polimorfisme.rst
+	"	327	0
+	^	278	4
+	.	374	0
+	+	226	1
+	+	228	0
+	+	232	0
+	+	233	0
+	+	223	0
+	+	243	0
+	+	243	7
+	+	244	0
+	+	242	0
+	+	240	9
+	+	240	0
+	+	242	0
+	+	241	19
+	+	244	0
+	+	245	0
+	+	249	0
+	+	253	8
+	+	69	34
+	+	43	28
+	+	44	0
+	+	57	32
+	+	57	204
+	+	74	0
+	+	76	0
+	+	76	142
+	+	79	0
+	+	14	0
+	+	13	0
+	+	80	44
+	+	86	19
+	+	86	0
+	+	209	44
+	+	85	137
+	+	85	0
+	+	85	323
+	+	88	0
+	+	90	39
+	+	134	2
+	+	138	48
+	+	138	222
+	+	140	116
+	+	160	0
+	+	195	2
+	+	195	162
+	+	200	0
+	+	202	39
+	+	202	0
+	+	203	0
+	+	204	11
+	+	206	0
+	+	208	0
+	+	258	155
+	+	256	49
+	+	254	175
+	+	258	146
+	+	259	0
+	+	258	254
+	+	261	0
+	+	274	0
+	+	283	0
+	+	331	0
+	+	380	0
+	+	382	7
+	+	386	3
+	+	390	0
+	+	390	0
+	+	382	7
+	+	384	3
+	+	385	4
+	+	389	0
+	+	388	3
+	+	392	3
+	+	382	3
+	+	386	3
+	+	390	3
+	+	85	0
+	+	265	85
+	+	265	3
+	+	263	101
+	+	271	1
+	+	169	0
+	+	2	0
+	+	294	2
+	+	297	0
+	+	305	4
+	+	310	2
+	+	313	0
+	+	327	4
+	+	346	0
+	+	347	1
+	+	347	0
+	+	347	0
+	+	348	0
+	+	350	0
+	+	356	0
+	+	361	1
+	+	362	0
+	+	364	0
+	+	373	0
+	+	374	0
+
+> ~/Documentos/CLASE/M3/UF4/ejercicios/polimorfisme/__Tagbar__
+	"	8	6
+	.	11	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	76	0
+	+	71	0
+	+	71	0
+	+	71	0
+	+	71	0
+	+	64	0
+	+	64	0
+	+	57	0
+	+	57	0
+	+	49	0
+	+	42	0
+	+	42	0
+	+	35	0
+	+	35	0
+	+	27	0
+	+	19	0
+	+	11	0
+
+> ~/Documentos/CLASE/.gitignore
+	"	8	6
+	^	8	7
+	.	8	6
+	+	8	6
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+	"	385	30
+	^	199	5
+	.	230	30
+	+	222	19
+	+	222	19
+	+	222	12
+	+	222	87
+	+	222	0
+	+	222	52
+	+	222	0
+	+	222	0
+	+	224	0
+	+	368	0
+	+	371	91
+	+	381	155
+	+	267	0
+	+	283	0
+	+	282	63
+	+	270	0
+	+	270	0
+	+	278	5
+	+	278	5
+	+	280	5
+	+	281	5
+	+	281	5
+	+	282	5
+	+	281	0
+	+	281	0
+	+	280	0
+	+	279	0
+	+	279	0
+	+	278	0
+	+	278	0
+	+	279	0
+	+	275	0
+	+	276	0
+	+	277	0
+	+	277	0
+	+	278	0
+	+	277	0
+	+	277	0
+	+	277	0
+	+	278	0
+	+	279	0
+	+	271	0
+	+	270	0
+	+	270	0
+	+	269	8
+	+	275	0
+	+	276	0
+	+	277	0
+	+	278	0
+	+	279	0
+	+	280	0
+	+	277	9
+	+	277	70
+	+	278	62
+	+	279	72
+	+	280	70
+	+	281	0
+	+	276	0
+	+	277	101
+	+	279	121
+	+	280	98
+	+	296	0
+	+	292	4
+	+	293	0
+	+	297	0
+	+	294	0
+	+	297	0
+	+	295	0
+	+	23	46
+	+	52	47
+	+	52	144
+	+	126	34
+	+	129	0
+	+	128	26
+	+	136	41
+	+	139	0
+	+	138	26
+	+	119	0
+	+	118	41
+	+	126	41
+	+	136	34
+	+	153	13
+	+	171	9
+	+	174	9
+	+	178	9
+	+	184	0
+	+	178	0
+	+	174	0
+	+	171	9
+	+	174	9
+	+	183	0
+	+	174	0
+	+	172	9
+	+	175	9
+	+	175	0
+	+	176	9
+	+	182	9
+	+	197	4
+	+	199	4
+	+	230	30
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/__Tagbar__
+	"	1	0
+	.	6	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	23	0
+	+	19	0
+	+	15	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	6	0
+
+> ~/Documentos/CLASE/M5/UF2/ejercicios/gualda/diagramaClases.plantuml
+	"	10	12
+	^	10	14
+	.	10	12
+	+	11	6
+	+	3	14
+	+	2	11
+	+	3	4
+	+	4	0
+	+	5	11
+	+	9	16
+	+	3	0
+	+	6	0
+	+	10	12
+
+> ~/Documentos/CLASE/M5/UF2/ejercicios/gualda/diagramaClases.uml
+	"	1	4
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/scripts/backupConfig.sh!
+	"	1	10
+	^	34	17
+	.	34	16
+	+	3	18
+	+	5	19
+	+	18	16
+	+	19	21
+	+	21	17
+	+	17	0
+	+	26	11
+	+	27	13
+	+	28	17
+	+	26	12
+	+	27	14
+	+	34	16
+
+> ~/scripts/backupConfig.sh
+	"	1	0
+	.	1	0
+	+	1	18
+	+	1	0
+
+> /tmp/crontab.qhrV74/crontab
+	"	23	44
+	^	23	45
+	.	23	44
+	+	23	44
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/a.java
+	"	1	0
+	^	10	12
+	.	11	0
+	+	1	29
+	+	12	0
+	+	6	0
+	+	2	28
+	+	7	28
+	+	8	8
+	+	9	11
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	9	0
+	+	10	11
+	+	11	0
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/manifest.txt
+	"	3	26
+	^	3	27
+	.	3	26
+	+	3	26
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/GatEstat.java
+	"	1	0
+	^	1	17
+	.	1	16
+	+	1	16
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/Gat.java
+	"	54	22
+	^	54	23
+	.	54	22
+	+	1	0
+	+	54	22
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/GatRenat.java
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/Picarol.java
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/Ull.java
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/UsaGat.java
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Documentos/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/ex3/__Tagbar__
+	"	9	0
+	.	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+	+	10	0
+
+> ~/.conky/nombre.conkyrc
+	"	144	0
+	^	120	71
+	.	135	83
+	+	171	0
+	+	172	0
+	+	6	0
+	+	23	5
+	+	25	0
+	+	23	0
+	+	24	18
+	+	25	15
+	+	28	62
+	+	25	0
+	+	29	0
+	+	30	0
+	+	29	0
+	+	30	0
+	+	36	0
+	+	37	0
+	+	36	0
+	+	37	13
+	+	9	25
+	+	37	0
+	+	36	0
+	+	30	0
+	+	29	0
+	+	133	3
+	+	148	51
+	+	149	53
+	+	148	11
+	+	149	9
+	+	150	49
+	+	151	51
+	+	151	0
+	+	150	7
+	+	148	7
+	+	148	0
+	+	148	0
+	+	161	0
+	+	99	0
+	+	149	0
+	+	151	0
+	+	150	0
+	+	149	0
+	+	148	49
+	+	149	50
+	+	150	50
+	+	151	32
+	+	153	0
+	+	152	53
+	+	153	0
+	+	145	16
+	+	144	0
+	+	143	16
+	+	135	9
+	+	134	26
+	+	132	24
+	+	130	0
+	+	127	0
+	+	127	0
+	+	124	0
+	+	121	0
+	+	120	77
+	+	120	78
+	+	121	0
+	+	120	70
+	+	121	70
+	+	123	0
+	+	126	0
+	+	129	0
+	+	134	0
+	+	132	0
+	+	135	83
+
+> ~/Documentos/CLASE/.git/COMMIT_EDITMSG
+	"	1	0
+
+> /tmp/pruebas/org/estudi_poo/sergio/manifest.txt
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /tmp/pruebas/org/estudi_poo/sergio/META-INF/MANIFEST.MF
+	"	1	0
+	^	3	33
+	.	3	0
+	+	3	4
+	+	3	0
+
+> /tmp/META-INF/MANIFEST.MF
+	"	3	0
+	^	4	1
+	.	3	0
+	+	3	0
+	+	4	0
+	+	3	0
