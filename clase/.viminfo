@@ -17,13 +17,13 @@
 $-
 
 # Historial d'ordres (de més a menys recent):
-:wqa
+:wq
 :w
+:wqa
 :q
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
-:wq
 :sav backupConfig.sh
 :qa
 :tabe pendienteNavidades.rst
@@ -132,24 +132,25 @@ $-
 	            for(var i=fila; i<tamanyo;i++){
 	
 	            }
-""1	CHAR	0
+"1	CHAR	0
+	<
+"2	CHAR	0
+	<|
+"3	LINE	0
+	    NausLlogades <|-- Sistema
+	    Arrendataris <|-- Sistema
+"4	CHAR	0
 	fila
-"2	LINE	0
+"5	LINE	0
 	
-"3	CHAR	0
-	 var 
-"4	LINE	0
-	
-"5	CHAR	0
-	fila
 "6	CHAR	0
-	r
-"7	CHAR	0
-	-
+	 var 
+"7	LINE	0
+	
 "8	CHAR	0
-	 
+	fila
 "9	CHAR	0
-	m
+	r
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -178,18 +179,22 @@ $-
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'1  14  21  ~/scripts/backupConfig.sh
-'2  21  7  ~/scripts/backupConfig.sh
-'3  22  12  ~/scripts/backupConfig.sh
-'4  5  22  ~/scripts/backupConfig.sh
-'5  18  18  ~/scripts/backupConfig.sh
-'6  23  63  /tmp/crontab.dL8kxu/crontab
-'7  24  21  ~/scripts/backupConfig.sh
-'8  28  12  ~/scripts/backupConfig.sh
-'9  1  0  ~/scripts/backupConfig
+'0  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'1  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'2  14  21  ~/scripts/backupConfig.sh
+'3  21  7  ~/scripts/backupConfig.sh
+'4  22  12  ~/scripts/backupConfig.sh
+'5  5  22  ~/scripts/backupConfig.sh
+'6  18  18  ~/scripts/backupConfig.sh
+'7  23  63  /tmp/crontab.dL8kxu/crontab
+'8  24  21  ~/scripts/backupConfig.sh
+'9  28  12  ~/scripts/backupConfig.sh
 
 # Llista de salts (de més a menys recent):
+-'  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+-'  72  4  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+-'  73  6  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+-'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 -'  10  0  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 -'  130  4  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
@@ -285,12 +290,19 @@ $-
 -'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
 -'  42  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
 -'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/pintaTabSeleccion.js
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/tabJugador.js
--'  486  0  /media/13194DCD211F8F37/backupClase/CLASE/M8/UF4/GIT/git.rst
--'  28  2  /media/13194DCD211F8F37/backupClase/CLASE/M8/UF4/GIT/__Tagbar__
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+	"	70	11
+	^	72	9
+	.	72	9
+	+	72	25
+	+	72	16
+	+	72	0
+	+	70	20
+	+	71	17
+	+	72	9
 
 > ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 	"	202	28
@@ -1355,7 +1367,4 @@ $-
 	"	29	0
 
 > /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/functions.js
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/pintaTabSeleccion.js
 	"	1	0
