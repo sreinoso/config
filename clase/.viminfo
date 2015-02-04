@@ -17,9 +17,9 @@
 $-
 
 # Historial d'ordres (de més a menys recent):
+:wq
 :qa
 :q
-:wq
 :w
 :wqa
 :sp ../hundirLaFlota.html
@@ -128,10 +128,25 @@ $-
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	            for(var i=fila; i<tamanyo;i++){
-	
-	            }
+""0	LINE	0
+	/*
+	 *  * Plantilla de resolució de problemes del concurs Programame
+	 *   */
+	import java.io.*;
+	public class Plantilla {
+	    static final String EXPECTED_END = "9999 ZZZ";
+	    static void processa_linia(String linia) {
+	        System.out.printf("'%s'\n", linia);
+	    }
+	    public static void main(String[] args) throws Exception {
+	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	        while (true){
+	            String linia = br.readLine();
+	            if (linia.equals(EXPECTED_END)) break;
+	            processa_linia(linia);
+	        }
+	    }
+	}
 "1	CHAR	0
 	<
 "2	CHAR	0
@@ -179,18 +194,21 @@ $-
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'1  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'2  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'3  14  21  ~/scripts/backupConfig.sh
-'4  21  7  ~/scripts/backupConfig.sh
-'5  22  12  ~/scripts/backupConfig.sh
-'6  5  22  ~/scripts/backupConfig.sh
-'7  18  18  ~/scripts/backupConfig.sh
-'8  23  63  /tmp/crontab.dL8kxu/crontab
-'9  24  21  ~/scripts/backupConfig.sh
+'0  1  0  ~/programame/plantilla.java
+'1  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'2  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'3  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'4  14  21  ~/scripts/backupConfig.sh
+'5  21  7  ~/scripts/backupConfig.sh
+'6  22  12  ~/scripts/backupConfig.sh
+'7  5  22  ~/scripts/backupConfig.sh
+'8  18  18  ~/scripts/backupConfig.sh
+'9  23  63  /tmp/crontab.dL8kxu/crontab
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/programame/plantilla.java
+-'  1  0  ~/programame/__Tagbar__
+-'  9  0  ~/programame/__Tagbar__
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
 -'  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  72  4  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
@@ -285,14 +303,53 @@ $-
 -'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/uml.uml
 -'  69  0  ~/.vimrc
 -'  119  58  ~/.bashrc
--'  29  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejemplos.html
--'  271  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
--'  348  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
--'  42  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/plantilla.java
+	"	1	0
+	^	18	1
+	.	6	0
+	+	18	0
+	+	6	0
+
+> ~/programame/__Tagbar__
+	"	1	0
+	.	9	0
+	+	9	0
+
+> ~/programame/Embarque.java
+	"	137	13
+	^	136	30
+	.	137	13
+	+	111	1
+	+	2	15
+	+	112	0
+	+	115	0
+	+	118	40
+	+	125	28
+	+	122	14
+	+	121	14
+	+	123	6
+	+	119	6
+	+	124	18
+	+	131	18
+	+	132	30
+	+	133	27
+	+	134	26
+	+	136	36
+	+	139	0
+	+	137	15
+	+	133	17
+	+	137	30
+	+	134	21
+	+	137	16
+	+	134	0
+	+	136	0
+	+	137	16
+	+	135	30
+	+	136	0
+	+	137	13
 
 > ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/ComandaText.java
 	"	1	0
@@ -1340,19 +1397,3 @@ $-
 	+	10	0
 	+	10	0
 	+	10	0
-
-> ~/.vim/bundle/285colors-with-az-menu/plugin/colors-menu.vim
-	"	6	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/ImplementacionUML1.txt
-	"	11	0
-	^	11	11
-	.	11	0
-	+	11	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/UML.rst
-	"	1	0
-	^	21	6
-	.	21	5
-	+	23	5
-	+	21	5
