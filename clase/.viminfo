@@ -17,11 +17,13 @@
 $-
 
 # Historial d'ordres (de més a menys recent):
+:wqa
+:tabe ../paquetsIEmpaquetats/
+:q
+:tabe ../../ejercicios/visibilitat/
 :wq
 :qa
-:q
 :w
-:wqa
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
@@ -96,6 +98,13 @@ $-
 :tabe 
 :tabe uml2.uml
 :!gnome-open %
+:%s///g
+:%s//costat/g
+:wa
+:qa!
+:!
+:!rst2pdf %
+:%s//code-blocks/g
 
 # Historial de cadenes cercades (de més a menys recent):
 ?/tab
@@ -120,6 +129,14 @@ $-
 ? \<B\>
 ? \<A\>
 ?/var
+? \<Rectangle\>
+?/altura
+? \<base\>
+? \Vcl\%#
+?/table
+?/code-block
+? \<block\>
+? \Vcodeblock\%#
 
 # Historial d'expressions (de més a menys recent):
 
@@ -128,25 +145,8 @@ $-
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	LINE	0
-	/*
-	 *  * Plantilla de resolució de problemes del concurs Programame
-	 *   */
-	import java.io.*;
-	public class Plantilla {
-	    static final String EXPECTED_END = "9999 ZZZ";
-	    static void processa_linia(String linia) {
-	        System.out.printf("'%s'\n", linia);
-	    }
-	    public static void main(String[] args) throws Exception {
-	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	        while (true){
-	            String linia = br.readLine();
-	            if (linia.equals(EXPECTED_END)) break;
-	            processa_linia(linia);
-	        }
-	    }
-	}
+"0	LINE	0
+	.. code-block:: java
 "1	CHAR	0
 	<
 "2	CHAR	0
@@ -194,18 +194,24 @@ $-
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/programame/plantilla.java
-'1  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'2  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'3  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'4  14  21  ~/scripts/backupConfig.sh
-'5  21  7  ~/scripts/backupConfig.sh
-'6  22  12  ~/scripts/backupConfig.sh
-'7  5  22  ~/scripts/backupConfig.sh
-'8  18  18  ~/scripts/backupConfig.sh
-'9  23  63  /tmp/crontab.dL8kxu/crontab
+'0  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'1  1  0  ~/programame/plantilla.java
+'2  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'3  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'4  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'5  14  21  ~/scripts/backupConfig.sh
+'6  21  7  ~/scripts/backupConfig.sh
+'7  22  12  ~/scripts/backupConfig.sh
+'8  5  22  ~/scripts/backupConfig.sh
+'9  18  18  ~/scripts/backupConfig.sh
 
 # Llista de salts (de més a menys recent):
+-'  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+-'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+-'  9  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
+-'  53  12  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
 -'  1  0  ~/programame/plantilla.java
 -'  1  0  ~/programame/__Tagbar__
 -'  9  0  ~/programame/__Tagbar__
@@ -298,13 +304,362 @@ $-
 -'  4  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/__Tagbar__
 -'  253  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
 -'  237  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
--'  1  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
--'  4  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/uml.uml
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/uml.uml
--'  69  0  ~/.vimrc
--'  119  58  ~/.bashrc
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
+	"	53	12
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/__Tagbar__
+	"	1	0
+	.	7	0
+	+	7	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_1
+	"	6	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/visibilitat/visibilitat.rst
+	"	111	4
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/visibilitat/__Tagbar__
+	"	3	2
+	.	4	0
+	+	4	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
+	"	9	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+	"	293	1
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/__Tagbar__
+	"	1	0
+	.	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Figura.java
+	"	3	17
+	.	3	0
+	+	1	38
+	+	5	0
+	+	5	0
+	+	2	0
+	+	5	0
+	+	3	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Cercle.java
+	"	1	0
+	.	12	0
+	+	12	0
+	+	1	0
+	+	12	0
+	+	11	3
+	+	2	33
+	+	1	0
+	+	11	0
+	+	3	0
+	+	11	0
+	+	3	0
+	+	11	0
+	+	12	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Quadrat.java
+	"	15	0
+	^	13	25
+	.	15	0
+	+	1	0
+	+	1	0
+	+	2	0
+	+	16	0
+	+	15	0
+	+	2	34
+	+	3	22
+	+	4	29
+	+	5	28
+	+	8	0
+	+	9	0
+	+	10	27
+	+	13	25
+	+	15	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Rectangle.java
+	"	3	3
+	^	15	16
+	.	15	15
+	+	1	0
+	+	18	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	2	36
+	+	17	0
+	+	3	0
+	+	17	0
+	+	13	0
+	+	14	29
+	+	12	26
+	+	15	15
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Triangle.java
+	"	7	20
+	^	7	20
+	.	7	19
+	+	1	0
+	+	19	0
+	+	18	0
+	+	2	35
+	+	3	0
+	+	18	0
+	+	19	0
+	+	12	0
+	+	8	0
+	+	15	28
+	+	15	0
+	+	17	0
+	+	15	0
+	+	12	0
+	+	15	0
+	+	16	20
+	+	4	0
+	+	5	20
+	+	6	20
+	+	7	19
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/__Tagbar__
+	"	13	3
+	.	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/excepcions.rst
+	"	344	61
+	^	56	63
+	.	56	62
+	+	117	0
+	+	115	18
+	+	118	0
+	+	118	0
+	+	116	4
+	+	118	11
+	+	119	0
+	+	122	8
+	+	154	0
+	+	154	0
+	+	153	0
+	+	156	11
+	+	157	0
+	+	162	0
+	+	163	0
+	+	165	0
+	+	169	8
+	+	182	0
+	+	186	0
+	+	186	0
+	+	184	0
+	+	191	0
+	+	196	0
+	+	199	0
+	+	200	0
+	+	201	0
+	+	202	4
+	+	207	0
+	+	210	0
+	+	211	0
+	+	213	0
+	+	215	4
+	+	222	0
+	+	222	0
+	+	220	18
+	+	218	1
+	+	221	0
+	+	223	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	229	36
+	+	230	0
+	+	231	0
+	+	232	0
+	+	233	0
+	+	222	0
+	+	229	36
+	+	230	0
+	+	231	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	238	0
+	+	229	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	249	0
+	+	250	0
+	+	251	0
+	+	241	0
+	+	253	8
+	+	295	7
+	+	296	0
+	+	295	0
+	+	294	0
+	+	297	0
+	+	300	8
+	+	303	0
+	+	305	0
+	+	308	0
+	+	314	0
+	+	320	0
+	+	325	0
+	+	327	0
+	+	328	0
+	+	330	0
+	+	332	0
+	+	319	0
+	+	332	0
+	+	335	8
+	+	20	0
+	+	21	0
+	+	21	0
+	+	54	13
+	+	152	13
+	+	293	13
+	+	220	0
+	+	218	0
+	+	56	62
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/__Tagbar__
+	"	1	0
+
+> ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+	"	73	0
+	^	73	0
+	.	28	11
+	+	75	25
+	+	75	16
+	+	75	0
+	+	75	20
+	+	75	17
+	+	75	9
+	+	75	0
+	+	75	0
+	+	74	0
+	+	3	0
+	+	74	0
+	+	74	8
+	+	74	8
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	26	0
+	+	28	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Figura
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	0
+	+	1	7
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Cercle
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Quadrat
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Rectangle
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Triangle
+	"	1	0
 
 > ~/programame/plantilla.java
 	"	1	0
@@ -393,17 +748,6 @@ $-
 	+	8	0
 	+	8	0
 	+	8	0
-
-> ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-	"	70	11
-	^	72	9
-	.	72	9
-	+	72	25
-	+	72	16
-	+	72	0
-	+	70	20
-	+	71	17
-	+	72	9
 
 > ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 	"	202	28
@@ -1255,145 +1599,3 @@ $-
 	.	1	0
 	+	44	0
 	+	1	0
-
-> /tmp/viLWLY5/8
-	"	1	0
-
-> ~/[Vundle] search
-	"	3	0
-	.	1	0
-	+	10	0
-	+	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/acceso.php
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/config.php
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/funciones.php
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/gest_clients.php
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/gestion_hotel.php
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/index.php
-	"	1	0
-	^	7	51
-	.	7	50
-	+	7	50
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/logout.php
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/mod_client.php
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/p_gest_clients.php
-	"	1	0
-
-> ~/.viminfo
-	"	31	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/__Tagbar__
-	"	17	4
-	.	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-	+	22	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Cotxe.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/enunciatsensegats.rst
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Moto.java
-	"	10	61
-	^	10	62
-	.	10	61
-	+	8	0
-	+	5	52
-	+	3	32
-	+	6	40
-	+	4	74
-	+	12	0
-	+	11	7
-	+	10	61
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/test.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/UsaVehicles.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
-	"	3	26
-	^	3	27
-	.	3	26
-	+	14	0
-	+	13	21
-	+	2	27
-	+	13	0
-	+	2	66
-	+	4	17
-	+	3	26
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/__Tagbar__
-	"	6	3
-	.	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
