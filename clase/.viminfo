@@ -17,15 +17,15 @@
 $-
 
 # Historial d'ordres (de més a menys recent):
+:qa
+:q
 :wq
 :w
 :wqa
-:q
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
 :sav backupConfig.sh
-:qa
 :tabe pendienteNavidades.rst
 :q!
 :tabe ~/scripts/mkcd.sh
@@ -179,18 +179,19 @@ $-
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'1  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'2  14  21  ~/scripts/backupConfig.sh
-'3  21  7  ~/scripts/backupConfig.sh
-'4  22  12  ~/scripts/backupConfig.sh
-'5  5  22  ~/scripts/backupConfig.sh
-'6  18  18  ~/scripts/backupConfig.sh
-'7  23  63  /tmp/crontab.dL8kxu/crontab
-'8  24  21  ~/scripts/backupConfig.sh
-'9  28  12  ~/scripts/backupConfig.sh
+'0  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'1  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'2  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'3  14  21  ~/scripts/backupConfig.sh
+'4  21  7  ~/scripts/backupConfig.sh
+'5  22  12  ~/scripts/backupConfig.sh
+'6  5  22  ~/scripts/backupConfig.sh
+'7  18  18  ~/scripts/backupConfig.sh
+'8  23  63  /tmp/crontab.dL8kxu/crontab
+'9  24  21  ~/scripts/backupConfig.sh
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
 -'  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  72  4  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  73  6  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
@@ -292,6 +293,49 @@ $-
 -'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/ComandaText.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Garfield.java
+	"	16	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Gat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatRenat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Mioladors.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Picarol.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/UllDeGat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/UsaGat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/__Tagbar__
+	"	7	0
+	.	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
 
 > ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 	"	70	11
@@ -1312,59 +1356,3 @@ $-
 	.	21	5
 	+	23	5
 	+	21	5
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/__Tagbar__
-	"	3	2
-	.	4	0
-	+	5	0
-	+	5	0
-	+	4	0
-
-> ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
-	"	253	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/uml.uml
-	"	1	0
-	^	6	5
-	.	8	0
-	+	3	18
-	+	4	38
-	+	5	0
-	+	4	27
-	+	5	43
-	+	7	0
-	+	8	0
-	+	6	4
-	+	7	25
-	+	8	0
-
-> ~/Baixades/plantuml/uml.uml
-	"	12	6
-	^	5	1
-	.	9	35
-	+	5	0
-	+	4	24
-	+	8	39
-	+	9	35
-
-> ~/Baixades/plantuml/uml2.uml
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejercicioMuñeco.html
-	"	42	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/html5.rst
-	"	271	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/__Tagbar__
-	"	16	4
-	.	30	0
-	+	30	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/teoria/ejemplos.html
-	"	29	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo/scripts/functions.js
-	"	1	0
