@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/tab
+~MSle0~/ \+$
 
 # Últim Substitute Patró de Cerca:
 ~Msle0&=======
@@ -17,19 +17,19 @@
 $-
 
 # Historial d'ordres (de més a menys recent):
+:q!
+:qa
+:w
 :wqa
 :tabe ../paquetsIEmpaquetats/
 :q
 :tabe ../../ejercicios/visibilitat/
 :wq
-:qa
-:w
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
 :sav backupConfig.sh
 :tabe pendienteNavidades.rst
-:q!
 :tabe ~/scripts/mkcd.sh
 :tabe ../codigo/Exercici.css
 :!rm hola.pdf
@@ -107,6 +107,9 @@ $-
 :%s//code-blocks/g
 
 # Historial de cadenes cercades (de més a menys recent):
+?/ \+$
+?/ +$
+?/ *$
 ?/tab
 ? =======
 ? \<nav\>
@@ -147,25 +150,25 @@ $-
 # Registres:
 "0	LINE	0
 	.. code-block:: java
-"1	CHAR	0
+""1	LINE	0
+	    «...»   // altres mètodes
+"2	LINE	0
+	    «...»   // altres mètodes
+"3	CHAR	0
 	<
-"2	CHAR	0
+"4	CHAR	0
 	<|
-"3	LINE	0
+"5	LINE	0
 	    NausLlogades <|-- Sistema
 	    Arrendataris <|-- Sistema
-"4	CHAR	0
-	fila
-"5	LINE	0
-	
 "6	CHAR	0
-	 var 
+	fila
 "7	LINE	0
 	
 "8	CHAR	0
-	fila
-"9	CHAR	0
-	r
+	 var 
+"9	LINE	0
+	
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -194,18 +197,25 @@ $-
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'1  1  0  ~/programame/plantilla.java
-'2  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'3  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'4  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'5  14  21  ~/scripts/backupConfig.sh
-'6  21  7  ~/scripts/backupConfig.sh
-'7  22  12  ~/scripts/backupConfig.sh
-'8  5  22  ~/scripts/backupConfig.sh
-'9  18  18  ~/scripts/backupConfig.sh
+'0  1  0  ~/CLASE/daw2/a.java
+'1  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'2  1  0  ~/programame/plantilla.java
+'3  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'4  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'5  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'6  14  21  ~/scripts/backupConfig.sh
+'7  21  7  ~/scripts/backupConfig.sh
+'8  22  12  ~/scripts/backupConfig.sh
+'9  5  22  ~/scripts/backupConfig.sh
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/daw2/a.java
+-'  30  0  ~/CLASE/daw2/a.java
+-'  29  0  ~/CLASE/daw2/a.java
+-'  27  0  ~/CLASE/daw2/a.java
+-'  12  0  ~/CLASE/daw2/a.java
+-'  8  0  ~/CLASE/daw2/a.java
+-'  13  8  ~/CLASE/daw2/a.java
 -'  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
 -'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
 -'  9  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
@@ -281,31 +291,68 @@ $-
 -'  173  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 -'  162  21  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 -'  147  15  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  107  4  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  131  26  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  115  15  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  117  12  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/hundirLaFlota.html
--'  436  0  ~/.vimrc
--'  123  0  ~/.vimrc
--'  403  0  ~/.vimrc
--'  3  26  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  4  14  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  2  24  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  13  15  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  14  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  12  6  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  11  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  10  6  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/repaso/daw2-1415/vehicles/Vehicle.java
--'  11  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/ImplementacionUML1.txt
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/ImplementacionUML1.txt
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/UML.rst
--'  3  2  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/__Tagbar__
--'  4  0  /media/13194DCD211F8F37/backupClase/CLASE/M5/UF2/teoria/__Tagbar__
--'  253  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
--'  237  0  ~/Baixades/plantuml/libros/free-programming-books/free-programming-books-es.md
+-'  1  0  ~/CLASE/daw2/a.java
+-'  30  0  ~/CLASE/daw2/a.java
+-'  29  0  ~/CLASE/daw2/a.java
+-'  27  0  ~/CLASE/daw2/a.java
+-'  12  0  ~/CLASE/daw2/a.java
+-'  8  0  ~/CLASE/daw2/a.java
+-'  13  8  ~/CLASE/daw2/a.java
+-'  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+-'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+-'  9  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
+-'  53  12  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
+-'  1  0  ~/programame/plantilla.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/a.java
+	"	1	0
+	^	30	1
+	.	9	0
+	+	1	159
+	+	1	0
+	+	1	0
+	+	1	19
+	+	30	0
+	+	2	0
+	+	9	0
+	+	13	0
+	+	9	0
+
+> ~/CLASE/daw2/__Tagbar__
+	"	3	0
+	.	13	0
+	+	13	0
+	+	13	0
+
+> ~/.vimrc
+	"	109	0
+	^	70	8
+	.	70	7
+	+	368	28
+	+	379	0
+	+	381	0
+	+	380	27
+	+	379	16
+	+	380	0
+	+	85	11
+	+	435	0
+	+	436	0
+	+	436	110
+	+	436	0
+	+	401	0
+	+	403	0
+	+	403	15
+	+	403	0
+	+	403	0
+	+	402	0
+	+	69	0
+	+	437	0
+	+	437	0
+	+	70	7
 
 > ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
 	"	53	12
@@ -1250,32 +1297,6 @@ $-
 	+	21	60
 	+	22	58
 
-> ~/.vimrc
-	"	112	17
-	^	70	8
-	.	70	7
-	+	368	28
-	+	379	0
-	+	381	0
-	+	380	27
-	+	379	16
-	+	380	0
-	+	85	11
-	+	435	0
-	+	436	0
-	+	436	110
-	+	436	0
-	+	401	0
-	+	403	0
-	+	403	15
-	+	403	0
-	+	403	0
-	+	402	0
-	+	69	0
-	+	437	0
-	+	437	0
-	+	70	7
-
 > /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
 	"	1	0
 
@@ -1589,13 +1610,4 @@ $-
 > /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/NERD_tree_1
 	"	1	0
 	.	1	0
-	+	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
-	"	7	0
-
-> ~/[Vundle] Installer
-	"	42	0
-	.	1	0
-	+	44	0
 	+	1	0
