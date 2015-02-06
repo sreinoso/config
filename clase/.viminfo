@@ -14,15 +14,20 @@
 ~Msle0&=======
 
 # Última cadena substituïda:
-$-
+$
 
 # Historial d'ordres (de més a menys recent):
-:q!
 :qa
+:q
 :w
+:!
+:!java %< entrada
+:!javac %
+:sav C.java
+:tabe plantilla.java
+:q!
 :wqa
 :tabe ../paquetsIEmpaquetats/
-:q
 :tabe ../../ejercicios/visibilitat/
 :wq
 :sp ../hundirLaFlota.html
@@ -102,11 +107,11 @@ $-
 :%s//costat/g
 :wa
 :qa!
-:!
 :!rst2pdf %
 :%s//code-blocks/g
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vsout\%#
 ?/ \+$
 ?/ +$
 ?/ *$
@@ -149,26 +154,26 @@ $-
 
 # Registres:
 "0	LINE	0
-	.. code-block:: java
-""1	LINE	0
-	    «...»   // altres mètodes
-"2	LINE	0
-	    «...»   // altres mètodes
+	            int totalN;
+"1	CHAR	0
+	int
+"2	CHAR	0
+	i
 "3	CHAR	0
-	<
-"4	CHAR	0
-	<|
+	int 
+"4	LINE	0
+	    }
 "5	LINE	0
-	    NausLlogades <|-- Sistema
-	    Arrendataris <|-- Sistema
-"6	CHAR	0
-	fila
+	        System.out.printf("'%s'\n", linia);
+"6	LINE	0
+	    static void processa_linia(String linia) {
 "7	LINE	0
-	
-"8	CHAR	0
-	 var 
-"9	LINE	0
-	
+	    static final String EXPECTED_END = "9999 ZZZ";
+"8	BLOCK	2
+	int
+	int
+"9	CHAR	0
+	)
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -197,18 +202,19 @@ $-
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/daw2/a.java
-'1  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'2  1  0  ~/programame/plantilla.java
-'3  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'4  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'5  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'6  14  21  ~/scripts/backupConfig.sh
-'7  21  7  ~/scripts/backupConfig.sh
-'8  22  12  ~/scripts/backupConfig.sh
-'9  5  22  ~/scripts/backupConfig.sh
+'0  4  0  ~/programame/salida
+'1  1  0  ~/CLASE/daw2/a.java
+'2  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'3  1  0  ~/programame/C.java
+'4  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'5  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'6  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'7  14  21  ~/scripts/backupConfig.sh
+'8  21  7  ~/scripts/backupConfig.sh
+'9  22  12  ~/scripts/backupConfig.sh
 
 # Llista de salts (de més a menys recent):
+-'  4  0  ~/programame/salida
 -'  1  0  ~/CLASE/daw2/a.java
 -'  30  0  ~/CLASE/daw2/a.java
 -'  29  0  ~/CLASE/daw2/a.java
@@ -304,9 +310,112 @@ $-
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
 -'  53  12  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
--'  1  0  ~/programame/plantilla.java
+-'  1  0  ~/CLASE/daw2/a.java
+-'  30  0  ~/CLASE/daw2/a.java
+-'  29  0  ~/CLASE/daw2/a.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/entrada
+	"	5	0
+	.	6	0
+	+	5	3
+	+	6	0
+
+> ~/programame/salida
+	"	4	0
+	.	5	0
+	+	4	10
+	+	5	0
+
+> ~/programame/C.java
+	"	1	0
+	^	19	21
+	.	19	20
+	+	28	0
+	+	6	0
+	+	5	13
+	+	12	57
+	+	14	0
+	+	12	16
+	+	13	17
+	+	15	0
+	+	14	24
+	+	12	43
+	+	14	41
+	+	13	34
+	+	26	29
+	+	26	0
+	+	18	0
+	+	26	0
+	+	19	35
+	+	21	15
+	+	21	15
+	+	17	0
+	+	15	21
+	+	21	32
+	+	24	0
+	+	21	0
+	+	20	0
+	+	23	0
+	+	24	0
+	+	23	21
+	+	16	21
+	+	26	0
+	+	25	43
+	+	15	25
+	+	16	0
+	+	20	40
+	+	23	37
+	+	22	32
+	+	19	27
+	+	22	27
+	+	20	31
+	+	15	25
+	+	16	25
+	+	20	33
+	+	23	33
+	+	25	49
+	+	15	12
+	+	16	0
+	+	16	0
+	+	15	12
+	+	25	44
+	+	11	0
+	+	6	0
+	+	19	16
+	+	20	0
+	+	19	19
+	+	22	19
+	+	19	20
+
+> ~/programame/__Tagbar__
+	"	5	3
+	.	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
 
 > ~/CLASE/daw2/a.java
 	"	1	0
@@ -714,11 +823,6 @@ $-
 	.	6	0
 	+	18	0
 	+	6	0
-
-> ~/programame/__Tagbar__
-	"	1	0
-	.	9	0
-	+	9	0
 
 > ~/programame/Embarque.java
 	"	137	13
@@ -1600,14 +1704,3 @@ $-
 
 > /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/index.html
 	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/mapa.html
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/style.css
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
