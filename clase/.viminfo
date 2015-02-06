@@ -17,9 +17,23 @@
 $
 
 # Historial d'ordres (de més a menys recent):
-:qa
+:qa!
 :q
+:split
+:split #
+:new
 :w
+:Q
+:help window
+:help c-w
+:man c-w
+:BuffergatorTabsClose
+:BuffergatorOpen
+:BuffergatorClose!
+:BuffergatorClose
+:vs
+:sp
+:qa
 :!
 :!java %< entrada
 :!javac %
@@ -43,7 +57,6 @@ $
 :tabe hola.rst
 :s//aside
 :tabe ~/.vim/bundle/snipMate/snippets/
-:vs
 :vs ../DAW-M9-UF1-Practica-8/Exercici.html
 :sp ../DAW-M9-UF1-Practica-8/Exercici.html
 :tabe ../DAW-M9-UF1-Practica-8/Exercici.html
@@ -106,7 +119,6 @@ $
 :%s///g
 :%s//costat/g
 :wa
-:qa!
 :!rst2pdf %
 :%s//code-blocks/g
 
@@ -153,8 +165,10 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	            int totalN;
+""0	LINE	0
+	sadasdasdfasdfsadf
+	
+	fsadfgasdfsad
 "1	CHAR	0
 	int
 "2	CHAR	0
@@ -312,9 +326,14 @@ $
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
 -'  1  0  ~/CLASE/daw2/a.java
 -'  30  0  ~/CLASE/daw2/a.java
--'  29  0  ~/CLASE/daw2/a.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> /usr/share/vim/vim73/doc/cmdline.txt
+	"	273	44
+
+> /usr/share/vim/vim73/doc/windows.txt
+	"	195	3
 
 > ~/programame/entrada
 	"	5	0
@@ -1697,10 +1716,4 @@ $
 	"	1	0
 
 > /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/habitaciones.html
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/indexfinal.png
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/index.html
 	"	1	0
