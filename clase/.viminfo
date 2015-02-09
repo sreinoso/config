@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/ \+$
+~Msle0~/\<String\>
 
 # Últim Substitute Patró de Cerca:
 ~Msle0&=======
@@ -17,12 +17,18 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:qa
+:w
+:%s/int/g
+:tabe Plantilla.java
+:tabe salida
+:tabe entrada 
+:tabe entrada salida
 :q
 :qa!
 :split
 :split #
 :new
-:w
 :Q
 :help window
 :help c-w
@@ -33,7 +39,6 @@ $
 :BuffergatorClose
 :vs
 :sp
-:qa
 :!
 :!java %< entrada
 :!javac %
@@ -123,6 +128,7 @@ $
 :%s//code-blocks/g
 
 # Historial de cadenes cercades (de més a menys recent):
+? \<String\>
 ? \Vsout\%#
 ?/ \+$
 ?/ +$
@@ -165,29 +171,26 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	LINE	0
-	sadasdasdfasdfsadf
-	
-	fsadfgasdfsad
+"0	LINE	0
+	       int tamanyoMax = Integer.parseInt(linia[1]); 
 "1	CHAR	0
-	int
+	'
 "2	CHAR	0
-	i
+	'
 "3	CHAR	0
-	int 
-"4	LINE	0
-	    }
-"5	LINE	0
-	        System.out.printf("'%s'\n", linia);
-"6	LINE	0
-	    static void processa_linia(String linia) {
+	s
+"4	CHAR	0
+	 
+"5	CHAR	0
+	/
+"6	CHAR	0
+	/
 "7	LINE	0
-	    static final String EXPECTED_END = "9999 ZZZ";
-"8	BLOCK	2
-	int
-	int
-"9	CHAR	0
-	)
+	
+"8	LINE	0
+	
+"9	LINE	0
+	            
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -216,18 +219,23 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'1  4  0  ~/programame/salida
-'2  1  0  ~/CLASE/daw2/a.java
-'3  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'4  1  0  ~/programame/C.java
-'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'6  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'7  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'8  14  21  ~/scripts/backupConfig.sh
-'9  21  7  ~/scripts/backupConfig.sh
+'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'2  4  0  ~/programame/salida
+'3  1  0  ~/CLASE/daw2/a.java
+'4  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'5  1  0  ~/programame/C.java
+'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'7  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'8  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'9  14  21  ~/scripts/backupConfig.sh
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  20  9  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  25  4  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
 -'  4  0  ~/programame/salida
 -'  1  0  ~/CLASE/daw2/a.java
@@ -319,16 +327,72 @@ $
 -'  12  0  ~/CLASE/daw2/a.java
 -'  8  0  ~/CLASE/daw2/a.java
 -'  13  8  ~/CLASE/daw2/a.java
--'  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
--'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
--'  9  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
--'  53  12  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
--'  1  0  ~/CLASE/daw2/a.java
--'  30  0  ~/CLASE/daw2/a.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+	"	1	0
+	^	15	40
+	.	15	28
+	+	1	0
+	+	19	50
+	+	22	0
+	+	21	35
+	+	24	0
+	+	5	28
+	+	20	22
+	+	22	18
+	+	20	0
+	+	22	17
+	+	20	14
+	+	23	33
+	+	8	0
+	+	15	9
+	+	8	8
+	+	15	8
+	+	8	8
+	+	22	17
+	+	20	15
+	+	22	42
+	+	7	38
+	+	15	9
+	+	8	27
+	+	9	20
+	+	10	51
+	+	12	52
+	+	14	0
+	+	14	11
+	+	11	16
+	+	14	0
+	+	14	20
+	+	12	40
+	+	14	0
+	+	13	0
+	+	11	19
+	+	14	12
+	+	13	26
+	+	14	0
+	+	15	28
+
+> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/__Tagbar__
+	"	1	0
+	.	11	0
+	+	11	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/entrada
+	"	4	0
+	.	5	0
+	+	4	8
+	+	5	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/salida
+	"	3	0
+	.	4	0
+	+	3	4
+	+	4	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/Plantilla.java
+	"	1	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
 	"	1	0
@@ -1688,33 +1752,3 @@ $
 	+	1	9
 	+	1	16
 	+	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/__Tagbar__
-	"	3	4
-	.	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.css
-	"	9	4
-	^	31	6
-	.	9	4
-	+	31	4
-	+	9	4
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/calendario.js
-	"	16	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/eventos.html
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/fotos.html
-	"	1	0
