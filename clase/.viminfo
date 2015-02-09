@@ -17,8 +17,8 @@
 $
 
 # Historial d'ordres (de més a menys recent):
-:qa!
 :q
+:qa!
 :split
 :split #
 :new
@@ -216,18 +216,19 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  4  0  ~/programame/salida
-'1  1  0  ~/CLASE/daw2/a.java
-'2  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'3  1  0  ~/programame/C.java
-'4  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'5  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'6  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'7  14  21  ~/scripts/backupConfig.sh
-'8  21  7  ~/scripts/backupConfig.sh
-'9  22  12  ~/scripts/backupConfig.sh
+'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'1  4  0  ~/programame/salida
+'2  1  0  ~/CLASE/daw2/a.java
+'3  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'4  1  0  ~/programame/C.java
+'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'6  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'7  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'8  14  21  ~/scripts/backupConfig.sh
+'9  21  7  ~/scripts/backupConfig.sh
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
 -'  4  0  ~/programame/salida
 -'  1  0  ~/CLASE/daw2/a.java
 -'  30  0  ~/CLASE/daw2/a.java
@@ -328,6 +329,9 @@ $
 -'  30  0  ~/CLASE/daw2/a.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+	"	1	0
 
 > /usr/share/vim/vim73/doc/cmdline.txt
 	"	273	44
@@ -1713,7 +1717,4 @@ $
 	"	1	0
 
 > /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/fotos.html
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica10/habitaciones.html
 	"	1	0
