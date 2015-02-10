@@ -17,6 +17,9 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:wq
+:q
+:q!
 :qa
 :w
 :%s/int/g
@@ -24,7 +27,6 @@ $
 :tabe salida
 :tabe entrada 
 :tabe entrada salida
-:q
 :qa!
 :split
 :split #
@@ -44,11 +46,9 @@ $
 :!javac %
 :sav C.java
 :tabe plantilla.java
-:q!
 :wqa
 :tabe ../paquetsIEmpaquetats/
 :tabe ../../ejercicios/visibilitat/
-:wq
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
@@ -219,18 +219,25 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'2  4  0  ~/programame/salida
-'3  1  0  ~/CLASE/daw2/a.java
-'4  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'5  1  0  ~/programame/C.java
-'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'7  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'8  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-'9  14  21  ~/scripts/backupConfig.sh
+'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
+'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+'2  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'5  4  0  ~/programame/salida
+'6  1  0  ~/CLASE/daw2/a.java
+'7  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'8  1  0  ~/programame/C.java
+'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+-'  3  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+-'  4  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
+-'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
 -'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
 -'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
@@ -323,12 +330,25 @@ $
 -'  1  0  ~/CLASE/daw2/a.java
 -'  30  0  ~/CLASE/daw2/a.java
 -'  29  0  ~/CLASE/daw2/a.java
--'  27  0  ~/CLASE/daw2/a.java
--'  12  0  ~/CLASE/daw2/a.java
--'  8  0  ~/CLASE/daw2/a.java
--'  13  8  ~/CLASE/daw2/a.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
+	"	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+	"	1	0
+	.	4	0
+	+	4	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+	"	1	0
+	^	2	0
+	.	2	0
+	+	2	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
+	"	1	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
 	"	1	0
@@ -1671,84 +1691,3 @@ $
 	+	39	27
 	+	40	29
 	+	42	27
-
-> ~/.vim/bundle/snipMate/NERD_tree_1
-	"	9	0
-	.	1	0
-	+	1	0
-
-> ~/.vim/bundle/snipMate/snippets/html.snippets
-	"	53	0
-
-> ~/.vim/bundle/snipMate/NERD_tree_2
-	"	9	0
-	.	1	0
-	+	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/hola.rst
-	"	1	0
-	.	1	0
-	+	1	22
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	15
-	+	1	7
-	+	1	0
-	+	1	0
-	+	1	19
-	+	1	0
-	+	1	16
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	15
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	7
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	17
-	+	1	24
-	+	1	0
-	+	1	0
-	+	1	17
-	+	1	16
-	+	1	9
-	+	1	16
-	+	1	0
