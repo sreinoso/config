@@ -17,14 +17,16 @@
 $
 
 # Historial d'ordres (de més a menys recent):
-:wq
 :q
+:wqa
+:w
+:tabe salida
+:tabe entrada
+:wq
 :q!
 :qa
-:w
 :%s/int/g
 :tabe Plantilla.java
-:tabe salida
 :tabe entrada 
 :tabe entrada salida
 :qa!
@@ -46,7 +48,6 @@ $
 :!javac %
 :sav C.java
 :tabe plantilla.java
-:wqa
 :tabe ../paquetsIEmpaquetats/
 :tabe ../../ejercicios/visibilitat/
 :sp ../hundirLaFlota.html
@@ -172,25 +173,25 @@ $
 
 # Registres:
 "0	LINE	0
-	       int tamanyoMax = Integer.parseInt(linia[1]); 
-"1	CHAR	0
-	'
-"2	CHAR	0
-	'
+	                System.out.println("NO");
+"1	LINE	0
+	
+"2	LINE	0
+	        
 "3	CHAR	0
-	s
+	)
 "4	CHAR	0
-	 
+	(
 "5	CHAR	0
-	/
+	t
 "6	CHAR	0
-	/
-"7	LINE	0
-	
-"8	LINE	0
-	
-"9	LINE	0
-	            
+	n
+"7	CHAR	0
+	I
+"8	CHAR	0
+	e
+"9	CHAR	0
+	s
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -219,22 +220,23 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
-'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
-'2  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
-'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'5  4  0  ~/programame/salida
-'6  1  0  ~/CLASE/daw2/a.java
-'7  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'8  1  0  ~/programame/C.java
-'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'0  118  0  ~/.git/COMMIT_EDITMSG
+'1  8  31  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
+'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+'4  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+'5  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+'6  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'7  4  0  ~/programame/salida
+'8  1  0  ~/CLASE/daw2/a.java
+'9  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
 
 # Llista de salts (de més a menys recent):
+-'  118  0  ~/.git/COMMIT_EDITMSG
+-'  1  0  ~/.git/COMMIT_EDITMSG
+-'  8  31  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+-'  9  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
--'  3  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
--'  4  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
 -'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
@@ -302,44 +304,131 @@ $
 -'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
 -'  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.css
 -'  42  24  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  40  13  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  44  15  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  39  11  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  37  26  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  35  11  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  34  13  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  49  3  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
--'  3  9  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
--'  7  0  /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/.git/COMMIT_EDITMSG
--'  112  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/herencia.
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/acceso.php
--'  7  50  /media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/ex2/php/index.php
--'  133  12  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  164  40  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  170  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  178  16  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  181  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  173  8  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  162  21  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  147  15  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  8  31  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+-'  9  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
+-'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  20  9  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  25  4  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+-'  4  0  ~/programame/salida
 -'  1  0  ~/CLASE/daw2/a.java
 -'  30  0  ~/CLASE/daw2/a.java
 -'  29  0  ~/CLASE/daw2/a.java
+-'  27  0  ~/CLASE/daw2/a.java
+-'  12  0  ~/CLASE/daw2/a.java
+-'  8  0  ~/CLASE/daw2/a.java
+-'  13  8  ~/CLASE/daw2/a.java
+-'  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+-'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+-'  9  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
+-'  53  12  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
+-'  1  0  ~/programame/plantilla.java
+-'  1  0  ~/programame/__Tagbar__
 
 # Historial de marques en fitxers (de més a menys recent):
 
+> ~/.git/COMMIT_EDITMSG
+	"	118	0
+
 > ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
-	"	1	0
+	"	1	1
+	^	10	14
+	.	10	13
+	+	1	41
+	+	1	0
+	+	1	0
+	+	5	30
+	+	11	47
+	+	12	0
+	+	11	8
+	+	15	12
+	+	13	32
+	+	15	33
+	+	17	0
+	+	15	26
+	+	16	11
+	+	14	25
+	+	16	12
+	+	14	27
+	+	16	53
+	+	18	49
+	+	20	43
+	+	24	54
+	+	29	0
+	+	25	11
+	+	22	18
+	+	25	54
+	+	28	0
+	+	28	15
+	+	24	0
+	+	35	0
+	+	28	0
+	+	29	0
+	+	28	17
+	+	29	0
+	+	27	38
+	+	28	0
+	+	28	21
+	+	29	0
+	+	23	31
+	+	24	58
+	+	23	30
+	+	29	16
+	+	28	0
+	+	27	32
+	+	28	12
+	+	29	0
+	+	27	0
+	+	31	0
+	+	31	20
+	+	31	0
+	+	31	0
+	+	33	0
+	+	34	0
+	+	31	37
+	+	25	45
+	+	15	0
+	+	30	0
+	+	20	0
+	+	9	0
+	+	9	0
+	+	36	4
+	+	9	0
+	+	10	13
 
 > ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
-	"	1	0
-	.	4	0
-	+	4	0
+	"	8	31
+	.	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/entrada
+	"	6	0
+	.	7	0
+	+	6	1
+	+	7	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/salida
+	"	5	0
+	.	6	0
+	+	5	2
+	+	6	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
 	"	1	0
@@ -1632,62 +1721,3 @@ $
 	+	9	0
 	+	9	0
 	+	9	0
-
-> ~/scripts/mkcd.sh
-	"	2	0
-	.	3	0
-	+	1	10
-	+	3	5
-	+	3	11
-	+	3	15
-	+	3	9
-	+	3	9
-	+	3	19
-	+	3	13
-	+	3	3
-	+	3	7
-	+	3	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.html
-	"	1	0
-	.	17	0
-	+	17	17
-	+	17	0
-	+	22	176
-	+	22	0
-	+	17	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
-	"	38	13
-	^	42	28
-	.	42	27
-	+	9	4
-	+	33	0
-	+	34	25
-	+	47	0
-	+	35	0
-	+	35	0
-	+	35	15
-	+	36	17
-	+	38	0
-	+	37	27
-	+	50	0
-	+	50	0
-	+	38	0
-	+	44	0
-	+	39	15
-	+	44	0
-	+	40	8
-	+	44	0
-	+	42	12
-	+	39	15
-	+	40	12
-	+	40	0
-	+	42	19
-	+	43	13
-	+	44	0
-	+	47	0
-	+	47	0
-	+	39	27
-	+	40	29
-	+	42	27
