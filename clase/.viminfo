@@ -8,27 +8,51 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0~/\<String\>
+~MSle0/ñ
 
 # Últim Substitute Patró de Cerca:
-~Msle0&=======
+~MSle0~&ñ
 
 # Última cadena substituïda:
-$
+$\&ntilde;
 
 # Historial d'ordres (de més a menys recent):
-:q
-:wqa
 :w
-:tabe salida
-:tabe entrada
-:wq
-:q!
+:%s//\&ntilde;/g
+:%s///g
+:%s//&ntilde;/g
+:.,94s/1px/1000px/g
+:.,100
+:%s/1px/100px/g
+:%s//00FF00
+:.s//email/g
+:.s//nom_complet/g
+:.s//data_de_naixement/g
+:.s//dataNeix/g
+:.s//password
+:14,18s/$/\r<br>/
+:%s/$/\r<br>/
+:14,18s//\4\0/g
+:14,18s/\(<.*id="\)\(\w\)\(".*\)/\2\1\2\3/g
+:14,18s/</\(id="\(w\)\) \1/g
+:14,18s/</(id="(w)) 1/g
+:14,18s/</id="(w) 1/g
+:14,18s/</\(id=")(w)2/g
+:14,18s/</\(id=")(\w)2/g
+:14,18s-$- />-g
+:14,18s/$/"/g
+:14,18s/\> \</_/g
+:14,18s/\> \</_/
+:14,18s/ /_/
+:14,18s/,//
+:<c-j>
 :qa
 :%s/int/g
 :tabe Plantilla.java
+:tabe salida
 :tabe entrada 
 :tabe entrada salida
+:q
 :qa!
 :split
 :split #
@@ -48,8 +72,11 @@ $
 :!javac %
 :sav C.java
 :tabe plantilla.java
+:q!
+:wqa
 :tabe ../paquetsIEmpaquetats/
 :tabe ../../ejercicios/visibilitat/
+:wq
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
@@ -122,13 +149,33 @@ $
 :tabe 
 :tabe uml2.uml
 :!gnome-open %
-:%s///g
 :%s//costat/g
 :wa
 :!rst2pdf %
 :%s//code-blocks/g
+:tabe entrada
 
 # Historial de cadenes cercades (de més a menys recent):
+?/ñ
+? 1px
+? \<FF00FF\>
+?/\<nom\>
+? \<nom\>
+? $
+?/\(<\)\(.*\)\(id="\)\(\w\+\)\(.*\)
+?/\(<\)\(.*\)\(id="\)\(\w\+\)
+?/\(<\)\(.*\)\(id="\)\(\w\)
+?/\(<\)\(.*\)\(id="\)\(\W\)
+?/\(<\)\(.*\)\(id="\)\(\d\)
+?/\(<\)\(.*\)\(id="\)
+?/\(<\)\(.*\)
+?/\(<\)
+?/\(<
+? \(<.*id="\)\(\w\)\(".*\)
+? <
+? \> \<
+?  
+? ,
 ? \<String\>
 ? \Vsout\%#
 ?/ \+$
@@ -173,25 +220,25 @@ $
 
 # Registres:
 "0	LINE	0
-	                System.out.println("NO");
-"1	LINE	0
-	
-"2	LINE	0
-	        
-"3	CHAR	0
-	)
+	                    email.style.border="1px solid FF0000";
+""1	CHAR	0
+	0
+"2	CHAR	0
+	0
+"3	LINE	0
+	                alert(email.value.indexOf('@'));
 "4	CHAR	0
-	(
+	nom_complet
 "5	CHAR	0
-	t
-"6	CHAR	0
-	n
+	nom_complet
+"6	LINE	0
+	                
 "7	CHAR	0
-	I
+	t
 "8	CHAR	0
 	e
 "9	CHAR	0
-	s
+	l
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -220,26 +267,48 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  118  0  ~/.git/COMMIT_EDITMSG
-'1  8  31  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
-'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
-'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
-'4  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
-'5  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-'6  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'7  4  0  ~/programame/salida
-'8  1  0  ~/CLASE/daw2/a.java
-'9  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'0  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'3  4  0  ~/programame/salida
+'4  1  0  ~/CLASE/daw2/a.java
+'5  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'6  1  0  ~/programame/C.java
+'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'8  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'9  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 
 # Llista de salts (de més a menys recent):
--'  118  0  ~/.git/COMMIT_EDITMSG
--'  1  0  ~/.git/COMMIT_EDITMSG
--'  8  31  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
--'  9  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
--'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
+-'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  85  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  41  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  82  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  77  45  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  6  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  84  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  1  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  87  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  79  34  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  55  53  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  52  49  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  65  21  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  92  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  46  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  45  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  44  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  43  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  25  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  12  73  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  23  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  94  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  22  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  20  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  18  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  14  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  29  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  30  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
 -'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
 -'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
@@ -269,71 +338,149 @@ $
 -'  73  6  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  10  0  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  130  4  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  1  0  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  14  21  ~/scripts/backupConfig.sh
--'  1  0  ~/scripts/backupConfig.sh
--'  21  7  ~/scripts/backupConfig.sh
--'  22  12  ~/scripts/backupConfig.sh
--'  5  22  ~/scripts/backupConfig.sh
--'  18  18  ~/scripts/backupConfig.sh
--'  23  63  /tmp/crontab.dL8kxu/crontab
--'  1  0  /tmp/crontab.dL8kxu/crontab
--'  24  21  ~/scripts/backupConfig.sh
--'  28  12  ~/scripts/backupConfig.sh
--'  8  1  ~/scripts/backupConfig.sh
--'  1  0  ~/scripts/backupConfig
--'  15  0  ~/scripts/backupConfig.sh
--'  23  12  ~/scripts/backupConfig.sh
--'  155  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  154  37  ~/.bashrc
--'  138  0  ~/.bashrc
--'  143  41  ~/.bashrc
--'  145  26  ~/.bashrc
--'  1  0  ~/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
--'  1  0  ~/CLASE/M7/UF3/ex2/bbdd/creacion/DATABASE.sql
--'  14  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
--'  119  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/pendientes.rst
--'  112  17  ~/.vimrc
--'  1  0  ~/.vimrc
--'  158  1  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  1  0  /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
--'  9  4  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/codigo/Exercici.css
--'  42  24  /media/13194DCD211F8F37/backupClase/CLASE/M9/UF1/practica8/DAW-M9-UF1-Practica-8/Exercici.html
--'  8  31  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
--'  9  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
--'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  20  9  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  25  4  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
--'  4  0  ~/programame/salida
--'  1  0  ~/CLASE/daw2/a.java
--'  30  0  ~/CLASE/daw2/a.java
--'  29  0  ~/CLASE/daw2/a.java
--'  27  0  ~/CLASE/daw2/a.java
--'  12  0  ~/CLASE/daw2/a.java
--'  8  0  ~/CLASE/daw2/a.java
--'  13  8  ~/CLASE/daw2/a.java
--'  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
--'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
--'  9  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
--'  53  12  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
--'  1  0  ~/programame/plantilla.java
--'  1  0  ~/programame/__Tagbar__
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+	"	47	27
+	^	47	28
+	.	47	27
+	+	90	49
+	+	89	16
+	+	90	24
+	+	51	0
+	+	49	3
+	+	51	7
+	+	49	19
+	+	48	27
+	+	42	56
+	+	43	66
+	+	44	84
+	+	45	72
+	+	46	60
+	+	49	55
+	+	90	17
+	+	88	0
+	+	52	53
+	+	53	17
+	+	58	20
+	+	47	23
+	+	50	41
+	+	87	12
+	+	59	17
+	+	55	34
+	+	55	54
+	+	55	0
+	+	55	27
+	+	56	0
+	+	57	28
+	+	55	21
+	+	55	0
+	+	55	15
+	+	55	58
+	+	64	0
+	+	59	21
+	+	65	0
+	+	66	15
+	+	65	59
+	+	64	58
+	+	52	0
+	+	16	64
+	+	67	0
+	+	73	0
+	+	79	0
+	+	87	0
+	+	67	53
+	+	73	47
+	+	79	41
+	+	70	16
+	+	70	19
+	+	68	0
+	+	70	0
+	+	68	36
+	+	69	47
+	+	72	16
+	+	71	0
+	+	72	0
+	+	71	64
+	+	76	16
+	+	74	0
+	+	76	0
+	+	74	30
+	+	75	53
+	+	77	0
+	+	76	21
+	+	78	15
+	+	77	30
+	+	90	62
+	+	59	74
+	+	60	0
+	+	63	15
+	+	62	57
+	+	55	0
+	+	59	50
+	+	67	41
+	+	73	35
+	+	80	80
+	+	84	0
+	+	80	0
+	+	84	0
+	+	81	36
+	+	79	29
+	+	86	16
+	+	85	0
+	+	86	0
+	+	80	24
+	+	85	24
+	+	87	46
+	+	82	49
+	+	83	57
+	+	87	0
+	+	82	0
+	+	84	0
+	+	84	0
+	+	6	0
+	+	82	0
+	+	49	0
+	+	58	0
+	+	58	0
+	+	47	27
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+	"	1	1
+	^	9	29
+	.	9	28
+	+	6	40
+	+	5	21
+	+	9	29
+	+	8	44
+	+	9	28
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/__Tagbar__
+	"	8	4
+	.	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/entrada
+	"	7	0
+	.	8	0
+	+	7	1
+	+	8	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/salida
+	"	6	0
+	.	7	0
+	+	6	2
+	+	7	0
 
 > ~/.git/COMMIT_EDITMSG
 	"	118	0
@@ -1605,119 +1752,3 @@ $
 
 > /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Gat.java
 	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Picarol.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Ull.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/UsaGat.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/__Tagbar__
-	"	8	0
-	.	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
