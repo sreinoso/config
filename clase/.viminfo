@@ -17,6 +17,7 @@
 $\&ntilde;
 
 # Historial d'ordres (de més a menys recent):
+:q
 :w
 :%s//\&ntilde;/g
 :%s///g
@@ -52,7 +53,6 @@ $\&ntilde;
 :tabe salida
 :tabe entrada 
 :tabe entrada salida
-:q
 :qa!
 :split
 :split #
@@ -267,18 +267,19 @@ $\&ntilde;
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
-'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'3  4  0  ~/programame/salida
-'4  1  0  ~/CLASE/daw2/a.java
-'5  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'6  1  0  ~/programame/C.java
-'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'8  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-'9  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+'0  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
+'1  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'4  4  0  ~/programame/salida
+'5  1  0  ~/CLASE/daw2/a.java
+'6  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'7  1  0  ~/programame/C.java
+'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'9  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
 -'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
@@ -338,8 +339,50 @@ $\&ntilde;
 -'  73  6  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  85  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  41  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  82  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  77  45  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  6  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  84  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  1  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  87  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  79  34  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  55  53  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  52  49  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  65  21  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  92  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  46  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  45  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  44  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  43  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  25  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  12  73  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  23  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  94  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  22  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  20  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  18  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  14  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  29  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  30  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  20  9  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  25  4  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+-'  4  0  ~/programame/salida
+-'  1  0  ~/CLASE/daw2/a.java
+-'  30  0  ~/CLASE/daw2/a.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
+	"	1	0
 
 > ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 	"	47	27
@@ -1748,7 +1791,4 @@ $\&ntilde;
 	"	1	0
 
 > /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Gat.java
 	"	1	0
