@@ -14,11 +14,12 @@
 ~MSle0~&ñ
 
 # Última cadena substituïda:
-$\&ntilde;
+$
 
 # Historial d'ordres (de més a menys recent):
-:q
+:qa
 :w
+:e
 :%s//\&ntilde;/g
 :%s///g
 :%s//&ntilde;/g
@@ -47,12 +48,12 @@ $\&ntilde;
 :14,18s/ /_/
 :14,18s/,//
 :<c-j>
-:qa
 :%s/int/g
 :tabe Plantilla.java
 :tabe salida
 :tabe entrada 
 :tabe entrada salida
+:q
 :qa!
 :split
 :split #
@@ -154,8 +155,43 @@ $\&ntilde;
 :!rst2pdf %
 :%s//code-blocks/g
 :tabe entrada
+:tabe BotigaException.java
+:help Tabular
+:10,20Tabularize /\W
+:AirlineRefresh
+:tabe $MYVIMRC
+:16,40Tabularize / 
+:16,40Tabularize \ 
+:16,
+:Tabularize / 
+:Tabularize /\' \' 
+:Tabularize /
+:Tabularize /,
+:Tabularize /,40
+:Tabularize /14,40
+:Tabularize 14,40
+:help Tabularize
+:help tabularize
+:'<,'>Tabularize
+:help tabular
+:PluginInstall Tabular
+:14,22s/;/(){\r\r\t}
+:s/;/,/g
+:s/;/,/
+:41,49s/$/
+:41,49s/$/,
+:3,11s/$/;
+:13,21s/$/(){\r\r}
+:13,21s/$/(){\r\r}/
+:.,11s/$/
+:.,11s/$/^/g
+:.,11s/$/,/g
+:.,11y
+:tabe Vi.java
+:tabe gg
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vsout\%#
 ?/ñ
 ? 1px
 ? \<FF00FF\>
@@ -177,7 +213,6 @@ $\&ntilde;
 ?  
 ? ,
 ? \<String\>
-? \Vsout\%#
 ?/ \+$
 ?/ +$
 ?/ *$
@@ -211,6 +246,8 @@ $\&ntilde;
 ?/code-block
 ? \<block\>
 ? \Vcodeblock\%#
+? }
+? ;
 
 # Historial d'expressions (de més a menys recent):
 
@@ -221,24 +258,28 @@ $\&ntilde;
 # Registres:
 "0	LINE	0
 	                    email.style.border="1px solid FF0000";
-""1	CHAR	0
-	0
-"2	CHAR	0
-	0
-"3	LINE	0
-	                alert(email.value.indexOf('@'));
-"4	CHAR	0
-	nom_complet
-"5	CHAR	0
-	nom_complet
+"1	CHAR	0
+	)
+"2	LINE	0
+	            System.out.println( numero);
+"3	CHAR	0
+	 || numero==3
+"4	LINE	0
+	
+"5	LINE	0
+	        System.out.printf("%d", numero);
 "6	LINE	0
-	                
+	            if(numero==1){
+	                System.out.println("SI");
+	            }else{
+	                System.out.println("NO");
+	            }
 "7	CHAR	0
-	t
+	...
 "8	CHAR	0
-	e
-"9	CHAR	0
-	l
+	...
+"9	LINE	0
+	
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -267,7 +308,7 @@ $\&ntilde;
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
+'0  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 '1  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 '2  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
 '3  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
@@ -279,7 +320,19 @@ $\&ntilde;
 '9  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 
 # Llista de salts (de més a menys recent):
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
+-'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  11  33  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  12  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  16  8  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  9  23  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  33  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  32  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  31  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  24  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  23  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  18  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  14  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 -'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
@@ -339,47 +392,232 @@ $\&ntilde;
 -'  73  6  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
+-'  38  7  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
+-'  41  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
+-'  2  279  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
 -'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  85  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  41  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  82  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  77  45  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  6  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  84  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  1  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  87  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  79  34  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  55  53  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  52  49  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  65  21  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  92  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  46  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  45  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  44  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  43  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  25  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  12  73  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  23  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  94  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  22  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  20  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  18  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  14  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  29  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  30  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  20  9  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  25  4  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
--'  4  0  ~/programame/salida
--'  1  0  ~/CLASE/daw2/a.java
--'  30  0  ~/CLASE/daw2/a.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+	"	2	0
+	^	12	17
+	.	11	33
+	+	6	40
+	+	5	21
+	+	24	29
+	+	8	44
+	+	24	28
+	+	18	0
+	+	12	28
+	+	9	21
+	+	12	45
+	+	14	0
+	+	13	3
+	+	12	24
+	+	13	31
+	+	12	17
+	+	14	16
+	+	16	13
+	+	15	33
+	+	18	0
+	+	18	0
+	+	18	26
+	+	18	15
+	+	18	0
+	+	18	37
+	+	18	0
+	+	18	37
+	+	18	0
+	+	19	0
+	+	24	0
+	+	14	0
+	+	12	43
+	+	14	0
+	+	12	43
+	+	18	0
+	+	17	13
+	+	12	0
+	+	11	34
+	+	12	17
+	+	11	33
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/__Tagbar__
+	"	1	0
+	.	9	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	9	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
+	"	38	7
+	^	38	8
+	.	36	7
+	+	2	0
+	+	1	18
+	+	37	31
+	+	36	7
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/__Tagbar__
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Vi.java
+	"	30	16
+	^	31	24
+	.	30	16
+	+	2	10
+	+	49	0
+	+	3	3
+	+	2	11
+	+	3	14
+	+	49	73
+	+	5	0
+	+	5	0
+	+	5	0
+	+	14	12
+	+	49	14
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	22
+	+	49	0
+	+	49	0
+	+	14	0
+	+	5	0
+	+	49	16
+	+	49	0
+	+	49	74
+	+	49	34
+	+	49	34
+	+	5	20
+	+	49	11
+	+	3	78
+	+	3	4
+	+	5	16
+	+	6	18
+	+	8	17
+	+	9	0
+	+	9	0
+	+	13	15
+	+	7	21
+	+	49	0
+	+	14	0
+	+	14	0
+	+	48	21
+	+	48	0
+	+	48	14
+	+	48	141
+	+	48	0
+	+	3	0
+	+	3	0
+	+	15	4
+	+	18	4
+	+	21	4
+	+	27	4
+	+	33	4
+	+	36	4
+	+	39	4
+	+	42	4
+	+	15	10
+	+	18	0
+	+	15	18
+	+	18	20
+	+	21	24
+	+	27	20
+	+	33	20
+	+	36	20
+	+	39	20
+	+	42	20
+	+	45	18
+	+	42	21
+	+	39	21
+	+	36	21
+	+	33	21
+	+	27	21
+	+	21	25
+	+	18	21
+	+	15	0
+	+	2	0
+	+	17	0
+	+	1	12
+	+	16	23
+	+	19	0
+	+	22	24
+	+	28	24
+	+	34	30
+	+	37	26
+	+	40	28
+	+	43	25
+	+	46	27
+	+	17	0
+	+	48	0
+	+	24	14
+	+	25	23
+	+	30	30
+	+	31	8
+	+	10	0
+	+	31	23
+	+	30	16
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/[Vundle] Installer
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.vim/bundle/Tabular/doc/Tabular.txt
+	"	249	0
+
+> ~/.vimrc
+	"	71	15
+	^	71	16
+	.	71	15
+	+	369	28
+	+	380	0
+	+	382	0
+	+	381	27
+	+	380	16
+	+	381	0
+	+	86	11
+	+	436	0
+	+	437	0
+	+	437	110
+	+	437	0
+	+	402	0
+	+	404	0
+	+	404	15
+	+	404	0
+	+	404	0
+	+	403	0
+	+	69	0
+	+	438	0
+	+	438	0
+	+	70	7
+	+	71	15
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/BotigaException.java
+	"	1	8
+	^	3	33
+	.	5	0
+	+	1	29
+	+	5	0
+	+	1	45
+	+	2	39
+	+	4	0
+	+	3	32
+	+	5	0
 
 > ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
 	"	1	0
@@ -488,30 +726,6 @@ $\&ntilde;
 	+	58	0
 	+	58	0
 	+	47	27
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
-	"	1	1
-	^	9	29
-	.	9	28
-	+	6	40
-	+	5	21
-	+	9	29
-	+	8	44
-	+	9	28
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/__Tagbar__
-	"	8	4
-	.	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/por3omas5/entrada
 	"	7	0
@@ -822,32 +1036,6 @@ $\&ntilde;
 	.	13	0
 	+	13	0
 	+	13	0
-
-> ~/.vimrc
-	"	109	0
-	^	70	8
-	.	70	7
-	+	368	28
-	+	379	0
-	+	381	0
-	+	380	27
-	+	379	16
-	+	380	0
-	+	85	11
-	+	435	0
-	+	436	0
-	+	436	110
-	+	436	0
-	+	401	0
-	+	403	0
-	+	403	15
-	+	403	0
-	+	403	0
-	+	402	0
-	+	69	0
-	+	437	0
-	+	437	0
-	+	70	7
 
 > ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
 	"	53	12
@@ -1659,136 +1847,3 @@ $\&ntilde;
 	.	1	0
 	+	3	68
 	+	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/.git/objects/e9/7abc0425d8d7188cf51dc61f3678b100bf6e74
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/.git/index
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-	"	158	1
-	^	149	26
-	.	133	0
-	+	122	0
-	+	118	0
-	+	116	0
-	+	122	13
-	+	123	0
-	+	122	12
-	+	119	0
-	+	116	0
-	+	123	0
-	+	118	12
-	+	122	74
-	+	117	37
-	+	120	30
-	+	121	0
-	+	131	11
-	+	124	0
-	+	131	11
-	+	117	0
-	+	125	0
-	+	126	61
-	+	117	0
-	+	110	0
-	+	129	29
-	+	131	43
-	+	131	45
-	+	131	44
-	+	131	23
-	+	131	53
-	+	131	23
-	+	18	0
-	+	131	63
-	+	131	18
-	+	131	57
-	+	95	26
-	+	131	31
-	+	111	0
-	+	109	0
-	+	131	0
-	+	138	51
-	+	131	11
-	+	129	13
-	+	83	34
-	+	86	34
-	+	103	20
-	+	102	28
-	+	105	4
-	+	102	9
-	+	104	21
-	+	107	5
-	+	103	0
-	+	131	0
-	+	137	0
-	+	142	0
-	+	141	0
-	+	145	0
-	+	135	28
-	+	129	15
-	+	158	28
-	+	186	0
-	+	183	4
-	+	161	32
-	+	168	8
-	+	168	34
-	+	168	0
-	+	172	0
-	+	179	30
-	+	132	0
-	+	131	11
-	+	130	42
-	+	17	17
-	+	148	18
-	+	147	18
-	+	151	0
-	+	147	0
-	+	162	0
-	+	170	0
-	+	173	0
-	+	181	0
-	+	159	15
-	+	168	45
-	+	169	28
-	+	177	0
-	+	179	0
-	+	180	0
-	+	135	0
-	+	184	23
-	+	168	44
-	+	177	44
-	+	174	33
-	+	174	27
-	+	174	27
-	+	176	21
-	+	178	16
-	+	175	0
-	+	163	0
-	+	168	0
-	+	164	0
-	+	149	25
-	+	136	25
-	+	133	0
-	a	100	4
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/hundirLaFlota.html
-	"	1	0
-	^	22	59
-	.	22	58
-	+	8	44
-	+	18	42
-	+	8	53
-	+	21	38
-	+	22	37
-	+	20	13
-	+	21	27
-	+	22	41
-	+	21	60
-	+	22	58
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/Garfield.java
-	"	1	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
-	"	1	0
