@@ -17,6 +17,7 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:wq
 :qa
 :w
 :e
@@ -77,7 +78,6 @@ $
 :wqa
 :tabe ../paquetsIEmpaquetats/
 :tabe ../../ejercicios/visibilitat/
-:wq
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
@@ -258,28 +258,48 @@ $
 # Registres:
 "0	LINE	0
 	                    email.style.border="1px solid FF0000";
-"1	CHAR	0
-	)
-"2	LINE	0
-	            System.out.println( numero);
+""1	BLOCK	0
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+"2	BLOCK	1
+	 2
+	 3
+	 4
+	 5
+	 6
+	 7
+	 8
+	 9
+	10
+	11
+	12
 "3	CHAR	0
-	 || numero==3
+	)
 "4	LINE	0
-	
-"5	LINE	0
-	        System.out.printf("%d", numero);
+	            System.out.println( numero);
+"5	CHAR	0
+	 || numero==3
 "6	LINE	0
+	
+"7	LINE	0
+	        System.out.printf("%d", numero);
+"8	LINE	0
 	            if(numero==1){
 	                System.out.println("SI");
 	            }else{
 	                System.out.println("NO");
 	            }
-"7	CHAR	0
+"9	CHAR	0
 	...
-"8	CHAR	0
-	...
-"9	LINE	0
-	
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -308,18 +328,22 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
-'1  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
-'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'4  4  0  ~/programame/salida
-'5  1  0  ~/CLASE/daw2/a.java
-'6  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'7  1  0  ~/programame/C.java
-'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-'9  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+'0  2  0  ~/prueba/TestPunt.java
+'1  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+'2  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'5  4  0  ~/programame/salida
+'6  1  0  ~/CLASE/daw2/a.java
+'7  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'8  1  0  ~/programame/C.java
+'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
 
 # Llista de salts (de més a menys recent):
+-'  2  0  ~/prueba/TestPunt.java
+-'  3  0  ~/prueba/__Tagbar__
+-'  7  0  ~/prueba/__Tagbar__
+-'  1  0  ~/prueba/TestPunt.java
 -'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 -'  11  33  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
@@ -400,8 +424,33 @@ $
 -'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 -'  85  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+-'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  11  33  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  12  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  16  8  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  9  23  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  33  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  32  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  31  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  24  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  23  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  18  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  14  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/prueba/TestPunt.java
+	"	2	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/prueba/__Tagbar__
+	"	3	0
+	.	7	0
+	+	7	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 	"	2	0
@@ -1821,29 +1870,3 @@ $
 	+	6	0
 	+	8	0
 	+	3	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/M3/UF4/ejercicios/herencia/__Tagbar__
-	"	3	0
-	.	8	0
-	+	67	0
-	+	67	0
-	+	62	0
-	+	57	0
-	+	52	0
-	+	47	0
-	+	42	0
-	+	37	0
-	+	32	0
-	+	27	0
-	+	22	0
-	+	17	0
-	+	13	0
-	+	13	0
-	+	8	0
-
-> /media/13194DCD211F8F37/backupClase/CLASE/.git/rebase-merge/git-rebase-todo
-	"	1	0
-	^	1	1
-	.	1	0
-	+	3	68
-	+	1	0

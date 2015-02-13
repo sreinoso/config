@@ -153,3 +153,6 @@ function findrm(){
     DEL="$2";
     find $DIR -name $DEL -exec rm {} \;
 }
+
+export CLASSPATH=$CLASSPATH:~/lib/junit.jar
+export CLASSPATH=$CLASSPATH:~/lib/hamcrest-core.jar
