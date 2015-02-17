@@ -8,17 +8,23 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/ñ
+~Msle0/\<veu\>
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&ñ
+~Msle0~&\<veu\>
 
 # Última cadena substituïda:
-$
+$potParlar
 
 # Historial d'ordres (de més a menys recent):
 :qa
 :w
+:%s//potParlar/g
+:q
+:wa
+:wqa
+:wq
+:tabe Gat.java
 :s
 :e
 :%s//\&ntilde;/g
@@ -54,7 +60,6 @@ $
 :tabe salida
 :tabe entrada 
 :tabe entrada salida
-:q
 :qa!
 :split
 :split #
@@ -75,10 +80,8 @@ $
 :sav C.java
 :tabe plantilla.java
 :q!
-:wqa
 :tabe ../paquetsIEmpaquetats/
 :tabe ../../ejercicios/visibilitat/
-:wq
 :sp ../hundirLaFlota.html
 :tabe ../hundirLaFlota.html
 :tabe ../../ideas/pseudocodigo.rst
@@ -152,7 +155,6 @@ $
 :tabe uml2.uml
 :!gnome-open %
 :%s//costat/g
-:wa
 :!rst2pdf %
 :%s//code-blocks/g
 :tabe entrada
@@ -196,6 +198,9 @@ $
 :tabe TestPunt.class
 
 # Historial de cadenes cercades (de més a menys recent):
+? \<veu\>
+? \<posicio\>
+? \<gatcridat\>
 ?/CLASSPAT
 ? \Vsout\%#
 ?/ñ
@@ -263,25 +268,25 @@ $
 
 # Registres:
 "0	LINE	0
-	export CLASSPATH=$CLASSPATH:~/lib/junit-4.12.jar
-""1	CHAR	0
-	2
-"2	CHAR	0
-	1
-"3	CHAR	0
-	.
-"4	CHAR	0
-	4
-"5	CHAR	0
-	-
-"6	CHAR	0
-	.
-"7	CHAR	0
-	3
+						for (Gat g: llistagats) {
+""1	LINE	0
+	        this.nom = nom;
+"2	LINE	0
+	        UllDret = new Ull();
+"3	LINE	0
+	        UllEsquerra = new Ull();
+"4	LINE	0
+	        this.potParlar = potParlar;
+"5	LINE	0
+	        }
+"6	LINE	0
+	            System.out.println(nom+": He nascut");
+"7	LINE	0
+	        if(potParlar){
 "8	CHAR	0
-	.
+	veu
 "9	CHAR	0
-	1
+	llistagats.containsKey(gat)
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -310,118 +315,321 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
-'1  157  39  ~/.bashrc
-'2  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
-'3  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
-'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-'5  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'6  4  0  ~/programame/salida
-'7  1  0  ~/CLASE/daw2/a.java
-'8  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'9  1  0  ~/programame/C.java
+'0  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'1  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'2  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+'3  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+'4  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
+'7  157  39  ~/.bashrc
+'8  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+'9  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
 
 # Llista de salts (de més a menys recent):
+-'  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+-'  46  4  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+-'  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  157  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  148  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  140  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  132  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  124  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  116  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  99  25  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  56  47  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  79  38  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  15  26  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  189  43  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  77  20  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  193  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  187  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  183  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  175  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  169  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  166  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  163  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  152  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  144  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  136  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  128  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  120  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  112  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  109  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  106  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  93  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  90  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  83  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  82  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  72  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  68  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  60  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  51  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  42  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  40  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  33  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  84  30  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  85  5  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  88  6  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  66  10  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
+-'  12  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
+-'  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  21  3  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
+-'  22  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+-'  70  9  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
+-'  35  7  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
+-'  72  10  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
+-'  86  5  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
 -'  1  0  ~/Documents/Gualda/M5Gualda/UML/tags
 -'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
--'  1  0  /media/USB DISK/System Volume Information/tags
--'  1  37  /media/USB DISK/System Volume Information/IndexerVolumeGuid
--'  157  39  ~/.bashrc
--'  158  47  ~/.bashrc
--'  99  0  ~/.bashrc
--'  1  0  ~/.bashrc
--'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  11  33  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  12  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  16  8  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  9  23  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  33  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  32  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  31  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  24  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  23  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  18  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  14  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  85  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  41  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  82  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  77  45  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  6  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  84  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  1  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  87  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  79  34  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  55  53  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  52  49  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  65  21  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  92  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  46  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  45  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  44  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  43  12  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  25  8  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  12  73  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  23  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  94  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  22  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  20  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  18  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  14  5  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  29  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  30  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  12  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  14  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  20  9  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  25  4  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
--'  4  0  ~/programame/salida
--'  1  0  ~/CLASE/daw2/a.java
--'  30  0  ~/CLASE/daw2/a.java
--'  29  0  ~/CLASE/daw2/a.java
--'  27  0  ~/CLASE/daw2/a.java
--'  12  0  ~/CLASE/daw2/a.java
--'  8  0  ~/CLASE/daw2/a.java
--'  13  8  ~/CLASE/daw2/a.java
--'  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
--'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
--'  9  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_2
--'  53  12  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
--'  1  0  ~/programame/plantilla.java
--'  1  0  ~/programame/__Tagbar__
--'  9  0  ~/programame/__Tagbar__
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
--'  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
--'  72  4  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
--'  73  6  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
--'  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
--'  38  7  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
--'  41  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
--'  2  279  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
--'  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  58  0  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  62  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  85  20  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
--'  1  19  ~/prueba/Punt.java
--'  2  0  ~/prueba/TestPunt.java
--'  9  0  ~/prueba/__Tagbar__
--'  13  0  ~/prueba/__Tagbar__
--'  1  0  ~/prueba/TestPunt.java
--'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  11  33  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+-'  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  157  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  148  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  140  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  132  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  124  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  116  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  99  25  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  56  47  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  79  38  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  15  26  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  189  43  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  77  20  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  193  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  187  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  183  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  175  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  169  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  166  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  163  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  152  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  144  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  136  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  128  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  120  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  112  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  109  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  106  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  93  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  90  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  83  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  82  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  72  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  68  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  60  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Animal.java
+	"	29	10
+	^	36	23
+	.	8	0
+	+	36	0
+	+	8	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/AnimalsOperatius.java
+	"	66	12
+	^	70	30
+	.	70	0
+	+	70	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/ComandaText.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Garfield.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/GatEstat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+	"	47	28
+	^	47	29
+	.	47	28
+	+	24	30
+	+	46	0
+	+	48	0
+	+	47	28
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/GatRenat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gos.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/IOUtils.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Picarol.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/__Tagbar__
+	"	42	0
+	.	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+	+	43	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/ComandaText.java
+	"	21	31
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Garfield.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/GatEstat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Gat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/GatRenat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Picarol.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+	"	194	0
+	^	157	41
+	.	157	40
+	+	66	10
+	+	66	27
+	+	67	32
+	+	78	31
+	+	79	48
+	+	82	0
+	+	81	0
+	+	80	41
+	+	77	34
+	+	81	32
+	+	85	0
+	+	11	0
+	+	84	30
+	+	85	0
+	+	15	26
+	+	79	47
+	+	77	17
+	+	79	0
+	+	84	21
+	+	91	17
+	+	92	17
+	+	93	17
+	+	84	21
+	+	76	31
+	+	94	20
+	+	99	38
+	+	116	39
+	+	124	40
+	+	132	40
+	+	140	40
+	+	148	40
+	+	157	40
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
+	"	11	3
+	.	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
+	"	70	9
 
 > /media/USB DISK/System Volume Information/IndexerVolumeGuid
 	"	1	37
@@ -1580,216 +1788,4 @@ $
 	"	1	0
 
 > ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Mioladors.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Picarol.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/UllDeGat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/UsaGat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/__Tagbar__
-	"	7	0
-	.	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-
-> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
-	"	202	28
-	^	202	29
-	.	202	28
-	+	211	0
-	+	189	46
-	+	190	46
-	+	189	44
-	+	191	64
-	+	193	0
-	+	188	55
-	+	195	93
-	+	192	42
-	+	210	3
-	+	209	4
-	+	206	15
-	+	208	15
-	+	201	8
-	+	198	43
-	+	200	12
-	+	205	8
-	+	202	0
-	+	205	0
-	+	202	28
-
-> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/ideas/pseudocodigo.rst
-	"	10	8
-	^	12	9
-	.	12	8
-	+	12	8
-
-> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/ideas/__Tagbar__
-	"	1	0
-	.	4	0
-	+	4	0
-	+	4	0
-	+	4	0
-
-> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/__Tagbar__
-	"	7	4
-	.	22	0
-	+	22	0
-
-> ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/hundirLaFlota.html
-	"	1	0
-
-> ~/CLASE/.git/info/exclude
-	"	7	5
-	^	7	6
-	.	7	5
-	+	5	0
-	+	7	5
-
-> ~/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-	"	23	0
-	^	23	3
-	.	23	2
-	+	158	399
-	+	74	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	11	0
-	+	100	0
-	+	151	0
-	+	19	2
-	+	21	89
-	+	21	0
-	+	21	90
-	+	23	2
-
-> ~/CLASE/M3/UF5/ejercicios/paquetsIEmpaquetats/__Tagbar__
-	"	3	2
-	.	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-
-> ~/scripts/backupConfig.sh
-	"	14	21
-	^	14	22
-	.	14	21
-	+	1	11
-	+	12	0
-	+	7	3
-	+	16	36
-	+	17	46
-	+	10	19
-	+	7	0
-	+	3	0
-	+	5	4
-	+	3	26
-	+	7	10
-	+	10	14
-	+	16	38
-	+	17	40
-	+	16	11
-	+	17	6
-	+	11	8
-	+	6	35
-	+	11	14
-	+	23	0
-	+	29	0
-	+	29	0
-	+	23	0
-	+	29	0
-	+	25	20
-	+	26	14
-	+	23	0
-	+	24	26
-	+	13	32
-	+	14	11
-	+	15	0
-	+	6	35
-	+	7	4
-	+	8	1
-	+	28	12
-	+	13	17
-	+	14	21
-	+	13	23
-	+	14	27
-	+	24	21
-	+	18	18
-	+	7	7
-	+	5	22
-	+	21	10
-	+	22	12
-	+	21	7
-	+	10	13
-	+	4	18
-	+	5	10
-	+	10	13
-	+	13	17
-	+	14	21
-
-> /tmp/crontab.dL8kxu/crontab
-	"	23	63
-	^	23	64
-	.	23	63
-	+	23	63
-
-> ~/scripts/backupConfig
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/bbdd/insercion/Usuaris.sql
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/php/index.php
-	"	19	3
-	.	19	3
-	+	19	3
-
-> ~/CLASE/M7/UF3/ex2/php/funciones.php
-	"	15	0
-	.	42	0
-	+	43	5
-	+	58	0
-	+	48	26
-	+	48	0
-	+	42	0
-
-> ~/CLASE/M7/UF3/ex2/php/config.php
-	"	13	27
-	.	13	27
-	+	13	27
-
-> ~/CLASE/M7/UF3/ex2/php/acceso.php
-	"	52	1
-	^	52	2
-	.	52	1
-	+	1	0
-	+	2	0
-	+	1	0
-	+	52	30
-	+	49	0
-	+	52	1
-
-> ~/CLASE/M7/UF3/ex2/php/__Tagbar__
-	"	4	4
-	.	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-
-> ~/CLASE/M7/UF3/ex2/php/estilos.css
 	"	1	0
