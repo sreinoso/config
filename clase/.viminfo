@@ -17,9 +17,9 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:qa
 :w
 :s
-:qa
 :e
 :%s//\&ntilde;/g
 :%s///g
@@ -310,18 +310,25 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  157  39  ~/.bashrc
-'1  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
-'2  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
-'3  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-'5  4  0  ~/programame/salida
-'6  1  0  ~/CLASE/daw2/a.java
-'7  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
-'8  1  0  ~/programame/C.java
-'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
+'0  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
+'1  157  39  ~/.bashrc
+'2  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
+'3  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
+'5  1  0  ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
+'6  4  0  ~/programame/salida
+'7  1  0  ~/CLASE/daw2/a.java
+'8  293  1  ~/CLASE/daw2/M3/UF5/ejercicios/paquetsIEmpaquetats/paquetsIEmpaquetats.rst
+'9  1  0  ~/programame/C.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
+-'  1  0  ~/Documents/Gualda/M5Gualda/UML/tags
+-'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+-'  1  0  /media/USB DISK/System Volume Information/tags
+-'  1  37  /media/USB DISK/System Volume Information/IndexerVolumeGuid
 -'  157  39  ~/.bashrc
 -'  158  47  ~/.bashrc
 -'  99  0  ~/.bashrc
@@ -396,7 +403,6 @@ $
 -'  70  11  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  72  4  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  73  6  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
--'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
 -'  202  28  ~/CLASE/M6/UF2/proyectos/hundirLaFlota/codigo2/scripts/main.js
 -'  38  7  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
 -'  41  0  ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
@@ -414,15 +420,59 @@ $
 -'  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 -'  11  33  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  12  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  16  8  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  9  23  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  33  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  32  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  31  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
--'  24  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> /media/USB DISK/System Volume Information/IndexerVolumeGuid
+	"	1	37
+
+> /media/USB DISK/System Volume Information/tags
+	"	1	0
+
+> ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+	"	1	0
+	^	73	0
+	.	28	11
+	+	75	25
+	+	75	16
+	+	75	0
+	+	75	20
+	+	75	17
+	+	75	9
+	+	75	0
+	+	75	0
+	+	74	0
+	+	3	0
+	+	74	0
+	+	74	8
+	+	74	8
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	74	0
+	+	26	0
+	+	28	11
+
+> ~/Documents/Gualda/M5Gualda/UML/tags
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/__Tagbar__
+	"	1	0
+	.	9	0
+	+	9	0
+	+	9	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
+	"	1	0
 
 > ~/.bashrc
 	"	157	39
@@ -1455,33 +1505,6 @@ $
 > ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/__Tagbar__
 	"	1	0
 
-> ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
-	"	73	0
-	^	73	0
-	.	28	11
-	+	75	25
-	+	75	16
-	+	75	0
-	+	75	20
-	+	75	17
-	+	75	9
-	+	75	0
-	+	75	0
-	+	74	0
-	+	3	0
-	+	74	0
-	+	74	8
-	+	74	8
-	+	74	0
-	+	74	0
-	+	74	0
-	+	74	0
-	+	74	0
-	+	74	0
-	+	74	0
-	+	26	0
-	+	28	11
-
 > ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Figura
 	"	1	7
 	^	1	8
@@ -1770,24 +1793,3 @@ $
 
 > ~/CLASE/M7/UF3/ex2/php/estilos.css
 	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/php/gest_clients.php
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/php/gestion_hotel.php
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/php/logout.php
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/php/mod_client.php
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/php/p_gest_clients.php
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/bbdd/creacion/DATABASE.sql
-	"	1	0
-
-> ~/CLASE/M7/UF3/ex2/bbdd/creacion/Usuaris.sql
-	"	5	111
