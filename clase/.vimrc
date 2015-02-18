@@ -371,7 +371,7 @@ au FileType html call SetHtmlOptions()
 function! SetRSTOptions()
     map <F7> :!rst2pdf % <CR>
     map <F4> :!gnome-open %<.pdf <CR>
-    Tagbar
+    "Tagbar
 endfunction
 function! SetJavaOptions()
     map <F7> :!javac % && java %< <CR>
