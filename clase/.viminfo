@@ -17,8 +17,9 @@
 $public abstract void
 
 # Historial d'ordres (de més a menys recent):
-:wa
+:wq
 :w
+:wa
 :Tabularize / 
 :%s//public abstract void
 :%s//public void
@@ -29,7 +30,6 @@ $public abstract void
 :qa
 :%s//potParlar/g
 :wqa
-:wq
 :tabe Gat.java
 :s
 :e
@@ -324,18 +324,22 @@ $public abstract void
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
-'1  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
-'2  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'3  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'4  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
-'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
-'6  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
-'9  157  39  ~/.bashrc
+'0  1  0  ~/prueba/felizNoCumpleanos.java
+'1  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+'2  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+'3  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'4  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+'7  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/prueba/felizNoCumpleanos.java
+-'  1  0  ~/prueba/__Tagbar__
+-'  3  0  ~/prueba/__Tagbar__
+-'  4  0  ~/prueba/__Tagbar__
 -'  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
 -'  13  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
 -'  2  9  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
@@ -429,14 +433,20 @@ $public abstract void
 -'  166  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  163  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  152  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  144  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  136  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  128  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  120  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  112  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  109  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/prueba/felizNoCumpleanos.java
+	"	1	0
+
+> ~/prueba/__Tagbar__
+	"	1	0
+	.	4	0
+	+	14	0
+	+	10	0
+	+	10	0
+	+	4	0
+	+	4	0
 
 > ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Gat.java
 	"	4	18
@@ -972,13 +982,6 @@ $public abstract void
 	^	1	0
 	.	1	0
 	+	1	0
-
-> ~/prueba/__Tagbar__
-	"	1	0
-	.	9	0
-	+	13	0
-	+	9	0
-	+	9	0
 
 > ~/prueba/TestPunt.class
 	"	1	0
@@ -1827,108 +1830,3 @@ $public abstract void
 	+	15	0
 	+	15	0
 	+	15	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/excepcions.rst
-	"	344	61
-	^	56	63
-	.	56	62
-	+	117	0
-	+	115	18
-	+	118	0
-	+	118	0
-	+	116	4
-	+	118	11
-	+	119	0
-	+	122	8
-	+	154	0
-	+	154	0
-	+	153	0
-	+	156	11
-	+	157	0
-	+	162	0
-	+	163	0
-	+	165	0
-	+	169	8
-	+	182	0
-	+	186	0
-	+	186	0
-	+	184	0
-	+	191	0
-	+	196	0
-	+	199	0
-	+	200	0
-	+	201	0
-	+	202	4
-	+	207	0
-	+	210	0
-	+	211	0
-	+	213	0
-	+	215	4
-	+	222	0
-	+	222	0
-	+	220	18
-	+	218	1
-	+	221	0
-	+	223	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	229	36
-	+	230	0
-	+	231	0
-	+	232	0
-	+	233	0
-	+	222	0
-	+	229	36
-	+	230	0
-	+	231	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	238	0
-	+	229	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	247	0
-	+	248	0
-	+	249	0
-	+	250	0
-	+	251	0
-	+	241	0
-	+	253	8
-	+	295	7
-	+	296	0
-	+	295	0
-	+	294	0
-	+	297	0
-	+	300	8
-	+	303	0
-	+	305	0
-	+	308	0
-	+	314	0
-	+	320	0
-	+	325	0
-	+	327	0
-	+	328	0
-	+	330	0
-	+	332	0
-	+	319	0
-	+	332	0
-	+	335	8
-	+	20	0
-	+	21	0
-	+	21	0
-	+	54	13
-	+	152	13
-	+	293	13
-	+	220	0
-	+	218	0
-	+	56	62
