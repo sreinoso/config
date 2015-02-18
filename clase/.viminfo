@@ -14,17 +14,20 @@
 ~MSle0~&•
 
 # Última cadena substituïda:
-$public abstract void
+$
 
 # Historial d'ordres (de més a menys recent):
 :wqa
 :w
+:tabe TestPunt.java
 :q
-:qa
+:wa
+:tabe Segment.java
+:tabe TestSegment.java
 :wq
+:qa
 :q!
 :tabe Punt.java
-:wa
 :Tabularize / 
 :%s//public abstract void
 :%s//public void
@@ -199,16 +202,15 @@ $public abstract void
 :tabe gg
 :PluginSearch! junit
 :PluginInstall junit
-:tabe TestPunt.java
 :tabe TestPunt.class
 :82,87y
 :%s//En/g
 
 # Historial de cadenes cercades (de més a menys recent):
-?/•
-? \<Animal\>
 ? \Vcl\%#
 ? \Vpu\%#
+?/•
+? \<Animal\>
 ? \<veu\>
 ? \<posicio\>
 ? \<gatcridat\>
@@ -278,57 +280,40 @@ $public abstract void
 
 # Registres:
 "0	LINE	0
-	        assertEquals(7,p.getX());
-""1	CHAR	0
-	, o 
-"2	BLOCK	0
-	2
-	3
-	4
-	5
-	6
+	import org.junit.*;
+	import static org.junit.Assert.*;    // importa una classe static
+	
+	public class TestSegment {
+	    @Test
+	    public void TestLongitudSegment(){
+	        Segment s = new Segment(3,4,0,0);
+	        double longitud = s.longitud();
+	
+	        assertEquals(5,longitud,0.0001);
+	        //assertEquals(0,longitud,0.0001);
+	    }
+	    public static void main(String args[]) {
+	        org.junit.runner.JUnitCore.main("TestSegment");
+	    }
+	}
+"1	CHAR	0
+	Math.sqrt(2)
+"2	CHAR	0
+	/
+"3	CHAR	0
+	/
+"4	CHAR	0
+	Punt
+"5	CHAR	0
+	Punt
+"6	CHAR	0
+	int
+"7	CHAR	0
+	int
+"8	CHAR	0
 	7
-"3	BLOCK	2
-	int
-	int
-"4	BLOCK	5
-	return
-	return
-"5	BLOCK	1
-	2 
-	3 
-	4 
-	5 
-"6	BLOCK	1
-	 2
-	 3
-	 4
-	 5
-	 6
-	 7
-	 8
-	 9
-	10
-	11
-	12
-	13
-	14
-	15
-	16
-	17
-	18
-	19
-	20
-	21
-	22
-"7	BLOCK	0
-	2
-	3
-	4
-"8	LINE	0
-	        this.nom = nom;
-"9	CHAR	0
-	Animal
+"9	LINE	0
+	        assertEquals(9,p.getY());
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -357,25 +342,31 @@ $public abstract void
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  374  4  ~/.vimrc
-'1  6  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
-'2  28  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/TestPunt.java
-'3  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/resposta.rst
-'4  3  49  ~/CLASE/daw2/M5/UF2/JUnit/ex2/Punt.java
-'5  17  26  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
-'6  1  0  ~/prueba/felizNoCumpleanos.java
-'7  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
-'8  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
-'9  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'0  11  41  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
+'1  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
+'2  6  178  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
+'3  7  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
+'4  374  4  ~/.vimrc
+'5  28  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/TestPunt.java
+'6  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/resposta.rst
+'7  3  49  ~/CLASE/daw2/M5/UF2/JUnit/ex2/Punt.java
+'8  17  26  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
+'9  1  0  ~/prueba/felizNoCumpleanos.java
 
 # Llista de salts (de més a menys recent):
--'  374  4  ~/.vimrc
+-'  11  41  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
+-'  1  1  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
+-'  8  10  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
+-'  10  21  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
+-'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex6/Punt.java
 -'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
--'  6  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
+-'  6  178  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
+-'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
+-'  7  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
+-'  374  4  ~/.vimrc
 -'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
 -'  3  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
 -'  4  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
 -'  28  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/TestPunt.java
 -'  5  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
 -'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/resposta.rst
@@ -461,18 +452,103 @@ $public abstract void
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
--'  1  0  ~/Documents/Gualda/M5Gualda/UML/tags
--'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
--'  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  6  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
--'  3  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
 
 # Historial de marques en fitxers (de més a menys recent):
 
+> ~/CLASE/daw2/M5/UF2/JUnit/ex6/Punt.java
+	"	1	0
+
+> ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestPunt.java
+	"	17	0
+
+> ~/CLASE/daw2/M5/UF2/JUnit/ex6/__Tagbar__
+	"	6	0
+	.	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+
+> ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
+	"	11	41
+	^	10	22
+	.	10	21
+	+	1	0
+	+	10	0
+	+	9	0
+	+	8	35
+	+	10	30
+	+	12	0
+	+	10	21
+	+	8	0
+	+	10	48
+	+	8	13
+	+	4	23
+	+	7	36
+	+	11	0
+	+	10	9
+	+	11	21
+	+	14	51
+	+	7	38
+	+	10	8
+	+	11	9
+	+	7	38
+	+	10	21
+
+> ~/CLASE/daw2/M5/UF2/JUnit/ex6/Segment.java
+	"	7	16
+	^	7	17
+	.	7	16
+	+	13	0
+	+	12	0
+	+	6	0
+	+	2	11
+	+	4	7
+	+	3	33
+	+	4	30
+	+	5	28
+	+	6	5
+	+	7	25
+	+	9	4
+	+	8	77
+	+	3	46
+	+	7	16
+
 > ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
 	"	1	0
+	^	7	0
+	.	7	0
+	+	6	132
+	+	7	0
+
+> ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
+	"	6	178
+	^	6	179
+	.	6	178
+	+	2	117
+	+	6	178
 
 > ~/CLASE/daw2/M5/UF2/JUnit/ex5/__Tagbar__
 	"	1	0
@@ -513,13 +589,6 @@ $public abstract void
 	+	62	0
 	+	62	0
 	+	62	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
-	"	6	0
-	^	6	28
-	.	6	107
-	+	2	117
-	+	6	107
 
 > ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
 	"	1	0
@@ -1680,82 +1749,3 @@ $public abstract void
 
 > ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
 	"	1	0
-
-> /usr/share/vim/vim73/doc/cmdline.txt
-	"	273	44
-
-> /usr/share/vim/vim73/doc/windows.txt
-	"	195	3
-
-> ~/programame/entrada
-	"	5	0
-	.	6	0
-	+	5	3
-	+	6	0
-
-> ~/programame/salida
-	"	4	0
-	.	5	0
-	+	4	10
-	+	5	0
-
-> ~/programame/C.java
-	"	1	0
-	^	19	21
-	.	19	20
-	+	28	0
-	+	6	0
-	+	5	13
-	+	12	57
-	+	14	0
-	+	12	16
-	+	13	17
-	+	15	0
-	+	14	24
-	+	12	43
-	+	14	41
-	+	13	34
-	+	26	29
-	+	26	0
-	+	18	0
-	+	26	0
-	+	19	35
-	+	21	15
-	+	21	15
-	+	17	0
-	+	15	21
-	+	21	32
-	+	24	0
-	+	21	0
-	+	20	0
-	+	23	0
-	+	24	0
-	+	23	21
-	+	16	21
-	+	26	0
-	+	25	43
-	+	15	25
-	+	16	0
-	+	20	40
-	+	23	37
-	+	22	32
-	+	19	27
-	+	22	27
-	+	20	31
-	+	15	25
-	+	16	25
-	+	20	33
-	+	23	33
-	+	25	49
-	+	15	12
-	+	16	0
-	+	16	0
-	+	15	12
-	+	25	44
-	+	11	0
-	+	6	0
-	+	19	16
-	+	20	0
-	+	19	19
-	+	22	19
-	+	19	20
