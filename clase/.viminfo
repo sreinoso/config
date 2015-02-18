@@ -8,20 +8,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0/\<veu\>
+~MSle0/•
 
 # Últim Substitute Patró de Cerca:
-~Msle0~&\<veu\>
+~MSle0~&•
 
 # Última cadena substituïda:
-$potParlar
+$public abstract void
 
 # Historial d'ordres (de més a menys recent):
-:qa
-:w
-:%s//potParlar/g
-:q
 :wa
+:w
+:Tabularize / 
+:%s//public abstract void
+:%s//public void
+:%s//public void 
+:tabe UsaAnimals.java
+:qa!
+:q
+:qa
+:%s//potParlar/g
 :wqa
 :wq
 :tabe Gat.java
@@ -60,7 +66,6 @@ $potParlar
 :tabe salida
 :tabe entrada 
 :tabe entrada salida
-:qa!
 :split
 :split #
 :new
@@ -166,7 +171,6 @@ $potParlar
 :16,40Tabularize / 
 :16,40Tabularize \ 
 :16,
-:Tabularize / 
 :Tabularize /\' \' 
 :Tabularize /
 :Tabularize /,
@@ -196,8 +200,14 @@ $potParlar
 :PluginInstall junit
 :tabe TestPunt.java
 :tabe TestPunt.class
+:82,87y
+:%s//En/g
 
 # Historial de cadenes cercades (de més a menys recent):
+?/•
+? \<Animal\>
+? \Vcl\%#
+? \Vpu\%#
 ? \<veu\>
 ? \<posicio\>
 ? \<gatcridat\>
@@ -234,7 +244,6 @@ $potParlar
 ? \<arr_jug\>
 ? \<i\>
 ? \Vfi\%#
-? \Vpu\%#
 ? \Vst\%#
 ? \Vhead-\%#
 ?/leader
@@ -252,13 +261,13 @@ $potParlar
 ? \<Rectangle\>
 ?/altura
 ? \<base\>
-? \Vcl\%#
 ?/table
 ?/code-block
 ? \<block\>
 ? \Vcodeblock\%#
 ? }
 ? ;
+? \<Enumeration\>
 
 # Historial d'expressions (de més a menys recent):
 
@@ -268,25 +277,25 @@ $potParlar
 
 # Registres:
 "0	LINE	0
-						for (Gat g: llistagats) {
+	        super(nom);
 ""1	LINE	0
 	        this.nom = nom;
-"2	LINE	0
-	        UllDret = new Ull();
+"2	CHAR	0
+	Animal
 "3	LINE	0
-	        UllEsquerra = new Ull();
-"4	LINE	0
-	        this.potParlar = potParlar;
-"5	LINE	0
-	        }
+	        this.nom = nom;
+"4	CHAR	0
+	Animal
+"5	CHAR	0
+	Animal
 "6	LINE	0
-	            System.out.println(nom+": He nascut");
+	        this.nom = nom;
 "7	LINE	0
-	        if(potParlar){
+	        this.nom = nom;
 "8	CHAR	0
-	veu
-"9	CHAR	0
-	llistagats.containsKey(gat)
+	Animal
+"9	LINE	0
+	    private String nom;
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -315,18 +324,25 @@ $potParlar
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'1  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'2  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
-'3  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
-'4  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
-'7  157  39  ~/.bashrc
-'8  2  0  ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
-'9  47  27  ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
+'0  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+'1  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+'2  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'3  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'4  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+'6  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
+'9  157  39  ~/.bashrc
 
 # Llista de salts (de més a menys recent):
+-'  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+-'  13  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+-'  2  9  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+-'  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+-'  117  22  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+-'  75  1  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+-'  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
 -'  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
 -'  46  4  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
 -'  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
@@ -419,16 +435,231 @@ $potParlar
 -'  120  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  112  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  109  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  106  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  93  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  90  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  83  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  82  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  72  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  68  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  60  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Gat.java
+	"	4	18
+	^	4	19
+	.	4	18
+	+	191	29
+	+	193	0
+	+	14	0
+	+	13	0
+	+	1	0
+	+	3	18
+	+	5	0
+	+	4	18
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Gos.java
+	"	3	19
+	^	3	19
+	.	3	18
+	+	15	0
+	+	14	0
+	+	1	0
+	+	2	0
+	+	4	0
+	+	5	0
+	+	3	18
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Lleo.java
+	"	5	18
+	^	5	19
+	.	5	18
+	+	14	0
+	+	2	33
+	+	13	0
+	+	1	0
+	+	3	0
+	+	4	19
+	+	6	0
+	+	5	18
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+	"	5	18
+	^	5	19
+	.	5	18
+	+	14	0
+	+	13	0
+	+	1	0
+	+	3	0
+	+	4	21
+	+	6	0
+	+	5	18
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+	"	3	0
+	^	2	16
+	.	2	15
+	+	117	24
+	+	117	16
+	+	18	15
+	+	26	0
+	+	25	2
+	+	27	0
+	+	32	3
+	+	13	0
+	+	12	0
+	+	1	28
+	+	3	0
+	+	3	0
+	+	3	0
+	+	11	0
+	+	3	0
+	+	1	0
+	+	3	39
+	+	7	36
+	+	8	35
+	+	9	35
+	+	10	39
+	+	11	34
+	+	12	0
+	+	3	0
+	+	12	0
+	+	3	44
+	+	6	0
+	+	3	22
+	+	5	22
+	+	7	20
+	+	8	20
+	+	4	11
+	+	2	15
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/__Tagbar__
+	"	14	0
+	.	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/UsaAnimals.java
+	"	6	8
+	^	19	1
+	.	6	0
+	+	20	0
+	+	19	0
+	+	1	0
+	+	4	0
+	+	9	0
+	+	4	0
+	+	2	0
+	+	4	0
+	+	19	0
+	+	6	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
+	"	82	0
+	^	137	1
+	.	137	0
+	+	83	0
+	+	88	2
+	+	43	13
+	+	31	13
+	+	96	0
+	+	95	0
+	+	97	0
+	+	100	3
+	+	101	0
+	+	109	0
+	+	115	8
+	+	116	2
+	+	17	0
+	+	118	2
+	+	121	0
+	+	136	4
+	+	137	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/__Tagbar__
+	"	6	6
+	.	7	0
+	+	9	0
+	+	7	0
+	+	7	0
+	+	7	0
+	+	7	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/AnimalsOperatius.java
+	"	1	1
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/ComandaText.java
+	"	2	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Garfield.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/GatEstat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/GatRenat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/IOUtils.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Picarol.java
+	"	1	0
 
 > ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Animal.java
 	"	29	10
@@ -1405,14 +1636,6 @@ $potParlar
 	+	13	0
 	+	13	0
 
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/classesAbstractes.rst
-	"	53	12
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/__Tagbar__
-	"	1	0
-	.	7	0
-	+	7	0
-
 > ~/CLASE/daw2/M3/UF5/ejercicios/NERD_tree_1
 	"	6	0
 	.	1	0
@@ -1709,83 +1932,3 @@ $potParlar
 	+	220	0
 	+	218	0
 	+	56	62
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/__Tagbar__
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Figura
-	"	1	7
-	^	1	8
-	.	1	7
-	+	1	0
-	+	1	7
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Cercle
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Quadrat
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Rectangle
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex1/org/extudi_poo/sergio/figures/Triangle
-	"	1	0
-
-> ~/programame/plantilla.java
-	"	1	0
-	^	18	1
-	.	6	0
-	+	18	0
-	+	6	0
-
-> ~/programame/Embarque.java
-	"	137	13
-	^	136	30
-	.	137	13
-	+	111	1
-	+	2	15
-	+	112	0
-	+	115	0
-	+	118	40
-	+	125	28
-	+	122	14
-	+	121	14
-	+	123	6
-	+	119	6
-	+	124	18
-	+	131	18
-	+	132	30
-	+	133	27
-	+	134	26
-	+	136	36
-	+	139	0
-	+	137	15
-	+	133	17
-	+	137	30
-	+	134	21
-	+	137	16
-	+	134	0
-	+	136	0
-	+	137	16
-	+	135	30
-	+	136	0
-	+	137	13
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/ComandaText.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Garfield.java
-	"	16	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatEstat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Gat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/GatRenat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/VSandra/Polimorfisme/Exercici3/Mioladors.java
-	"	1	0
