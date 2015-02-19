@@ -8,38 +8,41 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/id="\(\w*\)"
+~MSle0/id="\(\w*\)"
 
 # Últim Substitute Patró de Cerca:
-~MSle0&:
+~MSle0~&;
 
 # Última cadena substituïda:
-$\/
+$
 
 # Historial d'ordres (de més a menys recent):
 :wqa
-:q
+:w
+:qa
+:wa
+:!mkdir org.estudi_poo.sergio.animals
+:.,10s/;/{\r\r}/
 :qa!
+:tabe salida
+:tabe entrada
+:q
 :/id="\(\w*\)"/y
 :/id="\(\w*\)"/
 :/id="\(\w*\)" y
 :/id="\(\w*\)"
 :tabe test.html
-:w
 :%s/:/\//g
 :%s/:/\/g
 :%s-:-\-g
 :%s//d/g
-:wa
 :!
 :tabe felizNoCumpleanos.java
-:tabe salida
 :Tabularize / 
 :%s//public abstract void
 :%s//public void
 :%s//public void 
 :tabe UsaAnimals.java
-:qa
 :%s//potParlar/g
 :wq
 :tabe Gat.java
@@ -172,7 +175,6 @@ $\/
 :%s//costat/g
 :!rst2pdf %
 :%s//code-blocks/g
-:tabe entrada
 :tabe BotigaException.java
 :help Tabular
 :10,20Tabularize /\W
@@ -217,19 +219,21 @@ $\/
 :tabe Punt.java
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vmain\%#
+? \Vcl\%#
+? \Vpu\%#
+? ;
+? \Vsout\%#
 ? id="\(\w*\)"
 ? id="\(\w*\)" y
 ? :
 ? \<i\>
 ?/•
 ? \<Animal\>
-? \Vcl\%#
-? \Vpu\%#
 ? \<veu\>
 ? \<posicio\>
 ? \<gatcridat\>
 ?/CLASSPAT
-? \Vsout\%#
 ?/ñ
 ? 1px
 ? \<FF00FF\>
@@ -282,7 +286,6 @@ $\/
 ? \<block\>
 ? \Vcodeblock\%#
 ? }
-? ;
 ? \<Enumeration\>
 
 # Historial d'expressions (de més a menys recent):
@@ -293,25 +296,37 @@ $\/
 
 # Registres:
 "0	LINE	0
-	            //if (linia.equals(EXPECTED_END)) break;
-"1	CHAR	0
-	)
+	    public String moute(){
+	        return "camina";
+	    }
+	    public String menja(){
+	        return "nyam nyam";
+	    }
+	    public String fesSoroll(){
+	        return "bof bof";
+	    }
+	    public String dorm(){
+	        return "ZZZzzzz";
+	    }
+	}
+""1	CHAR	0
+	void 
 "2	CHAR	0
-	D
+	vola
 "3	CHAR	0
-	N
+	void 
 "4	CHAR	0
-	E
+	void 
 "5	CHAR	0
-	_
+	void 
 "6	CHAR	0
-	D
+	void 
 "7	CHAR	0
-	E
+	 
 "8	CHAR	0
-	T
+	d
 "9	CHAR	0
-	C
+	i
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -340,23 +355,47 @@ $\/
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
-'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
-'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
-'3  1  0  ~/test.html
-'4  18  8  ~/prueba/felizNoCumpleanos.java
-'5  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
-'6  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
-'7  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'8  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+'0  11  34  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
+'1  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
+'2  9  4  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+'3  11  23  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Animal.java
+'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+'5  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
+'6  1  0  ~/test.html
+'7  18  8  ~/prueba/felizNoCumpleanos.java
+'8  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+'9  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
 
 # Llista de salts (de més a menys recent):
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
--'  27  26  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
+-'  11  34  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
+-'  9  4  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  20  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  18  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  15  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  12  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  6  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  17  28  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  7  11  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+-'  11  23  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Animal.java
+-'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Animal.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  24  32  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  34  20  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  23  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  25  39  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  35  12  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  38  12  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  6  40  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  29  9  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  28  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  21  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  22  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  9  17  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  13  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+-'  8  11  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
 -'  9  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
 -'  1  0  ~/test.html
 -'  14  9  ~/test.html
@@ -415,43 +454,425 @@ $\/
 -'  42  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  40  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  33  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  84  30  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  85  5  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  88  6  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  66  10  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
--'  12  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
--'  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  21  3  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
--'  22  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/__Tagbar__
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
--'  70  9  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
--'  35  7  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
--'  72  10  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
--'  86  5  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
--'  1  0  ~/Documents/Gualda/M5Gualda/UML/tags
--'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
--'  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  157  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  148  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  140  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  132  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  124  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  116  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  99  25  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  56  47  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  79  38  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  15  26  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  189  43  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  77  20  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  438  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
+-'  27  26  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
+-'  9  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
+-'  1  0  ~/test.html
+-'  14  9  ~/test.html
+-'  10  4  ~/test.html
+-'  1  0  ~/test.js
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
+	"	11	34
+	.	4	11
+	+	4	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Canari.java
+	"	3	11
+	.	3	11
+	+	3	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Gat.java
+	"	3	11
+	^	14	20
+	.	3	11
+	+	6	0
+	+	7	0
+	+	19	0
+	+	19	0
+	+	8	21
+	+	11	16
+	+	14	23
+	+	11	24
+	+	17	22
+	+	11	21
+	+	14	19
+	+	3	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Gos.java
+	"	3	11
+	^	2	31
+	.	3	11
+	+	19	0
+	+	19	0
+	+	6	0
+	+	19	0
+	+	3	0
+	+	3	0
+	+	2	16
+	+	3	0
+	+	2	30
+	+	3	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Lleo.java
+	"	4	18
+	^	7	22
+	.	7	21
+	+	6	0
+	+	19	0
+	+	10	22
+	+	13	20
+	+	16	22
+	+	3	11
+	+	7	21
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/UsaAnimals.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/__Tagbar__
+	"	15	0
+	.	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+	+	16	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Animal.java
+	"	7	9
+	^	7	10
+	.	7	9
+	+	9	0
+	+	7	9
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+	"	9	4
+	^	17	29
+	.	12	0
+	+	7	0
+	+	9	0
+	+	8	23
+	+	11	26
+	+	14	24
+	+	8	19
+	+	11	21
+	+	17	28
+	+	12	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Gat.java
+	"	6	11
+	.	6	11
+	+	6	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Gos.java
+	"	6	11
+	.	6	11
+	+	10	0
+	+	6	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Lleo.java
+	"	7	11
+	.	7	11
+	+	7	11
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/UsaAnimals.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/__Tagbar__
+	"	14	0
+	.	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+	+	15	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/AnimalsOperatius.java
+	"	1	1
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/ComandaText.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Garfield.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/GatEstat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/GatRenat.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/IOUtils.java
+	"	1	0
+
+> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Picarol.java
+	"	1	0
+
+> ~/.vimrc
+	"	438	0
+	^	374	5
+	.	374	4
+	+	369	28
+	+	380	0
+	+	382	0
+	+	381	27
+	+	380	16
+	+	381	0
+	+	86	11
+	+	436	0
+	+	437	0
+	+	437	110
+	+	437	0
+	+	402	0
+	+	404	0
+	+	404	15
+	+	404	0
+	+	404	0
+	+	403	0
+	+	69	0
+	+	438	0
+	+	438	0
+	+	70	7
+	+	71	15
+	+	374	4
+
+> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
+	"	1	0
+	^	24	33
+	.	24	32
+	+	6	40
+	+	5	26
+	+	37	13
+	+	6	40
+	+	37	12
+	+	11	0
+	+	8	20
+	+	14	11
+	+	8	0
+	+	13	0
+	+	12	11
+	+	9	29
+	+	12	26
+	+	9	43
+	+	13	45
+	+	30	0
+	+	15	32
+	+	23	0
+	+	22	0
+	+	23	0
+	+	17	15
+	+	10	17
+	+	17	56
+	+	21	0
+	+	18	44
+	+	20	41
+	+	13	0
+	+	29	0
+	+	28	0
+	+	28	0
+	+	26	16
+	+	25	0
+	+	25	0
+	+	25	78
+	+	27	9
+	+	28	13
+	+	29	9
+	+	27	8
+	+	28	10
+	+	25	73
+	+	27	9
+	+	28	11
+	+	29	9
+	+	35	0
+	+	6	40
+	+	35	13
+	+	38	0
+	+	25	31
+	+	38	0
+	+	35	12
+	+	25	28
+	+	6	40
+	+	25	93
+	+	25	89
+	+	25	0
+	+	25	0
+	+	24	0
+	+	25	0
+	+	24	27
+	+	25	0
+	+	36	13
+	+	35	21
+	+	34	20
+	+	24	32
+
+> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
+	"	8	4
+	.	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
+	"	2	0
+	.	3	0
+	+	2	0
+	+	3	0
+	+	2	0
+	+	1	0
+	+	3	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/salida
+	"	2	0
+	.	3	0
+	+	1	0
+	+	3	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
 	"	1	0
@@ -466,16 +887,8 @@ $\/
 	+	9	0
 	+	9	0
 
-> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
-	"	1	0
-
 > ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
 	"	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
-	"	1	0
-	.	9	0
-	+	9	0
 
 > ~/test.js
 	"	1	0
@@ -660,34 +1073,6 @@ $\/
 
 > ~/CLASE/daw2/M5/UF2/JUnit/ex5/__Tagbar__
 	"	1	0
-
-> ~/.vimrc
-	"	374	4
-	^	374	5
-	.	374	4
-	+	369	28
-	+	380	0
-	+	382	0
-	+	381	27
-	+	380	16
-	+	381	0
-	+	86	11
-	+	436	0
-	+	437	0
-	+	437	110
-	+	437	0
-	+	402	0
-	+	404	0
-	+	404	15
-	+	404	0
-	+	404	0
-	+	403	0
-	+	69	0
-	+	438	0
-	+	438	0
-	+	70	7
-	+	71	15
-	+	374	4
 
 > ~/__Tagbar__
 	"	49	0
@@ -1280,486 +1665,3 @@ $\/
 
 > ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
 	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
-	"	1	0
-
-> ~/.bashrc
-	"	157	39
-	^	158	55
-	.	157	39
-	+	130	60
-	+	119	58
-	+	138	14
-	+	159	28
-	+	159	0
-	+	159	12
-	+	146	0
-	+	146	12
-	+	159	0
-	+	146	0
-	+	146	0
-	+	146	14
-	+	146	8
-	+	146	10
-	+	146	2
-	+	146	11
-	+	146	1
-	+	146	0
-	+	148	0
-	+	148	3
-	+	146	0
-	+	148	0
-	+	148	0
-	+	149	14
-	+	146	0
-	+	144	0
-	+	145	32
-	+	149	1
-	+	149	0
-	+	159	0
-	+	147	3
-	+	148	0
-	+	149	0
-	+	143	44
-	+	142	12
-	+	143	44
-	+	142	0
-	+	143	44
-	+	116	0
-	+	139	0
-	+	151	0
-	+	150	0
-	+	152	3
-	+	151	14
-	+	154	36
-	+	155	0
-	+	157	47
-	+	158	0
-	+	157	39
-
-> ~/prueba/Punt.java
-	"	1	19
-	^	1	0
-	.	1	0
-	+	1	0
-
-> ~/prueba/TestPunt.class
-	"	1	0
-
-> ~/prueba/TestPunt.java
-	"	1	0
-	.	1	0
-	+	1	0
-	+	2	0
-	+	3	4
-	+	4	0
-	+	1	0
-
-> ~/prueba/[Vundle] Installer
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/prueba/[Vundle] search
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/por3omas5.java
-	"	2	0
-	^	12	17
-	.	11	33
-	+	6	40
-	+	5	21
-	+	24	29
-	+	8	44
-	+	24	28
-	+	18	0
-	+	12	28
-	+	9	21
-	+	12	45
-	+	14	0
-	+	13	3
-	+	12	24
-	+	13	31
-	+	12	17
-	+	14	16
-	+	16	13
-	+	15	33
-	+	18	0
-	+	18	0
-	+	18	26
-	+	18	15
-	+	18	0
-	+	18	37
-	+	18	0
-	+	18	37
-	+	18	0
-	+	19	0
-	+	24	0
-	+	14	0
-	+	12	43
-	+	14	0
-	+	12	43
-	+	18	0
-	+	17	13
-	+	12	0
-	+	11	34
-	+	12	17
-	+	11	33
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/__Tagbar__
-	"	1	0
-	.	9	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	9	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Botiga.java
-	"	38	7
-	^	38	8
-	.	36	7
-	+	2	0
-	+	1	18
-	+	37	31
-	+	36	7
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/__Tagbar__
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/Vi.java
-	"	30	16
-	^	31	24
-	.	30	16
-	+	2	10
-	+	49	0
-	+	3	3
-	+	2	11
-	+	3	14
-	+	49	73
-	+	5	0
-	+	5	0
-	+	5	0
-	+	14	12
-	+	49	14
-	+	49	0
-	+	49	0
-	+	49	0
-	+	49	0
-	+	49	22
-	+	49	0
-	+	49	0
-	+	14	0
-	+	5	0
-	+	49	16
-	+	49	0
-	+	49	74
-	+	49	34
-	+	49	34
-	+	5	20
-	+	49	11
-	+	3	78
-	+	3	4
-	+	5	16
-	+	6	18
-	+	8	17
-	+	9	0
-	+	9	0
-	+	13	15
-	+	7	21
-	+	49	0
-	+	14	0
-	+	14	0
-	+	48	21
-	+	48	0
-	+	48	14
-	+	48	141
-	+	48	0
-	+	3	0
-	+	3	0
-	+	15	4
-	+	18	4
-	+	21	4
-	+	27	4
-	+	33	4
-	+	36	4
-	+	39	4
-	+	42	4
-	+	15	10
-	+	18	0
-	+	15	18
-	+	18	20
-	+	21	24
-	+	27	20
-	+	33	20
-	+	36	20
-	+	39	20
-	+	42	20
-	+	45	18
-	+	42	21
-	+	39	21
-	+	36	21
-	+	33	21
-	+	27	21
-	+	21	25
-	+	18	21
-	+	15	0
-	+	2	0
-	+	17	0
-	+	1	12
-	+	16	23
-	+	19	0
-	+	22	24
-	+	28	24
-	+	34	30
-	+	37	26
-	+	40	28
-	+	43	25
-	+	46	27
-	+	17	0
-	+	48	0
-	+	24	14
-	+	25	23
-	+	30	30
-	+	31	8
-	+	10	0
-	+	31	23
-	+	30	16
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/[Vundle] Installer
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/.vim/bundle/Tabular/doc/Tabular.txt
-	"	249	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1/BotigaException.java
-	"	1	8
-	^	3	33
-	.	5	0
-	+	1	29
-	+	5	0
-	+	1	45
-	+	2	39
-	+	4	0
-	+	3	32
-	+	5	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/mapesI/ex1
-	"	1	0
-
-> ~/CLASE/daw2/M6/UF3/ejercicios/ex5/problema5.html
-	"	47	27
-	^	47	28
-	.	47	27
-	+	90	49
-	+	89	16
-	+	90	24
-	+	51	0
-	+	49	3
-	+	51	7
-	+	49	19
-	+	48	27
-	+	42	56
-	+	43	66
-	+	44	84
-	+	45	72
-	+	46	60
-	+	49	55
-	+	90	17
-	+	88	0
-	+	52	53
-	+	53	17
-	+	58	20
-	+	47	23
-	+	50	41
-	+	87	12
-	+	59	17
-	+	55	34
-	+	55	54
-	+	55	0
-	+	55	27
-	+	56	0
-	+	57	28
-	+	55	21
-	+	55	0
-	+	55	15
-	+	55	58
-	+	64	0
-	+	59	21
-	+	65	0
-	+	66	15
-	+	65	59
-	+	64	58
-	+	52	0
-	+	16	64
-	+	67	0
-	+	73	0
-	+	79	0
-	+	87	0
-	+	67	53
-	+	73	47
-	+	79	41
-	+	70	16
-	+	70	19
-	+	68	0
-	+	70	0
-	+	68	36
-	+	69	47
-	+	72	16
-	+	71	0
-	+	72	0
-	+	71	64
-	+	76	16
-	+	74	0
-	+	76	0
-	+	74	30
-	+	75	53
-	+	77	0
-	+	76	21
-	+	78	15
-	+	77	30
-	+	90	62
-	+	59	74
-	+	60	0
-	+	63	15
-	+	62	57
-	+	55	0
-	+	59	50
-	+	67	41
-	+	73	35
-	+	80	80
-	+	84	0
-	+	80	0
-	+	84	0
-	+	81	36
-	+	79	29
-	+	86	16
-	+	85	0
-	+	86	0
-	+	80	24
-	+	85	24
-	+	87	46
-	+	82	49
-	+	83	57
-	+	87	0
-	+	82	0
-	+	84	0
-	+	84	0
-	+	6	0
-	+	82	0
-	+	49	0
-	+	58	0
-	+	58	0
-	+	47	27
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/entrada
-	"	7	0
-	.	8	0
-	+	7	1
-	+	8	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/salida
-	"	6	0
-	.	7	0
-	+	6	2
-	+	7	0
-
-> ~/.git/COMMIT_EDITMSG
-	"	118	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/numerosReversibles.java
-	"	1	1
-	^	10	14
-	.	10	13
-	+	1	41
-	+	1	0
-	+	1	0
-	+	5	30
-	+	11	47
-	+	12	0
-	+	11	8
-	+	15	12
-	+	13	32
-	+	15	33
-	+	17	0
-	+	15	26
-	+	16	11
-	+	14	25
-	+	16	12
-	+	14	27
-	+	16	53
-	+	18	49
-	+	20	43
-	+	24	54
-	+	29	0
-	+	25	11
-	+	22	18
-	+	25	54
-	+	28	0
-	+	28	15
-	+	24	0
-	+	35	0
-	+	28	0
-	+	29	0
-	+	28	17
-	+	29	0
-	+	27	38
-	+	28	0
-	+	28	21
-	+	29	0
-	+	23	31
-	+	24	58
-	+	23	30
-	+	29	16
-	+	28	0
-	+	27	32
-	+	28	12
-	+	29	0
-	+	27	0
-	+	31	0
-	+	31	20
-	+	31	0
-	+	31	0
-	+	33	0
-	+	34	0
-	+	31	37
-	+	25	45
-	+	15	0
-	+	30	0
-	+	20	0
-	+	9	0
-	+	9	0
-	+	36	4
-	+	9	0
-	+	10	13
-
-> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/__Tagbar__
-	"	8	31
-	.	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/entrada
-	"	6	0
-	.	7	0
-	+	6	1
-	+	7	0
