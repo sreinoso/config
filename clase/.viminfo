@@ -17,6 +17,7 @@
 $\/
 
 # Historial d'ordres (de més a menys recent):
+:q
 :qa!
 :/id="\(\w*\)"/y
 :/id="\(\w*\)"/
@@ -38,7 +39,6 @@ $\/
 :%s//public void
 :%s//public void 
 :tabe UsaAnimals.java
-:q
 :qa
 :%s//potParlar/g
 :wq
@@ -350,18 +350,21 @@ $\/
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/test.html
-'1  18  8  ~/prueba/felizNoCumpleanos.java
-'2  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
-'3  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
-'4  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'5  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
-'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
-'8  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
+'1  1  0  ~/test.html
+'2  18  8  ~/prueba/felizNoCumpleanos.java
+'3  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+'4  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+'5  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'6  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+'9  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
+-'  9  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
 -'  1  0  ~/test.html
 -'  14  9  ~/test.html
 -'  10  4  ~/test.html
@@ -456,11 +459,16 @@ $\/
 -'  77  20  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  193  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  187  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  183  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  175  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
+	"	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
+	"	1	0
+	.	9	0
+	+	9	0
 
 > ~/test.js
 	"	1	0
@@ -1763,52 +1771,3 @@ $\/
 
 > ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
 	"	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico.java
-	"	1	0
-	^	15	40
-	.	15	28
-	+	1	0
-	+	19	50
-	+	22	0
-	+	21	35
-	+	24	0
-	+	5	28
-	+	20	22
-	+	22	18
-	+	20	0
-	+	22	17
-	+	20	14
-	+	23	33
-	+	8	0
-	+	15	9
-	+	8	8
-	+	15	8
-	+	8	8
-	+	22	17
-	+	20	15
-	+	22	42
-	+	7	38
-	+	15	9
-	+	8	27
-	+	9	20
-	+	10	51
-	+	12	52
-	+	14	0
-	+	14	11
-	+	11	16
-	+	14	0
-	+	14	20
-	+	12	40
-	+	14	0
-	+	13	0
-	+	11	19
-	+	14	12
-	+	13	26
-	+	14	0
-	+	15	28
-
-> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/__Tagbar__
-	"	1	0
-	.	11	0
-	+	11	0
