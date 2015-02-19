@@ -8,33 +8,35 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/•
+~Msle0/\<i\>
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&•
+~MSle0~&:
 
 # Última cadena substituïda:
-$
+$\/
 
 # Historial d'ordres (de més a menys recent):
 :wqa
 :w
-:tabe TestPunt.java
-:q
+:%s/:/\//g
+:%s/:/\/g
+:%s-:-\-g
+:%s//d/g
 :wa
-:tabe Segment.java
-:tabe TestSegment.java
-:wq
-:qa
-:q!
-:tabe Punt.java
+:!
+:tabe felizNoCumpleanos.java
+:tabe salida
 :Tabularize / 
 :%s//public abstract void
 :%s//public void
 :%s//public void 
 :tabe UsaAnimals.java
 :qa!
+:q
+:qa
 :%s//potParlar/g
+:wq
 :tabe Gat.java
 :s
 :e
@@ -68,7 +70,6 @@ $
 :<c-j>
 :%s/int/g
 :tabe Plantilla.java
-:tabe salida
 :tabe entrada 
 :tabe entrada salida
 :split
@@ -84,11 +85,11 @@ $
 :BuffergatorClose
 :vs
 :sp
-:!
 :!java %< entrada
 :!javac %
 :sav C.java
 :tabe plantilla.java
+:q!
 :tabe ../paquetsIEmpaquetats/
 :tabe ../../ejercicios/visibilitat/
 :sp ../hundirLaFlota.html
@@ -202,15 +203,21 @@ $
 :tabe gg
 :PluginSearch! junit
 :PluginInstall junit
+:tabe TestPunt.java
 :tabe TestPunt.class
 :82,87y
 :%s//En/g
+:tabe Segment.java
+:tabe TestSegment.java
+:tabe Punt.java
 
 # Historial de cadenes cercades (de més a menys recent):
-? \Vcl\%#
-? \Vpu\%#
+? :
+? \<i\>
 ?/•
 ? \<Animal\>
+? \Vcl\%#
+? \Vpu\%#
 ? \<veu\>
 ? \<posicio\>
 ? \<gatcridat\>
@@ -245,7 +252,6 @@ $
 ? \<nav\>
 ? \Vdiv\%#
 ? \<arr_jug\>
-? \<i\>
 ? \Vfi\%#
 ? \Vst\%#
 ? \Vhead-\%#
@@ -279,41 +285,26 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	import org.junit.*;
-	import static org.junit.Assert.*;    // importa una classe static
-	
-	public class TestSegment {
-	    @Test
-	    public void TestLongitudSegment(){
-	        Segment s = new Segment(3,4,0,0);
-	        double longitud = s.longitud();
-	
-	        assertEquals(5,longitud,0.0001);
-	        //assertEquals(0,longitud,0.0001);
-	    }
-	    public static void main(String args[]) {
-	        org.junit.runner.JUnitCore.main("TestSegment");
-	    }
-	}
+""0	CHAR	0
+	 = Integer.parseInt(arr[0])
 "1	CHAR	0
-	Math.sqrt(2)
+	d
 "2	CHAR	0
-	/
+	Plantilla
 "3	CHAR	0
-	/
+	 
 "4	CHAR	0
-	Punt
-"5	CHAR	0
-	Punt
+	9999 ZZZ
+"5	LINE	0
+	        this.nom = nom;
 "6	CHAR	0
-	int
-"7	CHAR	0
-	int
+	Animal
+"7	LINE	0
+	        this.nom = nom;
 "8	CHAR	0
-	7
-"9	LINE	0
-	        assertEquals(9,p.getY());
+	Animal
+"9	CHAR	0
+	Animal
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -342,48 +333,22 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  11  41  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
-'1  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
-'2  6  178  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
-'3  7  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
-'4  374  4  ~/.vimrc
-'5  28  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/TestPunt.java
-'6  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/resposta.rst
-'7  3  49  ~/CLASE/daw2/M5/UF2/JUnit/ex2/Punt.java
-'8  17  26  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
-'9  1  0  ~/prueba/felizNoCumpleanos.java
+'0  18  8  ~/prueba/felizNoCumpleanos.java
+'1  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+'2  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+'3  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'4  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+'7  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
 
 # Llista de salts (de més a menys recent):
--'  11  41  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
--'  1  1  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
--'  8  10  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
--'  10  21  ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex6/Punt.java
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
--'  6  178  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
--'  7  0  ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
--'  374  4  ~/.vimrc
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
--'  3  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
--'  4  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
--'  28  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/TestPunt.java
--'  5  0  ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex3/resposta.rst
--'  3  49  ~/CLASE/daw2/M5/UF2/JUnit/ex2/Punt.java
--'  2  64  ~/CLASE/daw2/M5/UF2/JUnit/ex2/Punt.java
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex2/Punt.java
--'  17  26  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
--'  24  0  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
--'  23  0  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
--'  19  0  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
--'  9  0  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
--'  1  0  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
--'  2  0  ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
--'  1  0  ~/prueba/felizNoCumpleanos.java
--'  1  0  ~/prueba/__Tagbar__
--'  3  0  ~/prueba/__Tagbar__
--'  4  0  ~/prueba/__Tagbar__
+-'  18  8  ~/prueba/felizNoCumpleanos.java
+-'  3  0  ~/prueba/salida
+-'  4  10  ~/prueba/entrada
+-'  1  0  ~/prueba/entrada
 -'  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
 -'  13  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
 -'  2  9  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
@@ -452,8 +417,85 @@ $
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/UsaGat.java
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
 -'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatRenat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/GatEstat.java
+-'  1  0  ~/Documents/Gualda/M5Gualda/UML/tags
+-'  1  0  ~/Documents/Gualda/M5Gualda/UML/Gualda.uml
+-'  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  157  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  148  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  140  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  132  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  124  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  116  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  99  25  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  56  47  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  79  38  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  15  26  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  189  43  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  77  20  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  193  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  187  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  183  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+-'  175  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/prueba/entrada
+	"	4	10
+	^	4	11
+	.	4	10
+	+	4	10
+
+> ~/prueba/salida
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> ~/prueba/felizNoCumpleanos.java
+	"	18	8
+	^	18	70
+	.	18	0
+	+	6	51
+	+	5	29
+	+	17	0
+	+	11	12
+	+	12	12
+	+	14	0
+	+	13	8
+	+	8	39
+	+	9	0
+	+	10	40
+	+	11	14
+	+	12	14
+	+	14	14
+	+	15	14
+	+	16	14
+	+	11	38
+	+	12	38
+	+	14	38
+	+	15	38
+	+	16	38
+	+	18	0
+
+> ~/prueba/__Tagbar__
+	"	6	5
+	.	9	0
+	+	13	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
 
 > ~/CLASE/daw2/M5/UF2/JUnit/ex6/Punt.java
 	"	1	0
@@ -700,18 +742,6 @@ $
 	+	5	24
 	+	5	34
 	+	5	0
-
-> ~/prueba/felizNoCumpleanos.java
-	"	1	0
-
-> ~/prueba/__Tagbar__
-	"	1	0
-	.	4	0
-	+	14	0
-	+	10	0
-	+	10	0
-	+	4	0
-	+	4	0
 
 > ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Gat.java
 	"	4	18
@@ -1743,9 +1773,3 @@ $
 	.	4	0
 	+	3	4
 	+	4	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/Plantilla.java
-	"	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/problemasSerRico
-	"	1	0
