@@ -8,15 +8,21 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0/\<i\>
+~MSle0~/id="\(\w*\)"
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&:
+~MSle0&:
 
 # Última cadena substituïda:
 $\/
 
 # Historial d'ordres (de més a menys recent):
+:qa!
+:/id="\(\w*\)"/y
+:/id="\(\w*\)"/
+:/id="\(\w*\)" y
+:/id="\(\w*\)"
+:tabe test.html
 :wqa
 :w
 :%s/:/\//g
@@ -32,7 +38,6 @@ $\/
 :%s//public void
 :%s//public void 
 :tabe UsaAnimals.java
-:qa!
 :q
 :qa
 :%s//potParlar/g
@@ -212,6 +217,8 @@ $\/
 :tabe Punt.java
 
 # Historial de cadenes cercades (de més a menys recent):
+? id="\(\w*\)"
+? id="\(\w*\)" y
 ? :
 ? \<i\>
 ?/•
@@ -285,26 +292,36 @@ $\/
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	CHAR	0
-	 = Integer.parseInt(arr[0])
+"0	LINE	0
+	var myDiv;
+	function inicia(){
+	    var x=document.getElementById("nombre");
+	    x.onfocus=entra;
+	    x.onblur=sale;
+	    myDiv=document.getElementById("myDiv");
+	}
+	function entra(){
+	    myDiv.innerHTML=myDiv.innerHTML+"Entrado en "+this.id;
+	}
+	function sale(){}
 "1	CHAR	0
-	d
-"2	CHAR	0
-	Plantilla
-"3	CHAR	0
-	 
+	focus
+"2	LINE	0
+	
+"3	LINE	0
+	    <input type="TEXT" id="nombre"/> <br/>
 "4	CHAR	0
-	9999 ZZZ
-"5	LINE	0
-	        this.nom = nom;
+	nombre
+"5	CHAR	0
+	d
 "6	CHAR	0
-	Animal
-"7	LINE	0
-	        this.nom = nom;
+	Plantilla
+"7	CHAR	0
+	 
 "8	CHAR	0
-	Animal
-"9	CHAR	0
-	Animal
+	9999 ZZZ
+"9	LINE	0
+	        this.nom = nom;
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -333,18 +350,22 @@ $\/
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  18  8  ~/prueba/felizNoCumpleanos.java
-'1  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
-'2  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
-'3  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'4  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'5  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
-'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
-'7  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/herencia/ex4/tags
+'0  1  0  ~/test.html
+'1  18  8  ~/prueba/felizNoCumpleanos.java
+'2  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+'3  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+'4  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'5  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'6  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
+'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
+'8  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/test.html
+-'  14  9  ~/test.html
+-'  10  4  ~/test.html
+-'  1  0  ~/test.js
 -'  18  8  ~/prueba/felizNoCumpleanos.java
 -'  3  0  ~/prueba/salida
 -'  4  10  ~/prueba/entrada
@@ -440,6 +461,36 @@ $\/
 -'  175  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/test.js
+	"	1	0
+	^	10	54
+	.	10	0
+	+	1	23
+	+	8	0
+	+	5	19
+	+	6	16
+	+	7	42
+	+	12	16
+	+	2	9
+	+	10	0
+
+> ~/test.html
+	"	1	0
+	^	14	10
+	.	14	9
+	+	1	0
+	+	15	0
+	+	10	35
+	+	11	35
+	+	15	0
+	+	10	0
+	+	9	9
+	+	10	12
+	+	11	12
+	+	15	0
+	+	8	9
+	+	14	9
 
 > ~/prueba/entrada
 	"	4	10
@@ -1761,15 +1812,3 @@ $\/
 	"	1	0
 	.	11	0
 	+	11	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/entrada
-	"	4	0
-	.	5	0
-	+	4	8
-	+	5	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/problemasSerRico/salida
-	"	3	0
-	.	4	0
-	+	3	4
-	+	4	0
