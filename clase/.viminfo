@@ -17,6 +17,7 @@
 $\/
 
 # Historial d'ordres (de més a menys recent):
+:wqa
 :q
 :qa!
 :/id="\(\w*\)"/y
@@ -24,7 +25,6 @@ $\/
 :/id="\(\w*\)" y
 :/id="\(\w*\)"
 :tabe test.html
-:wqa
 :w
 :%s/:/\//g
 :%s/:/\/g
@@ -293,35 +293,25 @@ $\/
 
 # Registres:
 "0	LINE	0
-	var myDiv;
-	function inicia(){
-	    var x=document.getElementById("nombre");
-	    x.onfocus=entra;
-	    x.onblur=sale;
-	    myDiv=document.getElementById("myDiv");
-	}
-	function entra(){
-	    myDiv.innerHTML=myDiv.innerHTML+"Entrado en "+this.id;
-	}
-	function sale(){}
+	            //if (linia.equals(EXPECTED_END)) break;
 "1	CHAR	0
-	focus
-"2	LINE	0
-	
-"3	LINE	0
-	    <input type="TEXT" id="nombre"/> <br/>
+	)
+"2	CHAR	0
+	D
+"3	CHAR	0
+	N
 "4	CHAR	0
-	nombre
+	E
 "5	CHAR	0
-	d
+	_
 "6	CHAR	0
-	Plantilla
+	D
 "7	CHAR	0
-	 
+	E
 "8	CHAR	0
-	9999 ZZZ
-"9	LINE	0
-	        this.nom = nom;
+	T
+"9	CHAR	0
+	C
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -350,18 +340,21 @@ $\/
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
-'1  1  0  ~/test.html
-'2  18  8  ~/prueba/felizNoCumpleanos.java
-'3  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
-'4  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
-'5  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-'6  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
-'7  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
-'8  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/copiaUsaGat.java
-'9  27  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
+'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
+'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
+'3  1  0  ~/test.html
+'4  18  8  ~/prueba/felizNoCumpleanos.java
+'5  5  18  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
+'6  73  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
+'7  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+'8  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
+'9  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/Ull.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
+-'  27  26  ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
 -'  9  0  ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
@@ -457,10 +450,24 @@ $\/
 -'  15  26  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  189  43  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 -'  77  20  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  193  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
+	"	1	0
+	^	27	27
+	.	27	26
+	+	28	13
+	+	27	26
+
+> ~/programame/bitbucket/programame-2015/exercicis/encadenades/__Tagbar__
+	"	7	3
+	.	9	0
+	+	9	0
+	+	9	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
+	"	1	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
 	"	1	0
@@ -1756,18 +1763,3 @@ $\/
 	.	7	0
 	+	6	1
 	+	7	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/numerosReversibles/salida
-	"	5	0
-	.	6	0
-	+	5	2
-	+	6	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5.java
-	"	1	0
-	^	2	0
-	.	2	0
-	+	2	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
-	"	1	0
