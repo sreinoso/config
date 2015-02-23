@@ -19,8 +19,9 @@ $
 # Historial d'ordres (de més a menys recent):
 :wqa
 :w
-:q!
+:tabe Plantilla.java
 :q
+:q!
 :qa
 :tabe org/
 :wq
@@ -79,7 +80,6 @@ $
 :14,18s/,//
 :<c-j>
 :%s/int/g
-:tabe Plantilla.java
 :tabe entrada 
 :tabe entrada salida
 :split
@@ -220,12 +220,12 @@ $
 :tabe Punt.java
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vsout\%#
 ? \Vin\%#
 ? \Vpu\%#
 ? \Vmain\%#
 ? \Vcl\%#
 ? ;
-? \Vsout\%#
 ? id="\(\w*\)"
 ? id="\(\w*\)" y
 ? :
@@ -298,45 +298,29 @@ $
 
 # Registres:
 "0	LINE	0
-	    public String moute(){
-	        return "camina";
-	    }
-	    public String menja(){
-	        return "nyam nyam";
-	    }
-	    public String fesSoroll(){
-	        return "bof bof";
-	    }
-	    public String dorm(){
-	        return "ZZZzzzz";
-	    }
-	}
-""1	BLOCK	0
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
+	                        System.out.println("NO");
+""1	LINE	0
+	
 "2	LINE	0
-	Entrada ubicada a la categoria poo amb el tag: java
+	
 "3	LINE	0
-	Excepcions
+	
 "4	LINE	0
 	
-"5	CHAR	0
-	void 
-"6	CHAR	0
-	vola
+"5	LINE	0
+	
+"6	LINE	0
+	                    if(contador>32 || arr.equals(reves)){
+	                        System.out.println("NO");
+	                    }else{
+	                        System.out.println("SI");
+	                    }
 "7	CHAR	0
-	void 
+	i
 "8	CHAR	0
-	void 
+	v
 "9	CHAR	0
-	void 
+	i
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -365,18 +349,35 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
-'1  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
-'2  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
-'3  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
-'4  3  24  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
-'5  76  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/interfaces.rst
-'6  11  34  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
-'7  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
-'8  9  4  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
-'9  11  23  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Animal.java
+'0  40  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+'1  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
+'2  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
+'3  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
+'4  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
+'5  3  24  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
+'6  76  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/interfaces.rst
+'7  11  34  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
+'8  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
+'9  9  4  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
 
 # Llista de salts (de més a menys recent):
+-'  40  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  45  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  44  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  43  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  39  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  38  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  33  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  32  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  31  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  9  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  21  31  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  23  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  22  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  27  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  17  15  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/entrada
 -'  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
 -'  3  37  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
 -'  8  68  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
@@ -436,45 +437,100 @@ $
 -'  75  1  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
 -'  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
 -'  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
--'  46  4  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
--'  194  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  157  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  148  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  140  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  132  40  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  124  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  116  24  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  99  25  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  56  47  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  79  38  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  15  26  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  189  43  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  77  20  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  1  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  193  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  187  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  183  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  175  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  169  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  166  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  163  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  152  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  144  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  136  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  128  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  120  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  112  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  109  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  106  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  93  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  90  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  83  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  82  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  72  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  68  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
--'  60  0  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex3/UsaGat.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/sudokus/*
+	"	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/sudokus/sudokus.java
+	"	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/sudokus/entrada
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/sudokus/salida
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/sudokus/__Tagbar__
+	"	1	0
+	.	11	0
+	+	11	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+	"	40	12
+	^	15	33
+	.	40	0
+	+	41	0
+	+	40	0
+	+	39	0
+	+	39	37
+	+	39	0
+	+	39	32
+	+	39	29
+	+	13	14
+	+	15	0
+	+	16	0
+	+	39	0
+	+	39	0
+	+	17	27
+	+	13	0
+	+	39	0
+	+	17	42
+	+	14	50
+	+	39	0
+	+	17	28
+	+	39	37
+	+	33	0
+	+	22	19
+	+	39	0
+	+	22	0
+	+	39	0
+	+	23	0
+	+	24	49
+	+	27	0
+	+	25	41
+	+	31	0
+	+	40	12
+	+	34	0
+	+	20	28
+	+	32	24
+	+	33	0
+	+	33	0
+	+	33	0
+	+	32	0
+	+	26	47
+	+	29	46
+	+	18	31
+	+	30	38
+	+	33	0
+	+	33	24
+	+	33	0
+	+	33	45
+	+	33	0
+	+	33	0
+	+	33	0
+	+	33	33
+	+	33	54
+	+	33	0
+	+	33	0
+	+	33	45
+	+	15	32
+	+	23	0
+	+	26	39
+	+	29	34
+	+	33	0
+	+	34	0
+	+	21	31
+	+	21	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	40	0
 
 > ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
 	"	2	0
@@ -1587,28 +1643,4 @@ $
 	+	70	0
 
 > ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/ComandaText.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Garfield.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/GatEstat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
-	"	47	28
-	^	47	29
-	.	47	28
-	+	24	30
-	+	46	0
-	+	48	0
-	+	47	28
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/GatRenat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gos.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/IOUtils.java
 	"	1	0
