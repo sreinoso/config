@@ -17,6 +17,7 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:wq
 :wqa
 :w
 :tabe Plantilla.java
@@ -24,7 +25,6 @@ $
 :q!
 :qa
 :tabe org/
-:wq
 :wa
 :!mkdir org.estudi_poo.sergio.animals
 :.,10s/;/{\r\r}/
@@ -300,27 +300,44 @@ $
 "0	LINE	0
 	                        System.out.println("NO");
 ""1	LINE	0
+	RewriteEngine on
+	RewriteRule ^sally/ sally/acceso.php
+"2	BLOCK	34
+	/media/13194DCD211F8F37/backupClase
+"3	BLOCK	11
+	backupClase/
+	backupClase/
+	backupClase/
+	backupClase/
+	backupClase/
+	backupClase/
+"4	BLOCK	22
+	/media/13194DCD211F8F37
+	/media/13194DCD211F8F37
+	/media/13194DCD211F8F37
+	/media/13194DCD211F8F37
+	/media/13194DCD211F8F37
+	/media/13194DCD211F8F37
+"5	BLOCK	6
+	/CLASE/
+	/CLASE/
+	/CLASE/
+	/CLASE/
+	/CLASE/
+	/CLASE/
+"6	BLOCK	34
+	/media/13194DCD211F8F37/backupClase
+	/media/13194DCD211F8F37/backupClase
+	/media/13194DCD211F8F37/backupClase
+	/media/13194DCD211F8F37/backupClase
+	/media/13194DCD211F8F37/backupClase
+	/media/13194DCD211F8F37/backupClase
+"7	LINE	0
 	
-"2	LINE	0
+"8	LINE	0
 	
-"3	LINE	0
+"9	LINE	0
 	
-"4	LINE	0
-	
-"5	LINE	0
-	
-"6	LINE	0
-	                    if(contador>32 || arr.equals(reves)){
-	                        System.out.println("NO");
-	                    }else{
-	                        System.out.println("SI");
-	                    }
-"7	CHAR	0
-	i
-"8	CHAR	0
-	v
-"9	CHAR	0
-	i
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -349,18 +366,23 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  40  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
-'1  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
-'2  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
-'3  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
-'4  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
-'5  3  24  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
-'6  76  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/interfaces.rst
-'7  11  34  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
-'8  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
-'9  9  4  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
+'0  4  17  ~/.htaccess
+'1  126  26  ~/.bashrc
+'2  40  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+'3  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
+'4  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
+'5  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
+'6  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
+'7  3  24  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
+'8  76  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/interfaces.rst
+'9  11  34  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
 
 # Llista de salts (de més a menys recent):
+-'  4  17  ~/.htaccess
+-'  1  0  ~/.htaccess
+-'  126  26  ~/.bashrc
+-'  129  14  ~/.bashrc
+-'  1  0  ~/.bashrc
 -'  40  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
 -'  45  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
 -'  44  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
@@ -437,8 +459,46 @@ $
 -'  75  1  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
 -'  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
 -'  47  28  ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/Gat.java
+-'  40  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  45  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  44  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  43  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  39  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  38  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  33  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  32  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  31  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  9  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  21  31  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  23  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  22  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  27  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  17  15  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/entrada
+-'  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
+-'  3  37  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/.htaccess
+	"	4	17
+	^	4	18
+	.	4	17
+	+	1	33
+	+	4	17
+
+> ~/.bashrc
+	"	126	26
+	^	126	27
+	.	126	26
+	+	129	25
+	+	130	0
+	+	129	26
+	+	119	0
+	+	119	0
+	+	118	13
+	+	126	26
 
 > ~/programame/bitbucket/programame-2015/exercicis/sudokus/*
 	"	1	0
@@ -1635,12 +1695,3 @@ $
 	.	8	0
 	+	36	0
 	+	8	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/AnimalsOperatius.java
-	"	66	12
-	^	70	30
-	.	70	0
-	+	70	0
-
-> ~/CLASE/daw2/M3/UF4/ejercicios/polimorfisme/ex4/ComandaText.java
-	"	1	0
