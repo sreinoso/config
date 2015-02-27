@@ -356,18 +356,20 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
-'1  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
-'2  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
-'3  3  26  ~/.htaccess
-'4  1  17  ~/.htaccess
-'5  126  26  ~/.bashrc
-'6  39  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
-'7  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
-'8  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
-'9  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
+'0  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
+'1  1  0  ~/Baixades/Fira Mono for Powerline.ttf
+'2  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+'3  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
+'4  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+'5  3  26  ~/.htaccess
+'6  1  17  ~/.htaccess
+'7  126  26  ~/.bashrc
+'8  39  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+'9  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
+-'  1  0  ~/Baixades/Fira Mono for Powerline.ttf
 -'  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
@@ -448,8 +450,31 @@ $
 -'  28  28  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
 -'  3  26  ~/.htaccess
 -'  1  0  ~/.htaccess
+-'  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
+-'  35  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  41  39  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  46  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  45  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  44  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  43  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  42  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  34  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  23  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  20  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  19  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  16  30  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  39  20  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  38  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/Baixades/Fira Mono for Powerline (1).ttf
+	"	1	0
+
+> ~/Baixades/Fira Mono for Powerline.ttf
+	"	1	0
 
 > ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 	"	25	4
@@ -1650,109 +1675,3 @@ $
 	+	4	21
 	+	6	0
 	+	5	18
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Animal.java
-	"	3	0
-	^	2	16
-	.	2	15
-	+	117	24
-	+	117	16
-	+	18	15
-	+	26	0
-	+	25	2
-	+	27	0
-	+	32	3
-	+	13	0
-	+	12	0
-	+	1	28
-	+	3	0
-	+	3	0
-	+	3	0
-	+	11	0
-	+	3	0
-	+	1	0
-	+	3	39
-	+	7	36
-	+	8	35
-	+	9	35
-	+	10	39
-	+	11	34
-	+	12	0
-	+	3	0
-	+	12	0
-	+	3	44
-	+	6	0
-	+	3	22
-	+	5	22
-	+	7	20
-	+	8	20
-	+	4	11
-	+	2	15
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/__Tagbar__
-	"	14	0
-	.	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
