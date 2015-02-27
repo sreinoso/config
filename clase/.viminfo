@@ -17,12 +17,15 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:q!
+:'<,'>q
+:q
+:wq
 :wqa
 :w
 :2
 :tabe aaa.java
 :tabe MostraImports.java
-:q
 :tabe MostraImports
 :!cat % > MostraImports.java
 :tabe ../ex2/
@@ -30,9 +33,7 @@ $
 :qa
 :.!
 :tabe entrada
-:wq
 :tabe Plantilla.java
-:q!
 :tabe org/
 :wa
 :!mkdir org.estudi_poo.sergio.animals
@@ -311,21 +312,21 @@ $
 "0	LINE	0
 	            m = r.matcher(a);
 ""1	CHAR	0
-	 
+	"
 "2	CHAR	0
+	"
+"3	CHAR	0
 	 
-"3	LINE	0
-	                System.out.println("aaaaaaa");
 "4	CHAR	0
 	 
-"5	CHAR	0
-	,
+"5	LINE	0
+	                System.out.println("aaaaaaa");
 "6	CHAR	0
-	1
-"7	CHAR	0
 	 
+"7	CHAR	0
+	,
 "8	CHAR	0
-	+
+	1
 "9	CHAR	0
 	 
 "y	LINE	0
@@ -356,18 +357,20 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
-'1  1  0  ~/Baixades/Fira Mono for Powerline.ttf
-'2  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
-'3  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
-'4  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
-'5  3  26  ~/.htaccess
-'6  1  17  ~/.htaccess
-'7  126  26  ~/.bashrc
-'8  39  12  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
-'9  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
+'0  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+'1  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+'2  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
+'3  1  0  ~/Baixades/Fira Mono for Powerline.ttf
+'4  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+'5  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
+'6  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+'7  3  26  ~/.htaccess
+'8  1  17  ~/.htaccess
+'9  126  26  ~/.bashrc
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+-'  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline.ttf
 -'  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
@@ -464,11 +467,44 @@ $
 -'  23  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  20  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  19  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  16  30  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  39  20  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  38  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+	"	1	0
+
+> ~/.vimrc
+	"	411	0
+	^	411	1
+	.	411	0
+	+	369	28
+	+	380	0
+	+	382	0
+	+	381	27
+	+	380	16
+	+	381	0
+	+	86	11
+	+	436	0
+	+	437	0
+	+	437	110
+	+	437	0
+	+	402	0
+	+	404	0
+	+	404	15
+	+	404	0
+	+	404	0
+	+	403	0
+	+	69	0
+	+	438	0
+	+	438	0
+	+	70	7
+	+	71	15
+	+	374	4
+	+	435	0
+	+	424	0
+	+	426	0
+	+	413	0
+	+	411	0
 
 > ~/Baixades/Fira Mono for Powerline (1).ttf
 	"	1	0
@@ -1155,34 +1191,6 @@ $
 > ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Picarol.java
 	"	1	0
 
-> ~/.vimrc
-	"	438	0
-	^	374	5
-	.	374	4
-	+	369	28
-	+	380	0
-	+	382	0
-	+	381	27
-	+	380	16
-	+	381	0
-	+	86	11
-	+	436	0
-	+	437	0
-	+	437	110
-	+	437	0
-	+	402	0
-	+	404	0
-	+	404	15
-	+	404	0
-	+	404	0
-	+	403	0
-	+	69	0
-	+	438	0
-	+	438	0
-	+	70	7
-	+	71	15
-	+	374	4
-
 > ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
 	"	1	0
 	^	24	33
@@ -1661,17 +1669,5 @@ $
 	+	1	0
 	+	3	0
 	+	4	19
-	+	6	0
-	+	5	18
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Canari.java
-	"	5	18
-	^	5	19
-	.	5	18
-	+	14	0
-	+	13	0
-	+	1	0
-	+	3	0
-	+	4	21
 	+	6	0
 	+	5	18
