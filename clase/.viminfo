@@ -8,26 +8,41 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/snip
+~MSle0~/hola
 
 # Últim Substitute Patró de Cerca:
-~MSle0&;
+~MSle0&hola
 
 # Última cadena substituïda:
 $
 
 # Historial d'ordres (de més a menys recent):
 :q
+:qa!
+:b1
+:b2
+:b2!
+:bufdo! %s/hola/Raul es un capullo/g
+:ls
+:bn
+:bufdo! s/hola/adios/g
+:bufdo s/hola/adios/g
+:bufdo %s/hola/adios/g
+:qa
+:e ../ejerciciosSueltos/
+:w
+:.,53y
+:s/,/\r<\/th>\r<th>\r/g
+:s/,/\r<\/th>\r<th>/g
+:s/,/\r<\/th><th>/g
 :wqa
 :set nu
 :e ~/.vim/
-:qa
 :syntax on
 :sav ex1.bak
 :%!xxd -r
 :%!xxd
 :q!
-:ls
 :argdo ls
 :args
 :map
@@ -38,7 +53,6 @@ $
 :bNext
 :'<,'>q
 :wq
-:w
 :2
 :tabe aaa.java
 :tabe MostraImports.java
@@ -53,7 +67,6 @@ $
 :wa
 :!mkdir org.estudi_poo.sergio.animals
 :.,10s/;/{\r\r}/
-:qa!
 :tabe salida
 :/id="\(\w*\)"/y
 :/id="\(\w*\)"/
@@ -242,6 +255,9 @@ $
 :tabe Punt.java
 
 # Historial de cadenes cercades (de més a menys recent):
+? hola
+? ,
+? \V**template**\%#
 ?/snip
 ? \Vsout\%#
 ?/\<h\>
@@ -282,7 +298,6 @@ $
 ? <
 ? \> \<
 ?  
-? ,
 ? \<String\>
 ?/ \+$
 ?/ +$
@@ -324,25 +339,26 @@ $
 
 # Registres:
 ""0	LINE	0
-			<head>
-"1	CHAR	0
-	"
-"2	CHAR	0
-	"
-"3	CHAR	0
-	 
-"4	CHAR	0
-	 
+	                <td>
+	                </td>
+"1	LINE	0
+	                </th>
+"2	LINE	0
+	                </th>
+"3	LINE	0
+	                <th>
+"4	LINE	0
+	                </th>
 "5	LINE	0
-	                System.out.println("aaaaaaa");
-"6	CHAR	0
-	 
-"7	CHAR	0
-	,
-"8	CHAR	0
-	1
-"9	CHAR	0
-	 
+	                <th>
+"6	LINE	0
+	                </th>
+"7	LINE	0
+	                <th>
+"8	LINE	0
+	                </th>
+"9	LINE	0
+	                <th>
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -371,26 +387,41 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  15  35  ~/plantillas/html.html
-'1  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
-'2  1  1  ~/ex1.bak
-'3  16  0  ~/ex1.bak
-'4  1  0  ~/a.out
-'5  2980750  0  ~/a.out
-'6  4  0  ~/examples.desktop
-'7  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
-'8  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
-'9  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
+'0  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
+'1  1  0  ~/CLASE/M9/UF2/practica4/a
+'2  1  0  ~/CLASE/M9/UF2/practica4/c
+'3  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
+'4  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
+'5  1  1  ~/ex1.bak
+'6  16  0  ~/ex1.bak
+'7  1  0  ~/a.out
+'8  2980750  0  ~/a.out
+'9  4  0  ~/examples.desktop
 
 # Llista de salts (de més a menys recent):
--'  15  35  ~/plantillas/html.html
--'  1  0  ~/plantillas/html.html
+-'  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
+-'  5  8  ~/CLASE/M9/UF2/practica4/NERD_tree_1
+-'  33  2  ~/CLASE/M9/UF2/practica4/NERD_tree_1
+-'  1  0  ~/CLASE/M9/UF2/practica4/NERD_tree_1
+-'  1  0  ~/CLASE/M9/UF2/practica4/a
+-'  1  0  ~/CLASE/M9/UF2/practica4/b
+-'  1  0  ~/CLASE/M9/UF2/practica4/c
+-'  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
+-'  7  0  ~/CLASE/M9/UF2/NERD_tree_1
+-'  11  2  ~/CLASE/M9/UF2/NERD_tree_1
+-'  1  0  ~/CLASE/M9/UF2/NERD_tree_1
+-'  15  89  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  37  20  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  39  16  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  38  0  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  14  0  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  145  18  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  1  12  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
 -'  167  0  ~/.vim/bundle/snipMate/snippets/html.snippets
 -'  45  4  ~/NERD_tree_1
 -'  76  0  ~/NERD_tree_1
 -'  1  4  ~/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  1  1  ~/ex1.bak
 -'  16  0  ~/ex1.bak
 -'  1  0  ~/a.out
@@ -458,38 +489,115 @@ $
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/entrada
 -'  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
 -'  3  37  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
--'  8  68  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
--'  12  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
--'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
--'  4  0  ~/examples.desktop
--'  1  0  ~/NERD_tree_2
--'  1  856  ~/ex3
--'  1  0  ~/ex4
--'  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
--'  167  0  ~/.vim/bundle/snipMate/snippets/html.snippets
--'  45  4  ~/NERD_tree_1
--'  76  0  ~/NERD_tree_1
--'  1  4  ~/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
--'  1  1  ~/ex1.bak
--'  16  0  ~/ex1.bak
--'  1  0  ~/a.out
--'  2980750  0  ~/a.out
--'  40  0  ~/a.out
--'  4  0  ~/examples.desktop
--'  1  0  ~/NERD_tree_2
--'  1  856  ~/ex3
+-'  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
+-'  7  0  ~/CLASE/M9/UF2/NERD_tree_1
+-'  11  2  ~/CLASE/M9/UF2/NERD_tree_1
+-'  1  0  ~/CLASE/M9/UF2/NERD_tree_1
+-'  15  89  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  1  0  ~/CLASE/M9/UF2/practica4/a
+-'  1  0  ~/CLASE/M9/UF2/practica4/b
 
 # Historial de marques en fitxers (de més a menys recent):
 
-> ~/plantillas/html.html
-	"	15	35
+> ~/CLASE/M9/UF2/practica4/NERD_tree_1
+	"	5	8
+	.	1	0
+	+	1	0
+
+> ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
+	"	18	8
+
+> ~/CLASE/M9/UF2/practica4/a
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/M9/UF2/practica4/b
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/M9/UF2/practica4/c
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/CLASE/M9/UF2/practica4/practica4.html
+	"	15	89
+	^	55	20
+	.	15	29
+	+	2	0
+	+	9	47
+	+	145	16
+	+	146	0
+	+	144	12
+	+	145	0
+	+	81	31
+	+	59	18
+	+	80	26
+	+	101	0
+	+	59	0
+	+	102	0
+	+	11	0
+	+	38	0
+	+	38	20
+	+	15	0
+	+	15	0
+	+	15	0
+	+	37	0
+	+	14	0
+	+	38	0
+	+	38	0
+	+	15	30
+	+	18	30
+	+	21	30
+	+	24	30
+	+	27	30
+	+	30	30
+	+	33	30
+	+	36	30
+	+	15	39
+	+	18	42
+	+	21	40
+	+	24	39
+	+	27	39
+	+	30	38
+	+	33	37
+	+	36	37
+	+	38	0
+	+	39	0
+	+	39	48
+	+	39	0
+	+	56	0
+	+	42	0
+	+	61	0
+	+	124	0
+	+	103	0
+	+	82	0
+	+	41	33
+	+	62	27
+	+	83	34
+	+	86	0
+	+	104	35
+	+	125	30
+	+	14	0
+	+	57	0
+	+	78	0
+	+	99	0
+	+	120	0
+	+	141	0
+	+	15	29
+
+> ~/CLASE/M9/UF2/NERD_tree_1
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
 	"	1	0
+
+> ~/plantillas/html.html
+	"	15	35
 
 > ~/NERD_tree_1
 	"	45	4
@@ -1511,109 +1619,3 @@ $
 	+	15	38
 	+	16	38
 	+	18	0
-
-> ~/prueba/__Tagbar__
-	"	6	5
-	.	9	0
-	+	13	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex6/Punt.java
-	"	1	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestPunt.java
-	"	17	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex6/__Tagbar__
-	"	6	0
-	.	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-	+	7	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex6/TestSegment.java
-	"	11	41
-	^	10	22
-	.	10	21
-	+	1	0
-	+	10	0
-	+	9	0
-	+	8	35
-	+	10	30
-	+	12	0
-	+	10	21
-	+	8	0
-	+	10	48
-	+	8	13
-	+	4	23
-	+	7	36
-	+	11	0
-	+	10	9
-	+	11	21
-	+	14	51
-	+	7	38
-	+	10	8
-	+	11	9
-	+	7	38
-	+	10	21
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex6/Segment.java
-	"	7	16
-	^	7	17
-	.	7	16
-	+	13	0
-	+	12	0
-	+	6	0
-	+	2	11
-	+	4	7
-	+	3	33
-	+	4	30
-	+	5	28
-	+	6	5
-	+	7	25
-	+	9	4
-	+	8	77
-	+	3	46
-	+	7	16
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex5/resposta.rst
-	"	1	0
-	^	7	0
-	.	7	0
-	+	6	132
-	+	7	0

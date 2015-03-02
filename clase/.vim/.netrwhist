@@ -1,3 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =2
 let g:netrw_dirhist_1='/media/13194DCD211F8F37/backupClase/CLASE/M7/UF3/bbdd'
+let g:netrw_dirhist_2='/home/sergio.reinoso/.vim/bundle/TTCoach/macros/ttcoach/en'
