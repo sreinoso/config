@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/\<h\>
+~MSle0~/snip
 
 # Últim Substitute Patró de Cerca:
 ~MSle0&;
@@ -17,21 +17,27 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:q
+:wqa
+:set nu
+:e ~/.vim/
 :qa
+:syntax on
+:sav ex1.bak
+:%!xxd -r
+:%!xxd
+:q!
 :ls
 :argdo ls
 :args
-:q
 :map
 :map <C-Tab> :bNext<CR>
 :map <C-tab> :bNext<CR>
 :map <C><tab> :bNext<CR>
 :map <leader><tab> :bNext<CR>
 :bNext
-:q!
 :'<,'>q
 :wq
-:wqa
 :w
 :2
 :tabe aaa.java
@@ -236,6 +242,7 @@ $
 :tabe Punt.java
 
 # Historial de cadenes cercades (de més a menys recent):
+?/snip
 ? \Vsout\%#
 ?/\<h\>
 ?/h
@@ -316,9 +323,9 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	            m = r.matcher(a);
-""1	CHAR	0
+""0	LINE	0
+			<head>
+"1	CHAR	0
 	"
 "2	CHAR	0
 	"
@@ -364,18 +371,31 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  4  0  ~/examples.desktop
-'1  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
-'2  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
-'3  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
-'4  1  0  ~/Baixades/Fira Mono for Powerline.ttf
-'5  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
-'6  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
-'7  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
-'8  3  26  ~/.htaccess
-'9  1  17  ~/.htaccess
+'0  15  35  ~/plantillas/html.html
+'1  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
+'2  1  1  ~/ex1.bak
+'3  16  0  ~/ex1.bak
+'4  1  0  ~/a.out
+'5  2980750  0  ~/a.out
+'6  4  0  ~/examples.desktop
+'7  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+'8  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+'9  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
 
 # Llista de salts (de més a menys recent):
+-'  15  35  ~/plantillas/html.html
+-'  1  0  ~/plantillas/html.html
+-'  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
+-'  167  0  ~/.vim/bundle/snipMate/snippets/html.snippets
+-'  45  4  ~/NERD_tree_1
+-'  76  0  ~/NERD_tree_1
+-'  1  4  ~/NERD_tree_1
+-'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  1  1  ~/ex1.bak
+-'  16  0  ~/ex1.bak
+-'  1  0  ~/a.out
+-'  2980750  0  ~/a.out
+-'  40  0  ~/a.out
 -'  4  0  ~/examples.desktop
 -'  1  0  ~/NERD_tree_2
 -'  1  856  ~/ex3
@@ -384,10 +404,8 @@ $
 -'  1  0  ~/ex6
 -'  1  0  ~/ex8
 -'  1  0  ~/ex8.c
--'  1  0  ~/ex1.js
 -'  1  0  ~/ex2.js
--'  1  0  ~/NERD_tree_1
--'  13  0  ~/NERD_tree_1
+-'  82  0  ~/NERD_tree_1
 -'  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
@@ -446,11 +464,91 @@ $
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
+-'  4  0  ~/examples.desktop
+-'  1  0  ~/NERD_tree_2
+-'  1  856  ~/ex3
+-'  1  0  ~/ex4
+-'  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
+-'  167  0  ~/.vim/bundle/snipMate/snippets/html.snippets
+-'  45  4  ~/NERD_tree_1
+-'  76  0  ~/NERD_tree_1
+-'  1  4  ~/NERD_tree_1
+-'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  1  1  ~/ex1.bak
+-'  16  0  ~/ex1.bak
+-'  1  0  ~/a.out
+-'  2980750  0  ~/a.out
+-'  40  0  ~/a.out
+-'  4  0  ~/examples.desktop
+-'  1  0  ~/NERD_tree_2
+-'  1  856  ~/ex3
 
 # Historial de marques en fitxers (de més a menys recent):
 
-> ~/ex1.js
+> ~/plantillas/html.html
+	"	15	35
+
+> ~/CLASE/M9/UF2/practica4/practica4.html
 	"	1	0
+
+> ~/NERD_tree_1
+	"	45	4
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/.vim/bundle/snipMate/snippets/html.snippets
+	"	205	2
+	^	205	3
+	.	206	0
+	+	201	20
+	+	210	7
+	+	204	7
+	+	207	3
+	+	209	3
+	+	206	3
+	+	206	0
+
+> ~/ex1.bak
+	"	1	1
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/ex1.js
+	"	1	1
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/a.out
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
 
 > ~/ex2.js
 	"	1	0
@@ -475,11 +573,6 @@ $
 
 > ~/examples.desktop
 	"	4	0
-
-> ~/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
 
 > ~/[[buffergator-tabs]]
 	"	2	1
@@ -1524,32 +1617,3 @@ $
 	.	7	0
 	+	6	132
 	+	7	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex4/resposta.rst
-	"	6	178
-	^	6	179
-	.	6	178
-	+	2	117
-	+	6	178
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex5/__Tagbar__
-	"	1	0
-
-> ~/__Tagbar__
-	"	49	0
-	.	62	0
-	+	62	0
-	+	62	0
-	+	62	0
-	+	62	0
-	+	62	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex4/__Tagbar__
-	"	1	0
-	.	4	0
-	+	5	0
-	+	4	0
-	+	4	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex3/Punt.java
-	"	1	0
