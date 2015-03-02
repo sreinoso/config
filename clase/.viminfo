@@ -17,9 +17,19 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:qa
+:ls
+:argdo ls
+:args
+:q
+:map
+:map <C-Tab> :bNext<CR>
+:map <C-tab> :bNext<CR>
+:map <C><tab> :bNext<CR>
+:map <leader><tab> :bNext<CR>
+:bNext
 :q!
 :'<,'>q
-:q
 :wq
 :wqa
 :w
@@ -30,7 +40,6 @@ $
 :!cat % > MostraImports.java
 :tabe ../ex2/
 :tabe ../ex1/Hora.java
-:qa
 :.!
 :tabe entrada
 :tabe Plantilla.java
@@ -150,7 +159,6 @@ $
 :tab sall
 :args *.java
 :sall
-:args
 :e ex4/*
 :help tabp
 :help tabr
@@ -160,7 +168,6 @@ $
 :tabe ex4/Garfield.java
 :tabe ex4/Garfield.jav
 :reg
-:map
 :colorscheme calmar256-dark
 :.,16y
 :.,12y
@@ -357,18 +364,30 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
-'1  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
-'2  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
-'3  1  0  ~/Baixades/Fira Mono for Powerline.ttf
-'4  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
-'5  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
-'6  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
-'7  3  26  ~/.htaccess
-'8  1  17  ~/.htaccess
-'9  126  26  ~/.bashrc
+'0  4  0  ~/examples.desktop
+'1  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+'2  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
+'3  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
+'4  1  0  ~/Baixades/Fira Mono for Powerline.ttf
+'5  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+'6  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
+'7  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+'8  3  26  ~/.htaccess
+'9  1  17  ~/.htaccess
 
 # Llista de salts (de més a menys recent):
+-'  4  0  ~/examples.desktop
+-'  1  0  ~/NERD_tree_2
+-'  1  856  ~/ex3
+-'  1  0  ~/ex4
+-'  1  0  ~/ex5
+-'  1  0  ~/ex6
+-'  1  0  ~/ex8
+-'  1  0  ~/ex8.c
+-'  1  0  ~/ex1.js
+-'  1  0  ~/ex2.js
+-'  1  0  ~/NERD_tree_1
+-'  13  0  ~/NERD_tree_1
 -'  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
@@ -427,48 +446,50 @@ $
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
 -'  1  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
--'  3  24  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
--'  4  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
--'  1  9  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
--'  76  0  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/interfaces.rst
--'  1  13  ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/interfaces.rst
--'  11  34  ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
--'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
--'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/CatMeu.java
--'  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  32  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  25  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  26  28  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  24  32  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  23  42  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  38  20  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  40  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  39  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  37  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  31  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  30  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  9  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  12  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  28  28  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  3  26  ~/.htaccess
--'  1  0  ~/.htaccess
--'  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
--'  35  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  41  39  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  46  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  45  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  44  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  43  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  42  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  34  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  23  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  20  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  19  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/ex1.js
+	"	1	0
+
+> ~/ex2.js
+	"	1	0
+
+> ~/ex3
+	"	1	0
+
+> ~/ex4
+	"	1	0
+
+> ~/ex5
+	"	1	0
+
+> ~/ex6
+	"	1	0
+
+> ~/ex8
+	"	1	0
+
+> ~/ex8.c
+	"	1	0
+
+> ~/examples.desktop
+	"	4	0
+
+> ~/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/[[buffergator-tabs]]
+	"	2	1
+	.	3	0
+	+	3	0
+
+> ~/NERD_tree_2
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 	"	1	0
@@ -1532,142 +1553,3 @@ $
 
 > ~/CLASE/daw2/M5/UF2/JUnit/ex3/Punt.java
 	"	1	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex3/TestPunt.java
-	"	28	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex3/__Tagbar__
-	"	12	3
-	.	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex3/resposta.rst
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex2/Punt.java
-	"	3	49
-	^	9	48
-	.	3	49
-	+	2	0
-	+	3	52
-	+	4	32
-	+	9	47
-	+	3	49
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex2/TestPunt.java
-	"	34	21
-	^	33	33
-	.	34	21
-	+	20	0
-	+	21	0
-	+	20	0
-	+	35	0
-	+	29	31
-	+	33	32
-	+	34	21
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex2/__Tagbar__
-	"	9	3
-	.	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-	+	10	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex1/TestPunt.java
-	"	17	26
-	^	16	17
-	.	17	26
-	+	1	11
-	+	1	0
-	+	1	0
-	+	2	0
-	+	17	26
-	+	15	18
-	+	16	13
-	+	17	21
-	+	15	17
-	+	16	17
-	+	17	26
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex1/__Tagbar__
-	"	7	0
-	.	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-
-> ~/CLASE/daw2/M5/UF2/JUnit/ex1/Punt.java
-	"	4	14
-	^	4	15
-	.	5	0
-	+	1	0
-	+	2	0
-	+	4	24
-	+	5	24
-	+	5	34
-	+	5	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Gat.java
-	"	4	18
-	^	4	19
-	.	4	18
-	+	191	29
-	+	193	0
-	+	14	0
-	+	13	0
-	+	1	0
-	+	3	18
-	+	5	0
-	+	4	18
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Gos.java
-	"	3	19
-	^	3	19
-	.	3	18
-	+	15	0
-	+	14	0
-	+	1	0
-	+	2	0
-	+	4	0
-	+	5	0
-	+	3	18
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex2/Lleo.java
-	"	5	18
-	^	5	19
-	.	5	18
-	+	14	0
-	+	2	33
-	+	13	0
-	+	1	0
-	+	3	0
-	+	4	19
-	+	6	0
-	+	5	18
