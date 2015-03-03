@@ -8,16 +8,28 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/hola
+~Msle0/\<tam\>
 
 # Últim Substitute Patró de Cerca:
-~MSle0&hola
+~Msle0~&\<tam\>
 
 # Última cadena substituïda:
 $
 
 # Historial d'ordres (de més a menys recent):
+:qa
+:w
+:wq
+:tabe entrada
+:%s//Npilas/g
 :q
+:.,30y
+:.,65y
+:sav MyQuickSort.java
+:tabe Quicksort.java
+:vs carreras.pseudo
+:tabe Plantilla.java
+:! cp ../../plantilles/Plantilla.java .
 :qa!
 :b1
 :b2
@@ -28,9 +40,7 @@ $
 :bufdo! s/hola/adios/g
 :bufdo s/hola/adios/g
 :bufdo %s/hola/adios/g
-:qa
 :e ../ejerciciosSueltos/
-:w
 :.,53y
 :s/,/\r<\/th>\r<th>\r/g
 :s/,/\r<\/th>\r<th>/g
@@ -52,7 +62,6 @@ $
 :map <leader><tab> :bNext<CR>
 :bNext
 :'<,'>q
-:wq
 :2
 :tabe aaa.java
 :tabe MostraImports.java
@@ -61,8 +70,6 @@ $
 :tabe ../ex2/
 :tabe ../ex1/Hora.java
 :.!
-:tabe entrada
-:tabe Plantilla.java
 :tabe org/
 :wa
 :!mkdir org.estudi_poo.sergio.animals
@@ -257,11 +264,12 @@ $
 :tabe
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vsout\%#
+? \<tam\>
 ? hola
 ? ,
 ? \V**template**\%#
 ?/snip
-? \Vsout\%#
 ?/\<h\>
 ?/h
 ?/-
@@ -343,27 +351,41 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	LINE	0
-	                <td>
-	                </td>
-"1	LINE	0
-	                </th>
-"2	LINE	0
-	                </th>
-"3	LINE	0
-	                <th>
-"4	LINE	0
-	                </th>
-"5	LINE	0
-	                <th>
-"6	LINE	0
-	                </th>
-"7	LINE	0
-	                <th>
-"8	LINE	0
-	                </th>
-"9	LINE	0
-	                <th>
+"0	LINE	0
+	while(haysuma){
+	for(int i=0;i<pilas.length;i++){
+		if(pilas[i]*2 < voltaje){
+			haysuma = false;
+			break;
+		}
+		else{
+			for(int x=pilas.length;x>i;x--){
+				if(pilas[i]+pilas[x] >= voltaje){
+					numpilas++;
+					//remove
+					break;
+				}
+			}
+		}
+	}
+""1	CHAR	0
+	...
+"2	CHAR	0
+	//
+"3	CHAR	0
+	...
+"4	CHAR	0
+	...
+"5	CHAR	0
+	 
+"6	CHAR	0
+	 
+"7	CHAR	0
+	1
+"8	CHAR	0
+	-
+"9	CHAR	0
+	num
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -392,18 +414,43 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
-'1  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
-'2  1  0  ~/CLASE/M9/UF2/practica4/a
-'3  1  0  ~/CLASE/M9/UF2/practica4/c
-'4  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
-'5  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
-'6  1  1  ~/ex1.bak
-'7  16  0  ~/ex1.bak
-'8  1  0  ~/a.out
-'9  2980750  0  ~/a.out
+'0  42  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+'1  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
+'2  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
+'3  1  0  ~/CLASE/M9/UF2/practica4/a
+'4  1  0  ~/CLASE/M9/UF2/practica4/c
+'5  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
+'6  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
+'7  1  1  ~/ex1.bak
+'8  16  0  ~/ex1.bak
+'9  1  0  ~/a.out
 
 # Llista de salts (de més a menys recent):
+-'  42  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  56  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  1  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  66  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  57  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  58  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  59  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  60  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  61  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  62  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  63  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  64  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  65  4  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  55  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  20  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  15  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  11  52  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  49  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  2  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  3  2  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  63  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  62  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  61  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  7  4  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
 -'  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
@@ -458,52 +505,128 @@ $
 -'  43  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  42  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  34  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  23  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  20  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  19  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  16  30  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  39  20  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  38  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  36  32  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  27  8  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/CatMeu.java
--'  33  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  32  16  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  25  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  26  28  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  24  32  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  23  42  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  38  20  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  40  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  39  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  37  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  31  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  30  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  9  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  12  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  28  28  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  3  26  ~/.htaccess
--'  1  0  ~/.htaccess
--'  126  26  ~/.bashrc
--'  129  14  ~/.bashrc
--'  1  0  ~/.bashrc
--'  20  31  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  22  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  21  34  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  16  15  ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/sudokus/entrada
--'  2  0  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
--'  3  37  ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
--'  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
--'  7  0  ~/CLASE/M9/UF2/NERD_tree_1
--'  11  2  ~/CLASE/M9/UF2/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/practica4/a
--'  1  0  ~/CLASE/M9/UF2/practica4/b
--'  367  130  ~/CLASE/M8/UF2/SSL/ssl.rst
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
+	"	3	0
+	.	3	0
+	+	3	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+	"	26	8
+	^	26	9
+	.	26	9
+	+	52	19
+	+	54	47
+	+	55	8
+	+	52	25
+	+	60	21
+	+	52	21
+	+	53	16
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	49	0
+	+	60	18
+	+	57	24
+	+	58	24
+	+	59	39
+	+	7	58
+	+	59	0
+	+	49	0
+	+	8	43
+	+	9	46
+	+	10	45
+	+	11	21
+	+	12	8
+	+	11	0
+	+	54	40
+	+	12	0
+	+	47	0
+	+	20	0
+	+	17	11
+	+	12	22
+	+	9	12
+	+	12	30
+	+	12	30
+	+	12	9
+	+	11	8
+	+	12	29
+	+	12	32
+	+	15	32
+	+	17	49
+	+	22	0
+	+	21	0
+	+	23	26
+	+	47	0
+	+	21	0
+	+	28	0
+	+	27	30
+	+	40	0
+	+	39	40
+	+	37	54
+	+	36	38
+	+	43	20
+	+	21	0
+	+	47	0
+	+	47	39
+	+	49	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	46	0
+	+	38	0
+	+	12	0
+	+	38	36
+	+	46	35
+	+	13	11
+	+	15	18
+	+	14	0
+	+	17	0
+	+	19	0
+	+	17	38
+	+	15	23
+	+	15	23
+	+	17	0
+	+	16	36
+	+	18	36
+	+	11	30
+	+	17	0
+	+	19	12
+	+	39	0
+	+	27	0
+	+	25	37
+	+	26	9
+
+> ~/programame/bitbucket/programame-2015/exercicis/Carreras/__Tagbar__
+	"	8	3
+	.	11	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	11	0
+	+	11	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+	"	42	8
+	^	56	2
+	.	57	0
+	+	1	0
+	+	67	0
+	+	66	0
+	+	67	0
+	+	57	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/Carreras/entrada
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/CLASE/M9/UF2/practica4/practica4.html
 	"	18	0
@@ -1659,48 +1782,3 @@ $
 	.	9	0
 	+	9	0
 	+	9	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/saltoTrampolin.java
-	"	1	0
-
-> ~/test.js
-	"	1	0
-	^	10	54
-	.	10	0
-	+	1	23
-	+	8	0
-	+	5	19
-	+	6	16
-	+	7	42
-	+	12	16
-	+	2	9
-	+	10	0
-
-> ~/test.html
-	"	1	0
-	^	14	10
-	.	14	9
-	+	1	0
-	+	15	0
-	+	10	35
-	+	11	35
-	+	15	0
-	+	10	0
-	+	9	9
-	+	10	12
-	+	11	12
-	+	15	0
-	+	8	9
-	+	14	9
-
-> ~/prueba/entrada
-	"	4	10
-	^	4	11
-	.	4	10
-	+	4	10
-
-> ~/prueba/salida
-	"	3	0
-	^	3	1
-	.	3	0
-	+	3	0
