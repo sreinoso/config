@@ -17,12 +17,15 @@
 $
 
 # Historial d'ordres (de més a menys recent):
-:qa
+:q
 :w
+:qa
+:sav AgafadorException.java 
+:wqa
+:tabe Agafador.java
 :wq
 :tabe entrada
 :%s//Npilas/g
-:q
 :.,30y
 :.,65y
 :sav MyQuickSort.java
@@ -45,7 +48,6 @@ $
 :s/,/\r<\/th>\r<th>\r/g
 :s/,/\r<\/th>\r<th>/g
 :s/,/\r<\/th><th>/g
-:wqa
 :set nu
 :e ~/.vim/
 :syntax on
@@ -262,8 +264,11 @@ $
 :tabe Punt.java
 :.,362y
 :tabe
+:1
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vcl\%#
+? \Vpu\%#
 ? \Vsout\%#
 ? \<tam\>
 ? hola
@@ -275,9 +280,7 @@ $
 ?/-
 ?//
 ? \Vin\%#
-? \Vpu\%#
 ? \Vmain\%#
-? \Vcl\%#
 ? ;
 ? id="\(\w*\)"
 ? id="\(\w*\)" y
@@ -352,40 +355,25 @@ $
 
 # Registres:
 "0	LINE	0
-	while(haysuma){
-	for(int i=0;i<pilas.length;i++){
-		if(pilas[i]*2 < voltaje){
-			haysuma = false;
-			break;
-		}
-		else{
-			for(int x=pilas.length;x>i;x--){
-				if(pilas[i]+pilas[x] >= voltaje){
-					numpilas++;
-					//remove
-					break;
-				}
-			}
-		}
-	}
+	package org.iesjoandaustria.m03uf5.agafador;
 ""1	CHAR	0
-	...
-"2	CHAR	0
-	//
-"3	CHAR	0
-	...
-"4	CHAR	0
-	...
-"5	CHAR	0
-	 
-"6	CHAR	0
-	 
+	Buida
+"2	LINE	0
+	
+"3	LINE	0
+	
+"4	LINE	0
+	
+"5	LINE	0
+	}
+"6	LINE	0
+	public class AgafadorMaBuidaException{
 "7	CHAR	0
-	1
+	 extends AgafadorException 
 "8	CHAR	0
-	-
+	:
 "9	CHAR	0
-	num
+	a
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -414,18 +402,29 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  42  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
-'1  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
-'2  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
-'3  1  0  ~/CLASE/M9/UF2/practica4/a
-'4  1  0  ~/CLASE/M9/UF2/practica4/c
-'5  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
-'6  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
-'7  1  1  ~/ex1.bak
-'8  16  0  ~/ex1.bak
-'9  1  0  ~/a.out
+'0  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
+'1  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'2  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
+'3  2  0  ~/CLASE/M3/UF5/examenes/practica/Agafador.java
+'4  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Data.java
+'5  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataHora.java
+'6  42  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+'7  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
+'8  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
+'9  1  0  ~/CLASE/M9/UF2/practica4/a
 
 # Llista de salts (de més a menys recent):
+-'  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
+-'  5  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/__Tagbar__
+-'  8  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/__Tagbar__
+-'  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+-'  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
+-'  2  0  ~/CLASE/M3/UF5/examenes/practica/Agafador.java
+-'  4  0  ~/CLASE/M3/UF5/examenes/practica/Agafador.java
+-'  1  9  ~/CLASE/M3/UF5/examenes/practica/Agafador.java
+-'  1  0  ~/CLASE/M3/UF5/examenes/practica/AgafadorMaBuidaException.java
+-'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Data.java
+-'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataHora.java
 -'  42  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 -'  56  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 -'  1  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
@@ -505,8 +504,151 @@ $
 -'  43  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  42  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 -'  34  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
+-'  42  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
+	"	2	0
+	^	3	35
+	.	3	35
+	+	5	0
+	+	4	0
+	+	1	0
+	+	3	37
+	+	2	37
+	+	3	0
+	+	4	0
+	+	3	35
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/__Tagbar__
+	"	5	0
+	.	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	8	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
+	"	2	0
+	^	3	26
+	.	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	6	0
+	+	3	16
+	+	4	21
+	+	2	29
+	+	3	25
+	+	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/Agafador.java
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaBuidaException.java
+	"	13	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/UsaAgafadorAbstract.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/Agafador
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/AgafadorMaBuidaException.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorAbstract.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
+	"	3	2
+	.	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+
+> ~/CLASE/M3/UF5/examenes/practica/Agafador.java
+	"	2	0
+	^	2	0
+	.	1	38
+	+	5	0
+	+	4	0
+	+	1	38
+
+> ~/CLASE/M3/UF5/examenes/practica/plantillaAgafador
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/plantillaUsaAgafadorMots
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorNums.class
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorNums.class.bak
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataHora.java
+	"	19	8
+	.	19	8
+	+	15	50
+	+	15	0
+	+	15	0
+	+	21	0
+	+	15	0
+	+	20	12
+	+	20	39
+	+	20	0
+	+	20	9
+	+	20	0
+	+	20	0
+	+	20	0
+	+	19	0
+	+	15	0
+	+	20	0
+	+	19	8
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Data.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataNoValidaException.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Hora.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/HoraNoValidaException.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/__Tagbar__
+	"	3	0
+	.	6	0
+	+	7	0
+	+	7	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
 	"	3	0
@@ -1446,339 +1588,3 @@ $
 	+	16	22
 	+	3	11
 	+	7	21
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/UsaAnimals.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/__Tagbar__
-	"	15	0
-	.	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-	+	16	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Animal.java
-	"	7	9
-	^	7	10
-	.	7	9
-	+	9	0
-	+	7	9
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Canari.java
-	"	9	4
-	^	17	29
-	.	12	0
-	+	7	0
-	+	9	0
-	+	8	23
-	+	11	26
-	+	14	24
-	+	8	19
-	+	11	21
-	+	17	28
-	+	12	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Gat.java
-	"	6	11
-	.	6	11
-	+	6	11
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Gos.java
-	"	6	11
-	.	6	11
-	+	10	0
-	+	6	11
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Lleo.java
-	"	7	11
-	.	7	11
-	+	7	11
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/UsaAnimals.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/__Tagbar__
-	"	14	0
-	.	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/AnimalsOperatius.java
-	"	1	1
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/ComandaText.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Garfield.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/GatEstat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/GatRenat.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/IOUtils.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/Picarol.java
-	"	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/SaltoTrampolin.java
-	"	1	0
-	^	24	33
-	.	24	32
-	+	6	40
-	+	5	26
-	+	37	13
-	+	6	40
-	+	37	12
-	+	11	0
-	+	8	20
-	+	14	11
-	+	8	0
-	+	13	0
-	+	12	11
-	+	9	29
-	+	12	26
-	+	9	43
-	+	13	45
-	+	30	0
-	+	15	32
-	+	23	0
-	+	22	0
-	+	23	0
-	+	17	15
-	+	10	17
-	+	17	56
-	+	21	0
-	+	18	44
-	+	20	41
-	+	13	0
-	+	29	0
-	+	28	0
-	+	28	0
-	+	26	16
-	+	25	0
-	+	25	0
-	+	25	78
-	+	27	9
-	+	28	13
-	+	29	9
-	+	27	8
-	+	28	10
-	+	25	73
-	+	27	9
-	+	28	11
-	+	29	9
-	+	35	0
-	+	6	40
-	+	35	13
-	+	38	0
-	+	25	31
-	+	38	0
-	+	35	12
-	+	25	28
-	+	6	40
-	+	25	93
-	+	25	89
-	+	25	0
-	+	25	0
-	+	24	0
-	+	25	0
-	+	24	27
-	+	25	0
-	+	36	13
-	+	35	21
-	+	34	20
-	+	24	32
-
-> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/__Tagbar__
-	"	8	4
-	.	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/entrada
-	"	2	0
-	.	3	0
-	+	2	0
-	+	3	0
-	+	2	0
-	+	1	0
-	+	3	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/saltoTrampolin/salida
-	"	2	0
-	.	3	0
-	+	1	0
-	+	3	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/encadenades/Plantilla.java
-	"	1	0
-	^	27	27
-	.	27	26
-	+	28	13
-	+	27	26
-
-> ~/programame/bitbucket/programame-2015/exercicis/encadenades/__Tagbar__
-	"	7	3
-	.	9	0
-	+	9	0
-	+	9	0
