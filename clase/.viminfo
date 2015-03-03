@@ -253,6 +253,8 @@ $
 :tabe Segment.java
 :tabe TestSegment.java
 :tabe Punt.java
+:.,362y
+:tabe
 
 # Historial de cadenes cercades (de més a menys recent):
 ? hola
@@ -330,6 +332,9 @@ $
 ? \Vcodeblock\%#
 ? }
 ? \<Enumeration\>
+? \V:\%#
+? \s\+$
+? \<Pregunta\>
 
 # Historial d'expressions (de més a menys recent):
 
@@ -387,18 +392,20 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
-'1  1  0  ~/CLASE/M9/UF2/practica4/a
-'2  1  0  ~/CLASE/M9/UF2/practica4/c
-'3  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
-'4  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
-'5  1  1  ~/ex1.bak
-'6  16  0  ~/ex1.bak
-'7  1  0  ~/a.out
-'8  2980750  0  ~/a.out
-'9  4  0  ~/examples.desktop
+'0  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
+'1  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
+'2  1  0  ~/CLASE/M9/UF2/practica4/a
+'3  1  0  ~/CLASE/M9/UF2/practica4/c
+'4  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
+'5  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
+'6  1  1  ~/ex1.bak
+'7  16  0  ~/ex1.bak
+'8  1  0  ~/a.out
+'9  2980750  0  ~/a.out
 
 # Llista de salts (de més a menys recent):
+-'  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
 -'  5  8  ~/CLASE/M9/UF2/practica4/NERD_tree_1
 -'  33  2  ~/CLASE/M9/UF2/practica4/NERD_tree_1
@@ -416,7 +423,6 @@ $
 -'  38  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  14  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  145  18  ~/CLASE/M9/UF2/practica4/practica4.html
--'  1  12  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
 -'  167  0  ~/.vim/bundle/snipMate/snippets/html.snippets
 -'  45  4  ~/NERD_tree_1
@@ -493,37 +499,14 @@ $
 -'  7  0  ~/CLASE/M9/UF2/NERD_tree_1
 -'  11  2  ~/CLASE/M9/UF2/NERD_tree_1
 -'  1  0  ~/CLASE/M9/UF2/NERD_tree_1
--'  15  89  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  1  0  ~/CLASE/M9/UF2/practica4/a
 -'  1  0  ~/CLASE/M9/UF2/practica4/b
+-'  367  130  ~/CLASE/M8/UF2/SSL/ssl.rst
 
 # Historial de marques en fitxers (de més a menys recent):
 
-> ~/CLASE/M9/UF2/practica4/NERD_tree_1
-	"	5	8
-	.	1	0
-	+	1	0
-
-> ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
-	"	18	8
-
-> ~/CLASE/M9/UF2/practica4/a
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/M9/UF2/practica4/b
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/M9/UF2/practica4/c
-	"	1	0
-	.	1	0
-	+	1	0
-
 > ~/CLASE/M9/UF2/practica4/practica4.html
-	"	15	89
+	"	18	0
 	^	55	20
 	.	15	29
 	+	2	0
@@ -587,6 +570,134 @@ $
 	+	120	0
 	+	141	0
 	+	15	29
+
+> ~/CLASE/M8/UF2/SSL/ssl.rst
+	"	382	35
+	^	340	1
+	.	340	0
+	+	370	68
+	+	371	69
+	+	372	60
+	+	375	69
+	+	377	7
+	+	379	0
+	+	382	3
+	+	384	12
+	+	387	79
+	+	389	0
+	+	388	7
+	+	389	85
+	+	392	0
+	+	396	8
+	+	399	74
+	+	401	7
+	+	404	8
+	+	413	0
+	+	416	3
+	+	417	0
+	+	418	71
+	+	423	2
+	+	425	63
+	+	426	0
+	+	429	2
+	+	431	70
+	+	432	0
+	+	433	8
+	+	436	74
+	+	440	0
+	+	438	7
+	+	440	8
+	+	443	71
+	+	445	7
+	+	447	153
+	+	447	153
+	+	449	8
+	+	452	71
+	+	454	7
+	+	456	71
+	+	457	7
+	+	186	0
+	+	187	0
+	+	211	0
+	+	250	0
+	+	281	0
+	+	284	0
+	+	280	8
+	+	282	0
+	+	311	0
+	+	312	0
+	+	322	0
+	+	365	0
+	+	397	0
+	+	405	0
+	+	434	0
+	+	441	0
+	+	450	0
+	+	383	4
+	+	384	0
+	+	385	0
+	+	291	0
+	+	290	7
+	+	291	58
+	+	304	21
+	+	292	7
+	+	293	0
+	+	294	0
+	+	295	14
+	+	297	16
+	+	300	0
+	+	301	0
+	+	303	0
+	+	295	11
+	+	297	0
+	+	298	0
+	+	296	0
+	+	293	0
+	+	319	0
+	+	319	0
+	+	317	2
+	+	319	3
+	+	329	0
+	+	331	0
+	+	329	0
+	+	338	0
+	+	332	29
+	+	335	4
+	+	334	0
+	+	333	41
+	+	334	45
+	+	335	0
+	+	337	17
+	+	336	0
+	+	335	51
+	+	336	20
+	+	337	41
+	+	287	0
+	+	308	0
+	+	340	0
+
+> ~/CLASE/M9/UF2/practica4/NERD_tree_1
+	"	5	8
+	.	1	0
+	+	1	0
+
+> ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
+	"	18	8
+
+> ~/CLASE/M9/UF2/practica4/a
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/M9/UF2/practica4/b
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/M9/UF2/practica4/c
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/CLASE/M9/UF2/NERD_tree_1
 	"	7	0
@@ -1593,29 +1704,3 @@ $
 	^	3	1
 	.	3	0
 	+	3	0
-
-> ~/prueba/felizNoCumpleanos.java
-	"	18	8
-	^	18	70
-	.	18	0
-	+	6	51
-	+	5	29
-	+	17	0
-	+	11	12
-	+	12	12
-	+	14	0
-	+	13	8
-	+	8	39
-	+	9	0
-	+	10	40
-	+	11	14
-	+	12	14
-	+	14	14
-	+	15	14
-	+	16	14
-	+	11	38
-	+	12	38
-	+	14	38
-	+	15	38
-	+	16	38
-	+	18	0
