@@ -8,24 +8,37 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0/\<mida\>
+~Msle0/\<data\>
 
 # Últim Substitute Patró de Cerca:
-~Msle0~&\<mida\>
+~Msle0~&\<data\>
 
 # Última cadena substituïda:
-$cops
+$
 
 # Historial d'ordres (de més a menys recent):
 :wqa
 :w
+:s//vehicle/g
+:s//dies/g
+:tabe Vehicle.java
+:q
+:1
+:s//model/g
+:.,14y
+:vs as
+:q!
+:sp as
+:tabe GestorLlogersLite.java
+:wa
+:sav Lloguer.java 
+:tabe Lloger.java
 :!cat ../programame-2015/plantilles/Plantilla.java >>  chuleta.java 
 :!cat ../programame-2015/plantilles/
 :6,30y
 :tabe ../../chuleta.java
 :tabe ../embarque/PropostaMG.java
 :tabe ../por3omas5/
-:q
 :s//cops
 :qa
 :sav TestStringBuilderInsertToMinus.java 
@@ -63,7 +76,6 @@ $cops
 :sav ex1.bak
 :%!xxd -r
 :%!xxd
-:q!
 :argdo ls
 :args
 :map
@@ -82,7 +94,6 @@ $cops
 :tabe ../ex1/Hora.java
 :.!
 :tabe org/
-:wa
 :!mkdir org.estudi_poo.sergio.animals
 :.,10s/;/{\r\r}/
 :tabe salida
@@ -213,7 +224,6 @@ $cops
 :106,110s//canvasJugador
 :.
 :.,22s//arr_maq/g
-:.,14y
 :tabe ./scripts/main.js
 :%s//Contacte/Ig
 :%s//Client/Ig
@@ -273,16 +283,23 @@ $cops
 :tabe Punt.java
 :.,362y
 :tabe
-:1
 :sav %.java
 :tabe UsaAgafadorMots
+:tabe ~/.vim/bundle/snipMate/snippets/html.snippets
+:tabe a.html
+:tabe Resultats
+:tabe TestStringToMinus.java
+:tabe TestStringBuilderToMinus.java
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vsout\%#
+? \<data\>
+? \Vmain\%#
+? \Vpu\%#
+? \<marca\>
+? \Vcl\%#
 ? \<mida\>
 ? \<str\>
-? \Vcl\%#
-? \Vpu\%#
-? \Vsout\%#
 ? \<tam\>
 ? hola
 ? ,
@@ -293,7 +310,6 @@ $cops
 ?/-
 ?//
 ? \Vin\%#
-? \Vmain\%#
 ? ;
 ? id="\(\w*\)"
 ? id="\(\w*\)" y
@@ -369,25 +385,25 @@ $cops
 
 # Registres:
 "0	LINE	0
-	//Lee strings de la entrada standar y los guarda en un array de char[]
+	        this.data = data;
 ""1	CHAR	0
-	un array de char[]
-"2	CHAR	0
-	s
+	Date 
+"2	LINE	0
+	        date = null;
 "3	CHAR	0
-	strings
-"4	LINE	0
-	
+	...
+"4	CHAR	0
+	Basic
 "5	LINE	0
-	"+p
+	    public Lloguer(){
 "6	CHAR	0
-	r
+	/* code */
 "7	CHAR	0
-	e
+	u
 "8	CHAR	0
-	d
+	*
 "9	CHAR	0
-	l
+	setData
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -416,18 +432,35 @@ $cops
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-'1  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'2  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'3  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'4  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'5  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'6  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
-'7  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'8  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-'9  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'0  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'1  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'2  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'3  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'4  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'5  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'6  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'7  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+'8  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'9  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
 
 # Llista de salts (de més a menys recent):
+-'  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  16  16  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  15  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  14  47  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  23  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  22  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  3  9  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  6  4  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
+-'  13  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
+-'  9  6  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
+-'  16  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
+-'  1  9  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
+-'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+-'  2  9  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
 -'  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  53  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
@@ -502,34 +535,261 @@ $cops
 -'  15  89  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  37  20  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  39  16  ~/CLASE/M9/UF2/practica4/practica4.html
--'  38  0  ~/CLASE/M9/UF2/practica4/practica4.html
--'  14  0  ~/CLASE/M9/UF2/practica4/practica4.html
--'  145  18  ~/CLASE/M9/UF2/practica4/practica4.html
--'  205  2  ~/.vim/bundle/snipMate/snippets/html.snippets
--'  167  0  ~/.vim/bundle/snipMate/snippets/html.snippets
--'  45  4  ~/NERD_tree_1
--'  76  0  ~/NERD_tree_1
--'  1  4  ~/NERD_tree_1
--'  1  1  ~/ex1.bak
--'  16  0  ~/ex1.bak
--'  1  0  ~/a.out
--'  2980750  0  ~/a.out
--'  40  0  ~/a.out
--'  4  0  ~/examples.desktop
--'  1  0  ~/NERD_tree_2
--'  1  856  ~/ex3
--'  1  0  ~/ex4
--'  1  0  ~/ex5
--'  1  0  ~/ex6
--'  1  0  ~/ex8
--'  1  0  ~/ex8.c
--'  1  0  ~/ex2.js
--'  82  0  ~/NERD_tree_1
--'  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
--'  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
--'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+	"	22	17
+	^	40	18
+	.	40	17
+	+	1	0
+	+	2	0
+	+	40	17
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
+	"	12	3
+	.	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+	"	5	20
+	^	5	28
+	.	5	20
+	+	18	0
+	+	17	0
+	+	4	15
+	+	17	0
+	+	10	0
+	+	2	17
+	+	6	15
+	+	4	6
+	+	4	0
+	+	3	15
+	+	1	21
+	+	11	35
+	+	13	0
+	+	12	24
+	+	11	27
+	+	13	0
+	+	14	24
+	+	15	13
+	+	14	22
+	+	6	23
+	+	7	0
+	+	8	0
+	+	9	0
+	+	6	47
+	+	4	21
+	+	5	27
+	+	6	56
+	+	5	20
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
+	"	9	59
+	^	9	60
+	.	9	59
+	+	17	0
+	+	16	0
+	+	8	20
+	+	13	0
+	+	7	0
+	+	9	44
+	+	10	0
+	+	10	0
+	+	11	0
+	+	10	0
+	+	2	0
+	+	5	37
+	+	4	34
+	+	5	31
+	+	4	38
+	+	5	35
+	+	8	14
+	+	12	33
+	+	9	59
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+	"	4	43
+	^	4	44
+	.	4	44
+	+	24	0
+	+	23	0
+	+	4	3
+	+	7	0
+	+	1	32
+	+	4	44
+	+	5	8
+	+	6	4
+	+	22	0
+	+	5	0
+	+	2	0
+	+	13	11
+	+	14	0
+	+	17	0
+	+	17	0
+	+	16	36
+	+	14	0
+	+	13	0
+	+	12	17
+	+	14	12
+	+	12	23
+	+	4	44
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/as
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/NERD_tree_1
+	"	8	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/CLASE/M5/UF2/JUnit/ex1/Punt.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/Prova.java
+	"	5	36
+	^	5	37
+	.	5	36
+	+	3	51
+	+	4	66
+	+	6	0
+	+	8	0
+	+	7	58
+	+	8	59
+	+	7	34
+	+	8	41
+	+	5	36
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/__Tagbar__
+	"	3	0
+	.	9	0
+	+	17	0
+	+	11	0
+	+	9	0
+	+	9	0
+	+	9	0
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderToMinus.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+	"	15	0
+	.	16	0
+	+	7	22
+	+	13	0
+	+	14	0
+	+	9	25
+	+	11	0
+	+	1	23
+	+	16	0
+	+	16	0
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/Resultats
+	"	90	5
+	^	90	6
+	.	90	5
+	+	48	0
+	+	47	41
+	+	48	0
+	+	48	0
+	+	52	114
+	+	52	31
+	+	53	44
+	+	55	0
+	+	59	0
+	+	73	1
+	+	60	0
+	+	74	0
+	+	77	0
+	+	75	0
+	+	78	0
+	+	81	62
+	+	82	0
+	+	91	0
+	+	88	39
+	+	90	5
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/a.html
+	"	9	6
+	^	9	7
+	.	2	0
+	+	10	0
+	+	2	0
+
+> ~/.vim/bundle/snipMate/snippets/html.snippets
+	"	210	1
+	^	205	3
+	.	206	0
+	+	201	20
+	+	210	7
+	+	204	7
+	+	207	3
+	+	209	3
+	+	206	3
+	+	206	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 	"	49	45
@@ -685,23 +945,6 @@ $cops
 	+	13	0
 	+	13	0
 	+	13	0
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-	"	1	23
-	^	9	26
-	.	1	23
-	+	7	22
-	+	13	0
-	+	14	0
-	+	9	25
-	+	11	0
-	+	1	23
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/__Tagbar__
-	"	3	0
-	.	9	0
-	+	15	0
-	+	9	0
 
 > ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
 	"	1	8
@@ -1274,18 +1517,6 @@ $cops
 	+	1	0
 	+	1	0
 
-> ~/.vim/bundle/snipMate/snippets/html.snippets
-	"	205	2
-	^	205	3
-	.	206	0
-	+	201	20
-	+	210	7
-	+	204	7
-	+	207	3
-	+	209	3
-	+	206	3
-	+	206	0
-
 > ~/ex1.bak
 	"	1	1
 	.	1	0
@@ -1664,76 +1895,3 @@ $cops
 
 > ~/programame/bitbucket/programame-2015/exercicis/sudokus/*
 	"	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/sudokus/sudokus.java
-	"	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/sudokus/salida
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/Hora.java
-	"	2	0
-	.	2	0
-	+	1	0
-	+	2	0
-	+	3	69
-	+	3	69
-	+	3	37
-	+	2	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/excepcions/ex1/__Tagbar__
-	"	7	3
-	.	18	0
-	+	18	0
-	+	18	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions.rst
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/AnimalDeCompanyia.java
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Canari.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Gat.java
-	"	23	36
-	^	23	37
-	.	23	36
-	+	2	59
-	+	21	0
-	+	19	16
-	+	24	0
-	+	20	33
-	+	23	32
-	+	20	40
-	+	23	36
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Gos.java
-	"	24	0
-	^	2	60
-	.	25	0
-	+	2	59
-	+	18	0
-	+	25	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Lleo.java
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/UsaAnimals.java
-	"	1	8
-	^	2	0
-	.	2	0
-	+	30	0
-	+	30	0
-	+	1	0
-	+	2	0
