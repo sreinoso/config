@@ -17,9 +17,9 @@
 $
 
 # Historial d'ordres (de més a menys recent):
-:wq
-:q
 :w
+:q
+:wq
 :qa
 :sav AgafadorException.java 
 :wqa
@@ -265,6 +265,8 @@ $
 :.,362y
 :tabe
 :1
+:sav %.java
+:tabe UsaAgafadorMots
 
 # Historial de cadenes cercades (de més a menys recent):
 ? \Vcl\%#
@@ -346,6 +348,7 @@ $
 ? \V:\%#
 ? \s\+$
 ? \<Pregunta\>
+?/AgafadorMaPlenaExceptio
 
 # Historial d'expressions (de més a menys recent):
 
@@ -354,7 +357,7 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
+""0	LINE	0
 	/*
 	 * Això és una plantilla de la classe UsaAgafadorMots
 	 *
@@ -405,24 +408,24 @@ $
 	        }
 	        provaMaDretaBuida();
 	        provaMaEsquerraBuida();
-""1	CHAR	0
-	o
-"2	CHAR	0
-	o
-"3	CHAR	0
-	p
+"1	CHAR	0
+	package
+"2	LINE	0
+	import org.p
+"3	LINE	0
+	package org.iesjoandaustria.m03uf5.agafador;
 "4	CHAR	0
-	_
-"5	CHAR	0
-	i
-"6	CHAR	0
-	d
-"7	CHAR	0
-	u
-"8	CHAR	0
-	t
-"9	CHAR	0
-	s
+	Buida
+"5	LINE	0
+	
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	}
+"9	LINE	0
+	public class AgafadorMaBuidaException{
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -451,7 +454,7 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  4  62  ~/CLASE/M3/UF5/examenes/practica/META-INF/MANIFEST.MF
+'0  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 '1  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
 '2  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 '3  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
@@ -463,19 +466,18 @@ $
 '9  2  0  ~/CLASE/M3/UF5/examenes/practica/Agafador.java
 
 # Llista de salts (de més a menys recent):
--'  4  62  ~/CLASE/M3/UF5/examenes/practica/META-INF/MANIFEST.MF
--'  1  0  ~/CLASE/M3/UF5/examenes/practica/META-INF/MANIFEST.MF
+-'  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+-'  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 -'  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
 -'  187  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
 -'  180  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
--'  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
--'  1  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
--'  6  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
+-'  18  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
+-'  21  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
 -'  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
--'  7  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
--'  10  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
+-'  22  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
+-'  25  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
 -'  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
--'  12  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
+-'  27  0  ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
 -'  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
 -'  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
 -'  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
@@ -564,20 +566,8 @@ $
 
 # Historial de marques en fitxers (de més a menys recent):
 
-> ~/CLASE/M3/UF5/examenes/practica/META-INF/MANIFEST.MF
-	"	4	62
-	^	4	63
-	.	4	62
-	+	5	0
-	+	4	16
-	+	4	41
-	+	4	62
-
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-	"	1	0
-
 > ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-	"	2	0
+	"	27	0
 	^	2	2
 	.	3	0
 	+	6	0
@@ -590,56 +580,83 @@ $
 	+	3	0
 
 > ~/CLASE/M3/UF5/examenes/practica/__Tagbar__
-	"	3	0
+	"	5	3
 	.	18	0
-	+	27	0
-	+	27	0
-	+	27	0
-	+	27	0
-	+	27	0
-	+	27	0
-	+	27	0
-	+	25	0
-	+	25	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	42	0
+	+	40	0
+	+	40	0
+	+	36	0
+	+	33	0
+	+	33	0
+	+	18	0
+	+	18	0
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataHora.java
+	"	1	0
+	.	19	8
+	+	15	50
+	+	15	0
+	+	15	0
 	+	21	0
-	+	18	0
-	+	18	0
+	+	15	0
+	+	20	12
+	+	20	39
+	+	20	0
+	+	20	9
+	+	20	0
+	+	20	0
+	+	20	0
+	+	19	0
+	+	15	0
+	+	20	0
+	+	19	8
 
-> ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Data.java
 	"	1	0
 
-> ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataNoValidaException.java
 	"	1	0
 
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Hora.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/HoraNoValidaException.java
 	"	2	0
-	^	3	35
-	.	3	35
-	+	5	0
-	+	4	0
-	+	1	0
-	+	3	37
-	+	2	37
-	+	3	0
-	+	4	0
-	+	3	35
 
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/__Tagbar__
-	"	5	0
-	.	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
-	+	8	0
+> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/__Tagbar__
+	"	3	0
+	.	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
+	+	6	0
 
 > ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
-	"	2	0
+	"	1	0
 	^	3	26
 	.	1	0
 	+	2	0
@@ -654,14 +671,193 @@ $
 	+	1	0
 
 > ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/Agafador.java
-	"	1	0
-	.	2	0
-	+	2	0
+	"	51	15
+	^	51	16
+	.	51	15
+	+	69	0
+	+	68	0
+	+	10	0
+	+	2	21
+	+	30	0
+	+	8	27
+	+	39	0
+	+	31	16
+	+	41	30
+	+	38	27
+	+	48	0
+	+	41	13
+	+	31	13
+	+	38	21
+	+	48	21
+	+	38	15
+	+	48	15
+	+	40	4
+	+	42	15
+	+	32	0
+	+	30	0
+	+	10	0
+	+	7	0
+	+	50	34
+	+	55	0
+	+	56	28
+	+	31	58
+	+	41	61
+	+	68	17
+	+	3	21
+	+	68	0
+	+	68	0
+	+	4	0
+	+	8	22
+	+	68	0
+	+	68	1
+	+	31	11
+	+	41	11
+	+	38	15
+	+	48	15
+	+	50	29
+	+	56	31
+	+	54	18
+	+	60	18
+	+	4	15
+	+	5	15
+	+	68	0
+	+	68	0
+	+	4	19
+	+	5	19
+	+	44	59
+	+	45	0
+	+	33	0
+	+	7	0
+	+	9	19
+	+	10	0
+	+	21	27
+	+	26	0
+	+	26	35
+	+	30	0
+	+	11	26
+	+	13	17
+	+	17	23
+	+	18	17
+	+	21	27
+	+	24	0
+	+	25	25
+	+	26	0
+	+	21	19
+	+	24	21
+	+	25	21
+	+	47	14
+	+	48	17
+	+	36	18
+	+	37	14
+	+	38	17
+	+	33	11
+	+	53	0
+	+	50	62
+	+	57	0
+	+	58	58
+	+	56	65
+	+	57	11
+	+	29	0
+	+	28	57
+	+	15	51
+	+	64	0
+	+	63	24
+	+	65	28
+	+	66	15
+	+	58	0
+	+	52	0
+	+	51	8
+	+	57	8
+	+	56	34
+	+	58	0
+	+	57	8
+	+	56	34
+	+	57	15
+	+	51	15
 
 > ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaBuidaException.java
-	"	13	0
+	"	11	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
+	"	1	0
+	^	3	35
+	.	3	35
+	+	5	0
+	+	4	0
+	+	1	0
+	+	3	37
+	+	2	37
+	+	3	0
+	+	4	0
+	+	3	35
 
 > ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/UsaAgafadorAbstract.java
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/__Tagbar__
+	"	3	0
+	.	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/UsaAgafadorMots.java
+	"	1	4
+	^	6	62
+	.	7	0
+	+	1	0
+	+	9	0
+	+	9	0
+	+	8	0
+	+	8	0
+	+	3	0
+	+	8	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	5	0
+	+	4	15
+	+	5	18
+	+	5	0
+	+	4	27
+	+	5	28
+	+	6	61
+	+	7	0
+
+> ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+	"	28	0
+
+> ~/CLASE/M3/UF5/examenes/practica/META-INF/MANIFEST.MF
+	"	4	62
+	^	4	63
+	.	4	62
+	+	5	0
+	+	4	16
+	+	4	41
+	+	4	62
+
+> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+	"	1	0
+
+> ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
 	"	1	0
 
 > ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/Agafador
@@ -692,54 +888,6 @@ $
 
 > ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorNums.class.bak
 	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataHora.java
-	"	19	8
-	.	19	8
-	+	15	50
-	+	15	0
-	+	15	0
-	+	21	0
-	+	15	0
-	+	20	12
-	+	20	39
-	+	20	0
-	+	20	9
-	+	20	0
-	+	20	0
-	+	20	0
-	+	19	0
-	+	15	0
-	+	20	0
-	+	19	8
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Data.java
-	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataNoValidaException.java
-	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Hora.java
-	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/HoraNoValidaException.java
-	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/__Tagbar__
-	"	3	0
-	.	6	0
-	+	7	0
-	+	7	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
 	"	3	0
@@ -1625,8 +1773,3 @@ $
 	+	1	12
 	+	1	0
 	+	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/classesAbstractes/ex3/org/estudi_poo/sergio/animals/Animal.java
-	"	11	34
-	.	4	11
-	+	4	11
