@@ -17,15 +17,21 @@
 $cops
 
 # Historial d'ordres (de més a menys recent):
-:q
+:wqa
 :w
+:!cat ../programame-2015/plantilles/Plantilla.java >>  chuleta.java 
+:!cat ../programame-2015/plantilles/
+:6,30y
+:tabe ../../chuleta.java
+:tabe ../embarque/PropostaMG.java
+:tabe ../por3omas5/
+:q
 :s//cops
 :qa
 :sav TestStringBuilderInsertToMinus.java 
 :s//stringBuilder/g
 :wq
 :sav AgafadorException.java 
-:wqa
 :tabe Agafador.java
 :tabe entrada
 :%s//Npilas/g
@@ -363,74 +369,25 @@ $cops
 
 # Registres:
 "0	LINE	0
-	/*
-	 * Això és una plantilla de la classe UsaAgafadorMots
-	 *
-	 * Nota: aquesta classe és una plantilla i no compilarà sense alguns
-	 * canvis.
-	 */
-	
-	/* XXX defineix aquí el package (si cal) i la llista d'imports que consideris
-	 * adequats */
-	
-	/* XXX potser voldràs completar la definició de la classe
-	 * UsaAgafadorMots tot estenent o implementant alguna cosa*/
-	public class UsaAgafadorMots {
-	
-	    /* XXX definició de les propietats de la classe */
-	
-	    public static void main(String[] args) {
-	        UsaAgafadorMots ua = new UsaAgafadorMots();
-	        ua.processaArguments(args);
-	        ua.testAll();
-	        ua.mostraResultats();
-	    }
-	
-	    // realitza totes les comprovacions contemplades en aquesta prova
-	    public void testAll() {
-	        mostraNotificacio("Inici de les proves.");
-	        try {
-	            testCap();
-	            testUn();
-	            testDos();
-	            testMassa();
-	            testSobreemplenar();
-	        } catch (Exception e) {
-	            mostraError("Prova d'Agafador", e);
-	        }
-	    }
-	
-	    // prova el cas en que no hi hagi cap cosa a les mans
-	    private void testCap() {
-	        mostraNotificacio("Comprovant el cas dues mans buides.");
-	        try {
-	            mostraNotificacio("Creant Agafador buit.");
-	            /* XXX crea aquí un Agafador buit */
-	
-	        } catch (Exception e) {
-	            mostraError("Agafador()", e);
-	            return;
-	        }
-	        provaMaDretaBuida();
-	        provaMaEsquerraBuida();
+	//Lee strings de la entrada standar y los guarda en un array de char[]
 ""1	CHAR	0
-	r
+	un array de char[]
 "2	CHAR	0
-	e
+	s
 "3	CHAR	0
-	d
-"4	CHAR	0
-	l
-"5	CHAR	0
-	i
+	strings
+"4	LINE	0
+	
+"5	LINE	0
+	"+p
 "6	CHAR	0
-	u
+	r
 "7	CHAR	0
-	B
+	e
 "8	CHAR	0
-	stringBuilder.insert(0, "A"); 
-"9	LINE	0
-	        }
+	d
+"9	CHAR	0
+	l
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -459,18 +416,21 @@ $cops
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'1  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'2  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'3  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'4  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'5  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
-'6  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'7  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-'8  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-'9  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
+'0  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'1  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'2  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'3  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'4  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'5  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'6  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+'7  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'8  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'9  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
 
 # Llista de salts (de més a menys recent):
+-'  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  53  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
 -'  11  24  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
 -'  13  0  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
@@ -518,12 +478,12 @@ $cops
 -'  20  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  15  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  11  52  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  49  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  54  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  2  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  3  2  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  63  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  62  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  61  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  68  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  67  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+-'  66  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  7  4  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
 -'  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
@@ -568,9 +528,163 @@ $cops
 -'  1  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
--'  1  0  ~/Baixades/Fira Mono for Powerline.ttf
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+	"	49	45
+	^	49	46
+	.	49	45
+	+	57	19
+	+	59	47
+	+	60	8
+	+	57	25
+	+	65	21
+	+	57	21
+	+	58	16
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	65	18
+	+	62	24
+	+	63	24
+	+	64	39
+	+	7	58
+	+	64	0
+	+	54	0
+	+	8	43
+	+	9	46
+	+	10	45
+	+	11	21
+	+	12	8
+	+	11	0
+	+	59	40
+	+	12	0
+	+	47	0
+	+	20	0
+	+	17	11
+	+	12	22
+	+	9	12
+	+	12	30
+	+	12	30
+	+	12	9
+	+	11	8
+	+	12	29
+	+	12	32
+	+	15	32
+	+	17	49
+	+	22	0
+	+	21	0
+	+	23	26
+	+	47	0
+	+	21	0
+	+	28	0
+	+	27	30
+	+	40	0
+	+	39	40
+	+	37	54
+	+	36	38
+	+	43	20
+	+	21	0
+	+	47	0
+	+	47	39
+	+	54	0
+	+	47	0
+	+	48	0
+	+	54	0
+	+	46	0
+	+	38	0
+	+	12	0
+	+	38	36
+	+	46	35
+	+	13	11
+	+	15	18
+	+	14	0
+	+	17	0
+	+	19	0
+	+	17	38
+	+	15	23
+	+	15	23
+	+	17	0
+	+	16	36
+	+	18	36
+	+	11	30
+	+	17	0
+	+	19	12
+	+	39	0
+	+	27	0
+	+	25	37
+	+	26	9
+	+	22	9
+	+	23	9
+	+	53	0
+	+	51	3
+	+	49	24
+	+	23	24
+	+	50	0
+	+	49	45
+
+> ~/programame/bitbucket/programame-2015/exercicis/Carreras/__Tagbar__
+	"	1	0
+	.	9	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	18	0
+	+	9	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/NERD_tree_1
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/Por3omas5.java
+	"	13	0
+	^	13	0
+	.	62	0
+	+	62	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/__Tagbar__
+	"	1	0
+	.	16	0
+	+	16	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/embarque/PropostaMG.java
+	"	28	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/embarque/__Tagbar__
+	"	1	0
+	.	12	0
+	+	12	0
+
+> ~/programame/bitbucket/programame-2015/chuleta.java
+	"	32	12
+	^	28	1
+	.	28	0
+	+	2	0
+	+	30	0
+	+	2	0
+	+	1	69
+	+	16	52
+	+	2	0
+	+	29	0
+	+	28	0
+
+> ~/programame/bitbucket/programame-2015/__Tagbar__
+	"	12	4
+	.	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
 
 > ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
 	"	1	23
@@ -927,106 +1041,6 @@ $cops
 	"	3	0
 	.	3	0
 	+	3	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-	"	26	8
-	^	26	9
-	.	26	9
-	+	52	19
-	+	54	47
-	+	55	8
-	+	52	25
-	+	60	21
-	+	52	21
-	+	53	16
-	+	49	0
-	+	49	0
-	+	49	0
-	+	49	0
-	+	49	0
-	+	49	0
-	+	49	0
-	+	49	0
-	+	60	18
-	+	57	24
-	+	58	24
-	+	59	39
-	+	7	58
-	+	59	0
-	+	49	0
-	+	8	43
-	+	9	46
-	+	10	45
-	+	11	21
-	+	12	8
-	+	11	0
-	+	54	40
-	+	12	0
-	+	47	0
-	+	20	0
-	+	17	11
-	+	12	22
-	+	9	12
-	+	12	30
-	+	12	30
-	+	12	9
-	+	11	8
-	+	12	29
-	+	12	32
-	+	15	32
-	+	17	49
-	+	22	0
-	+	21	0
-	+	23	26
-	+	47	0
-	+	21	0
-	+	28	0
-	+	27	30
-	+	40	0
-	+	39	40
-	+	37	54
-	+	36	38
-	+	43	20
-	+	21	0
-	+	47	0
-	+	47	39
-	+	49	0
-	+	47	0
-	+	48	0
-	+	49	0
-	+	46	0
-	+	38	0
-	+	12	0
-	+	38	36
-	+	46	35
-	+	13	11
-	+	15	18
-	+	14	0
-	+	17	0
-	+	19	0
-	+	17	38
-	+	15	23
-	+	15	23
-	+	17	0
-	+	16	36
-	+	18	36
-	+	11	30
-	+	17	0
-	+	19	12
-	+	39	0
-	+	27	0
-	+	25	37
-	+	26	9
-
-> ~/programame/bitbucket/programame-2015/exercicis/Carreras/__Tagbar__
-	"	8	3
-	.	11	0
-	+	11	0
-	+	11	0
-	+	11	0
-	+	11	0
-	+	11	0
-	+	11	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 	"	42	8
@@ -1723,65 +1737,3 @@ $cops
 	+	30	0
 	+	1	0
 	+	2	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/__Tagbar__
-	"	8	0
-	.	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-	+	9	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/exceptions/exceptions
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Animal.class
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Canari.class
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Gat.class
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Gos.class
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Lleo.class
-	"	1	0
