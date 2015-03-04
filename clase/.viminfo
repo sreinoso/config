@@ -8,19 +8,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0/\<tam\>
+~Msle0/\<mida\>
 
 # Últim Substitute Patró de Cerca:
-~Msle0~&\<tam\>
+~Msle0~&\<mida\>
 
 # Última cadena substituïda:
-$
+$cops
 
 # Historial d'ordres (de més a menys recent):
+:qa
 :w
+:sav TestStringBuilderInsertToMinus.java 
+:s//cops
+:s//stringBuilder/g
 :q
 :wq
-:qa
 :sav AgafadorException.java 
 :wqa
 :tabe Agafador.java
@@ -269,6 +272,8 @@ $
 :tabe UsaAgafadorMots
 
 # Historial de cadenes cercades (de més a menys recent):
+? \<mida\>
+? \<str\>
 ? \Vcl\%#
 ? \Vpu\%#
 ? \Vsout\%#
@@ -357,7 +362,7 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	LINE	0
+"0	LINE	0
 	/*
 	 * Això és una plantilla de la classe UsaAgafadorMots
 	 *
@@ -408,24 +413,24 @@ $
 	        }
 	        provaMaDretaBuida();
 	        provaMaEsquerraBuida();
-"1	CHAR	0
+""1	LINE	0
+	                stringBuilder = stringBuilder.substring(0, i) + Character.toLowerCase(stringBuilder.charAt(i)) + stringBuilder.substring(i+1);
+"2	CHAR	0
+	Insert
+"3	CHAR	0
 	package
-"2	LINE	0
+"4	LINE	0
 	import org.p
-"3	LINE	0
-	package org.iesjoandaustria.m03uf5.agafador;
-"4	CHAR	0
-	Buida
 "5	LINE	0
-	
-"6	LINE	0
-	
+	package org.iesjoandaustria.m03uf5.agafador;
+"6	CHAR	0
+	Buida
 "7	LINE	0
 	
 "8	LINE	0
-	}
+	
 "9	LINE	0
-	public class AgafadorMaBuidaException{
+	
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -454,18 +459,21 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'1  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'2  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'3  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
-'4  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'5  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-'6  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-'7  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
-'8  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
-'9  2  0  ~/CLASE/M3/UF5/examenes/practica/Agafador.java
+'0  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'1  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'2  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'3  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'4  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+'5  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'6  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'7  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'8  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
+'9  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
 
 # Llista de salts (de més a menys recent):
+-'  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+-'  11  24  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+-'  13  22  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
 -'  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 -'  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 -'  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
@@ -559,12 +567,24 @@ $
 -'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline.ttf
 -'  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  1  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/aaa.java
--'  35  0  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
--'  41  39  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+	"	1	8
+	^	12	86
+	.	13	0
+	+	13	0
+	+	13	0
+	+	11	0
+	+	1	36
+	+	12	85
+	+	13	0
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/__Tagbar__
+	"	3	0
+	.	9	0
+	+	9	0
 
 > ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 	"	27	0
@@ -1761,15 +1781,3 @@ $
 	+	3	0
 	+	2	16
 	+	4	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/__Tagbar__
-	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/interfaces.rst
-	"	76	0
-	.	1	0
-	+	206	0
-	+	1	14
-	+	1	12
-	+	1	0
-	+	1	0
