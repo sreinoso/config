@@ -17,12 +17,12 @@
 $cops
 
 # Historial d'ordres (de més a menys recent):
-:qa
-:w
-:sav TestStringBuilderInsertToMinus.java 
-:s//cops
-:s//stringBuilder/g
 :q
+:w
+:s//cops
+:qa
+:sav TestStringBuilderInsertToMinus.java 
+:s//stringBuilder/g
 :wq
 :sav AgafadorException.java 
 :wqa
@@ -413,24 +413,24 @@ $cops
 	        }
 	        provaMaDretaBuida();
 	        provaMaEsquerraBuida();
-""1	LINE	0
-	                stringBuilder = stringBuilder.substring(0, i) + Character.toLowerCase(stringBuilder.charAt(i)) + stringBuilder.substring(i+1);
+""1	CHAR	0
+	r
 "2	CHAR	0
-	Insert
+	e
 "3	CHAR	0
-	package
-"4	LINE	0
-	import org.p
-"5	LINE	0
-	package org.iesjoandaustria.m03uf5.agafador;
+	d
+"4	CHAR	0
+	l
+"5	CHAR	0
+	i
 "6	CHAR	0
-	Buida
-"7	LINE	0
-	
-"8	LINE	0
-	
+	u
+"7	CHAR	0
+	B
+"8	CHAR	0
+	stringBuilder.insert(0, "A"); 
 "9	LINE	0
-	
+	        }
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -459,18 +459,21 @@ $cops
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'1  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'2  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'3  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'4  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
-'5  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'6  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-'7  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-'8  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
-'9  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
+'0  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'1  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'2  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'3  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'4  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'5  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+'6  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'7  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'8  37  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'9  2  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
 
 # Llista de salts (de més a menys recent):
+-'  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+-'  11  24  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+-'  13  0  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
 -'  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
 -'  11  24  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
 -'  13  22  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
@@ -566,9 +569,25 @@ $cops
 -'  1592  0  ~/Baixades/DejaVu Sans Mono for Powerline.ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline (1).ttf
 -'  1  0  ~/Baixades/Fira Mono for Powerline.ttf
--'  25  4  ~/CLASE/M3/UF5/ejercicios/excepcions/ex4/MostraImports.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+	"	1	23
+	^	9	26
+	.	1	23
+	+	7	22
+	+	13	0
+	+	14	0
+	+	9	25
+	+	11	0
+	+	1	23
+
+> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/__Tagbar__
+	"	3	0
+	.	9	0
+	+	15	0
+	+	9	0
 
 > ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
 	"	1	8
@@ -580,11 +599,6 @@ $cops
 	+	1	36
 	+	12	85
 	+	13	0
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/__Tagbar__
-	"	3	0
-	.	9	0
-	+	9	0
 
 > ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 	"	27	0
@@ -1771,13 +1785,3 @@ $cops
 
 > ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/org/estudi_poo/sergio/animals/Lleo.class
 	"	1	0
-
-> ~/CLASE/daw2/M3/UF5/ejercicios/interfaces/ex1/AnimalDeCompanyia.java
-	"	3	24
-	^	3	25
-	.	4	0
-	+	5	0
-	+	4	0
-	+	3	0
-	+	2	16
-	+	4	0
