@@ -8,21 +8,25 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0~/\<clase\>
+~Msle0/\<clase\>
 
 # Últim Substitute Patró de Cerca:
-~Msle0&\<data\>
+~MSle0~&;
 
 # Última cadena substituïda:
-$
+$;\r
 
 # Historial d'ordres (de més a menys recent):
+:q!
+:%s/;/;\r/g
+:%s/;/;\n/g
+:%s/;/;\n
+:set wrap!
 :qa
 :q
 :wqa
 :tabe Vehicle.java
 :w
-:q!
 :reg
 :wq
 :s//vehicle/g
@@ -292,6 +296,7 @@ $
 :tabe TestStringBuilderToMinus.java
 
 # Historial de cadenes cercades (de més a menys recent):
+? ;
 ? \<clase\>
 ? \<Clase\>
 ? \Vsout\%#
@@ -312,7 +317,6 @@ $
 ?/-
 ?//
 ? \Vin\%#
-? ;
 ? id="\(\w*\)"
 ? id="\(\w*\)" y
 ? :
@@ -484,18 +488,23 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
-'1  46  4  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
-'2  16  0  ~/MYSQL/MYSQL_Dev/chivatos
-'3  134  15  ~/.bashrc
-'4  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'5  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-'6  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'7  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'8  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'9  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'0  730  1209  ~/Baixades/jquery-1.11.2.min.js
+'1  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+'2  46  4  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+'3  16  0  ~/MYSQL/MYSQL_Dev/chivatos
+'4  134  15  ~/.bashrc
+'5  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'6  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'7  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'8  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'9  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 
 # Llista de salts (de més a menys recent):
+-'  730  1209  ~/Baixades/jquery-1.11.2.min.js
+-'  1  0  ~/Baixades/jquery-1.11.2.min.js
+-'  733  0  ~/Baixades/jquery-1.11.2.min.js
+-'  2  0  ~/Baixades/jquery-1.11.2.min.js
+-'  519  0  ~/Baixades/jquery-1.11.2.min.js
 -'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
 -'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
 -'  21  0  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
@@ -585,15 +594,15 @@ $
 -'  55  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 -'  20  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  15  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  11  52  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  54  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  2  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  3  2  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  68  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  67  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  66  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/Baixades/jquery-1.11.2.min.js
+	"	730	1209
+	.	3	0
+	+	2	0
+	+	2	0
+	+	3	0
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
 	"	1	0
@@ -1959,13 +1968,3 @@ $
 	+	1	0
 	+	2	0
 	+	12	0
-
-> ~/.htaccess
-	"	3	26
-	^	3	27
-	.	3	26
-	+	1	33
-	+	1	17
-	+	7	7
-	+	1	35
-	+	3	26
