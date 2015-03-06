@@ -17,6 +17,8 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:q!
+:reg
 :wq
 :wqa
 :w
@@ -28,7 +30,6 @@ $
 :s//model/g
 :.,14y
 :vs as
-:q!
 :sp as
 :tabe GestorLlogersLite.java
 :wa
@@ -215,7 +216,6 @@ $
 :help c
 :tabe ex4/Garfield.java
 :tabe ex4/Garfield.jav
-:reg
 :colorscheme calmar256-dark
 :.,16y
 :.,12y
@@ -387,25 +387,29 @@ $
 
 # Registres:
 "0	LINE	0
-	        this.data = data;
-""1	CHAR	0
+	System.out.println("AAAA");
+"1	CHAR	0
+	AAAA
+"2	CHAR	0
 	Date 
-"2	LINE	0
+"3	LINE	0
 	        date = null;
-"3	CHAR	0
-	...
 "4	CHAR	0
+	...
+"5	CHAR	0
 	Basic
-"5	LINE	0
+"6	LINE	0
 	    public Lloguer(){
-"6	CHAR	0
-	/* code */
 "7	CHAR	0
-	u
+	/* code */
 "8	CHAR	0
-	*
+	u
 "9	CHAR	0
-	setData
+	*
+""g	LINE	0
+	System.out.println("BBB");
+"t	LINE	0
+	System.out.println("AAAA");
 "y	LINE	0
 	if !exists('g:airline_symbols')
 	    let g:airline_symbols = {}
@@ -434,18 +438,20 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  134  15  ~/.bashrc
-'1  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'2  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-'3  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'4  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'5  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'6  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'7  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'8  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
-'9  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'0  16  0  ~/MYSQL/MYSQL_Dev/chivatos
+'1  134  15  ~/.bashrc
+'2  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'3  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'4  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'5  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'6  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'7  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'8  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'9  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
 
 # Llista de salts (de més a menys recent):
+-'  16  0  ~/MYSQL/MYSQL_Dev/chivatos
+-'  1  0  ~/MYSQL/MYSQL_Dev/chivatos
 -'  134  15  ~/.bashrc
 -'  137  7  ~/.bashrc
 -'  1  0  ~/.bashrc
@@ -546,6 +552,20 @@ $
 -'  15  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/MYSQL/MYSQL_Dev/chivatos
+	"	16	0
+	^	14	0
+	.	16	0
+	+	1	24
+	+	9	0
+	+	11	0
+	+	3	0
+	+	4	0
+	+	3	22
+	+	13	0
+	+	15	0
+	+	16	0
 
 > ~/.bashrc
 	"	134	15
@@ -1902,6 +1922,3 @@ $
 	+	7	7
 	+	1	35
 	+	3	26
-
-> ~/programame/bitbucket/programame-2015/exercicis/sudokus/*
-	"	1	0
