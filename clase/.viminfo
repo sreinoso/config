@@ -17,15 +17,16 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:qa
+:q
+:wqa
+:tabe Vehicle.java
+:w
 :q!
 :reg
 :wq
-:wqa
-:w
 :s//vehicle/g
 :s//dies/g
-:tabe Vehicle.java
-:q
 :1
 :s//model/g
 :.,14y
@@ -42,7 +43,6 @@ $
 :tabe ../embarque/PropostaMG.java
 :tabe ../por3omas5/
 :s//cops
-:qa
 :sav TestStringBuilderInsertToMinus.java 
 :s//stringBuilder/g
 :sav AgafadorException.java 
@@ -388,25 +388,71 @@ $
 # Registres:
 "0	LINE	0
 	System.out.println("AAAA");
-"1	CHAR	0
-	AAAA
-"2	CHAR	0
-	Date 
-"3	LINE	0
-	        date = null;
+""1	LINE	0
+	        return "";
+"2	LINE	0
+	        // de moment en blanc
+"3	BLOCK	1
+	  
+	 3
+	 4
+	 5
+	 6
+	 7
+	 8
+	 9
+	10
+	11
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+	23
+	24
+	25
+	26
+	27
+	28
+	29
+	30
+	31
+	32
+	33
+	34
+	35
+	36
+	37
+	38
+	39
+	40
+	41
+	42
+	43
+	44
+	45
+	46
+	47
+	48
 "4	CHAR	0
-	...
+	AAAA
 "5	CHAR	0
-	Basic
+	Date 
 "6	LINE	0
-	    public Lloguer(){
+	        date = null;
 "7	CHAR	0
-	/* code */
+	...
 "8	CHAR	0
-	u
-"9	CHAR	0
-	*
-""g	LINE	0
+	Basic
+"9	LINE	0
+	    public Lloguer(){
+"g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
 	System.out.println("AAAA");
@@ -438,18 +484,37 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  16  0  ~/MYSQL/MYSQL_Dev/chivatos
-'1  134  15  ~/.bashrc
-'2  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'3  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-'4  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'5  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'6  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'7  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'8  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'9  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+'0  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+'1  46  4  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+'2  16  0  ~/MYSQL/MYSQL_Dev/chivatos
+'3  134  15  ~/.bashrc
+'4  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'5  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'6  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'7  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'8  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'9  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
+-'  21  0  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
+-'  46  4  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  87  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  86  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  80  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  71  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  62  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  57  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  51  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  36  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  33  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  32  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  28  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  27  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  23  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  13  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  39  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
 -'  16  0  ~/MYSQL/MYSQL_Dev/chivatos
 -'  1  0  ~/MYSQL/MYSQL_Dev/chivatos
 -'  134  15  ~/.bashrc
@@ -471,7 +536,6 @@ $
 -'  1  9  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
 -'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
 -'  2  9  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
 -'  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  53  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
@@ -528,30 +592,83 @@ $
 -'  68  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  67  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
 -'  66  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  7  4  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
--'  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
--'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
--'  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
--'  5  8  ~/CLASE/M9/UF2/practica4/NERD_tree_1
--'  33  2  ~/CLASE/M9/UF2/practica4/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/practica4/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/practica4/a
--'  1  0  ~/CLASE/M9/UF2/practica4/b
--'  1  0  ~/CLASE/M9/UF2/practica4/c
--'  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
--'  7  0  ~/CLASE/M9/UF2/NERD_tree_1
--'  11  2  ~/CLASE/M9/UF2/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/NERD_tree_1
--'  15  89  ~/CLASE/M9/UF2/practica4/practica4.html
--'  37  20  ~/CLASE/M9/UF2/practica4/practica4.html
--'  39  16  ~/CLASE/M9/UF2/practica4/practica4.html
--'  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  16  16  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  15  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+	"	1	0
+	^	39	0
+	.	86	0
+	+	1	0
+	+	2	0
+	+	86	17
+	+	39	0
+	+	86	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
+	"	1	0
+	.	21	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	50	0
+	+	40	0
+	+	40	0
+	+	21	0
 
 > ~/MYSQL/MYSQL_Dev/chivatos
 	"	16	0
@@ -579,76 +696,6 @@ $
 	+	118	13
 	+	126	26
 	+	137	6
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
-	"	22	17
-	^	40	18
-	.	40	17
-	+	1	0
-	+	2	0
-	+	40	17
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
-	"	12	3
-	.	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
 	"	5	20
