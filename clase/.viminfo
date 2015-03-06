@@ -8,15 +8,16 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0/\<data\>
+~Msle0~/\<clase\>
 
 # Últim Substitute Patró de Cerca:
-~Msle0~&\<data\>
+~Msle0&\<data\>
 
 # Última cadena substituïda:
 $
 
 # Historial d'ordres (de més a menys recent):
+:wq
 :wqa
 :w
 :s//vehicle/g
@@ -43,7 +44,6 @@ $
 :qa
 :sav TestStringBuilderInsertToMinus.java 
 :s//stringBuilder/g
-:wq
 :sav AgafadorException.java 
 :tabe Agafador.java
 :tabe entrada
@@ -292,6 +292,8 @@ $
 :tabe TestStringBuilderToMinus.java
 
 # Historial de cadenes cercades (de més a menys recent):
+? \<clase\>
+? \<Clase\>
 ? \Vsout\%#
 ? \<data\>
 ? \Vmain\%#
@@ -432,18 +434,21 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'1  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-'2  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'3  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'4  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'5  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'6  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'7  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
-'8  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'9  1  0  ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
+'0  134  15  ~/.bashrc
+'1  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'2  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'3  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'4  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'5  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'6  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'7  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'8  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+'9  2  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 
 # Llista de salts (de més a menys recent):
+-'  134  15  ~/.bashrc
+-'  137  7  ~/.bashrc
+-'  1  0  ~/.bashrc
 -'  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 -'  16  16  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 -'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
@@ -535,8 +540,25 @@ $
 -'  15  89  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  37  20  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  39  16  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  16  16  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  15  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/.bashrc
+	"	134	15
+	^	126	27
+	.	137	6
+	+	129	25
+	+	130	0
+	+	129	26
+	+	119	0
+	+	119	0
+	+	118	13
+	+	126	26
+	+	137	6
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
 	"	22	17
@@ -1880,18 +1902,6 @@ $
 	+	7	7
 	+	1	35
 	+	3	26
-
-> ~/.bashrc
-	"	126	26
-	^	126	27
-	.	126	26
-	+	129	25
-	+	130	0
-	+	129	26
-	+	119	0
-	+	119	0
-	+	118	13
-	+	126	26
 
 > ~/programame/bitbucket/programame-2015/exercicis/sudokus/*
 	"	1	0
