@@ -8,18 +8,19 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0~/\<clase\>
+~Msle0/\<aux\>
 
 # Últim Substitute Patró de Cerca:
-~Msle0&\<data\>
+~Msle0~&\<aux\>
 
 # Última cadena substituïda:
-$
+$aux2
 
 # Historial d'ordres (de més a menys recent):
-:wq
-:w
 :wqa
+:w
+:39,43s//aux2/g
+:wq
 :s//vehicle/g
 :s//dies/g
 :tabe Vehicle.java
@@ -298,6 +299,7 @@ $
 :set wrap!
 
 # Historial de cadenes cercades (de més a menys recent):
+? \<aux\>
 ? \<clase\>
 ? \<Clase\>
 ? \Vsout\%#
@@ -392,26 +394,45 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	        this.data = data;
-""1	CHAR	0
-	Date 
+"0	CHAR	0
+	{
+	                String aux2 = tablero[indice][numero];
+	                tablero[indice][numero] = "A";
+	                boolean bol = false;
+	                for(int z = 0; z < 5; z++){
+	                    if(tablero[z][numero].equals(aux2)){
+	                        bol=true;
+	                        break;
+	                    }
+	                }
+	                if(bol){
+	                    System.out.println(aux2+" tocado");
+	                }else{
+	                    System.out.println(aux2+" hundido");
+	                }
+	
+	
+	
+	                System.out.println();
+	            }
+""1	LINE	0
+	
 "2	LINE	0
-	        date = null;
-"3	CHAR	0
-	...
+	
+"3	LINE	0
+	
 "4	CHAR	0
-	Basic
-"5	LINE	0
-	    public Lloguer(){
+	!
+"5	CHAR	0
+	 
 "6	CHAR	0
-	/* code */
+	)
 "7	CHAR	0
-	u
+	2
 "8	CHAR	0
-	*
+	x
 "9	CHAR	0
-	setData
+	u
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -444,18 +465,42 @@ $
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  61  15  ~/CLASE/M9/UF2/practica4/practica4.html
-'1  134  15  ~/.bashrc
-'2  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'3  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-'4  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'5  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'6  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'7  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'8  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'9  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafador
+'0  51  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+'1  61  15  ~/CLASE/M9/UF2/practica4/practica4.html
+'2  134  15  ~/.bashrc
+'3  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'4  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'5  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'6  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'7  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'8  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
+'9  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
 
 # Llista de salts (de més a menys recent):
+-'  51  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  77  16  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  63  16  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  89  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  88  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  85  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  79  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  78  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  76  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  71  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  70  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  43  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  42  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  27  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  22  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  17  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  16  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  8  4  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  67  42  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  59  42  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  74  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  66  31  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  61  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 -'  61  15  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  134  15  ~/.bashrc
@@ -519,44 +564,122 @@ $
 -'  58  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 -'  59  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 -'  60  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
--'  61  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
--'  62  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
--'  63  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
--'  64  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
--'  65  4  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
--'  55  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
--'  20  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  15  12  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  11  52  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  54  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  2  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  3  2  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  68  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  67  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  66  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  7  4  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
--'  18  0  ~/CLASE/M9/UF2/practica4/practica4.html
--'  18  8  ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
--'  5  8  ~/CLASE/M9/UF2/practica4/NERD_tree_1
--'  33  2  ~/CLASE/M9/UF2/practica4/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/practica4/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/practica4/a
--'  1  0  ~/CLASE/M9/UF2/practica4/b
--'  1  0  ~/CLASE/M9/UF2/practica4/c
--'  1  0  ~/CLASE/M9/UF2/ejerciciosSueltos/oceano.jpg
--'  7  0  ~/CLASE/M9/UF2/NERD_tree_1
--'  11  2  ~/CLASE/M9/UF2/NERD_tree_1
--'  1  0  ~/CLASE/M9/UF2/NERD_tree_1
--'  15  89  ~/CLASE/M9/UF2/practica4/practica4.html
--'  37  20  ~/CLASE/M9/UF2/practica4/practica4.html
--'  39  16  ~/CLASE/M9/UF2/practica4/practica4.html
--'  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  16  16  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  15  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+	"	51	0
+	^	63	19
+	.	77	0
+	+	43	0
+	+	42	0
+	+	41	31
+	+	39	12
+	+	36	8
+	+	39	0
+	+	43	0
+	+	87	0
+	+	87	0
+	+	88	0
+	+	32	20
+	+	30	31
+	+	43	0
+	+	38	0
+	+	36	15
+	+	39	17
+	+	41	38
+	+	85	0
+	+	44	0
+	+	46	58
+	+	45	0
+	+	46	49
+	+	85	0
+	+	87	0
+	+	31	0
+	+	30	48
+	+	46	32
+	+	48	31
+	+	45	0
+	+	84	0
+	+	51	0
+	+	50	26
+	+	52	40
+	+	57	20
+	+	53	13
+	+	57	56
+	+	83	0
+	+	57	44
+	+	54	23
+	+	56	47
+	+	57	0
+	+	57	0
+	+	58	8
+	+	57	20
+	+	54	18
+	+	81	0
+	+	58	21
+	+	55	18
+	+	58	32
+	+	82	0
+	+	58	46
+	+	80	7
+	+	59	47
+	+	61	0
+	+	60	37
+	+	78	0
+	+	77	35
+	+	64	17
+	+	66	0
+	+	64	44
+	+	77	0
+	+	66	79
+	+	71	0
+	+	71	19
+	+	67	55
+	+	70	0
+	+	68	23
+	+	67	47
+	+	68	32
+	+	70	21
+	+	70	54
+	+	66	29
+	+	66	0
+	+	65	35
+	+	71	0
+	+	70	0
+	+	72	24
+	+	72	24
+	+	72	24
+	+	73	54
+	+	77	0
+	+	75	55
+	+	76	0
+	+	66	36
+	+	69	29
+	+	59	0
+	+	63	21
+	+	64	44
+	+	67	39
+	+	73	42
+	+	75	42
+	+	67	51
+	+	29	0
+	+	8	40
+	+	9	0
+	+	8	40
+	+	9	0
+	+	62	40
+	+	64	0
+	+	77	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
+	"	8	4
+	.	9	0
+	+	13	0
+	+	9	0
+	+	9	0
+	+	9	0
+	+	9	0
 
 > ~/CLASE/M9/UF2/practica4/practica4.html
 	"	61	15
@@ -631,71 +754,6 @@ $
 	^	67	6
 	.	67	0
 	+	67	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
-	"	35	31
-	^	35	32
-	.	35	31
-	+	40	16
-	+	40	0
-	+	10	18
-	+	12	0
-	+	11	17
-	+	12	46
-	+	20	0
-	+	19	0
-	+	18	31
-	+	16	12
-	+	13	8
-	+	16	0
-	+	20	0
-	+	42	0
-	+	42	0
-	+	43	0
-	+	9	20
-	+	7	31
-	+	20	0
-	+	15	0
-	+	13	15
-	+	16	17
-	+	18	38
-	+	40	0
-	+	21	0
-	+	23	58
-	+	22	0
-	+	23	49
-	+	40	0
-	+	42	0
-	+	8	0
-	+	7	48
-	+	23	32
-	+	25	31
-	+	22	0
-	+	39	0
-	+	28	0
-	+	27	26
-	+	29	40
-	+	34	20
-	+	30	13
-	+	34	56
-	+	38	0
-	+	34	44
-	+	31	23
-	+	33	47
-	+	34	0
-	+	34	0
-	+	35	8
-	+	34	20
-	+	31	18
-	+	37	0
-	+	35	21
-	+	32	18
-	+	35	31
-
-> ~/programame/bitbucket/programame-2015/exercicis/__Tagbar__
-	"	1	0
-	.	9	0
-	+	9	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/entrada
 	"	6	0
