@@ -394,45 +394,28 @@ $aux2
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	CHAR	0
-	{
-	                String aux2 = tablero[indice][numero];
-	                tablero[indice][numero] = "A";
-	                boolean bol = false;
-	                for(int z = 0; z < 5; z++){
-	                    if(tablero[z][numero].equals(aux2)){
-	                        bol=true;
-	                        break;
-	                    }
-	                }
-	                if(bol){
-	                    System.out.println(aux2+" tocado");
-	                }else{
-	                    System.out.println(aux2+" hundido");
-	                }
+""0	LINE	0
+	            <tr>
+	            </tr>
+"1	LINE	0
 	
-	
-	
-	                System.out.println();
-	            }
-""1	LINE	0
-	
-"2	LINE	0
-	
-"3	LINE	0
-	
-"4	CHAR	0
-	!
+"2	CHAR	0
+	ó
+"3	CHAR	0
+	ó
+"4	LINE	0
+	315
+<                    Dirac soporta resolucions de HDTV(1920x1080) i superiors, i es acsupports resolutions of HDTV (1920x1080) and greater and is claimed to provide significant savings in data rate and improvements in quality over video compression formats such as MPEG-2 Part 2, MPEG-4 Part 2 and its competitors
 "5	CHAR	0
-	 
-"6	CHAR	0
-	)
-"7	CHAR	0
-	2
-"8	CHAR	0
-	x
+	<F4>
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	
 "9	CHAR	0
-	u
+	!
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -465,18 +448,20 @@ $aux2
 	let g:airline#extensions#tabline#enabled = 1
 
 # Marques de fitxer:
-'0  51  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
-'1  61  15  ~/CLASE/M9/UF2/practica4/practica4.html
-'2  134  15  ~/.bashrc
-'3  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'4  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-'5  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-'6  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
-'7  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
-'8  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
-'9  1  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'0  167  0  ~/CLASE/M9/UF2/practica4/practica4.html
+'1  51  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+'2  63  15  ~/CLASE/M9/UF2/practica4/practica4.html
+'3  134  15  ~/.bashrc
+'4  4  43  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'5  49  45  ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
+'6  1  23  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
+'7  1  8  ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderInsertToMinus.java
+'8  27  0  ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorMots.java
+'9  1  0  ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/plantillaUsaAgafadorMots
 
 # Llista de salts (de més a menys recent):
+-'  167  0  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  51  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 -'  77  16  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 -'  63  16  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
@@ -501,8 +486,7 @@ $aux2
 -'  66  31  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 -'  61  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
--'  61  15  ~/CLASE/M9/UF2/practica4/practica4.html
--'  1  0  ~/CLASE/M9/UF2/practica4/practica4.html
+-'  63  15  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  134  15  ~/.bashrc
 -'  137  7  ~/.bashrc
 -'  1  0  ~/.bashrc
@@ -564,8 +548,117 @@ $aux2
 -'  58  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 -'  59  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
 -'  60  8  ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
+-'  51  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  77  16  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  63  16  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  89  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  88  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  85  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  79  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  78  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  76  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  71  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
+-'  70  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M9/UF2/practica4/practica4.html
+	"	167	0
+	^	167	0
+	.	167	0
+	+	2	0
+	+	9	47
+	+	163	16
+	+	171	0
+	+	163	12
+	+	163	0
+	+	88	31
+	+	62	18
+	+	87	26
+	+	112	0
+	+	62	0
+	+	113	0
+	+	11	0
+	+	38	0
+	+	38	20
+	+	15	0
+	+	15	0
+	+	15	0
+	+	37	0
+	+	14	0
+	+	38	0
+	+	38	0
+	+	15	30
+	+	18	30
+	+	21	30
+	+	24	30
+	+	27	30
+	+	30	30
+	+	33	30
+	+	36	30
+	+	15	39
+	+	18	42
+	+	21	40
+	+	24	39
+	+	27	39
+	+	30	38
+	+	33	37
+	+	36	37
+	+	38	0
+	+	39	0
+	+	39	48
+	+	39	0
+	+	59	0
+	+	42	0
+	+	64	0
+	+	139	0
+	+	114	0
+	+	89	0
+	+	41	33
+	+	65	27
+	+	90	34
+	+	94	0
+	+	115	35
+	+	140	30
+	+	14	0
+	+	60	0
+	+	85	0
+	+	110	0
+	+	135	0
+	+	160	0
+	+	15	29
+	+	44	32
+	+	68	24
+	+	93	21
+	+	101	19
+	+	117	20
+	+	119	84
+	+	119	0
+	+	118	23
+	+	121	51
+	+	47	20
+	+	71	24
+	+	96	21
+	+	143	48
+	+	146	63
+	+	50	25
+	+	74	24
+	+	99	21
+	+	124	43
+	+	149	58
+	+	152	24
+	+	24	73
+	+	18	79
+	+	21	50
+	+	127	33
+	+	102	21
+	+	77	24
+	+	127	60
+	+	143	53
+	+	127	40
+	+	163	0
+	+	170	0
+	+	167	0
 
 > ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 	"	51	0
@@ -680,74 +773,6 @@ $aux2
 	+	9	0
 	+	9	0
 	+	9	0
-
-> ~/CLASE/M9/UF2/practica4/practica4.html
-	"	61	15
-	^	66	25
-	.	66	24
-	+	2	0
-	+	9	47
-	+	147	16
-	+	148	0
-	+	146	12
-	+	147	0
-	+	83	31
-	+	60	18
-	+	82	26
-	+	103	0
-	+	60	0
-	+	104	0
-	+	11	0
-	+	38	0
-	+	38	20
-	+	15	0
-	+	15	0
-	+	15	0
-	+	37	0
-	+	14	0
-	+	38	0
-	+	38	0
-	+	15	30
-	+	18	30
-	+	21	30
-	+	24	30
-	+	27	30
-	+	30	30
-	+	33	30
-	+	36	30
-	+	15	39
-	+	18	42
-	+	21	40
-	+	24	39
-	+	27	39
-	+	30	38
-	+	33	37
-	+	36	37
-	+	38	0
-	+	39	0
-	+	39	48
-	+	39	0
-	+	57	0
-	+	42	0
-	+	62	0
-	+	126	0
-	+	105	0
-	+	84	0
-	+	41	33
-	+	63	27
-	+	85	34
-	+	88	0
-	+	106	35
-	+	127	30
-	+	14	0
-	+	58	0
-	+	80	0
-	+	101	0
-	+	122	0
-	+	143	0
-	+	15	29
-	+	44	32
-	+	66	24
 
 > ~/Baixades/jquery-1.11.2.js
 	"	258	0
