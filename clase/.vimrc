@@ -69,6 +69,7 @@ Plugin 'TTCoach'
 Plugin 'plantuml-syntax'
 Plugin 'Lokaltog/powerline'
 Plugin 'Tabular'
+Plugin 'surround.vim'
 
 
 call vundle#end()
