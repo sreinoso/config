@@ -114,27 +114,29 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 
-export Disco="/media/13194DCD211F8F37/";
-export M3="~/CLASE/daw2/M3/UF4";
-export M5="~/CLASE/daw2/M5/UF2";
-export M6="~/CLASE/daw2/M6/UF2";
-export M7="~/CLASE/daw2/M7/UF3";
-export M8="~/CLASE/daw2/M8/UF2";
-export M9="~/CLASE/daw2/M9/UF1";
+export Disco="~/CLASE/";
+export M3="~/CLASE/M3/UF4";
+export M5="~/CLASE/M5/UF2";
+export M6="~/CLASE/M6/UF2";
+export M7="~/CLASE/M7/UF3";
+export M8="~/CLASE/M8/UF2";
+export M9="~/CLASE/M9/UF1";
 export bashrc="~/.bashrc";
 export vimrc="~/.vimrc";
 export Clase="~/CLASE/daw2/";
 
 alias Disco="cd /media/13194DCD211F8F37/";
-alias M3="cd ~/CLASE/daw2/M3/UF4";
-alias M5="cd ~/CLASE/daw2/M5/UF2";
-alias M6="cd ~/CLASE/daw2/M6/UF2";
-alias M7="cd ~/CLASE/daw2/M7/UF3";
-alias M8="cd ~/CLASE/daw2/M8/UF2";
-alias M9="cd ~/CLASE/daw2/M9/UF1";
+alias M3="cd ~/CLASE/M3/UF4";
+alias M5="cd ~/CLASE/M5/UF2";
+alias M6="cd ~/CLASE/M6/UF2";
+alias M7="cd ~/CLASE/M7/UF3";
+alias M8="cd ~/CLASE/M8/UF2";
+alias M9="cd ~/CLASE/M9/UF1";
 alias vimrc="vim ~/.vimrc";
 alias bashrc="vim ~/.bashrc";
-alias clase="cd /media/13194DCD211F8F37/backupClase/CLASE/";
+alias clase="cd ~/CLASE";
+alias Clase="cd ~/CLASE";
+alias CLASE="cd ~/CLASE";
 alias ..="cd ..";
 alias ifmore="ifconfig | more"; 
 alias ll="ls -la"; 

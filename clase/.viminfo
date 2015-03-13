@@ -17,13 +17,13 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:q
+:w
 :wq
 :wqa
 :tabe ProvaCompletaGestorLlogersLite.java
 :!cp % ProvaCompletaGestorLlogersLite.java
-:w
 :.,43s/$/\\n
-:q
 :tabe ProvaUnitariaGestorLlogersLite.java
 :wq!
 :tabe GestorLlogersLite.java
@@ -417,15 +417,33 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	    @Test
-""1	CHAR	0
+""0	LINE	0
+	alias Clase="cd ~/CLASE";
+"1	CHAR	0
+	/media/13194DCD211F8F37/backupClase/CLASE/
+"2	BLOCK	4
+	/daw2
+	/daw2
+	/daw2
+	/daw2
+	/daw2
+	/daw2
+"3	BLOCK	4
+	daw2/
+	daw2/
+	daw2/
+	daw2/
+	daw2/
+	daw2/
+"4	CHAR	0
+	/media/13194DCD211F8F37/
+"5	CHAR	0
 	Unitaria
-"2	CHAR	0
+"6	CHAR	0
 	class GestorLlogersLite
-"3	LINE	0
+"7	LINE	0
 	str = "Informe de lloguers del client Sergio (12345678Z)\n\tTata Vista: 90.0€\n\tToyota Corolla: 17445.0€\n\tMercedes Compressor: 4320.0€\nImport a pagar: 21855.0€\nPunts guanyats: 4\n";
-"4	LINE	0
+"8	LINE	0
 	Informe de lloguers del client Sergio (12345678Z)
 		Tata Vista: 90.0€
 		Toyota Corolla: 17445.0€
@@ -433,16 +451,8 @@ $
 	Import a pagar: 21855.0€
 	Punts guanyats: 4
 	
-"5	CHAR	0
-	class GestorLlogersLite{
-"6	LINE	0
-	
-"7	CHAR	0
-	    // importa una classe static
-"8	LINE	0
-	import 
 "9	CHAR	0
-	class Client 
+	class GestorLlogersLite{
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -477,18 +487,22 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/.git/COMMIT_EDITMSG
-'1  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'2  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'3  11  0  ~/CLASE/M5/UF2/JUnit/ex6/TestPunt.java
-'4  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaClient.java
-'5  6  0  ~/CLASE/M5/UF2/Refactoring/.gitignore
-'6  32  33  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
-'7  167  0  ~/CLASE/M9/UF2/practica4/practica4.html
-'8  51  0  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
-'9  63  15  ~/CLASE/M9/UF2/practica4/practica4.html
+'0  144  11  ~/.bashrc
+'1  117  22  ~/.bashrc
+'2  1  0  ~/CLASE/.git/COMMIT_EDITMSG
+'3  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'4  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'5  11  0  ~/CLASE/M5/UF2/JUnit/ex6/TestPunt.java
+'6  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaClient.java
+'7  6  0  ~/CLASE/M5/UF2/Refactoring/.gitignore
+'8  32  33  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
+'9  167  0  ~/CLASE/M9/UF2/practica4/practica4.html
 
 # Llista de salts (de més a menys recent):
+-'  144  11  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  117  22  ~/.bashrc
+-'  3  0  ~/.bashrc
 -'  1  0  ~/CLASE/.git/COMMIT_EDITMSG
 -'  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  40  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
@@ -545,7 +559,6 @@ $
 -'  63  15  ~/CLASE/M9/UF2/practica4/practica4.html
 -'  134  15  ~/.bashrc
 -'  137  7  ~/.bashrc
--'  1  0  ~/.bashrc
 -'  16  16  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 -'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
 -'  15  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
@@ -584,12 +597,27 @@ $
 -'  63  16  ~/programame/bitbucket/programame-2015/exercicis/Plantilla.java
 -'  25  0  ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/ProvaUnitariaGestorLlogersLite.java
 -'  5  3  ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/__Tagbar__
--'  6  0  ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/__Tagbar__
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/ProvaUnitariaGestorLlogersLite.java
--'  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  40  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/.bashrc
+	"	144	11
+	^	137	23
+	.	139	10
+	+	129	25
+	+	130	0
+	+	129	26
+	+	119	0
+	+	119	0
+	+	118	13
+	+	126	26
+	+	137	6
+	+	117	22
+	+	118	19
+	+	129	20
+	+	137	22
+	+	138	6
+	+	139	10
 
 > ~/CLASE/.git/COMMIT_EDITMSG
 	"	1	0
@@ -1391,19 +1419,6 @@ $
 	+	13	0
 	+	15	0
 	+	16	0
-
-> ~/.bashrc
-	"	134	15
-	^	126	27
-	.	137	6
-	+	129	25
-	+	130	0
-	+	129	26
-	+	119	0
-	+	119	0
-	+	118	13
-	+	126	26
-	+	137	6
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/as
 	"	5	0
