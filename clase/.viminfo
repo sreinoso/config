@@ -8,17 +8,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~Msle0~/\<colocar\>
+~MSle0~/alert
 
 # Últim Substitute Patró de Cerca:
-~Msle0&\<compruebaDiagolan\>
+~MSle0&)
 
 # Última cadena substituïda:
-$compruebaDiagonal
+$]
 
 # Historial d'ordres (de més a menys recent):
-:qa
+:wqa
 :w
+:.,129y
+:s/)/]/g
+:s/(/[/g
+:s/\(
+:.,80y
+:.,48d
+:.,6d
+:W
+:qa
 :wa
 :.,214y
 :.,371y
@@ -28,7 +37,6 @@ $compruebaDiagonal
 :%s//compruebaDiagonal/g
 :q
 :wq
-:wqa
 :tabe ProvaCompletaGestorLlogersLite.java
 :!cp % ProvaCompletaGestorLlogersLite.java
 :.,43s/$/\\n
@@ -308,7 +316,6 @@ $compruebaDiagonal
 :tabe TestStringToMinus.java
 :tabe TestStringBuilderToMinus.java
 :.,19y
-:W
 :%s/;/;\r/g
 :%s/;/;\n/g
 :%s/;/;\n
@@ -323,8 +330,17 @@ $compruebaDiagonal
 :PluginInstall! surround.vim
 
 # Historial de cadenes cercades (de més a menys recent):
-? \<colocar\>
 ?/alert
+? )
+? (
+? \(
+? \Vfun\%#
+? \Vinput\%#
+? \Vscript\%#
+? \Vlink\%#
+? \Vstyle\%#
+? \V**template**\%#
+? \<colocar\>
 ? \<compruebaDiagolan\>
 ? \<compruebaDiagonal\>
 ? \Vcl\%#
@@ -342,7 +358,6 @@ $compruebaDiagonal
 ? \<tam\>
 ? hola
 ? ,
-? \V**template**\%#
 ?/snip
 ?/\<h\>
 ?/h
@@ -426,52 +441,26 @@ $compruebaDiagonal
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	function colocar(columna,esJugador){
-	    var colocado = false;
-	    var fila;
-	    //alert(columna);
-	    if(esJugador){
-	        for(var i = 0; i<7 && !colocado; i++){
-	            if(arrCampo[columna][i] == 0){
-	                arrCampo[columna][i] = 1;
-	                colocado = true;
-	            }
-	            fila = i;
-	            //alert(fila);
-	            if(colocado) pintaFicha(1,columna,fila);
-	        }
-	    }else{
-	        for(var i = 0; i<7 && !colocado; i++){
-	            if(arrCampo[columna][i] == 0){
-	                arrCampo[columna][i] = 2;
-	                colocado = true;
-	            }
-	            fila = i;
-	            //    alert(fila);
-	            if(colocado) pintaFicha(2,columna,fila);
-	        }
-	    }
-	    return fila;
-	}
+"0	CHAR	0
+	prompt("Dime un número del 1 al "+quant_person);
 ""1	CHAR	0
-	r
+	 
 "2	CHAR	0
-	o
+	=
 "3	CHAR	0
-	d
+	 
 "4	CHAR	0
 	a
 "5	CHAR	0
-	g
+	d
 "6	CHAR	0
-	u
+	i
 "7	CHAR	0
-	J
+	v
 "8	CHAR	0
-	s
+	 
 "9	CHAR	0
-	e
+	r
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -506,18 +495,50 @@ $compruebaDiagonal
 	paraula més
 
 # Marques de fitxer:
-'0  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
-'1  144  11  ~/.bashrc
-'2  117  22  ~/.bashrc
-'3  1  0  ~/CLASE/.git/COMMIT_EDITMSG
-'4  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'5  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'6  11  0  ~/CLASE/M5/UF2/JUnit/ex6/TestPunt.java
-'7  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaClient.java
-'8  6  0  ~/CLASE/M5/UF2/Refactoring/.gitignore
-'9  43  33  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
+'0  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
+'1  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
+'2  144  11  ~/.bashrc
+'3  117  22  ~/.bashrc
+'4  1  0  ~/CLASE/.git/COMMIT_EDITMSG
+'5  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'6  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'7  11  0  ~/CLASE/M5/UF2/JUnit/ex6/TestPunt.java
+'8  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaClient.java
+'9  6  0  ~/CLASE/M5/UF2/Refactoring/.gitignore
 
 # Llista de salts (de més a menys recent):
+-'  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  32  31  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  132  19  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  1  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  172  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  133  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  90  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  78  12  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  82  6  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  77  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  74  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  70  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  66  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  62  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  73  36  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  118  42  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  49  4  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  86  4  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  25  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  127  4  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  97  26  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  91  8  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  84  3  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  54  20  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  50  20  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  47  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  2  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  51  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  33  3  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  12  25  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  48  22  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  43  1  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
 -'  178  12  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
 -'  252  16  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
@@ -560,31 +581,165 @@ $compruebaDiagonal
 -'  311  11  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
 -'  356  16  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
 -'  357  0  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
--'  269  5  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
--'  335  13  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
--'  12  0  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
--'  294  0  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
--'  232  91  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
--'  298  24  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
--'  144  11  ~/.bashrc
--'  1  0  ~/.bashrc
--'  117  22  ~/.bashrc
--'  3  0  ~/.bashrc
--'  1  0  ~/CLASE/.git/COMMIT_EDITMSG
--'  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  40  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
--'  5  9  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
--'  39  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
--'  38  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
--'  34  18  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
--'  41  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
--'  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  6  3  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  3  31  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M6/UF2/examenes/index.html
+	"	16	0
+	^	16	0
+	.	16	0
+	+	19	0
+	+	1	0
+	+	2	0
+	+	6	57
+	+	8	0
+	+	8	0
+	+	7	48
+	+	8	0
+	+	7	70
+	+	8	0
+	+	7	70
+	+	8	0
+	+	17	0
+	+	10	86
+	+	11	96
+	+	12	90
+	+	11	49
+	+	12	42
+	+	13	26
+	+	15	14
+	+	16	0
+
+> ~/CLASE/M6/UF2/examenes/css/estilo.css
+	"	1	0
+
+> ~/CLASE/M6/UF2/examenes/js/script.js
+	"	129	4
+	^	32	32
+	.	32	31
+	+	96	34
+	+	100	16
+	+	99	67
+	+	98	0
+	+	98	0
+	+	103	0
+	+	105	0
+	+	103	32
+	+	105	0
+	+	105	0
+	+	112	0
+	+	119	0
+	+	110	0
+	+	117	31
+	+	110	32
+	+	119	0
+	+	119	0
+	+	112	0
+	+	112	0
+	+	124	39
+	+	85	9
+	+	93	36
+	+	94	0
+	+	97	0
+	+	104	0
+	+	111	0
+	+	118	0
+	+	119	0
+	+	118	26
+	+	112	0
+	+	111	26
+	+	105	0
+	+	104	26
+	+	98	0
+	+	97	26
+	+	85	0
+	+	129	16
+	+	86	23
+	+	49	5
+	+	92	19
+	+	95	19
+	+	102	19
+	+	109	19
+	+	116	19
+	+	129	4
+	+	128	55
+	+	129	73
+	+	129	0
+	+	36	41
+	+	93	38
+	+	97	42
+	+	104	42
+	+	111	42
+	+	118	42
+	+	36	60
+	+	58	13
+	+	66	13
+	+	62	13
+	+	70	13
+	+	74	13
+	+	77	13
+	+	86	5
+	+	77	12
+	+	129	111
+	+	132	27
+	+	174	0
+	+	133	0
+	+	138	23
+	+	142	35
+	+	149	35
+	+	156	35
+	+	163	35
+	+	136	23
+	+	142	16
+	+	149	16
+	+	156	16
+	+	163	16
+	+	174	0
+	+	136	0
+	+	134	17
+	+	132	19
+	+	134	39
+	+	135	29
+	+	138	30
+	+	142	34
+	+	149	34
+	+	156	34
+	+	163	34
+	+	27	41
+	+	33	0
+	+	31	8
+	+	28	23
+	+	27	0
+	+	30	20
+	+	27	24
+	+	30	27
+	+	27	0
+	+	32	0
+	+	33	36
+	+	32	31
+
+> ~/CLASE/M6/UF2/examenes/js/__Tagbar__
+	"	5	4
+	.	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
+	+	26	0
 
 > ~/CLASE/M6/UF2/proyectos/conectaCuatro/index.html
 	"	17	33
@@ -2280,23 +2435,5 @@ $compruebaDiagonal
 
 > ~/CLASE/M9/UF2/practica4/NERD_tree_1
 	"	5	8
-	.	1	0
-	+	1	0
-
-> ~/.vim/bundle/TTCoach/macros/ttcoach/en/01fj.ttc
-	"	18	8
-
-> ~/CLASE/M9/UF2/practica4/a
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/M9/UF2/practica4/b
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/M9/UF2/practica4/c
-	"	1	0
 	.	1	0
 	+	1	0
