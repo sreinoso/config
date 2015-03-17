@@ -14,11 +14,12 @@
 ~MSle0&)
 
 # Última cadena substituïda:
-$]
+$
 
 # Historial d'ordres (de més a menys recent):
-:wqa
+:qa
 :w
+:wqa
 :.,129y
 :s/)/]/g
 :s/(/[/g
@@ -27,7 +28,6 @@ $]
 :.,48d
 :.,6d
 :W
-:qa
 :wa
 :.,214y
 :.,371y
@@ -441,26 +441,26 @@ $]
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	CHAR	0
-	prompt("Dime un número del 1 al "+quant_person);
-""1	CHAR	0
-	 
-"2	CHAR	0
-	=
-"3	CHAR	0
-	 
-"4	CHAR	0
-	a
-"5	CHAR	0
-	d
-"6	CHAR	0
-	i
-"7	CHAR	0
-	v
-"8	CHAR	0
-	 
-"9	CHAR	0
-	r
+""0	LINE	0
+	
+"1	LINE	0
+	
+"2	LINE	0
+	
+"3	LINE	0
+	        //System.out.println(dateFormat.format(lloguerBasic.getData()));
+"4	LINE	0
+	        // demostració de formatat d'una data
+"5	LINE	0
+	
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	
+"9	LINE	0
+	>>>>>>> a21b962ff02fb3aa61e6ba87a3d8b471fc312eb4
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -495,18 +495,26 @@ $]
 	paraula més
 
 # Marques de fitxer:
-'0  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
-'1  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
-'2  144  11  ~/.bashrc
-'3  117  22  ~/.bashrc
-'4  1  0  ~/CLASE/.git/COMMIT_EDITMSG
-'5  22  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'6  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-'7  11  0  ~/CLASE/M5/UF2/JUnit/ex6/TestPunt.java
-'8  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaClient.java
-'9  6  0  ~/CLASE/M5/UF2/Refactoring/.gitignore
+'0  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
+'1  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+'2  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
+'3  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
+'4  144  11  ~/.bashrc
+'5  117  22  ~/.bashrc
+'6  1  0  ~/CLASE/.git/COMMIT_EDITMSG
+'7  16  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'8  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'9  11  0  ~/CLASE/M5/UF2/JUnit/ex6/TestPunt.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
+-'  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+-'  13  3  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
+-'  16  0  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
+-'  33  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+-'  87  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+-'  18  0  ~/CLASE/M5/UF2/Refactoring/Exemple
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
 -'  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  32  31  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  132  19  ~/CLASE/M6/UF2/examenes/js/script.js
@@ -581,8 +589,323 @@ $]
 -'  311  11  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
 -'  356  16  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
 -'  357  0  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
+-'  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  32  31  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  132  19  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  1  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  172  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  133  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  90  0  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  78  12  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  82  6  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  77  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  74  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  70  14  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  66  14  ~/CLASE/M6/UF2/examenes/js/script.js
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
+	"	1	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
+	"	1	0
+	^	39	0
+	.	56	0
+	+	1	0
+	+	2	0
+	+	86	17
+	+	39	0
+	+	86	0
+	+	56	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+	"	1	0
+	^	3	31
+	.	3	30
+	+	34	0
+	+	33	0
+	+	4	3
+	+	7	0
+	+	1	32
+	+	4	44
+	+	5	8
+	+	6	4
+	+	32	0
+	+	5	0
+	+	2	0
+	+	15	11
+	+	16	0
+	+	19	0
+	+	19	0
+	+	18	36
+	+	16	0
+	+	15	0
+	+	14	17
+	+	16	12
+	+	14	23
+	+	4	44
+	+	26	0
+	+	27	34
+	+	27	30
+	+	27	44
+	+	28	35
+	+	32	19
+	+	28	35
+	+	32	0
+	+	28	34
+	+	29	32
+	+	30	33
+	+	21	0
+	+	22	0
+	+	9	0
+	+	10	0
+	+	9	25
+	+	10	70
+	+	9	58
+	+	10	64
+	+	21	61
+	+	22	50
+	+	21	25
+	+	22	26
+	+	31	44
+	+	25	9
+	+	4	0
+	+	3	30
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.class
+	"	1	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+	"	1	0
+	^	23	24
+	.	23	23
+	+	26	0
+	+	25	0
+	+	4	15
+	+	25	0
+	+	10	0
+	+	2	17
+	+	6	15
+	+	4	6
+	+	4	0
+	+	3	15
+	+	1	21
+	+	11	35
+	+	13	0
+	+	12	24
+	+	11	27
+	+	13	0
+	+	14	24
+	+	15	13
+	+	14	22
+	+	6	23
+	+	7	0
+	+	8	0
+	+	9	0
+	+	6	47
+	+	4	21
+	+	5	27
+	+	6	56
+	+	5	20
+	+	17	0
+	+	18	0
+	+	19	26
+	+	25	0
+	+	25	0
+	+	22	13
+	+	23	23
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.class
+	"	1	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+	"	1	0
+	^	16	9
+	.	24	0
+	+	6	25
+	+	16	9
+	+	6	0
+	+	5	0
+	+	6	0
+	+	8	0
+	+	24	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
+	"	1	0
+	^	4	19
+	.	8	0
+	+	2	0
+	+	3	0
+	+	3	0
+	+	6	0
+	+	34	43
+	+	32	20
+	+	39	0
+	+	38	0
+	+	38	58
+	+	38	81
+	+	38	111
+	+	38	81
+	+	38	6
+	+	38	192
+	+	38	81
+	+	38	111
+	+	38	145
+	+	38	173
+	+	38	0
+	+	38	193
+	+	38	0
+	+	33	0
+	+	32	19
+	+	33	0
+	+	6	0
+	+	4	18
+	+	8	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.class
+	"	1	0
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
+	"	1	0
+	^	24	29
+	.	24	28
+	+	29	0
+	+	28	0
+	+	8	20
+	+	13	0
+	+	7	0
+	+	9	44
+	+	10	0
+	+	10	0
+	+	11	0
+	+	10	0
+	+	2	0
+	+	5	37
+	+	4	34
+	+	5	31
+	+	4	38
+	+	5	35
+	+	8	14
+	+	12	33
+	+	9	59
+	+	26	32
+	+	26	0
+	+	26	19
+	+	26	0
+	+	14	26
+	+	14	0
+	+	17	25
+	+	18	24
+	+	17	21
+	+	20	25
+	+	21	24
+	+	23	26
+	+	24	28
+
+> ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
+	"	3	0
+	.	20	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	73	0
+	+	63	0
+	+	63	0
+	+	44	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	38	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	28	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
+	+	20	0
 
 > ~/CLASE/M6/UF2/examenes/index.html
 	"	16	0
@@ -1133,142 +1456,6 @@ $]
 > ~/CLASE/.git/COMMIT_EDITMSG
 	"	1	0
 
-> ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
-	"	40	0
-	^	4	19
-	.	4	18
-	+	2	0
-	+	3	0
-	+	3	0
-	+	6	0
-	+	36	43
-	+	34	20
-	+	41	0
-	+	40	0
-	+	40	58
-	+	40	81
-	+	40	111
-	+	40	81
-	+	40	6
-	+	40	192
-	+	40	81
-	+	40	111
-	+	40	145
-	+	40	173
-	+	40	0
-	+	40	193
-	+	40	0
-	+	35	0
-	+	34	19
-	+	35	0
-	+	6	0
-	+	4	18
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
-	"	5	3
-	.	6	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	65	0
-	+	55	0
-	+	55	0
-	+	36	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	30	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-	"	22	8
-	^	22	9
-	.	22	9
-	+	5	25
-	+	22	9
-
 > ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/ProvaUnitariaGestorLlogersLite.java
 	"	25	0
 
@@ -1298,17 +1485,6 @@ $]
 	+	37	46
 	+	38	28
 	+	56	28
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
-	"	46	57
-	^	39	0
-	.	56	0
-	+	1	0
-	+	2	0
-	+	86	17
-	+	39	0
-	+	86	0
-	+	56	0
 
 > ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/[Vundle] Installer
 	"	2	0
@@ -1350,60 +1526,6 @@ $]
 	+	12	0
 	+	12	0
 	+	12	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-	"	4	0
-	^	3	31
-	.	3	30
-	+	34	0
-	+	33	0
-	+	4	3
-	+	7	0
-	+	1	32
-	+	4	44
-	+	5	8
-	+	6	4
-	+	32	0
-	+	5	0
-	+	2	0
-	+	15	11
-	+	16	0
-	+	19	0
-	+	19	0
-	+	18	36
-	+	16	0
-	+	15	0
-	+	14	17
-	+	16	12
-	+	14	23
-	+	4	44
-	+	26	0
-	+	27	34
-	+	27	30
-	+	27	44
-	+	28	35
-	+	32	19
-	+	28	35
-	+	32	0
-	+	28	34
-	+	29	32
-	+	30	33
-	+	21	0
-	+	22	0
-	+	9	0
-	+	10	0
-	+	9	25
-	+	10	70
-	+	9	58
-	+	10	64
-	+	21	61
-	+	22	50
-	+	21	25
-	+	22	26
-	+	31	44
-	+	25	9
-	+	4	0
-	+	3	30
 
 > ~/CLASE/M5/UF2/JUnit/ex6/ProvaUnitariaGestorLlogersLite.java
 	"	1	0
@@ -1808,83 +1930,6 @@ $]
 	+	5	1
 	+	6	0
 	+	9	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
-	"	6	23
-	^	23	24
-	.	23	23
-	+	26	0
-	+	25	0
-	+	4	15
-	+	25	0
-	+	10	0
-	+	2	17
-	+	6	15
-	+	4	6
-	+	4	0
-	+	3	15
-	+	1	21
-	+	11	35
-	+	13	0
-	+	12	24
-	+	11	27
-	+	13	0
-	+	14	24
-	+	15	13
-	+	14	22
-	+	6	23
-	+	7	0
-	+	8	0
-	+	9	0
-	+	6	47
-	+	4	21
-	+	5	27
-	+	6	56
-	+	5	20
-	+	17	0
-	+	18	0
-	+	19	26
-	+	25	0
-	+	25	0
-	+	22	13
-	+	23	23
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
-	"	24	28
-	^	24	29
-	.	24	28
-	+	29	0
-	+	28	0
-	+	8	20
-	+	13	0
-	+	7	0
-	+	9	44
-	+	10	0
-	+	10	0
-	+	11	0
-	+	10	0
-	+	2	0
-	+	5	37
-	+	4	34
-	+	5	31
-	+	4	38
-	+	5	35
-	+	8	14
-	+	12	33
-	+	9	59
-	+	26	32
-	+	26	0
-	+	26	19
-	+	26	0
-	+	14	26
-	+	14	0
-	+	17	25
-	+	18	24
-	+	17	21
-	+	20	25
-	+	21	24
-	+	23	26
-	+	24	28
 
 > ~/Baixades/jquery-1.11.2.min.js
 	"	730	1209
@@ -2312,128 +2357,3 @@ $]
 	"	3	0
 	.	3	0
 	+	3	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/Carreras/MyQuickSort.java
-	"	42	8
-	^	56	2
-	.	57	0
-	+	1	0
-	+	67	0
-	+	66	0
-	+	67	0
-	+	57	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/Carreras/entrada
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/M8/UF2/SSL/ssl.rst
-	"	382	35
-	^	340	1
-	.	340	0
-	+	370	68
-	+	371	69
-	+	372	60
-	+	375	69
-	+	377	7
-	+	379	0
-	+	382	3
-	+	384	12
-	+	387	79
-	+	389	0
-	+	388	7
-	+	389	85
-	+	392	0
-	+	396	8
-	+	399	74
-	+	401	7
-	+	404	8
-	+	413	0
-	+	416	3
-	+	417	0
-	+	418	71
-	+	423	2
-	+	425	63
-	+	426	0
-	+	429	2
-	+	431	70
-	+	432	0
-	+	433	8
-	+	436	74
-	+	440	0
-	+	438	7
-	+	440	8
-	+	443	71
-	+	445	7
-	+	447	153
-	+	447	153
-	+	449	8
-	+	452	71
-	+	454	7
-	+	456	71
-	+	457	7
-	+	186	0
-	+	187	0
-	+	211	0
-	+	250	0
-	+	281	0
-	+	284	0
-	+	280	8
-	+	282	0
-	+	311	0
-	+	312	0
-	+	322	0
-	+	365	0
-	+	397	0
-	+	405	0
-	+	434	0
-	+	441	0
-	+	450	0
-	+	383	4
-	+	384	0
-	+	385	0
-	+	291	0
-	+	290	7
-	+	291	58
-	+	304	21
-	+	292	7
-	+	293	0
-	+	294	0
-	+	295	14
-	+	297	16
-	+	300	0
-	+	301	0
-	+	303	0
-	+	295	11
-	+	297	0
-	+	298	0
-	+	296	0
-	+	293	0
-	+	319	0
-	+	319	0
-	+	317	2
-	+	319	3
-	+	329	0
-	+	331	0
-	+	329	0
-	+	338	0
-	+	332	29
-	+	335	4
-	+	334	0
-	+	333	41
-	+	334	45
-	+	335	0
-	+	337	17
-	+	336	0
-	+	335	51
-	+	336	20
-	+	337	41
-	+	287	0
-	+	308	0
-	+	340	0
-
-> ~/CLASE/M9/UF2/practica4/NERD_tree_1
-	"	5	8
-	.	1	0
-	+	1	0
