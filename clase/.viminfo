@@ -17,6 +17,7 @@
 $\\n
 
 # Historial d'ordres (de més a menys recent):
+:q
 :qa
 :w
 :'<,'>s//\\n
@@ -49,7 +50,6 @@ $\\n
 :.,296y
 :.,295y
 :%s//compruebaDiagonal/g
-:q
 :wq
 :tabe ProvaCompletaGestorLlogersLite.java
 :!cp % ProvaCompletaGestorLlogersLite.java
@@ -463,7 +463,7 @@ $\\n
 # Registres:
 "0	CHAR	0
 	ProvaCompletaGestorLlogersLite {
-""1	CHAR	0
+"1	CHAR	0
 	2
 "2	CHAR	0
 	1
@@ -515,18 +515,19 @@ $\\n
 	paraula més
 
 # Marques de fitxer:
-'0  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'1  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
-'2  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
-'3  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
-'4  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
-'5  144  11  ~/.bashrc
-'6  117  22  ~/.bashrc
-'7  1  0  ~/CLASE/.git/COMMIT_EDITMSG
-'8  13  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'9  4  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
+'0  1  0  ~/.ssh/id_rsa.pub
+'1  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'2  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
+'3  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+'4  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
+'5  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
+'6  144  11  ~/.bashrc
+'7  117  22  ~/.bashrc
+'8  1  0  ~/CLASE/.git/COMMIT_EDITMSG
+'9  13  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/.ssh/id_rsa.pub
 -'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
@@ -609,8 +610,26 @@ $\\n
 -'  127  4  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  97  26  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  91  8  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  64  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  54  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  44  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  34  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  24  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  18  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  8  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  101  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  83  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  105  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  73  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
 	"	48	33
@@ -2479,8 +2498,3 @@ $\\n
 
 > ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorNums.class.bak
 	"	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/Carreras/carreras.pseudo
-	"	3	0
-	.	3	0
-	+	3	0
