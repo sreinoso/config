@@ -17,7 +17,6 @@
 $\\n
 
 # Historial d'ordres (de més a menys recent):
-:q
 :qa
 :w
 :'<,'>s//\\n
@@ -50,6 +49,7 @@ $\\n
 :.,296y
 :.,295y
 :%s//compruebaDiagonal/g
+:q
 :wq
 :tabe ProvaCompletaGestorLlogersLite.java
 :!cp % ProvaCompletaGestorLlogersLite.java
@@ -463,7 +463,7 @@ $\\n
 # Registres:
 "0	CHAR	0
 	ProvaCompletaGestorLlogersLite {
-"1	CHAR	0
+""1	CHAR	0
 	2
 "2	CHAR	0
 	1
@@ -515,7 +515,7 @@ $\\n
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/.ssh/id_rsa.pub
+'0  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
 '1  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 '2  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
 '3  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
@@ -527,7 +527,7 @@ $\\n
 '9  13  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 
 # Llista de salts (de més a menys recent):
--'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
 -'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
@@ -610,6 +610,7 @@ $\\n
 -'  127  4  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  97  26  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  91  8  ~/CLASE/M6/UF2/examenes/js/script.js
+-'  1  0  ~/.ssh/id_rsa.pub
 -'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
@@ -627,6 +628,9 @@ $\\n
 -'  73  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
+	"	1	0
 
 > ~/.ssh/id_rsa.pub
 	"	1	0
@@ -2494,7 +2498,4 @@ $\\n
 	"	1	0
 
 > ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorNums.class
-	"	1	0
-
-> ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorNums.class.bak
 	"	1	0
