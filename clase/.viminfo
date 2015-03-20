@@ -8,18 +8,24 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/\n
+~Msle0~/\<modulos\>
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&\n
+~MSle0&\n
 
 # Última cadena substituïda:
 $
 
 # Historial d'ordres (de més a menys recent):
-:wq
-:w
+:wqa
+:6p
+:2t6
+:6tp
 :qa
+:w
+:.,23y
+:tabe js/scripts.js
+:wq
 :'<,'>s//\\n
 :.,$s//\\n/
 :s/\r\n/$
@@ -35,7 +41,6 @@ $
 :.,67d
 :s//vehicle
 :.,49y
-:wqa
 :.,129y
 :s/)/]/g
 :s/(/[/g
@@ -336,7 +341,6 @@ $
 :set wrap!
 :.,36d
 :.,29y
-:.,23y
 :color delek
 :color 
 :.,62y
@@ -344,6 +348,7 @@ $
 :PluginInstall! surround.vim
 
 # Historial de cadenes cercades (de més a menys recent):
+? \<modulos\>
 ? \V**template**\%#
 ?/\n
 ? \r\n
@@ -462,25 +467,25 @@ $
 
 # Registres:
 "0	CHAR	0
-	ProvaCompletaGestorLlogersLite {
+	modulos
 ""1	CHAR	0
-	code.jquery.com/jquery-1.8.3.min.js
-"2	CHAR	0
-	/
-"3	CHAR	0
-	/
-"4	CHAR	0
-	p
-"5	CHAR	0
-	t
-"6	CHAR	0
-	t
+	umeration 
+"2	LINE	0
+	
+"3	LINE	0
+	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
+"4	LINE	0
+	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
+"5	LINE	0
+	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
+"6	LINE	0
+	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
 "7	CHAR	0
-	h
+	jquery-ui.theme.min.css
 "8	CHAR	0
-	/
+	#
 "9	CHAR	0
-	/
+	n
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -515,21 +520,30 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  8  26  ~/CLASE/webGlobal/index.html
-'1  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
-'2  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'3  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
-'4  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
-'5  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
-'6  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
-'7  144  11  ~/.bashrc
-'8  117  22  ~/.bashrc
-'9  1  0  ~/CLASE/.git/COMMIT_EDITMSG
+'0  5  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'1  8  61  ~/CLASE/webGlobal/index.html
+'2  9  26  ~/CLASE/webGlobal/index.html
+'3  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
+'4  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'5  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
+'6  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+'7  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
+'8  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
+'9  144  11  ~/.bashrc
 
 # Llista de salts (de més a menys recent):
--'  8  26  ~/CLASE/webGlobal/index.html
--'  18  21  ~/CLASE/webGlobal/index.html
--'  1  12  ~/CLASE/webGlobal/index.html
+-'  5  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  7  2  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  8  61  ~/CLASE/webGlobal/index.html
+-'  7  39  ~/CLASE/webGlobal/index.html
+-'  9  59  ~/CLASE/webGlobal/index.html
+-'  26  20  ~/CLASE/webGlobal/index.html
+-'  24  20  ~/CLASE/webGlobal/index.html
+-'  16  0  ~/CLASE/webGlobal/index.html
+-'  1  0  ~/CLASE/webGlobal/index.html
+-'  35  21  ~/CLASE/webGlobal/index.html
 -'  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
 -'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
@@ -606,72 +620,152 @@ $
 -'  66  14  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  62  14  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  73  36  ~/CLASE/M6/UF2/examenes/js/script.js
--'  118  42  ~/CLASE/M6/UF2/examenes/js/script.js
--'  49  4  ~/CLASE/M6/UF2/examenes/js/script.js
--'  86  4  ~/CLASE/M6/UF2/examenes/js/script.js
--'  25  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  127  4  ~/CLASE/M6/UF2/examenes/js/script.js
--'  97  26  ~/CLASE/M6/UF2/examenes/js/script.js
--'  91  8  ~/CLASE/M6/UF2/examenes/js/script.js
--'  1  0  ~/.ssh/id_rsa.pub
--'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  64  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  54  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  44  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  34  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  24  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  18  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  8  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  101  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  8  61  ~/CLASE/webGlobal/index.html
+-'  7  39  ~/CLASE/webGlobal/index.html
+-'  9  59  ~/CLASE/webGlobal/index.html
+-'  26  20  ~/CLASE/webGlobal/index.html
+-'  24  20  ~/CLASE/webGlobal/index.html
+-'  16  0  ~/CLASE/webGlobal/index.html
+-'  1  0  ~/CLASE/webGlobal/index.html
+-'  35  21  ~/CLASE/webGlobal/index.html
 
 # Historial de marques en fitxers (de més a menys recent):
 
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+	"	5	0
+	^	5	0
+	.	2	61
+	+	1	126
+	+	1	23
+	+	9	26
+	+	3	0
+	+	3	0
+	+	7	0
+	+	7	0
+	+	3	0
+	+	7	0
+	+	8	0
+	+	7	2
+	+	2	61
+
 > ~/CLASE/webGlobal/index.html
-	"	8	26
-	^	8	27
-	.	8	26
+	"	8	61
+	^	8	62
+	.	8	61
 	+	2	0
 	+	5	15
-	+	12	26
-	+	29	4
-	+	13	39
-	+	28	0
-	+	14	30
-	+	15	17
-	+	29	0
-	+	14	0
+	+	13	26
+	+	46	4
+	+	14	39
+	+	45	0
+	+	15	30
+	+	32	17
+	+	46	0
 	+	15	0
-	+	17	27
-	+	22	21
-	+	17	37
-	+	18	29
-	+	17	38
-	+	18	0
-	+	18	12
-	+	19	21
-	+	20	26
-	+	21	17
-	+	18	0
-	+	23	36
-	+	27	20
-	+	24	65
-	+	25	25
-	+	24	35
-	+	25	68
-	+	26	42
-	+	18	0
-	+	9	70
-	+	7	24
-	+	8	25
+	+	32	0
+	+	34	27
+	+	39	21
+	+	34	37
+	+	35	29
+	+	34	38
+	+	35	0
+	+	35	12
+	+	36	21
+	+	37	26
+	+	38	17
+	+	35	0
+	+	40	36
+	+	44	20
+	+	41	65
+	+	42	25
+	+	41	35
+	+	42	68
+	+	43	42
+	+	35	0
+	+	11	70
+	+	8	24
 	+	9	25
-	+	8	25
-	+	7	20
-	+	8	21
+	+	11	25
+	+	9	25
+	+	8	20
 	+	9	21
-	+	8	26
+	+	11	21
+	+	9	60
+	+	11	0
+	+	8	25
+	+	9	21
+	+	8	0
+	+	9	0
+	+	8	25
+	+	9	26
+	+	11	0
+	+	7	0
+	+	8	20
+	+	7	21
+	+	9	21
+	+	16	0
+	+	17	35
+	+	18	35
+	+	17	39
+	+	18	39
+	+	24	0
+	+	19	35
+	+	20	35
+	+	21	35
+	+	22	35
+	+	23	39
+	+	22	39
+	+	21	39
+	+	20	39
+	+	19	39
+	+	10	35
+	+	25	19
+	+	26	0
+	+	26	0
+	+	25	35
+	+	26	0
+	+	25	0
+	+	26	0
+	+	26	0
+	+	16	0
+	+	25	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	38	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	39	0
+	+	38	0
+	+	40	0
+	+	41	0
+	+	44	0
+	+	45	0
+	+	46	0
+	+	47	0
+	+	7	39
+	+	8	64
+	+	9	0
+	+	7	0
+	+	8	61
+
+> ~/CLASE/webGlobal/js/scripts.js
+	"	4	21
+	.	4	0
+	+	1	0
+	+	4	0
+	+	3	18
+	+	5	0
+	+	5	0
+	+	4	0
+	+	5	1
+	+	6	0
+	+	5	0
+	+	4	0
 
 > ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
 	"	1	0
@@ -2534,9 +2628,3 @@ $
 	+	5	0
 	+	4	0
 	+	1	38
-
-> ~/CLASE/M3/UF5/examenes/practica/plantillaAgafador
-	"	1	0
-
-> ~/CLASE/M3/UF5/examenes/practica/plantillaUsaAgafadorMots
-	"	1	0
