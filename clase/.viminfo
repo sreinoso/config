@@ -18,14 +18,14 @@ $
 
 # Historial d'ordres (de més a menys recent):
 :wqa
+:wq
+:w
 :6p
 :2t6
 :6tp
 :qa
-:w
 :.,23y
 :tabe js/scripts.js
-:wq
 :'<,'>s//\\n
 :.,$s//\\n/
 :s/\r\n/$
@@ -467,25 +467,25 @@ $
 
 # Registres:
 "0	CHAR	0
-	modulos
-""1	CHAR	0
-	umeration 
-"2	LINE	0
-	
-"3	LINE	0
-	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
-"4	LINE	0
-	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
-"5	LINE	0
-	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
-"6	LINE	0
-	Enumeration función de la edad del usuario, le aparecerá un campo nuevo que corresponderá a la contraseña de administrador 
-"7	CHAR	0
-	jquery-ui.theme.min.css
-"8	CHAR	0
-	#
-"9	CHAR	0
+	engine MyISAM
+"1	CHAR	0
+	COLLATE
+"2	CHAR	0
+	]
+"3	CHAR	0
+	e
+"4	CHAR	0
+	m
+"5	CHAR	0
+	a
+"6	CHAR	0
 	n
+"7	CHAR	0
+	_
+"8	CHAR	0
+	n
+"9	CHAR	0
+	o
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -520,22 +520,28 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  5  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'1  8  61  ~/CLASE/webGlobal/index.html
-'2  9  26  ~/CLASE/webGlobal/index.html
-'3  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
-'4  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'5  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
-'6  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
-'7  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
-'8  165  17  ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
-'9  144  11  ~/.bashrc
+'0  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'1  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'2  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'3  8  61  ~/CLASE/webGlobal/index.html
+'4  9  26  ~/CLASE/webGlobal/index.html
+'5  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
+'6  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'7  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
+'8  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
+'9  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
 
 # Llista de salts (de més a menys recent):
--'  5  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
--'  7  2  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
--'  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  3  17  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  7  166  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  5  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  8  2  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+-'  4  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
 -'  8  61  ~/CLASE/webGlobal/index.html
 -'  7  39  ~/CLASE/webGlobal/index.html
 -'  9  59  ~/CLASE/webGlobal/index.html
@@ -621,32 +627,47 @@ $
 -'  62  14  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  73  36  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  8  61  ~/CLASE/webGlobal/index.html
--'  7  39  ~/CLASE/webGlobal/index.html
--'  9  59  ~/CLASE/webGlobal/index.html
--'  26  20  ~/CLASE/webGlobal/index.html
--'  24  20  ~/CLASE/webGlobal/index.html
--'  16  0  ~/CLASE/webGlobal/index.html
--'  1  0  ~/CLASE/webGlobal/index.html
--'  35  21  ~/CLASE/webGlobal/index.html
+-'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  3  17  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+-'  7  166  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 
 # Historial de marques en fitxers (de més a menys recent):
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-	"	5	0
-	^	5	0
-	.	2	61
+	"	11	0
+	^	11	0
+	.	3	34
 	+	1	126
 	+	1	23
-	+	9	26
-	+	3	0
-	+	3	0
-	+	7	0
-	+	7	0
-	+	3	0
-	+	7	0
+	+	10	26
+	+	4	0
+	+	4	0
 	+	8	0
-	+	7	2
+	+	8	0
+	+	4	0
+	+	8	0
+	+	9	0
+	+	8	2
 	+	2	61
+	+	3	34
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+	"	1	0
+	^	1	59
+	.	1	0
+	+	5	150
+	+	7	145
+	+	5	110
+	+	5	11
+	+	7	11
+	+	7	166
+	+	2	0
+	+	5	154
+	+	7	185
+	+	5	152
+	+	7	238
+	+	1	0
 
 > ~/CLASE/webGlobal/index.html
 	"	8	61
@@ -2620,11 +2641,3 @@ $
 
 > ~/CLASE/M3/UF5/examenes/practica/UsaAgafadorAbstract.java
 	"	1	0
-
-> ~/CLASE/M3/UF5/examenes/practica/Agafador.java
-	"	2	0
-	^	2	0
-	.	1	38
-	+	5	0
-	+	4	0
-	+	1	38
