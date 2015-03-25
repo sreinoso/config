@@ -8,15 +8,16 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/\t
+~MSle0~/lloguer
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&lloguer
+~MSle0&lloguer
 
 # Última cadena substituïda:
-$this
+$
 
 # Historial d'ordres (de més a menys recent):
+:wq
 :q
 :w
 :.,$s/lloguer/this/g
@@ -26,7 +27,6 @@ $this
 :'<,'>s/\r/\\n
 :'<,'>s//\\t
 :wqa
-:wq
 :6p
 :2t6
 :6tp
@@ -477,15 +477,17 @@ $this
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	CHAR	0
-	\tTata Vista: 90.0€\n\tTata Vista: 360.0€\n\tTata Vista: 2160.0€\n\tTata Vista: 135.0€\nImport a pagar: 2745.0€\nPunts guanyats: 5\n
-""1	CHAR	0
-	lloguer
+""0	LINE	0
+	.*.swp
+"1	CHAR	0
+	origin
 "2	CHAR	0
-	Lloguer lloguer
+	lloguer
 "3	CHAR	0
+	Lloguer lloguer
+"4	CHAR	0
 	private
-"4	LINE	0
+"5	LINE	0
 	    private int bonificacionsDeLLoguer(Lloguer lloguer){
 	        int bonificacions = 1;
 	
@@ -496,18 +498,16 @@ $this
 	        return bonificacions;
 	    
 	    }
-"5	LINE	0
+"6	LINE	0
 	195.0€
 	Import a pagar: 195.0€
 	Punts guanyats: 1
-"6	CHAR	0
-	90
 "7	CHAR	0
 	90
-"8	LINE	0
+"8	CHAR	0
+	90
+"9	LINE	0
 	\tTata Vista: 90.0€\n\tTata Vista: 360.0€\n\tTata Vista: 2160.0€\n\tTata Vista: 135.0€\nImport a pagar: 2745.0€\nPunts guanyats: 5\n
-"9	CHAR	0
-	\tTata Vista: 195.0€\nImport a pagar: 195.0€\nPunts guanyats: 1\n
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -542,18 +542,28 @@ $this
 	paraula més
 
 # Marques de fitxer:
-'0  56  0  ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Lloguer.java
-'1  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'2  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'3  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
-'4  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'5  8  61  ~/CLASE/webGlobal/index.html
-'6  9  26  ~/CLASE/webGlobal/index.html
-'7  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
-'8  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'9  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
+'0  5  0  ~/CLASE/sally/.gitignore
+'1  4  0  ~/CLASE/sally/NERD_tree_2
+'2  1  0  ~/CLASE/sally/.git/config
+'3  8  13  ~/CLASE/sally/.git/config
+'4  56  0  ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Lloguer.java
+'5  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'6  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'7  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'8  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'9  8  61  ~/CLASE/webGlobal/index.html
 
 # Llista de salts (de més a menys recent):
+-'  5  0  ~/CLASE/sally/.gitignore
+-'  1  0  ~/CLASE/sally/.gitignore
+-'  4  0  ~/CLASE/sally/NERD_tree_2
+-'  6  2  ~/CLASE/sally/NERD_tree_2
+-'  1  0  ~/CLASE/sally/NERD_tree_2
+-'  17  2  ~/CLASE/sally/NERD_tree_1
+-'  1  0  ~/CLASE/sally/NERD_tree_1
+-'  1  0  ~/CLASE/sally/.git/config
+-'  8  13  ~/CLASE/sally/.git/config
+-'  9  9  ~/CLASE/sally/.git/config
 -'  56  0  ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Lloguer.java
 -'  47  29  ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Lloguer.java
 -'  46  38  ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Lloguer.java
@@ -641,21 +651,36 @@ $this
 -'  18  0  ~/CLASE/M5/UF2/Refactoring/Exemple
 -'  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  32  31  ~/CLASE/M6/UF2/examenes/js/script.js
--'  132  19  ~/CLASE/M6/UF2/examenes/js/script.js
--'  1  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  172  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  133  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  90  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  78  12  ~/CLASE/M6/UF2/examenes/js/script.js
--'  82  6  ~/CLASE/M6/UF2/examenes/js/script.js
--'  77  14  ~/CLASE/M6/UF2/examenes/js/script.js
--'  74  14  ~/CLASE/M6/UF2/examenes/js/script.js
--'  70  14  ~/CLASE/M6/UF2/examenes/js/script.js
--'  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  104  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  62  139  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  4  0  ~/CLASE/sally/NERD_tree_2
+-'  6  2  ~/CLASE/sally/NERD_tree_2
+-'  1  0  ~/CLASE/sally/NERD_tree_2
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/sally/.gitignore
+	"	5	0
+	^	5	1
+	.	5	0
+	+	3	0
+	+	4	5
+	+	5	0
+
+> ~/CLASE/sally/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/sally/NERD_tree_2
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/CLASE/sally/.git/config
+	"	1	0
+	.	9	0
+	+	7	41
+	+	9	0
 
 > ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Client.java
 	"	46	60
@@ -2678,38 +2703,3 @@ $this
 
 > ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/DataNoValidaException.java
 	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/Hora.java
-	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/HoraNoValidaException.java
-	"	2	0
-
-> ~/CLASE/M3/UF5/ejercicios/excepcions/ex6/__Tagbar__
-	"	3	0
-	.	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-	+	6	0
-
-> ~/CLASE/M3/UF5/examenes/practica/prova_agafador.sh
-	"	28	0
