@@ -376,7 +376,7 @@ function! SetRSTOptions()
 endfunction
 function! SetJavaOptions()
     map <F7> :!javac % && java %< <CR>
-    Tagbar
+    "Tagbar
 endfunction
 function! SetHtmlOptions()
     map <F4> :!gnome-open % <CR>
