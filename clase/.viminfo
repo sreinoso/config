@@ -17,9 +17,9 @@
 $\\n
 
 # Historial d'ordres (de més a menys recent):
+:q
 :w
 :'<,'>y
-:q
 :'<,'>s/\n/\\n
 :'<,'>s/\r/\\n
 :'<,'>s//\\t
@@ -479,7 +479,7 @@ $\\n
 # Registres:
 "0	LINE	0
 	        //    double quantitat = lloguer.quantitatPerLloguer();
-""1	LINE	0
+"1	LINE	0
 	        double quantitat = lloguer.quantitatPerLloguer();
 "2	CHAR	0
 	 
@@ -531,10 +531,10 @@ $\\n
 	paraula més
 
 # Marques de fitxer:
-'0  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
-'1  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'2  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'3  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'0  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'1  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+'2  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'3  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
 '4  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
 '5  8  61  ~/CLASE/webGlobal/index.html
 '6  9  26  ~/CLASE/webGlobal/index.html
@@ -543,6 +543,7 @@ $\\n
 '9  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
 
 # Llista de salts (de més a menys recent):
+-'  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  43  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  90  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
@@ -559,7 +560,6 @@ $\\n
 -'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
--'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  3  17  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  7  166  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
@@ -640,9 +640,26 @@ $\\n
 -'  172  0  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  133  0  ~/CLASE/M6/UF2/examenes/js/script.js
 -'  90  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  78  12  ~/CLASE/M6/UF2/examenes/js/script.js
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+	"	1	11
+	^	7	240
+	.	7	239
+	+	5	150
+	+	7	145
+	+	5	110
+	+	5	11
+	+	7	11
+	+	7	166
+	+	2	0
+	+	5	154
+	+	7	185
+	+	5	152
+	+	7	238
+	+	1	0
+	+	7	239
 
 > ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 	"	54	12
@@ -1043,23 +1060,6 @@ $\\n
 	+	8	2
 	+	2	61
 	+	3	34
-
-> ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
-	"	1	0
-	^	1	59
-	.	1	0
-	+	5	150
-	+	7	145
-	+	5	110
-	+	5	11
-	+	7	11
-	+	7	166
-	+	2	0
-	+	5	154
-	+	7	185
-	+	5	152
-	+	7	238
-	+	1	0
 
 > ~/CLASE/webGlobal/index.html
 	"	8	61
