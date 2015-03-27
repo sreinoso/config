@@ -17,6 +17,29 @@
 $in.informe()
 
 # Historial d'ordres (de més a menys recent):
+:q
+:helptags Adobe\ Photoshop\ CS6\ Portable/
+:helptags C.java
+:helptags
+:Helptags
+:tabe
+:CtrlP ~/
+:bdelete
+:CtrlP 
+:CtrlP CLASE/M5/UF2/Refactoring
+:CtrlP .
+:CtrlP
+:CTAGS
+:CtrlPMixed
+:CtrlPMRUFiles
+:CtrlPBufTag
+:wq
+:PluginSearch! ctrlp
+:wqa
+:b2
+:ls
+:bfirst
+:PluginSearch! tetra
 :qa
 :wa
 :w
@@ -29,13 +52,10 @@ $in.informe()
 :13,$s//nif/g
 :13,$s//nom/g
 :s//""
-:q
 :'<,'>y
 :'<,'>s/\n/\\n
 :'<,'>s/\r/\\n
 :'<,'>s//\\t
-:wqa
-:wq
 :6p
 :2t6
 :6tp
@@ -80,7 +100,6 @@ $in.informe()
 :tabe ../../hundirLaFlota/
 :d
 :AirlineRefresh
-:ls
 :39,43s//aux2/g
 :s//vehicle/g
 :s//dies/g
@@ -115,7 +134,6 @@ $in.informe()
 :! cp ../../plantilles/Plantilla.java .
 :qa!
 :b1
-:b2
 :b2!
 :bufdo! %s/hola/Raul es un capullo/g
 :bn
@@ -337,7 +355,6 @@ $in.informe()
 :tabe TestSegment.java
 :tabe Punt.java
 :.,362y
-:tabe
 :sav %.java
 :tabe UsaAgafadorMots
 :tabe ~/.vim/bundle/snipMate/snippets/html.snippets
@@ -490,26 +507,26 @@ $in.informe()
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	            return String.format(plantillaPeuTXT,new Double(importTotal()).toString(),bonificacionsTotals());
-""1	CHAR	0
+""0	LINE	0
+	Plugin 'ctrlp.vim'
+"1	LINE	0
+	Plugin 'tetragrammaton'
+"2	CHAR	0
 	TXT
-"2	LINE	0
+"3	LINE	0
 	            return "<p>Import a pagar: <em>" + importTotal() + "&euro;</em></p>\n" + "<p>Punts guanyats: <em>" + bonificacionsTotals() + "</em></p>\n";
-"3	CHAR	0
-	<p>Informe de lloguers del client <em> %s</em> (<strong>%s</strong>)</p>\n";
 "4	CHAR	0
-	)
+	<p>Informe de lloguers del client <em> %s</em> (<strong>%s</strong>)</p>\n";
 "5	CHAR	0
-	(
+	)
 "6	CHAR	0
-	g
+	(
 "7	CHAR	0
-	n
+	g
 "8	CHAR	0
-	i
+	n
 "9	CHAR	0
-	r
+	i
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -544,18 +561,30 @@ $in.informe()
 	paraula més
 
 # Marques de fitxer:
-'0  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
-'1  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
-'2  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
-'3  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
-'4  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'5  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'6  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'7  8  61  ~/CLASE/webGlobal/index.html
-'8  9  26  ~/CLASE/webGlobal/index.html
-'9  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
+'0  4  0  ~/NERD_tree_1
+'1  1  0  ~/VIM_cheatcodes.rst
+'2  19  0  ~/README.pdf
+'3  73  0  ~/.vimrc
+'4  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+'5  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
+'6  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'7  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+'8  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'9  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
 
 # Llista de salts (de més a menys recent):
+-'  4  0  ~/NERD_tree_1
+-'  98  2  ~/NERD_tree_1
+-'  1  0  ~/NERD_tree_1
+-'  1  0  ~/C.java
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/test
+-'  1  0  ~/VIM_cheatcodes.rst
+-'  19  0  ~/README.pdf
+-'  1  0  ~/README
+-'  1  0  ~/.vimrc
+-'  17  0  ~/C.java
+-'  73  0  ~/.vimrc
+-'  7  0  ~/[Vundle] search
 -'  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  72  50  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  81  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
@@ -614,11 +643,159 @@ $in.informe()
 -'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  4  0  ~/[Vundle] search
+-'  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  72  50  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  81  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  91  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  1  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  65  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  13  30  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  40  12  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  11  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  38  89  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  12  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  9  18  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  2  13  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  4  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  5  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  6  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  7  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  8  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  15  8  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  16  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  17  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
 
 # Historial de marques en fitxers (de més a menys recent):
 
+> ~/CLASE/M5/UF2/Refactoring/test
+	"	1	0
+
+> ~/ControlP
+	"	10	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+
+> ~/CLASE/M5/UF2/Refactoring/ControlP
+	"	10	0
+	.	2	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+
+> ~/C.java
+	"	1	0
+
+> ~/NERD_tree_1
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/Baixades/11_Jquery_3a_parte_.pdf
+	"	1	0
+
+> ~/__Tagbar__
+	"	1	0
+
+> ~/VIM_cheatcodes.rst
+	"	1	0
+
+> ~/.vimrc
+	"	1	0
+	^	380	5
+	.	73	0
+	+	71	0
+	+	72	0
+	+	380	4
+	+	73	0
+	+	72	0
+	+	73	0
+
+> ~/README
+	"	1	0
+
+> ~/README.pdf
+	"	19	0
+
+> ~/[Vundle] search
+	"	3	0
+	.	1	0
+	+	4	0
+	+	1	0
+
 > ~/CLASE/M5/UF2/examen/InformeDeClient.java
-	"	39	48
+	"	17	4
 	^	76	49
 	.	76	48
 	+	2	28
@@ -667,61 +844,11 @@ $in.informe()
 	+	77	0
 	+	76	48
 
-> ~/CLASE/M5/UF2/examen/Client.java
-	"	41	0
-	.	41	0
-	+	37	40
-	+	39	0
-	+	38	23
-	+	41	0
-	+	41	14
-	+	41	0
-	+	41	49
-	+	41	14
-	+	41	0
-	+	41	18
-	+	41	0
-
-> ~/CLASE/M5/UF2/examen/Lloguer.java
-	"	49	0
-
-> ~/CLASE/M5/UF2/examen/GestorLlogersLite.java
-	"	22	0
-
-> ~/CLASE/M5/UF2/examen/ProvaCompletaGestorLlogersLite.java
-	"	22	8
-	^	22	57
-	.	24	0
-	+	22	56
-	+	31	0
-	+	33	0
-	+	44	0
-	+	55	0
-	+	66	0
-	+	77	0
-	+	88	0
-	+	107	0
-	+	24	0
-
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
 	"	1	0
 
-> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/controller.php
-	"	1	0
-
-> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/model.php
-	"	54	0
-
-> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/view.php
-	"	60	0
-
-> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/__Tagbar__
-	"	1	0
-	.	35	0
-	+	35	0
-
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
-	"	1	11
+	"	2	0
 	^	7	240
 	.	7	239
 	+	5	150
@@ -739,7 +866,7 @@ $in.informe()
 	+	7	239
 
 > ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
-	"	54	12
+	"	1	0
 	^	65	12
 	.	54	0
 	+	65	0
@@ -766,72 +893,8 @@ $in.informe()
 	+	49	0
 	+	54	0
 
-> ~/CLASE/M5/UF2/Refactoring/Eliminacio_de_variables_temporals/Client.java
-	"	54	26
-	^	62	6
-	.	54	26
-	+	72	0
-	+	65	73
-	+	65	73
-	+	74	58
-	+	69	64
-	+	69	70
-	+	69	111
-	+	69	144
-	+	69	144
-	+	74	53
-	+	41	0
-	+	40	0
-	+	39	35
-	+	63	0
-	+	41	0
-	+	67	0
-	+	47	4
-	+	54	26
-
-> ~/CLASE/sally/.gitignore
-	"	5	0
-	^	5	1
-	.	5	0
-	+	3	0
-	+	4	5
-	+	5	0
-
-> ~/CLASE/sally/NERD_tree_1
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/sally/NERD_tree_2
-	"	4	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> ~/CLASE/sally/.git/config
-	"	1	0
-	.	9	0
-	+	7	41
-	+	9	0
-
-> ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Client.java
-	"	46	60
-	^	46	67
-	.	46	60
-	+	38	0
-	+	37	4
-	+	46	60
-
-> ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Lloguer.java
-	"	56	0
-	^	46	10
-	.	49	0
-	+	45	0
-	+	46	38
-	+	49	0
-
 > ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-	"	102	0
+	"	1	0
 	^	62	140
 	.	104	0
 	+	104	0
@@ -934,6 +997,138 @@ $in.informe()
 	+	104	0
 	+	62	139
 	+	104	0
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+	"	1	0
+	^	11	0
+	.	3	34
+	+	1	126
+	+	1	23
+	+	10	26
+	+	4	0
+	+	4	0
+	+	8	0
+	+	8	0
+	+	4	0
+	+	8	0
+	+	9	0
+	+	8	2
+	+	2	61
+	+	3	34
+
+> ~/CLASE/M5/UF2/examen/Client.java
+	"	41	0
+	.	41	0
+	+	37	40
+	+	39	0
+	+	38	23
+	+	41	0
+	+	41	14
+	+	41	0
+	+	41	49
+	+	41	14
+	+	41	0
+	+	41	18
+	+	41	0
+
+> ~/CLASE/M5/UF2/examen/Lloguer.java
+	"	49	0
+
+> ~/CLASE/M5/UF2/examen/GestorLlogersLite.java
+	"	22	0
+
+> ~/CLASE/M5/UF2/examen/ProvaCompletaGestorLlogersLite.java
+	"	22	8
+	^	22	57
+	.	24	0
+	+	22	56
+	+	31	0
+	+	33	0
+	+	44	0
+	+	55	0
+	+	66	0
+	+	77	0
+	+	88	0
+	+	107	0
+	+	24	0
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/controller.php
+	"	1	0
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/model.php
+	"	54	0
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/view.php
+	"	60	0
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/__Tagbar__
+	"	1	0
+	.	35	0
+	+	35	0
+
+> ~/CLASE/M5/UF2/Refactoring/Eliminacio_de_variables_temporals/Client.java
+	"	54	26
+	^	62	6
+	.	54	26
+	+	72	0
+	+	65	73
+	+	65	73
+	+	74	58
+	+	69	64
+	+	69	70
+	+	69	111
+	+	69	144
+	+	69	144
+	+	74	53
+	+	41	0
+	+	40	0
+	+	39	35
+	+	63	0
+	+	41	0
+	+	67	0
+	+	47	4
+	+	54	26
+
+> ~/CLASE/sally/.gitignore
+	"	5	0
+	^	5	1
+	.	5	0
+	+	3	0
+	+	4	5
+	+	5	0
+
+> ~/CLASE/sally/NERD_tree_1
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/CLASE/sally/NERD_tree_2
+	"	4	0
+	.	1	0
+	+	1	0
+	+	1	0
+
+> ~/CLASE/sally/.git/config
+	"	1	0
+	.	9	0
+	+	7	41
+	+	9	0
+
+> ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Client.java
+	"	46	60
+	^	46	67
+	.	46	60
+	+	38	0
+	+	37	4
+	+	46	60
+
+> ~/CLASE/M5/UF2/Refactoring/Moviment_de_responsabilitats/Lloguer.java
+	"	56	0
+	^	46	10
+	.	49	0
+	+	45	0
+	+	46	38
+	+	49	0
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
 	"	1	0
@@ -1076,14 +1271,6 @@ $in.informe()
 	+	36	23
 	+	41	32
 
-> ~/.vimrc
-	"	379	4
-	^	379	5
-	.	379	4
-	+	71	0
-	+	72	0
-	+	379	4
-
 > ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/Client.java
 	"	89	24
 	^	89	25
@@ -1119,24 +1306,6 @@ $in.informe()
 	+	29	0
 	+	25	0
 	+	21	0
-
-> ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-	"	11	0
-	^	11	0
-	.	3	34
-	+	1	126
-	+	1	23
-	+	10	26
-	+	4	0
-	+	4	0
-	+	8	0
-	+	8	0
-	+	4	0
-	+	8	0
-	+	9	0
-	+	8	2
-	+	2	61
-	+	3	34
 
 > ~/CLASE/webGlobal/index.html
 	"	8	61
@@ -2507,205 +2676,3 @@ $in.informe()
 
 > ~/CLASE/M5/UF2/JUnit/ex1/Punt.java
 	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/Prova.java
-	"	5	36
-	^	5	37
-	.	5	36
-	+	3	51
-	+	4	66
-	+	6	0
-	+	8	0
-	+	7	58
-	+	8	59
-	+	7	34
-	+	8	41
-	+	5	36
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/__Tagbar__
-	"	3	0
-	.	9	0
-	+	17	0
-	+	11	0
-	+	9	0
-	+	9	0
-	+	9	0
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringBuilderToMinus.java
-	"	1	0
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/TestStringToMinus.java
-	"	15	0
-	.	16	0
-	+	7	22
-	+	13	0
-	+	14	0
-	+	9	25
-	+	11	0
-	+	1	23
-	+	16	0
-	+	16	0
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/Resultats
-	"	90	5
-	^	90	6
-	.	90	5
-	+	48	0
-	+	47	41
-	+	48	0
-	+	48	0
-	+	52	114
-	+	52	31
-	+	53	44
-	+	55	0
-	+	59	0
-	+	73	1
-	+	60	0
-	+	74	0
-	+	77	0
-	+	75	0
-	+	78	0
-	+	81	62
-	+	82	0
-	+	91	0
-	+	88	39
-	+	90	5
-
-> ~/CLASE/M3/UF5/ejercicios/contenidors/ex4/a.html
-	"	9	6
-	^	9	7
-	.	2	0
-	+	10	0
-	+	2	0
-
-> ~/.vim/bundle/snipMate/snippets/html.snippets
-	"	210	1
-	^	205	3
-	.	206	0
-	+	201	20
-	+	210	7
-	+	204	7
-	+	207	3
-	+	209	3
-	+	206	3
-	+	206	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/Carreras/Plantilla.java
-	"	49	45
-	^	49	46
-	.	49	45
-	+	57	19
-	+	59	47
-	+	60	8
-	+	57	25
-	+	65	21
-	+	57	21
-	+	58	16
-	+	54	0
-	+	54	0
-	+	54	0
-	+	54	0
-	+	54	0
-	+	54	0
-	+	54	0
-	+	54	0
-	+	65	18
-	+	62	24
-	+	63	24
-	+	64	39
-	+	7	58
-	+	64	0
-	+	54	0
-	+	8	43
-	+	9	46
-	+	10	45
-	+	11	21
-	+	12	8
-	+	11	0
-	+	59	40
-	+	12	0
-	+	47	0
-	+	20	0
-	+	17	11
-	+	12	22
-	+	9	12
-	+	12	30
-	+	12	30
-	+	12	9
-	+	11	8
-	+	12	29
-	+	12	32
-	+	15	32
-	+	17	49
-	+	22	0
-	+	21	0
-	+	23	26
-	+	47	0
-	+	21	0
-	+	28	0
-	+	27	30
-	+	40	0
-	+	39	40
-	+	37	54
-	+	36	38
-	+	43	20
-	+	21	0
-	+	47	0
-	+	47	39
-	+	54	0
-	+	47	0
-	+	48	0
-	+	54	0
-	+	46	0
-	+	38	0
-	+	12	0
-	+	38	36
-	+	46	35
-	+	13	11
-	+	15	18
-	+	14	0
-	+	17	0
-	+	19	0
-	+	17	38
-	+	15	23
-	+	15	23
-	+	17	0
-	+	16	36
-	+	18	36
-	+	11	30
-	+	17	0
-	+	19	12
-	+	39	0
-	+	27	0
-	+	25	37
-	+	26	9
-	+	22	9
-	+	23	9
-	+	53	0
-	+	51	3
-	+	49	24
-	+	23	24
-	+	50	0
-	+	49	45
-
-> ~/programame/bitbucket/programame-2015/exercicis/Carreras/__Tagbar__
-	"	1	0
-	.	9	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	18	0
-	+	9	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/NERD_tree_1
-	"	8	0
-	.	1	0
-	+	1	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/Por3omas5.java
-	"	13	0
-	^	13	0
-	.	62	0
-	+	62	0

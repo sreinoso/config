@@ -70,6 +70,7 @@ Plugin 'plantuml-syntax'
 Plugin 'Lokaltog/powerline'
 Plugin 'Tabular'
 Plugin 'surround.vim'
+Plugin 'ctrlp.vim'
 
 
 call vundle#end()
