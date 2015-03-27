@@ -8,17 +8,28 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/\t
+~MSle0/sergio.informe()
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&\n
+~MSle0~&sergio.informe()
 
 # Última cadena substituïda:
-$\\n
+$in.informe()
 
 # Historial d'ordres (de més a menys recent):
-:q
+:qa
+:wa
 :w
+:'<,'>d
+:%s//in.informe()
+:tabe ProvaCompletaGestorLlogersLite.java
+:tabe GestorLlogersLite.java
+:tabe Lloguer.java
+:15,$s//telefon/g
+:13,$s//nif/g
+:13,$s//nom/g
+:s//""
+:q
 :'<,'>y
 :'<,'>s/\n/\\n
 :'<,'>s/\r/\\n
@@ -28,7 +39,6 @@ $\\n
 :6p
 :2t6
 :6tp
-:qa
 :.,23y
 :tabe js/scripts.js
 :'<,'>s//\\n
@@ -53,19 +63,16 @@ $\\n
 :.,80y
 :.,48d
 :.,6d
-:wa
 :.,214y
 :.,371y
 :tabe style/estilos.css
 :.,296y
 :.,295y
 :%s//compruebaDiagonal/g
-:tabe ProvaCompletaGestorLlogersLite.java
 :!cp % ProvaCompletaGestorLlogersLite.java
 :.,43s/$/\\n
 :tabe ProvaUnitariaGestorLlogersLite.java
 :wq!
-:tabe GestorLlogersLite.java
 :!cp ProvaUnitariaGestorLlogersLite.java GestorLlogersLite.java
 :tabe ../../JUnit/ex6/TestPunt.java
 :tabe ../../JUnit/ex6/Punt.java
@@ -350,12 +357,19 @@ $\\n
 :.,62y
 :tabe ../Exemple/Client.java
 :PluginInstall! surround.vim
-:'<,'>d
 :'<,'>yy
 :.,$s/lloguer/this/g
 :.$s/lloguer/this/g
 
 # Historial de cadenes cercades (de més a menys recent):
+?/sergio.informe()
+?/Telefon
+?/cli.getTelefon()
+?/cli.getNif()
+? ();
+?/cli.getNom()
+? \<format\>
+? \Vpu\%#
 ? \n
 ? \r
 ?/\t
@@ -386,7 +400,6 @@ $\\n
 ? \<Clase\>
 ? \<data\>
 ? \Vmain\%#
-? \Vpu\%#
 ? \<marca\>
 ? \<mida\>
 ? \<str\>
@@ -478,25 +491,25 @@ $\\n
 
 # Registres:
 "0	LINE	0
-	        //    double quantitat = lloguer.quantitatPerLloguer();
-"1	LINE	0
-	        double quantitat = lloguer.quantitatPerLloguer();
-"2	CHAR	0
-	 
+	            return String.format(plantillaPeuTXT,new Double(importTotal()).toString(),bonificacionsTotals());
+""1	CHAR	0
+	TXT
+"2	LINE	0
+	            return "<p>Import a pagar: <em>" + importTotal() + "&euro;</em></p>\n" + "<p>Punts guanyats: <em>" + bonificacionsTotals() + "</em></p>\n";
 "3	CHAR	0
-	 
+	<p>Informe de lloguers del client <em> %s</em> (<strong>%s</strong>)</p>\n";
 "4	CHAR	0
-	 
+	)
 "5	CHAR	0
-	 
+	(
 "6	CHAR	0
-	/
+	g
 "7	CHAR	0
-	/
+	n
 "8	CHAR	0
-	/
+	i
 "9	CHAR	0
-	/
+	r
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -531,18 +544,39 @@ $\\n
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
-'1  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
-'2  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
-'3  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'4  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'5  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
-'6  8  61  ~/CLASE/webGlobal/index.html
-'7  9  26  ~/CLASE/webGlobal/index.html
-'8  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
-'9  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'0  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+'1  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
+'2  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'3  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+'4  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+'5  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'6  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'7  8  61  ~/CLASE/webGlobal/index.html
+'8  9  26  ~/CLASE/webGlobal/index.html
+'9  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
 
 # Llista de salts (de més a menys recent):
+-'  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  72  50  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  81  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  91  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  1  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  65  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  13  30  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  40  12  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  11  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  38  89  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  12  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  9  18  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  2  13  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  4  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  5  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  6  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  7  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  8  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  15  8  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  16  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+-'  17  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
 -'  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
@@ -580,70 +614,94 @@ $\\n
 -'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 -'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  64  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  54  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  44  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  34  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  24  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  18  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  17  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  8  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  101  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  83  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  73  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  63  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  53  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  43  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  33  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  28  37  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  22  22  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  7  72  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  23  12  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  6  43  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  103  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  11  12  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  29  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  39  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  49  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  59  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  69  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  79  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  89  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  65  8  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  56  20  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
--'  25  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
--'  29  3  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
--'  32  0  ~/CLASE/M5/UF2/Refactoring/Exemple/__Tagbar__
--'  33  0  ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
--'  87  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
--'  18  0  ~/CLASE/M5/UF2/Refactoring/Exemple
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
--'  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
--'  32  31  ~/CLASE/M6/UF2/examenes/js/script.js
--'  132  19  ~/CLASE/M6/UF2/examenes/js/script.js
--'  1  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  172  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  133  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  90  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  78  12  ~/CLASE/M6/UF2/examenes/js/script.js
--'  82  6  ~/CLASE/M6/UF2/examenes/js/script.js
--'  77  14  ~/CLASE/M6/UF2/examenes/js/script.js
--'  74  14  ~/CLASE/M6/UF2/examenes/js/script.js
--'  70  14  ~/CLASE/M6/UF2/examenes/js/script.js
--'  66  14  ~/CLASE/M6/UF2/examenes/js/script.js
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
--'  18  0  ~/CLASE/M5/UF2/Refactoring/Exemple
--'  129  4  ~/CLASE/M6/UF2/examenes/js/script.js
--'  32  31  ~/CLASE/M6/UF2/examenes/js/script.js
--'  132  19  ~/CLASE/M6/UF2/examenes/js/script.js
--'  1  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  172  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  133  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  90  0  ~/CLASE/M6/UF2/examenes/js/script.js
--'  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M5/UF2/examen/InformeDeClient.java
+	"	39	48
+	^	76	49
+	.	76	48
+	+	2	28
+	+	17	0
+	+	2	0
+	+	9	18
+	+	15	0
+	+	9	36
+	+	3	22
+	+	12	32
+	+	13	39
+	+	17	0
+	+	14	39
+	+	17	0
+	+	91	26
+	+	91	0
+	+	91	0
+	+	91	0
+	+	38	101
+	+	40	58
+	+	14	17
+	+	38	0
+	+	81	5
+	+	81	0
+	+	34	33
+	+	34	34
+	+	34	92
+	+	38	0
+	+	40	0
+	+	37	58
+	+	39	47
+	+	44	26
+	+	45	0
+	+	72	34
+	+	72	26
+	+	73	0
+	+	72	75
+	+	78	85
+	+	79	0
+	+	72	51
+	+	78	84
+	+	73	34
+	+	73	34
+	+	73	101
+	+	76	0
+	+	77	0
+	+	76	48
+
+> ~/CLASE/M5/UF2/examen/Client.java
+	"	41	0
+	.	41	0
+	+	37	40
+	+	39	0
+	+	38	23
+	+	41	0
+	+	41	14
+	+	41	0
+	+	41	49
+	+	41	14
+	+	41	0
+	+	41	18
+	+	41	0
+
+> ~/CLASE/M5/UF2/examen/Lloguer.java
+	"	49	0
+
+> ~/CLASE/M5/UF2/examen/GestorLlogersLite.java
+	"	22	0
+
+> ~/CLASE/M5/UF2/examen/ProvaCompletaGestorLlogersLite.java
+	"	22	8
+	^	22	57
+	.	24	0
+	+	22	56
+	+	31	0
+	+	33	0
+	+	44	0
+	+	55	0
+	+	66	0
+	+	77	0
+	+	88	0
+	+	107	0
+	+	24	0
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
 	"	1	0
@@ -2651,38 +2709,3 @@ $\\n
 	^	13	0
 	.	62	0
 	+	62	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/por3omas5/__Tagbar__
-	"	1	0
-	.	16	0
-	+	16	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/embarque/PropostaMG.java
-	"	28	0
-
-> ~/programame/bitbucket/programame-2015/exercicis/embarque/__Tagbar__
-	"	1	0
-	.	12	0
-	+	12	0
-
-> ~/programame/bitbucket/programame-2015/chuleta.java
-	"	32	12
-	^	28	1
-	.	28	0
-	+	2	0
-	+	30	0
-	+	2	0
-	+	1	69
-	+	16	52
-	+	2	0
-	+	29	0
-	+	28	0
-
-> ~/programame/bitbucket/programame-2015/__Tagbar__
-	"	12	4
-	.	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
-	+	13	0
