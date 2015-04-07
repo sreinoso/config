@@ -17,7 +17,10 @@
 $in.informe()
 
 # Historial d'ordres (de més a menys recent):
+:q!
 :q
+:w
+:PluginInstall! closetag.vim
 :helptags Adobe\ Photoshop\ CS6\ Portable/
 :helptags C.java
 :helptags
@@ -42,7 +45,6 @@ $in.informe()
 :PluginSearch! tetra
 :qa
 :wa
-:w
 :'<,'>d
 :%s//in.informe()
 :tabe ProvaCompletaGestorLlogersLite.java
@@ -108,7 +110,6 @@ $in.informe()
 :s//model/g
 :.,14y
 :vs as
-:q!
 :sp as
 :sav Lloguer.java 
 :tabe Lloger.java
@@ -507,26 +508,26 @@ $in.informe()
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	LINE	0
+"0	LINE	0
 	Plugin 'ctrlp.vim'
-"1	LINE	0
+""1	LINE	0
+	Plugin closetag.vim
+"2	LINE	0
 	Plugin 'tetragrammaton'
-"2	CHAR	0
+"3	CHAR	0
 	TXT
-"3	LINE	0
+"4	LINE	0
 	            return "<p>Import a pagar: <em>" + importTotal() + "&euro;</em></p>\n" + "<p>Punts guanyats: <em>" + bonificacionsTotals() + "</em></p>\n";
-"4	CHAR	0
-	<p>Informe de lloguers del client <em> %s</em> (<strong>%s</strong>)</p>\n";
 "5	CHAR	0
-	)
+	<p>Informe de lloguers del client <em> %s</em> (<strong>%s</strong>)</p>\n";
 "6	CHAR	0
-	(
+	)
 "7	CHAR	0
-	g
+	(
 "8	CHAR	0
-	n
+	g
 "9	CHAR	0
-	i
+	n
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -561,18 +562,20 @@ $in.informe()
 	paraula més
 
 # Marques de fitxer:
-'0  4  0  ~/NERD_tree_1
-'1  1  0  ~/VIM_cheatcodes.rst
-'2  19  0  ~/README.pdf
-'3  73  0  ~/.vimrc
-'4  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
-'5  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
-'6  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
-'7  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
-'8  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
-'9  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
+'0  10  7  ~/pruebas.html
+'1  4  0  ~/NERD_tree_1
+'2  1  0  ~/VIM_cheatcodes.rst
+'3  19  0  ~/README.pdf
+'4  73  0  ~/.vimrc
+'5  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
+'6  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
+'7  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'8  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+'9  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 
 # Llista de salts (de més a menys recent):
+-'  10  7  ~/pruebas.html
+-'  1  0  ~/pruebas.html
 -'  4  0  ~/NERD_tree_1
 -'  98  2  ~/NERD_tree_1
 -'  1  0  ~/NERD_tree_1
@@ -666,8 +669,86 @@ $in.informe()
 -'  16  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  17  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
+-'  1  1  ~/plantilla.java
+-'  29  29  ~/plantilla.java
+-'  9  8  ~/plantilla.java
+-'  8  32  ~/plantilla.java
+-'  18  35  ~/plantilla.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/pruebas.html
+	"	10	7
+	^	10	8
+	.	10	7
+	+	10	7
+
+> ~/[Vundle] Installer
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	"	12	0
+	.	12	0
+	+	71	0
+	+	72	0
+	+	380	4
+	+	73	0
+	+	72	0
+	+	73	0
+	+	12	0
+
+> ~/plantilla.java
+	"	1	1
+	^	7	39
+	.	8	0
+	+	29	26
+	+	5	13
+	+	22	0
+	+	22	8
+	+	8	0
+	+	22	0
+	+	8	0
+	+	22	0
+	+	21	56
+	+	8	18
+	+	9	15
+	+	11	23
+	+	12	15
+	+	13	16
+	+	14	0
+	+	15	12
+	+	16	0
+	+	17	11
+	+	18	12
+	+	19	0
+	+	21	12
+	+	21	0
+	+	19	0
+	+	18	35
+	+	20	33
+	+	21	0
+	+	29	41
+	+	6	41
+	+	8	0
+	+	8	16
+	+	8	0
+	+	8	8
+	+	27	45
+	+	28	27
+	+	29	29
+	+	7	38
+	+	8	0
+
+> ~/entrada
+	"	7	0
+	^	7	1
+	.	7	0
+	+	8	0
+	+	5	15
+	+	6	0
+	+	7	0
 
 > ~/CLASE/M5/UF2/Refactoring/test
 	"	1	0
@@ -770,17 +851,6 @@ $in.informe()
 
 > ~/VIM_cheatcodes.rst
 	"	1	0
-
-> ~/.vimrc
-	"	1	0
-	^	380	5
-	.	73	0
-	+	71	0
-	+	72	0
-	+	380	4
-	+	73	0
-	+	72	0
-	+	73	0
 
 > ~/README
 	"	1	0
@@ -2645,34 +2715,3 @@ $in.informe()
 	+	2	0
 	+	2	0
 	+	3	0
-
-> ~/MYSQL/MYSQL_Dev/chivatos
-	"	16	0
-	^	14	0
-	.	16	0
-	+	1	24
-	+	9	0
-	+	11	0
-	+	3	0
-	+	4	0
-	+	3	22
-	+	13	0
-	+	15	0
-	+	16	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/as
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/NERD_tree_1
-	"	8	0
-	.	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-
-> ~/CLASE/M5/UF2/JUnit/ex1/Punt.java
-	"	1	0
