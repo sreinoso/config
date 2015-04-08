@@ -8,19 +8,23 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/sergio.informe()
+~Msle0/\<editar\>
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&sergio.informe()
+~MSle0~&\[\]
 
 # Última cadena substituïda:
-$in.informe()
+$
 
 # Historial d'ordres (de més a menys recent):
+:q
+:wq
+:%s/\[\]//
+:%s/[]//
+:%s///
 :wqa
 :w
 :'<,'>d
-:q
 :q!
 :PluginInstall! closetag.vim
 :helptags Adobe\ Photoshop\ CS6\ Portable/
@@ -38,7 +42,6 @@ $in.informe()
 :CtrlPMixed
 :CtrlPMRUFiles
 :CtrlPBufTag
-:wq
 :PluginSearch! ctrlp
 :b2
 :ls
@@ -385,6 +388,9 @@ $in.informe()
 :'<,'>s/;//
 
 # Historial de cadenes cercades (de més a menys recent):
+? \[\]
+? []//
+? \<editar\>
 ?/sergio.informe()
 ?/Telefon
 ?/cli.getTelefon()
@@ -517,30 +523,26 @@ $in.informe()
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	Plugin 'ctrlp.vim'
-""1	LINE	0
-	        <div class="item_requerid">E-mail</div>
-	        <div class="form_requerid"><input type="text" name="email" 
-	         id="email"></div>
-	        <div class="form_button"><input type="submit"  
-	         id="enviar" value="Buscar"></div>
-"2	CHAR	0
-	alta_usuario
-"3	CHAR	0
-	usuarios
-"4	CHAR	0
-	Administrador de usuarios
-"5	CHAR	0
-	ABM de Usuarios: 
+""0	LINE	0
+	Sistema asistit de la Llar intel·ligent
+"1	LINE	0
+	---------------------------------------
+"2	LINE	0
+	===========================
+"3	LINE	0
+	======
+"4	LINE	0
+	=========
+"5	LINE	0
+	==============
 "6	LINE	0
-	Plugin closetag.vim
+	========================
 "7	LINE	0
-	Plugin 'tetragrammaton'
-"8	CHAR	0
-	TXT
-"9	LINE	0
-	            return "<p>Import a pagar: <em>" + importTotal() + "&euro;</em></p>\n" + "<p>Punts guanyats: <em>" + bonificacionsTotals() + "</em></p>\n";
+	***************************************
+"8	LINE	0
+	***************************************
+"9	CHAR	0
+	[editar]
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -575,18 +577,27 @@ $in.informe()
 	paraula més
 
 # Marques de fitxer:
-'0  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
-'1  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
-'2  10  7  ~/pruebas.html
-'3  4  0  ~/NERD_tree_1
-'4  1  0  ~/VIM_cheatcodes.rst
-'5  19  0  ~/README.pdf
-'6  73  0  ~/.vimrc
-'7  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
-'8  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
-'9  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
+'0  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+'1  6  38  ~/CLASE/sally/README.rst
+'2  27  462  ~/CLASE/sally/README.rst
+'3  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'4  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
+'5  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
+'6  10  7  ~/pruebas.html
+'7  4  0  ~/NERD_tree_1
+'8  1  0  ~/VIM_cheatcodes.rst
+'9  19  0  ~/README.pdf
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+-'  6  38  ~/CLASE/sally/README.rst
+-'  1  0  ~/CLASE/sally/README.rst
+-'  27  462  ~/CLASE/sally/README.rst
+-'  24  0  ~/CLASE/sally/README.rst
+-'  14  16  ~/CLASE/sally/README.rst
+-'  8  26  ~/CLASE/sally/README.rst
+-'  2  0  ~/CLASE/sally/README.rst
+-'  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 -'  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
 -'  13  7  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
 -'  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
@@ -677,18 +688,34 @@ $in.informe()
 -'  12  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  9  18  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  2  13  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  4  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  5  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  6  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  7  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  8  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  15  8  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  16  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  17  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
--'  1  1  ~/plantilla.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+	"	1	0
+
+> ~/CLASE/sally/README.rst
+	"	6	38
+	^	23	0
+	.	6	0
+	+	2	9
+	+	8	0
+	+	1	0
+	+	5	0
+	+	10	0
+	+	16	0
+	+	21	0
+	+	26	0
+	+	7	0
+	+	9	0
+	+	15	0
+	+	20	0
+	+	25	0
+	+	7	0
+	+	6	0
+
+> ~/CLASE/M8/UF2/ZEND/ZEND.rst
+	"	1	0
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_borrar.html
 	"	1	4
@@ -2488,22 +2515,3 @@ $in.informe()
 	.	6	0
 	+	7	5
 	+	6	0
-
-> ~/CLASE/M5/UF2/JUnit/ex6/TestPunt.java
-	"	3	0
-
-> ~/CLASE/M5/UF2/JUnit/ex6/__Tagbar__
-	"	3	2
-	.	12	0
-	+	19	0
-	+	19	0
-	+	19	0
-	+	19	0
-	+	12	0
-	+	12	0
-	+	12	0
-	+	12	0
-	+	12	0
-
-> ~/CLASE/M5/UF2/JUnit/ex6/ProvaUnitariaGestorLlogersLite.java
-	"	1	0
