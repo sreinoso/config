@@ -17,8 +17,9 @@
 $
 
 # Historial d'ordres (de més a menys recent):
-:q
 :wq
+:WQ
+:q
 :%s/\[\]//
 :%s/[]//
 :%s///
@@ -577,18 +578,20 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
-'1  6  38  ~/CLASE/sally/README.rst
-'2  27  462  ~/CLASE/sally/README.rst
-'3  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
-'4  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
-'5  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
-'6  10  7  ~/pruebas.html
-'7  4  0  ~/NERD_tree_1
-'8  1  0  ~/VIM_cheatcodes.rst
-'9  19  0  ~/README.pdf
+'0  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+'1  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+'2  6  38  ~/CLASE/sally/README.rst
+'3  27  462  ~/CLASE/sally/README.rst
+'4  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'5  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
+'6  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
+'7  10  7  ~/pruebas.html
+'8  4  0  ~/NERD_tree_1
+'9  1  0  ~/VIM_cheatcodes.rst
 
 # Llista de salts (de més a menys recent):
+-'  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+-'  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
 -'  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
 -'  6  38  ~/CLASE/sally/README.rst
 -'  1  0  ~/CLASE/sally/README.rst
@@ -687,9 +690,11 @@ $
 -'  38  89  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  12  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 -'  9  18  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  2  13  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+	"	19	0
 
 > ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
 	"	1	0
@@ -2508,10 +2513,3 @@ $
 	.	9	6
 	+	6	0
 	+	9	6
-
-> ~/CLASE/M5/UF2/Refactoring/.gitignore
-	"	1	0
-	^	7	6
-	.	6	0
-	+	7	5
-	+	6	0
