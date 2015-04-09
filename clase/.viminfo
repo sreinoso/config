@@ -17,16 +17,16 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:w
+:q
+:q!
 :wq
 :WQ
-:q
 :%s/\[\]//
 :%s/[]//
 :%s///
 :wqa
-:w
 :'<,'>d
-:q!
 :PluginInstall! closetag.vim
 :helptags Adobe\ Photoshop\ CS6\ Portable/
 :helptags C.java
@@ -578,18 +578,28 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
-'1  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
-'2  6  38  ~/CLASE/sally/README.rst
-'3  27  462  ~/CLASE/sally/README.rst
-'4  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
-'5  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
-'6  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
-'7  10  7  ~/pruebas.html
-'8  4  0  ~/NERD_tree_1
-'9  1  0  ~/VIM_cheatcodes.rst
+'0  214  13  ~/a.c
+'1  1  0  ~/a.c
+'2  8584  700  ~/a.c
+'3  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+'4  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+'5  6  38  ~/CLASE/sally/README.rst
+'6  27  462  ~/CLASE/sally/README.rst
+'7  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'8  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
+'9  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
 
 # Llista de salts (de més a menys recent):
+-'  214  13  ~/a.c
+-'  108  0  ~/a.c
+-'  3269  0  ~/a.c
+-'  2841  0  ~/a.c
+-'  204  4  ~/a.c
+-'  3410  0  ~/a.c
+-'  3427  4  ~/a.c
+-'  6772  12  ~/a.c
+-'  1  0  ~/a.c
+-'  8584  700  ~/a.c
 -'  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
 -'  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
 -'  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
@@ -675,23 +685,68 @@ $
 -'  35  21  ~/CLASE/webGlobal/index.html
 -'  1  0  ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
 -'  32  112  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  84  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  74  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  4  0  ~/[Vundle] search
--'  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  72  50  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  81  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  91  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  1  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  65  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  13  30  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  40  12  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  11  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  38  89  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  12  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  9  18  ~/CLASE/M5/UF2/examen/InformeDeClient.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/a.c
+	"	214	13
+	^	8584	701
+	.	174	0
+	+	8584	700
+	+	1	0
+	+	2	0
+	+	174	0
+
+> ~/__Tagbar__
+	"	178	4
+	.	304	0
+	+	304	0
+	+	304	0
+	+	304	0
+	+	304	0
+	+	304	0
+
+> ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+	"	40	12
+	^	40	13
+	.	40	12
+	+	49	0
+	+	1	0
+	+	46	0
+	+	1	52
+	+	3	0
+	+	2	49
+	+	44	2
+	+	5	18
+	+	10	4
+	+	9	25
+	+	14	4
+	+	13	7
+	+	12	36
+	+	13	23
+	+	20	4
+	+	19	22
+	+	13	54
+	+	27	4
+	+	26	20
+	+	34	4
+	+	30	49
+	+	33	22
+	+	41	4
+	+	37	14
+	+	33	49
+	+	40	12
+
+> ~/CLASE/M2/UF4/comparacioModels2/creaBD.sql
+	"	2	39
+	^	2	40
+	.	2	39
+	+	1	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	1	22
+	+	2	39
 
 > ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
 	"	19	0
@@ -1076,9 +1131,6 @@ $
 	+	1	0
 
 > ~/Baixades/11_Jquery_3a_parte_.pdf
-	"	1	0
-
-> ~/__Tagbar__
 	"	1	0
 
 > ~/VIM_cheatcodes.rst
@@ -2498,18 +2550,3 @@ $
 
 > ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/ProvaUnitariaGestorLlogersLite.java
 	"	25	0
-
-> ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/ProvaCompletaGestorLlogersLite.java
-	"	5	0
-
-> ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/[Vundle] Installer
-	"	2	0
-	.	1	0
-	+	1	0
-
-> ~/CLASE/M5/UF2/Refactoring/.git/info/exclude
-	"	9	6
-	^	9	7
-	.	9	6
-	+	6	0
-	+	9	6
