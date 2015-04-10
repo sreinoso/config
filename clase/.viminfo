@@ -8,15 +8,23 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/num String
+~MSle0/num String
 
 # Últim Substitute Patró de Cerca:
-~MSle0&\s\+\zs\S*
+~MSle0~&-
 
 # Última cadena substituïda:
-$
+$=
 
 # Historial d'ordres (de més a menys recent):
+:w
+:s/-/=/g
+:!rst2html % > %<.html
+:s/=/-/g
+:!rst2html %
+:map <C-j> i<CR><ESC>
+:map
+:map <c-j>i<CR><ESC>
 :qa
 :set mouse=a
 :wqa
@@ -29,7 +37,6 @@ $
 :42,45 s/\w.*/
 :.,124"+y
 :'<,'>"+y
-:w
 :'<,'>y
 :q
 :q!
@@ -168,7 +175,6 @@ $
 :%!xxd
 :argdo ls
 :args
-:map
 :map <C-Tab> :bNext<CR>
 :map <C-tab> :bNext<CR>
 :map <C><tab> :bNext<CR>
@@ -399,6 +405,9 @@ $
 :'<,'>s/;//
 
 # Historial de cadenes cercades (de més a menys recent):
+? -
+? =
+? \s\+$
 ?/num String
 ? \<Enum\>
 ? \s\+\zs\S*
@@ -522,7 +531,6 @@ $
 ? }
 ? \<Enumeration\>
 ? \V:\%#
-? \s\+$
 ? \<Pregunta\>
 ?/AgafadorMaPlenaExceptio
 ? \<numero\>
@@ -531,7 +539,6 @@ $
 ? \<helper_user_data\>
 ?/get
 ? , 
-? =
 ? \<array\>
 
 # Historial d'expressions (de més a menys recent):
@@ -543,26 +550,29 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	BLOCK	9
-	num String
+""0	LINE	0
+	------  ------------    ------------------------    -----------  ---------------------------------   ----    -------------------------------------
 "1	CHAR	0
-	,
-"2	CHAR	0
-	,
-"3	LINE	0
-	 Adreca
-"4	CHAR	0
-	destructor
-"5	CHAR	0
-	construct
+	-
+"2	BLOCK	22
+	                       
+"3	CHAR	0
+	=
+"4	BLOCK	0
+	 
+	 
+	 
+"5	BLOCK	1
+	| 
+	| 
 "6	LINE	0
-	    
-"7	CHAR	0
-	// code...
-"8	CHAR	0
-	argument
-"9	CHAR	0
-	ClassName
+	+--
+"7	LINE	0
+	+------
+"8	LINE	0
+	----- ------------ ------------------ ------------ ------------ -----------------------------------------------------
+"9	LINE	0
+	----- ------------ ------------------ -------------------- ----------------------------------------------------------
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -597,18 +607,29 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'1  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'2  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'3  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'4  214  13  ~/a.c
-'5  1  0  ~/a.c
-'6  8584  700  ~/a.c
-'7  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
-'8  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
-'9  6  38  ~/CLASE/sally/README.rst
+'0  31  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+'1  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'2  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'3  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'4  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'5  214  13  ~/a.c
+'6  1  0  ~/a.c
+'7  8584  700  ~/a.c
+'8  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+'9  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
 
 # Llista de salts (de més a menys recent):
+-'  31  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  37  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  30  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  35  63  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  58  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  78  8  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  81  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  19  2  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  9  2  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  57  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  2  0  ~/CLASE/M9/UF2/practica3/practica3.rst
 -'  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
 -'  7  51  ~/.cache/.fr-zHldhl/hellowsdl2.php
 -'  1  0  ~/.cache/.fr-zHldhl/hellowsdl2.php
@@ -693,23 +714,113 @@ $
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
 -'  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  43  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  90  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  89  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  83  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  74  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  63  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  53  9  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  64  103  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
--'  62  8  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
--'  47  4  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
--'  73  26  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
--'  43  0  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M9/UF2/practica3/practica3.rst
+	"	31	0
+	^	29	140
+	.	31	0
+	+	75	0
+	+	70	0
+	+	58	0
+	+	59	0
+	+	49	0
+	+	40	0
+	+	20	0
+	+	10	0
+	+	14	4
+	+	15	24
+	+	16	34
+	+	17	1
+	+	17	97
+	+	13	0
+	+	15	0
+	+	36	124
+	+	28	0
+	+	29	0
+	+	32	0
+	+	29	0
+	+	32	3
+	+	29	15
+	+	32	21
+	+	29	33
+	+	32	33
+	+	29	46
+	+	32	46
+	+	29	51
+	+	32	47
+	+	29	46
+	+	30	47
+	+	32	46
+	+	29	14
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	38	0
+	+	35	5
+	+	36	5
+	+	34	5
+	+	33	21
+	+	34	14
+	+	35	18
+	+	36	37
+	+	35	37
+	+	34	41
+	+	33	49
+	+	34	53
+	+	35	58
+	+	36	63
+	+	35	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	33	23
+	+	34	23
+	+	35	23
+	+	36	23
+	+	34	51
+	+	35	100
+	+	33	101
+	+	34	99
+	+	32	101
+	+	33	3
+	+	33	1
+	+	32	51
+	+	32	6
+	+	32	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	32	0
+	+	30	0
+	+	29	24
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	30	0
+	+	31	28
+	+	29	28
+	+	31	18
+	+	29	20
+	+	31	3
+	+	29	6
+	+	31	60
+	+	29	60
+	+	31	75
+	+	29	75
+	+	31	0
+	+	31	104
+	+	29	138
+	+	31	138
+	+	29	139
+	+	37	0
+	+	31	0
 
 > ~/.cache/.fr-zCZhUQ/hellowsdl2.php
 	"	1	0
@@ -2559,6 +2670,3 @@ $
 	+	56	34
 	+	57	15
 	+	51	15
-
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaBuidaException.java
-	"	1	0
