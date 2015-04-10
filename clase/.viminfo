@@ -8,15 +8,23 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/tienda
+~MSle0~/num String
 
 # Últim Substitute Patró de Cerca:
-~MSle0&\[\]
+~MSle0&\s\+\zs\S*
 
 # Última cadena substituïda:
 $
 
 # Historial d'ordres (de més a menys recent):
+:wqa
+:'<,'>dt 
+:'<,'>dw
+:42,45 s/^\s\+\zs\S*/<F8>
+:42,45 s/\s\+\zs\S*/
+:42,45 s/\S*/
+:42,45 s/\S.*/
+:42,45 s/\w.*/
 :.,124"+y
 :'<,'>"+y
 :w
@@ -29,7 +37,6 @@ $
 :%s/\[\]//
 :%s/[]//
 :%s///
-:wqa
 :'<,'>d
 :PluginInstall! closetag.vim
 :helptags Adobe\ Photoshop\ CS6\ Portable/
@@ -391,6 +398,12 @@ $
 :'<,'>s/;//
 
 # Historial de cadenes cercades (de més a menys recent):
+?/num String
+? \<Enum\>
+? \s\+\zs\S*
+? \S*
+? \S.*
+? \w.*
 ?/tienda
 ? \Vclass\%#
 ? \Vfun\%#
@@ -528,26 +541,26 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-"0	LINE	0
-	    # metodo destructor
+""0	BLOCK	9
+	num String
 "1	CHAR	0
-	destructor
+	,
 "2	CHAR	0
-	construct
+	,
 "3	LINE	0
-	    
+	 Adreca
 "4	CHAR	0
-	// code...
+	destructor
 "5	CHAR	0
-	argument
-"6	CHAR	0
-	ClassName
-"7	LINE	0
-	            $this->destructor() 
+	construct
+"6	LINE	0
+	    
+"7	CHAR	0
+	// code...
 "8	CHAR	0
-	usuario
+	argument
 "9	CHAR	0
-	ername
+	ClassName
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -582,18 +595,24 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'1  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'2  214  13  ~/a.c
-'3  1  0  ~/a.c
-'4  8584  700  ~/a.c
-'5  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
-'6  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
-'7  6  38  ~/CLASE/sally/README.rst
-'8  27  462  ~/CLASE/sally/README.rst
-'9  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'0  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'1  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'2  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'3  214  13  ~/a.c
+'4  1  0  ~/a.c
+'5  8584  700  ~/a.c
+'6  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+'7  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+'8  6  38  ~/CLASE/sally/README.rst
+'9  27  462  ~/CLASE/sally/README.rst
 
 # Llista de salts (de més a menys recent):
+-'  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  62  8  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  47  4  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  73  26  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  43  0  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  42  0  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 -'  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
 -'  5  3  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
 -'  182  32  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
@@ -679,20 +698,75 @@ $
 -'  64  103  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  1  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  104  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  62  139  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  11  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
--'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
--'  3  17  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
--'  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
--'  7  166  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
--'  5  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
--'  6  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
--'  8  2  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
--'  4  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/README.rst
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M2/UF4/comparacioModels2/creaBD.sql
+	"	1	0
+	^	2	40
+	.	2	39
+	+	1	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	1	22
+	+	2	39
+
+> ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+	"	45	10
+	^	42	4
+	.	42	0
+	+	73	0
+	+	1	0
+	+	70	0
+	+	1	52
+	+	3	0
+	+	2	49
+	+	68	2
+	+	5	18
+	+	10	4
+	+	9	25
+	+	14	4
+	+	13	7
+	+	12	36
+	+	13	23
+	+	20	4
+	+	19	22
+	+	13	54
+	+	27	4
+	+	26	20
+	+	34	4
+	+	30	49
+	+	33	22
+	+	41	4
+	+	37	14
+	+	33	49
+	+	40	25
+	+	43	6
+	+	43	22
+	+	44	20
+	+	47	24
+	+	53	4
+	+	48	7
+	+	47	7
+	+	52	0
+	+	51	0
+	+	50	0
+	+	49	0
+	+	48	0
+	+	48	0
+	+	54	4
+	+	55	18
+	+	57	4
+	+	56	7
+	+	63	4
+	+	62	17
+	+	67	4
+	+	42	0
+	+	43	0
+	+	43	0
+	+	42	0
+	+	42	0
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
 	"	1	0
@@ -906,48 +980,6 @@ $
 	+	304	0
 	+	304	0
 	+	304	0
-
-> ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-	"	40	12
-	^	40	13
-	.	40	12
-	+	49	0
-	+	1	0
-	+	46	0
-	+	1	52
-	+	3	0
-	+	2	49
-	+	44	2
-	+	5	18
-	+	10	4
-	+	9	25
-	+	14	4
-	+	13	7
-	+	12	36
-	+	13	23
-	+	20	4
-	+	19	22
-	+	13	54
-	+	27	4
-	+	26	20
-	+	34	4
-	+	30	49
-	+	33	22
-	+	41	4
-	+	37	14
-	+	33	49
-	+	40	12
-
-> ~/CLASE/M2/UF4/comparacioModels2/creaBD.sql
-	"	2	39
-	^	2	40
-	.	2	39
-	+	1	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	1	22
-	+	2	39
 
 > ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
 	"	19	0
