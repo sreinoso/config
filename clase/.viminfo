@@ -17,6 +17,8 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:qa
+:set mouse=a
 :wqa
 :'<,'>dt 
 :'<,'>dw
@@ -29,7 +31,6 @@ $
 :'<,'>"+y
 :w
 :'<,'>y
-:qa
 :q
 :q!
 :wq
@@ -607,6 +608,8 @@ $
 '9  27  462  ~/CLASE/sally/README.rst
 
 # Llista de salts (de més a menys recent):
+-'  7  51  ~/.cache/.fr-zHldhl/hellowsdl2.php
+-'  1  0  ~/.cache/.fr-zHldhl/hellowsdl2.php
 -'  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 -'  62  8  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 -'  47  4  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
@@ -698,8 +701,17 @@ $
 -'  64  103  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  1  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  62  8  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  47  4  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  73  26  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  43  0  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  42  0  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/.cache/.fr-zHldhl/hellowsdl2.php
+	"	7	51
 
 > ~/CLASE/M2/UF4/comparacioModels2/creaBD.sql
 	"	1	0
@@ -2559,26 +2571,3 @@ $
 
 > ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/UsaAgafadorAbstract.java
 	"	51	8
-
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/UsaAgafadorMots.java
-	"	1	0
-	^	6	62
-	.	7	0
-	+	1	0
-	+	9	0
-	+	9	0
-	+	8	0
-	+	8	0
-	+	3	0
-	+	8	0
-	+	3	0
-	+	5	0
-	+	6	0
-	+	5	0
-	+	4	15
-	+	5	18
-	+	5	0
-	+	4	27
-	+	5	28
-	+	6	61
-	+	7	0
