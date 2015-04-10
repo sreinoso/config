@@ -532,6 +532,7 @@ $
 ?/get
 ? , 
 ? =
+? \<array\>
 
 # Historial d'expressions (de més a menys recent):
 
@@ -596,18 +597,19 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'1  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'2  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'3  214  13  ~/a.c
-'4  1  0  ~/a.c
-'5  8584  700  ~/a.c
-'6  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
-'7  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
-'8  6  38  ~/CLASE/sally/README.rst
-'9  27  462  ~/CLASE/sally/README.rst
+'0  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'1  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'2  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'3  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'4  214  13  ~/a.c
+'5  1  0  ~/a.c
+'6  8584  700  ~/a.c
+'7  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
+'8  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+'9  6  38  ~/CLASE/sally/README.rst
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
 -'  7  51  ~/.cache/.fr-zHldhl/hellowsdl2.php
 -'  1  0  ~/.cache/.fr-zHldhl/hellowsdl2.php
 -'  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
@@ -706,9 +708,14 @@ $
 -'  47  4  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 -'  73  26  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 -'  43  0  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
--'  42  0  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+	"	1	0
+
+> ~/.cache/.fr-BFqu5t/hellowsdl2client.php
+	"	15	11
 
 > ~/.cache/.fr-zHldhl/hellowsdl2.php
 	"	7	51
@@ -2555,19 +2562,3 @@ $
 
 > ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaBuidaException.java
 	"	1	0
-
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorMaPlenaException.java
-	"	1	0
-	^	3	35
-	.	3	35
-	+	5	0
-	+	4	0
-	+	1	0
-	+	3	37
-	+	2	37
-	+	3	0
-	+	4	0
-	+	3	35
-
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/UsaAgafadorAbstract.java
-	"	51	8
