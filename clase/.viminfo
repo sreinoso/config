@@ -8,24 +8,17 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/num String
+~MSle0~/num String
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&-
+~MSle0&\s\+\zs\S*
 
 # Última cadena substituïda:
-$=
+$
 
 # Historial d'ordres (de més a menys recent):
-:w
-:s/-/=/g
-:!rst2html % > %<.html
-:s/=/-/g
-:!rst2html %
-:map <C-j> i<CR><ESC>
-:map
-:map <c-j>i<CR><ESC>
 :qa
+:help :g
 :set mouse=a
 :wqa
 :'<,'>dt 
@@ -37,6 +30,7 @@ $=
 :42,45 s/\w.*/
 :.,124"+y
 :'<,'>"+y
+:w
 :'<,'>y
 :q
 :q!
@@ -175,6 +169,7 @@ $=
 :%!xxd
 :argdo ls
 :args
+:map
 :map <C-Tab> :bNext<CR>
 :map <C-tab> :bNext<CR>
 :map <C><tab> :bNext<CR>
@@ -403,11 +398,14 @@ $=
 :'<,'>s/$/;
 :'<,'>s/=/ = $
 :'<,'>s/;//
+:s/-/=/g
+:!rst2html % > %<.html
+:s/=/-/g
+:!rst2html %
+:map <C-j> i<CR><ESC>
+:map <c-j>i<CR><ESC>
 
 # Historial de cadenes cercades (de més a menys recent):
-? -
-? =
-? \s\+$
 ?/num String
 ? \<Enum\>
 ? \s\+\zs\S*
@@ -531,6 +529,7 @@ $=
 ? }
 ? \<Enumeration\>
 ? \V:\%#
+? \s\+$
 ? \<Pregunta\>
 ?/AgafadorMaPlenaExceptio
 ? \<numero\>
@@ -539,7 +538,9 @@ $=
 ? \<helper_user_data\>
 ?/get
 ? , 
+? =
 ? \<array\>
+? -
 
 # Historial d'expressions (de més a menys recent):
 
@@ -550,29 +551,26 @@ $=
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	LINE	0
-	------  ------------    ------------------------    -----------  ---------------------------------   ----    -------------------------------------
+""0	BLOCK	9
+	num String
 "1	CHAR	0
-	-
-"2	BLOCK	22
-	                       
-"3	CHAR	0
-	=
-"4	BLOCK	0
-	 
-	 
-	 
-"5	BLOCK	1
-	| 
-	| 
+	,
+"2	CHAR	0
+	,
+"3	LINE	0
+	 Adreca
+"4	CHAR	0
+	destructor
+"5	CHAR	0
+	construct
 "6	LINE	0
-	+--
-"7	LINE	0
-	+------
-"8	LINE	0
-	----- ------------ ------------------ ------------ ------------ -----------------------------------------------------
-"9	LINE	0
-	----- ------------ ------------------ -------------------- ----------------------------------------------------------
+	    
+"7	CHAR	0
+	// code...
+"8	CHAR	0
+	argument
+"9	CHAR	0
+	ClassName
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -607,7 +605,7 @@ $=
 	paraula més
 
 # Marques de fitxer:
-'0  31  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+'0  67  48  /usr/share/vim/vim73/doc/repeat.txt
 '1  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
 '2  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 '3  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
@@ -619,17 +617,8 @@ $=
 '9  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
 
 # Llista de salts (de més a menys recent):
--'  31  0  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  37  0  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  30  0  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  35  63  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  58  0  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  78  8  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  81  0  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  19  2  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  9  2  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  57  0  ~/CLASE/M9/UF2/practica3/practica3.rst
--'  2  0  ~/CLASE/M9/UF2/practica3/practica3.rst
+-'  67  48  /usr/share/vim/vim73/doc/repeat.txt
+-'  1  0  /usr/share/vim/vim73/doc/repeat.txt
 -'  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
 -'  7  51  ~/.cache/.fr-zHldhl/hellowsdl2.php
 -'  1  0  ~/.cache/.fr-zHldhl/hellowsdl2.php
@@ -714,8 +703,24 @@ $=
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
 -'  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  43  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  90  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  89  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  83  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  74  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  63  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  53  9  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  64  103  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  1  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
+-'  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
+-'  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  62  8  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+-'  47  4  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> /usr/share/vim/vim73/doc/repeat.txt
+	"	67	48
 
 > ~/CLASE/M9/UF2/practica3/practica3.rst
 	"	31	0
@@ -2565,108 +2570,3 @@ $=
 	+	2	29
 	+	3	25
 	+	1	0
-
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/Agafador.java
-	"	1	0
-	^	51	16
-	.	51	15
-	+	69	0
-	+	68	0
-	+	10	0
-	+	2	21
-	+	30	0
-	+	8	27
-	+	39	0
-	+	31	16
-	+	41	30
-	+	38	27
-	+	48	0
-	+	41	13
-	+	31	13
-	+	38	21
-	+	48	21
-	+	38	15
-	+	48	15
-	+	40	4
-	+	42	15
-	+	32	0
-	+	30	0
-	+	10	0
-	+	7	0
-	+	50	34
-	+	55	0
-	+	56	28
-	+	31	58
-	+	41	61
-	+	68	17
-	+	3	21
-	+	68	0
-	+	68	0
-	+	4	0
-	+	8	22
-	+	68	0
-	+	68	1
-	+	31	11
-	+	41	11
-	+	38	15
-	+	48	15
-	+	50	29
-	+	56	31
-	+	54	18
-	+	60	18
-	+	4	15
-	+	5	15
-	+	68	0
-	+	68	0
-	+	4	19
-	+	5	19
-	+	44	59
-	+	45	0
-	+	33	0
-	+	7	0
-	+	9	19
-	+	10	0
-	+	21	27
-	+	26	0
-	+	26	35
-	+	30	0
-	+	11	26
-	+	13	17
-	+	17	23
-	+	18	17
-	+	21	27
-	+	24	0
-	+	25	25
-	+	26	0
-	+	21	19
-	+	24	21
-	+	25	21
-	+	47	14
-	+	48	17
-	+	36	18
-	+	37	14
-	+	38	17
-	+	33	11
-	+	53	0
-	+	50	62
-	+	57	0
-	+	58	58
-	+	56	65
-	+	57	11
-	+	29	0
-	+	28	57
-	+	15	51
-	+	64	0
-	+	63	24
-	+	65	28
-	+	66	15
-	+	58	0
-	+	52	0
-	+	51	8
-	+	57	8
-	+	56	34
-	+	58	0
-	+	57	8
-	+	56	34
-	+	57	15
-	+	51	15
