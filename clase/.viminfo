@@ -605,18 +605,21 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'1  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'2  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'3  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'4  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'5  214  13  ~/a.c
-'6  1  0  ~/a.c
-'7  8584  700  ~/a.c
-'8  19  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.rst
-'9  1  0  ~/CLASE/M3/UF4/ejercicios/herencia/herencia.
+'0  1  0  ~/vimgit/VIM/README.md
+'1  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'2  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'3  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'4  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'5  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'6  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'7  214  13  ~/a.c
+'8  1  0  ~/a.c
+'9  8584  700  ~/a.c
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/vimgit/VIM/README.md
+-'  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+-'  1  0  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
 -'  67  48  /usr/share/vim/vim73/doc/repeat.txt
 -'  1  0  /usr/share/vim/vim73/doc/repeat.txt
 -'  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
@@ -713,11 +716,14 @@ $
 -'  64  103  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  1  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
--'  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
--'  62  8  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
--'  47  4  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/vimgit/VIM/README.md
+	"	1	0
+
+> ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+	"	30	53
 
 > /usr/share/vim/vim73/doc/repeat.txt
 	"	67	48
@@ -2548,25 +2554,3 @@ $
 	+	31	0
 	+	31	0
 	+	31	0
-
-> ~/CLASE/M6/UF2/proyectos/conectaCuatro/style/estilos.css
-	"	19	2
-	^	19	3
-	.	19	2
-	+	18	0
-	+	19	2
-
-> ~/CLASE/M3/UF5/examenes/practica/org/iesjoandaustria/m03uf5/agafador/AgafadorException.java
-	"	1	0
-	^	3	26
-	.	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	6	0
-	+	3	16
-	+	4	21
-	+	2	29
-	+	3	25
-	+	1	0
