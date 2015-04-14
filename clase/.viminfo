@@ -17,6 +17,9 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:wq
+:q
+:w
 :qa
 :help :g
 :set mouse=a
@@ -30,11 +33,8 @@ $
 :42,45 s/\w.*/
 :.,124"+y
 :'<,'>"+y
-:w
 :'<,'>y
-:q
 :q!
-:wq
 :WQ
 :%s/\[\]//
 :%s/[]//
@@ -551,26 +551,26 @@ $
 # Historial de línies d'entrada (de més a menys recent):
 
 # Registres:
-""0	BLOCK	9
-	num String
-"1	CHAR	0
-	,
+"0	LINE	0
+	export CLASSPATH=$CLASSPATH:~/lib/hamcrest-core.jar
+""1	CHAR	0
+	 
 "2	CHAR	0
-	,
+	postgresql-9.4-1201.jdbc41.jar
 "3	LINE	0
-	 Adreca
+	export CLASSPATH=$CLASSPATH:~/lib/
 "4	CHAR	0
-	destructor
+	hamcrest-core.jar
 "5	CHAR	0
-	construct
-"6	LINE	0
-	    
+	192.168.56.101
+"6	CHAR	0
+	 
 "7	CHAR	0
-	// code...
-"8	CHAR	0
-	argument
-"9	CHAR	0
-	ClassName
+	 
+"8	LINE	0
+	*************************************
+"9	LINE	0
+	*************************************
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -605,18 +605,24 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/vimgit/VIM/README.md
-'1  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'2  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'3  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'4  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'5  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'6  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'7  214  13  ~/a.c
-'8  1  0  ~/a.c
-'9  8584  700  ~/a.c
+'0  161  31  ~/.bashrc
+'1  6  34  ~/HolaPG.java
+'2  20  7  ~/CLASE/M3/UF6/queEsJDBC/ex1.rst
+'3  1  0  ~/vimgit/VIM/README.md
+'4  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'5  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'6  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'7  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'8  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'9  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
 
 # Llista de salts (de més a menys recent):
+-'  161  31  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  6  34  ~/HolaPG.java
+-'  1  315  ~/HolaPG.java
+-'  20  7  ~/CLASE/M3/UF6/queEsJDBC/ex1.rst
+-'  1  0  ~/CLASE/M3/UF6/queEsJDBC/ex1.rst
 -'  1  0  ~/vimgit/VIM/README.md
 -'  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
 -'  1  0  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
@@ -707,17 +713,46 @@ $
 -'  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
 -'  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 -'  43  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  90  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  89  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  83  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  74  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  63  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  53  9  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  64  103  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  1  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  102  0  ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/.bashrc
+	"	161	31
+	^	161	30
+	.	161	31
+	+	161	0
+	+	161	0
+	+	161	60
+	+	161	31
+	+	162	0
+	+	161	31
+
+> ~/HolaPG.java
+	"	6	34
+	^	6	35
+	.	6	34
+	+	1	0
+	+	7	38
+	+	6	34
+
+> ~/CLASE/M3/UF6/queEsJDBC/ex1.rst
+	"	20	7
+	^	20	8
+	.	20	7
+	+	1	0
+	+	1	0
+	+	2	0
+	+	10	0
+	+	6	0
+	+	7	2
+	+	9	0
+	+	8	7
+	+	14	0
+	+	13	3
+	+	12	7
+	+	17	0
+	+	16	2
+	+	20	7
 
 > ~/vimgit/VIM/README.md
 	"	1	0
@@ -2402,155 +2437,3 @@ $
 	+	26	0
 	+	26	0
 	+	26	0
-
-> ~/CLASE/M6/UF2/proyectos/conectaCuatro/index.html
-	"	17	33
-	^	17	34
-	.	18	0
-	+	1	0
-	+	26	52
-	+	18	0
-	+	18	35
-	+	19	35
-	+	20	35
-	+	21	35
-	+	22	35
-	+	23	35
-	+	22	35
-	+	21	35
-	+	20	35
-	+	19	35
-	+	18	35
-	+	17	35
-	+	26	0
-	+	25	42
-	+	26	42
-	+	18	0
-
-> ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/scripts.js
-	"	165	17
-	^	28	18
-	.	28	17
-	+	388	0
-	+	440	0
-	+	376	0
-	+	440	0
-	+	376	0
-	+	247	4
-	+	379	21
-	+	359	21
-	+	335	17
-	+	316	17
-	+	181	69
-	+	373	22
-	+	235	22
-	+	237	0
-	+	401	0
-	+	392	3
-	+	393	22
-	+	394	0
-	+	395	0
-	+	396	0
-	+	397	0
-	+	398	0
-	+	399	0
-	+	394	5
-	+	395	5
-	+	396	5
-	+	397	5
-	+	398	5
-	+	399	5
-	+	172	11
-	+	171	5
-	+	168	22
-	+	171	0
-	+	172	17
-	+	173	21
-	+	235	23
-	+	237	23
-	+	240	20
-	+	237	0
-	+	240	0
-	+	235	0
-	+	240	0
-	+	238	0
-	+	237	0
-	+	238	0
-	+	235	0
-	+	238	0
-	+	240	0
-	+	242	0
-	+	238	0
-	+	239	0
-	+	173	13
-	+	400	32
-	+	104	45
-	+	412	0
-	+	411	12
-	+	104	10
-	+	103	9
-	+	11	10
-	+	400	0
-	+	11	0
-	+	400	33
-	+	403	22
-	+	404	0
-	+	410	31
-	+	181	46
-	+	246	13
-	+	259	4
-	+	201	0
-	+	250	28
-	+	255	4
-	+	259	0
-	+	251	19
-	+	413	28
-	+	251	31
-	+	254	8
-	+	252	32
-	+	250	0
-	+	247	0
-	+	249	28
-	+	253	31
-	+	258	8
-	+	257	11
-	+	9	21
-	+	212	31
-	+	181	44
-	+	16	0
-	+	179	8
-	+	178	22
-	+	22	61
-	+	10	9
-	+	22	73
-	+	23	17
-	+	27	4
-	+	25	4
-	+	22	85
-	+	27	8
-	+	25	22
-	+	29	4
-	+	28	17
-
-> ~/CLASE/M6/UF2/proyectos/conectaCuatro/js/__Tagbar__
-	"	15	4
-	.	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0
-	+	31	0

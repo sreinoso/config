@@ -158,3 +158,4 @@ function findrm(){
 
 export CLASSPATH=$CLASSPATH:~/lib/junit.jar
 export CLASSPATH=$CLASSPATH:~/lib/hamcrest-core.jar
+CLASSPATH=$CLASSPATH:$HOME/lib/postgresql-9.4-1201.jdbc4.jar
