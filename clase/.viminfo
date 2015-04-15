@@ -17,10 +17,13 @@
 $
 
 # Historial d'ordres (de més a menys recent):
-:wq
-:q
-:w
 :qa
+:w
+:'<,'>y
+:tabe ../../chuleta/chuleta.java
+:q
+:tabe ../sudokus/
+:'<,'>d
 :help :g
 :set mouse=a
 :wqa
@@ -33,13 +36,12 @@ $
 :42,45 s/\w.*/
 :.,124"+y
 :'<,'>"+y
-:'<,'>y
 :q!
+:wq
 :WQ
 :%s/\[\]//
 :%s/[]//
 :%s///
-:'<,'>d
 :PluginInstall! closetag.vim
 :helptags Adobe\ Photoshop\ CS6\ Portable/
 :helptags C.java
@@ -404,8 +406,14 @@ $
 :!rst2html %
 :map <C-j> i<CR><ESC>
 :map <c-j>i<CR><ESC>
+:xa
+:XA
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vsout\%#
+? \Vca\%#
+? \Vsw\%#
+? \Vfor\%#
 ?/num String
 ? \<Enum\>
 ? \s\+\zs\S*
@@ -436,7 +444,6 @@ $
 ?/	
 ? \<Tata\>
 ? $
-? \Vsout\%#
 ? \<vehicleBasic\>
 ?/alert
 ? )
@@ -552,25 +559,35 @@ $
 
 # Registres:
 "0	LINE	0
-	export CLASSPATH=$CLASSPATH:~/lib/hamcrest-core.jar
-""1	CHAR	0
-	 
+	static int readInt() {
+	    int val = 0;
+	    try {
+	        while (true) {
+	            char c = (char)System.in.read();
+	            if (c < '0' || c > '9') break;
+	            val = 10*val + (c - '0');
+	        }
+	    } catch (IOException e) {}
+	    return val;
+	}
+"1	CHAR	0
+	...
 "2	CHAR	0
-	postgresql-9.4-1201.jdbc41.jar
-"3	LINE	0
-	export CLASSPATH=$CLASSPATH:~/lib/
+	...
+"3	CHAR	0
+	false
 "4	CHAR	0
-	hamcrest-core.jar
-"5	CHAR	0
-	192.168.56.101
-"6	CHAR	0
-	 
-"7	CHAR	0
-	 
+	...
+"5	LINE	0
+	            boolean impar = false;
+"6	LINE	0
+	                    impar = true
+"7	LINE	0
+	
 "8	LINE	0
-	*************************************
-"9	LINE	0
-	*************************************
+	        int[] arr = new int[];
+"9	CHAR	0
+	        int arr = new Array()
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -605,24 +622,39 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  161  31  ~/.bashrc
-'1  6  34  ~/HolaPG.java
-'2  20  7  ~/CLASE/M3/UF6/queEsJDBC/ex1.rst
-'3  1  0  ~/vimgit/VIM/README.md
-'4  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'5  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'6  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'7  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'8  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'9  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'1  1  0  ~/vimgit/VIM/README.md
+'2  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'3  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'4  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'5  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'6  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'7  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'8  214  13  ~/a.c
+'9  1  0  ~/a.c
 
 # Llista de salts (de més a menys recent):
--'  161  31  ~/.bashrc
--'  1  0  ~/.bashrc
--'  6  34  ~/HolaPG.java
--'  1  315  ~/HolaPG.java
--'  20  7  ~/CLASE/M3/UF6/queEsJDBC/ex1.rst
--'  1  0  ~/CLASE/M3/UF6/queEsJDBC/ex1.rst
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  33  15  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  57  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  56  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  54  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  53  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  48  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  46  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  45  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  39  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  29  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  20  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  16  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  13  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  6  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  52  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  51  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  50  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  42  28  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  35  12  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  40  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  1  0  ~/vimgit/VIM/README.md
 -'  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
 -'  1  0  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
@@ -675,57 +707,114 @@ $
 -'  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  10  7  ~/pruebas.html
--'  1  0  ~/pruebas.html
--'  4  0  ~/NERD_tree_1
--'  98  2  ~/NERD_tree_1
--'  1  0  ~/NERD_tree_1
--'  1  0  ~/C.java
--'  1  0  ~/CLASE/M5/UF2/Refactoring/test
--'  1  0  ~/VIM_cheatcodes.rst
--'  19  0  ~/README.pdf
--'  1  0  ~/README
--'  1  0  ~/.vimrc
--'  17  0  ~/C.java
--'  73  0  ~/.vimrc
--'  7  0  ~/[Vundle] search
--'  39  48  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  72  50  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  81  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  91  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  1  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  65  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  13  30  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  40  12  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  11  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  38  89  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  12  19  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  9  18  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  2  13  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  4  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  5  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  6  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  7  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  8  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  15  8  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  16  0  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  17  4  ~/CLASE/M5/UF2/examen/InformeDeClient.java
--'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/controllers/constants.php
--'  1  11  ~/CLASE/M6/UF3/proyectos/moduloTienda/bdd/creacion.sql
--'  54  12  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
--'  43  0  ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/Client.java
 
 # Historial de marques en fitxers (de més a menys recent):
 
+> ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/entrada
+	"	5	8
+	^	5	9
+	.	5	8
+	+	5	8
+
+> ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/salida
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	1
+
+> ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+	"	1	0
+	^	33	16
+	.	33	15
+	+	56	0
+	+	23	37
+	+	24	44
+	+	54	0
+	+	56	0
+	+	54	4
+	+	54	11
+	+	23	28
+	+	24	0
+	+	23	16
+	+	56	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	54	0
+	+	29	15
+	+	28	15
+	+	24	0
+	+	26	0
+	+	26	0
+	+	28	32
+	+	55	0
+	+	29	8
+	+	48	0
+	+	35	16
+	+	30	30
+	+	32	32
+	+	32	29
+	+	35	18
+	+	30	23
+	+	35	34
+	+	39	0
+	+	37	19
+	+	35	23
+	+	46	0
+	+	39	0
+	+	39	0
+	+	32	0
+	+	36	0
+	+	38	36
+	+	41	36
+	+	46	0
+	+	42	49
+	+	45	0
+	+	44	29
+	+	31	28
+	+	43	34
+	+	54	0
+	+	50	41
+	+	51	25
+	+	54	0
+	+	52	51
+	+	53	0
+	+	47	19
+	+	6	0
+	+	33	15
+
+> ~/programame/bitbucket/programame-2015/exercicis/NERD_tree_1
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~/programame/bitbucket/programame-2015/exercicis/sudokus/Plantilla.java
+	"	40	0
+
+> ~/programame/bitbucket/programame-2015/chuleta/chuleta.java
+	"	17	0
+
 > ~/.bashrc
-	"	161	31
-	^	161	30
-	.	161	31
-	+	161	0
-	+	161	0
-	+	161	60
-	+	161	31
+	"	160	56
+	^	160	57
+	.	160	56
+	+	163	0
+	+	163	0
+	+	163	60
+	+	163	31
+	+	164	0
+	+	163	31
+	+	159	10
+	+	159	0
+	+	160	29
+	+	164	3
+	+	160	31
 	+	162	0
-	+	161	31
+	+	165	15
+	+	160	56
 
 > ~/HolaPG.java
 	"	6	34
@@ -2274,166 +2363,3 @@ $
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.class
 	"	1	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaCompletaGestorLlogersLite.class
-	"	1	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.class
-	"	1	0
-
-> ~/CLASE/M6/UF2/examenes/index.html
-	"	16	0
-	^	16	0
-	.	16	0
-	+	19	0
-	+	1	0
-	+	2	0
-	+	6	57
-	+	8	0
-	+	8	0
-	+	7	48
-	+	8	0
-	+	7	70
-	+	8	0
-	+	7	70
-	+	8	0
-	+	17	0
-	+	10	86
-	+	11	96
-	+	12	90
-	+	11	49
-	+	12	42
-	+	13	26
-	+	15	14
-	+	16	0
-
-> ~/CLASE/M6/UF2/examenes/css/estilo.css
-	"	1	0
-
-> ~/CLASE/M6/UF2/examenes/js/script.js
-	"	129	4
-	^	32	32
-	.	32	31
-	+	96	34
-	+	100	16
-	+	99	67
-	+	98	0
-	+	98	0
-	+	103	0
-	+	105	0
-	+	103	32
-	+	105	0
-	+	105	0
-	+	112	0
-	+	119	0
-	+	110	0
-	+	117	31
-	+	110	32
-	+	119	0
-	+	119	0
-	+	112	0
-	+	112	0
-	+	124	39
-	+	85	9
-	+	93	36
-	+	94	0
-	+	97	0
-	+	104	0
-	+	111	0
-	+	118	0
-	+	119	0
-	+	118	26
-	+	112	0
-	+	111	26
-	+	105	0
-	+	104	26
-	+	98	0
-	+	97	26
-	+	85	0
-	+	129	16
-	+	86	23
-	+	49	5
-	+	92	19
-	+	95	19
-	+	102	19
-	+	109	19
-	+	116	19
-	+	129	4
-	+	128	55
-	+	129	73
-	+	129	0
-	+	36	41
-	+	93	38
-	+	97	42
-	+	104	42
-	+	111	42
-	+	118	42
-	+	36	60
-	+	58	13
-	+	66	13
-	+	62	13
-	+	70	13
-	+	74	13
-	+	77	13
-	+	86	5
-	+	77	12
-	+	129	111
-	+	132	27
-	+	174	0
-	+	133	0
-	+	138	23
-	+	142	35
-	+	149	35
-	+	156	35
-	+	163	35
-	+	136	23
-	+	142	16
-	+	149	16
-	+	156	16
-	+	163	16
-	+	174	0
-	+	136	0
-	+	134	17
-	+	132	19
-	+	134	39
-	+	135	29
-	+	138	30
-	+	142	34
-	+	149	34
-	+	156	34
-	+	163	34
-	+	27	41
-	+	33	0
-	+	31	8
-	+	28	23
-	+	27	0
-	+	30	20
-	+	27	24
-	+	30	27
-	+	27	0
-	+	32	0
-	+	33	36
-	+	32	31
-
-> ~/CLASE/M6/UF2/examenes/js/__Tagbar__
-	"	5	4
-	.	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
-	+	26	0
