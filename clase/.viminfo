@@ -17,6 +17,8 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:wqa
+:wq
 :qa
 :q
 :Q
@@ -27,7 +29,6 @@ $
 :'<,'>d
 :help :g
 :set mouse=a
-:wqa
 :'<,'>dt 
 :'<,'>dw
 :42,45 s/^\s\+\zs\S*/<F8>
@@ -38,7 +39,6 @@ $
 :.,124"+y
 :'<,'>"+y
 :q!
-:wq
 :WQ
 :%s/\[\]//
 :%s/[]//
@@ -570,24 +570,24 @@ $
 	    } catch (IOException e) {}
 	    return val;
 	}
-"1	CHAR	0
-	...
-"2	CHAR	0
-	...
-"3	CHAR	0
-	false
+""1	BLOCK	0
+	 
+"2	BLOCK	0
+	 
+"3	BLOCK	25
+	(la cosa esa del intrnés).
 "4	CHAR	0
+	e
+"5	CHAR	0
 	...
-"5	LINE	0
+"6	CHAR	0
+	...
+"7	CHAR	0
+	false
+"8	CHAR	0
+	...
+"9	LINE	0
 	            boolean impar = false;
-"6	LINE	0
-	                    impar = true
-"7	LINE	0
-	
-"8	LINE	0
-	        int[] arr = new int[];
-"9	CHAR	0
-	        int arr = new Array()
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -622,18 +622,22 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  19  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
-'1  1  0  ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
-'2  1  0  ~/CLASE/M5/UF3/teoria/snippetsFuncionals.rst
-'3  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
-'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'5  1  0  ~/vimgit/VIM/README.md
-'6  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'7  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'8  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'9  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'0  3  7  ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
+'1  7  76  ~/CLASE/sally/doc/notes/historiaUsuario.rst
+'2  19  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
+'3  1  0  ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
+'4  1  0  ~/CLASE/M5/UF3/teoria/snippetsFuncionals.rst
+'5  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
+'6  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'7  1  0  ~/vimgit/VIM/README.md
+'8  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'9  67  48  /usr/share/vim/vim73/doc/repeat.txt
 
 # Llista de salts (de més a menys recent):
+-'  3  7  ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
+-'  1  0  ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
+-'  7  76  ~/CLASE/sally/doc/notes/historiaUsuario.rst
+-'  2  0  ~/CLASE/sally/doc/notes/historiaUsuario.rst
 -'  19  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
 -'  1  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
 -'  1  0  ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
@@ -730,11 +734,38 @@ $
 -'  6  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  52  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  51  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  50  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  42  28  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  35  12  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
+	"	3	7
+	^	3	8
+	.	3	7
+	+	6	8
+	+	3	0
+	+	5	0
+	+	1	22
+	+	2	7
+	+	3	7
+
+> ~/CLASE/sally/doc/notes/historiaUsuario.rst
+	"	7	76
+	^	7	107
+	.	7	76
+	+	6	103
+	+	1	56
+	+	2	4
+	+	6	2
+	+	12	2
+	+	10	115
+	+	14	2
+	+	12	169
+	+	17	51
+	+	8	89
+	+	9	101
+	+	4	25
+	+	7	106
+	+	7	76
 
 > ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
 	"	19	0
@@ -2205,97 +2236,3 @@ $
 	+	39	0
 	+	86	0
 	+	56	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/GestorLlogersLite.java
-	"	27	0
-	^	3	31
-	.	3	30
-	+	34	0
-	+	33	0
-	+	4	3
-	+	7	0
-	+	1	32
-	+	4	44
-	+	5	8
-	+	6	4
-	+	32	0
-	+	5	0
-	+	2	0
-	+	15	11
-	+	16	0
-	+	19	0
-	+	19	0
-	+	18	36
-	+	16	0
-	+	15	0
-	+	14	17
-	+	16	12
-	+	14	23
-	+	4	44
-	+	26	0
-	+	27	34
-	+	27	30
-	+	27	44
-	+	28	35
-	+	32	19
-	+	28	35
-	+	32	0
-	+	28	34
-	+	29	32
-	+	30	33
-	+	21	0
-	+	22	0
-	+	9	0
-	+	10	0
-	+	9	25
-	+	10	70
-	+	9	58
-	+	10	64
-	+	21	61
-	+	22	50
-	+	21	25
-	+	22	26
-	+	31	44
-	+	25	9
-	+	4	0
-	+	3	30
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.java
-	"	1	0
-	^	23	24
-	.	23	23
-	+	26	0
-	+	25	0
-	+	4	15
-	+	25	0
-	+	10	0
-	+	2	17
-	+	6	15
-	+	4	6
-	+	4	0
-	+	3	15
-	+	1	21
-	+	11	35
-	+	13	0
-	+	12	24
-	+	11	27
-	+	13	0
-	+	14	24
-	+	15	13
-	+	14	22
-	+	6	23
-	+	7	0
-	+	8	0
-	+	9	0
-	+	6	47
-	+	4	21
-	+	5	27
-	+	6	56
-	+	5	20
-	+	17	0
-	+	18	0
-	+	19	26
-	+	25	0
-	+	25	0
-	+	22	13
-	+	23	23
