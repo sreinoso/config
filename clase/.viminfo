@@ -18,10 +18,11 @@ $
 
 # Historial d'ordres (de més a menys recent):
 :qa
+:q
+:Q
 :w
 :'<,'>y
 :tabe ../../chuleta/chuleta.java
-:q
 :tabe ../sudokus/
 :'<,'>d
 :help :g
@@ -244,7 +245,6 @@ $
 :split
 :split #
 :new
-:Q
 :help window
 :help c-w
 :man c-w
@@ -622,18 +622,22 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
-'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'2  1  0  ~/vimgit/VIM/README.md
-'3  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'4  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'5  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'6  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'7  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'8  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'9  214  13  ~/a.c
+'0  19  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
+'1  1  0  ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
+'2  1  0  ~/CLASE/M5/UF3/teoria/snippetsFuncionals.rst
+'3  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
+'4  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'5  1  0  ~/vimgit/VIM/README.md
+'6  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'7  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'8  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'9  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
 
 # Llista de salts (de més a menys recent):
+-'  19  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
+-'  1  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
+-'  1  0  ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
+-'  1  0  ~/CLASE/M5/UF3/teoria/snippetsFuncionals.rst
 -'  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
 -'  1  0  ~/CLASE/M8/UF1/FTP/FTP.rst
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
@@ -729,13 +733,17 @@ $
 -'  50  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  42  28  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  35  12  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  40  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  1  0  ~/vimgit/VIM/README.md
--'  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
--'  1  0  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
--'  67  48  /usr/share/vim/vim73/doc/repeat.txt
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
+	"	19	0
+
+> ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
+	"	1	0
+
+> ~/CLASE/M5/UF3/teoria/snippetsFuncionals.rst
+	"	1	0
 
 > ~/CLASE/M8/UF1/FTP/FTP.rst
 	"	275	169
@@ -2291,102 +2299,3 @@ $
 	+	25	0
 	+	22	13
 	+	23	23
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/ProvaUnitariaGestorLlogersLite.java
-	"	2	0
-	^	31	10
-	.	31	9
-	+	2	0
-	+	3	0
-	+	3	0
-	+	36	0
-	+	36	43
-	+	36	20
-	+	36	0
-	+	36	0
-	+	36	58
-	+	36	81
-	+	36	111
-	+	36	81
-	+	36	6
-	+	36	192
-	+	36	81
-	+	36	111
-	+	36	145
-	+	36	173
-	+	36	0
-	+	36	193
-	+	36	0
-	+	36	0
-	+	36	19
-	+	36	0
-	+	36	0
-	+	4	18
-	+	36	0
-	+	36	0
-	+	36	0
-	+	36	0
-	+	36	15
-	+	36	0
-	+	36	20
-	+	36	0
-	+	36	0
-	+	36	0
-	+	36	0
-	+	36	0
-	+	19	0
-	+	36	0
-	+	6	0
-	+	36	0
-	+	35	0
-	+	11	23
-	+	28	0
-	+	20	45
-	+	7	70
-	+	33	0
-	+	32	0
-	+	31	9
-	+	32	20
-	+	31	8
-	+	32	8
-	+	31	9
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Vehicle.java
-	"	1	0
-	^	24	29
-	.	24	28
-	+	29	0
-	+	28	0
-	+	8	20
-	+	13	0
-	+	7	0
-	+	9	44
-	+	10	0
-	+	10	0
-	+	11	0
-	+	10	0
-	+	2	0
-	+	5	37
-	+	4	34
-	+	5	31
-	+	4	38
-	+	5	35
-	+	8	14
-	+	12	33
-	+	9	59
-	+	26	32
-	+	26	0
-	+	26	19
-	+	26	0
-	+	14	26
-	+	14	0
-	+	17	25
-	+	18	24
-	+	17	21
-	+	20	25
-	+	21	24
-	+	23	26
-	+	24	28
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
-	"	1	0
