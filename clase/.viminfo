@@ -622,18 +622,20 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'1  1  0  ~/vimgit/VIM/README.md
-'2  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'3  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'4  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'5  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'6  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'7  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'8  214  13  ~/a.c
-'9  1  0  ~/a.c
+'0  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
+'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'2  1  0  ~/vimgit/VIM/README.md
+'3  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'4  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'5  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'6  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'7  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'8  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'9  214  13  ~/a.c
 
 # Llista de salts (de més a menys recent):
+-'  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
+-'  1  0  ~/CLASE/M8/UF1/FTP/FTP.rst
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  33  15  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  57  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
@@ -707,8 +709,36 @@ $
 -'  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  10  7  ~/pruebas.html
+-'  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  33  15  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  57  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  56  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  54  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  53  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  48  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  46  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  45  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  39  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  29  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  20  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  16  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  13  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  6  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  52  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  51  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  50  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  42  28  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  35  12  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  40  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+-'  1  0  ~/vimgit/VIM/README.md
+-'  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+-'  1  0  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+-'  67  48  /usr/share/vim/vim73/doc/repeat.txt
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M8/UF1/FTP/FTP.rst
+	"	275	169
 
 > ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/entrada
 	"	5	8
@@ -2359,7 +2389,4 @@ $
 	+	24	28
 
 > ~/CLASE/M5/UF2/Refactoring/Exemple/Client.class
-	"	1	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Lloguer.class
 	"	1	0
