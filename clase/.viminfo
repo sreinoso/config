@@ -8,25 +8,29 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0~/num String
+~MSle0/^Pregunta
 
 # Últim Substitute Patró de Cerca:
-~MSle0&\s\+\zs\S*
+~MSle0~&^Pregunta
 
 # Última cadena substituïda:
 $
 
 # Historial d'ordres (de més a menys recent):
 :wqa
-:wq
-:qa
-:q
-:Q
 :w
+:'<,'>d
+:%g/^Pregunta/normal ºs3
+:%g/^Pregunta/normal <leader>s3
+:%g/^Pregunta/Normal <leader>s3
+:%g/^Pregunta/Normal ºs3
+:%s--\/\*TODO\*\/-g
+:%s///g
+:qa
 :'<,'>y
 :tabe ../../chuleta/chuleta.java
+:q
 :tabe ../sudokus/
-:'<,'>d
 :help :g
 :set mouse=a
 :'<,'>dt 
@@ -39,6 +43,7 @@ $
 :.,124"+y
 :'<,'>"+y
 :q!
+:wq
 :WQ
 :%s/\[\]//
 :%s/[]//
@@ -212,7 +217,6 @@ $
 :s
 :e
 :%s//\&ntilde;/g
-:%s///g
 :%s//&ntilde;/g
 :.,94s/1px/1000px/g
 :.,100
@@ -245,6 +249,7 @@ $
 :split
 :split #
 :new
+:Q
 :help window
 :help c-w
 :man c-w
@@ -408,8 +413,14 @@ $
 :map <c-j>i<CR><ESC>
 :xa
 :XA
+:%s/XXX/Juan/g
 
 # Historial de cadenes cercades (de més a menys recent):
+? \Vcodeblock\%#
+? \s\+$
+? ^Pregunta
+?/TODO
+?/Indica aquí la teva resposta
 ? \Vsout\%#
 ? \Vca\%#
 ? \Vsw\%#
@@ -532,11 +543,9 @@ $
 ?/table
 ?/code-block
 ? \<block\>
-? \Vcodeblock\%#
 ? }
 ? \<Enumeration\>
 ? \V:\%#
-? \s\+$
 ? \<Pregunta\>
 ?/AgafadorMaPlenaExceptio
 ? \<numero\>
@@ -548,6 +557,7 @@ $
 ? =
 ? \<array\>
 ? -
+? XXX
 
 # Historial d'expressions (de més a menys recent):
 
@@ -559,35 +569,37 @@ $
 
 # Registres:
 "0	LINE	0
-	static int readInt() {
-	    int val = 0;
-	    try {
-	        while (true) {
-	            char c = (char)System.in.read();
-	            if (c < '0' || c > '9') break;
-	            val = 10*val + (c - '0');
-	        }
-	    } catch (IOException e) {}
-	    return val;
-	}
-""1	BLOCK	0
+	******************************************
+"1	CHAR	0
 	 
-"2	BLOCK	0
-	 
-"3	BLOCK	25
-	(la cosa esa del intrnés).
+"2	LINE	0
+	
+"3	CHAR	0
+	lenguaje
 "4	CHAR	0
-	e
-"5	CHAR	0
-	...
-"6	CHAR	0
-	...
-"7	CHAR	0
-	false
-"8	CHAR	0
-	...
+	lenguaje
+"5	LINE	0
+	==========================================
+"6	LINE	0
+	
+"7	LINE	0
+	267
+<S'ha de realitzar la instal·lació del Zend Server CE i del gestor de bases de dades MySQL. Posteriorment s'ha d'instal·lar una aplicació web PHP en aquest mateix servidor, concretament un CMS anomenat Digitalus.  Finalment gestionarem les sessions mitjançant 
+"8	LINE	0
+	
 "9	LINE	0
-	            boolean impar = false;
+	Al final d'aquesta sessió cal que lliureu aquest arxiu emplenant cadascun dels espais especialment reservats per a que els empleneu. L'arxiu que lliureu cal que es digui:
+	INDIVIDUAL
+	CICLE_P06_CognomNom.odt, on
+	CICLE és DAW
+	Cognom és el primer cognom de l'alumne.
+	Nom és el nom de l'alumne.
+	GRUP
+	DAW_P06_CognomA1CognomA2.odt, on
+	CICLE és DAW
+	CognomA1 és el primer cognom del 1r alumne
+	CognomA2 és el primer cognom del 2n alumne.
+	
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -622,28 +634,40 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  3  7  ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
-'1  7  76  ~/CLASE/sally/doc/notes/historiaUsuario.rst
-'2  19  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
-'3  1  0  ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
-'4  1  0  ~/CLASE/M5/UF3/teoria/snippetsFuncionals.rst
-'5  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
-'6  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'7  1  0  ~/vimgit/VIM/README.md
-'8  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'9  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'0  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'2  1  0  ~/vimgit/VIM/README.md
+'3  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'4  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'5  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'6  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'7  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'8  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'9  214  13  ~/a.c
 
 # Llista de salts (de més a menys recent):
--'  3  7  ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
--'  1  0  ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
--'  7  76  ~/CLASE/sally/doc/notes/historiaUsuario.rst
--'  2  0  ~/CLASE/sally/doc/notes/historiaUsuario.rst
--'  19  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
--'  1  0  ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
--'  1  0  ~/CLASE/M5/UF3/ejercicios/snippetsFuncionals.rst
--'  1  0  ~/CLASE/M5/UF3/teoria/snippetsFuncionals.rst
--'  275  169  ~/CLASE/M8/UF1/FTP/FTP.rst
--'  1  0  ~/CLASE/M8/UF1/FTP/FTP.rst
+-'  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  89  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  88  12  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  51  19  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  53  1  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  8  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  6  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  2  55  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  290  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  9  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  12  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  287  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  284  13  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  76  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  202  8  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  198  8  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  138  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  134  9  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  109  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  289  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  14  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  78  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 -'  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  33  15  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 -'  57  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
@@ -709,49 +733,64 @@ $
 -'  27  462  ~/CLASE/sally/README.rst
 -'  24  0  ~/CLASE/sally/README.rst
 -'  14  16  ~/CLASE/sally/README.rst
--'  8  26  ~/CLASE/sally/README.rst
--'  2  0  ~/CLASE/sally/README.rst
--'  1  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  9  4  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
--'  13  7  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_template.html
--'  22  24  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
--'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/bbdd/bbdd.sql
--'  10  7  ~/pruebas.html
--'  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  33  15  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  57  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  56  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  54  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  53  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  48  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  46  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  45  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  39  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  29  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  20  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  16  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  13  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  6  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  52  20  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
--'  51  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 
 # Historial de marques en fitxers (de més a menys recent):
 
-> ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
-	"	3	7
-	^	3	8
-	.	3	7
-	+	6	8
-	+	3	0
+> ~/CLASE/M8/UF2/ZEND/ZEND.rst
+	"	25	20
+	^	11	1
+	.	11	0
+	+	2	0
+	+	14	0
+	+	14	0
+	+	9	8
+	+	73	8
+	+	134	8
+	+	146	8
+	+	154	8
+	+	187	8
+	+	198	0
+	+	195	8
+	+	202	0
+	+	203	8
+	+	211	8
+	+	219	8
+	+	234	8
+	+	251	8
+	+	259	8
+	+	276	8
+	+	284	8
+	+	9	0
+	+	12	0
+	+	12	0
+	+	285	0
+	+	2	56
+	+	6	0
+	+	1	0
+	+	6	0
+	+	8	0
 	+	5	0
-	+	1	22
-	+	2	7
-	+	3	7
+	+	53	0
+	+	51	19
+	+	52	3
+	+	53	7
+	+	54	0
+	+	51	19
+	+	90	0
+	+	90	0
+	+	88	0
+	+	89	0
+	+	165	0
+	+	12	0
+	+	11	0
+
+> ~/CLASE/sally/esbozos.rst
+	"	22	0
 
 > ~/CLASE/sally/doc/notes/historiaUsuario.rst
-	"	7	76
-	^	7	107
-	.	7	76
+	"	17	18
+	^	17	19
+	.	17	18
 	+	6	103
 	+	1	56
 	+	2	4
@@ -766,6 +805,30 @@ $
 	+	4	25
 	+	7	106
 	+	7	76
+	+	1	0
+	+	2	1
+	+	6	139
+	+	7	77
+	+	9	115
+	+	9	32
+	+	7	35
+	+	12	141
+	+	13	6
+	+	14	8
+	+	15	29
+	+	16	120
+	+	17	18
+
+> ~/CLASE/sally/doc/notes/contadorRecursosConsumidos.rst
+	"	3	7
+	^	3	8
+	.	3	7
+	+	6	8
+	+	3	0
+	+	5	0
+	+	1	22
+	+	2	7
+	+	3	7
 
 > ~/CLASE/M5/UF3/ejercicios/lloguerDeVehicles.rst
 	"	19	0
@@ -1340,9 +1403,6 @@ $
 	+	25	0
 	+	7	0
 	+	6	0
-
-> ~/CLASE/M8/UF2/ZEND/ZEND.rst
-	"	1	0
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/site_media/html/user_borrar.html
 	"	1	4
@@ -2225,14 +2285,3 @@ $
 
 > ~/.ssh/id_rsa.pub
 	"	1	0
-
-> ~/CLASE/M5/UF2/Refactoring/Exemple/Client.java
-	"	48	33
-	^	39	0
-	.	56	0
-	+	1	0
-	+	2	0
-	+	86	17
-	+	39	0
-	+	86	0
-	+	56	0
