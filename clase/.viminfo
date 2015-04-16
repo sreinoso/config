@@ -570,35 +570,29 @@ $
 # Registres:
 "0	LINE	0
 	******************************************
-"1	CHAR	0
+""1	BLOCK	0
 	 
-"2	LINE	0
-	
-"3	CHAR	0
-	lenguaje
+	 
+	 
+"2	BLOCK	0
+	>
+	>
+	>
+"3	BLOCK	0
+	|
+	|
+	|
 "4	CHAR	0
-	lenguaje
+	 
 "5	LINE	0
-	==========================================
-"6	LINE	0
 	
-"7	LINE	0
-	267
-<S'ha de realitzar la instal·lació del Zend Server CE i del gestor de bases de dades MySQL. Posteriorment s'ha d'instal·lar una aplicació web PHP en aquest mateix servidor, concretament un CMS anomenat Digitalus.  Finalment gestionarem les sessions mitjançant 
+"6	CHAR	0
+	lenguaje
+"7	CHAR	0
+	lenguaje
 "8	LINE	0
-	
+	==========================================
 "9	LINE	0
-	Al final d'aquesta sessió cal que lliureu aquest arxiu emplenant cadascun dels espais especialment reservats per a que els empleneu. L'arxiu que lliureu cal que es digui:
-	INDIVIDUAL
-	CICLE_P06_CognomNom.odt, on
-	CICLE és DAW
-	Cognom és el primer cognom de l'alumne.
-	Nom és el nom de l'alumne.
-	GRUP
-	DAW_P06_CognomA1CognomA2.odt, on
-	CICLE és DAW
-	CognomA1 és el primer cognom del 1r alumne
-	CognomA2 és el primer cognom del 2n alumne.
 	
 "g	LINE	0
 	System.out.println("BBB");
@@ -634,18 +628,20 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
-'1  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'2  1  0  ~/vimgit/VIM/README.md
-'3  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'4  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'5  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'6  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'7  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'8  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
-'9  214  13  ~/a.c
+'0  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
+'1  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'3  1  0  ~/vimgit/VIM/README.md
+'4  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'5  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'6  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
+'7  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
+'8  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
+'9  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
 
 # Llista de salts (de més a menys recent):
+-'  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
+-'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
 -'  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 -'  89  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 -'  88  12  ~/CLASE/M8/UF2/ZEND/ZEND.rst
@@ -733,8 +729,33 @@ $
 -'  27  462  ~/CLASE/sally/README.rst
 -'  24  0  ~/CLASE/sally/README.rst
 -'  14  16  ~/CLASE/sally/README.rst
+-'  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  89  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  88  12  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  51  19  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  53  1  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  8  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  6  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  2  55  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  290  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  9  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+-'  12  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
+	"	8	29
+	^	5	4
+	.	8	29
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	2
+	+	8	0
+	+	5	3
+	+	6	0
+	+	8	29
 
 > ~/CLASE/M8/UF2/ZEND/ZEND.rst
 	"	25	20
@@ -2281,7 +2302,4 @@ $
 	+	4	0
 
 > ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
-	"	1	0
-
-> ~/.ssh/id_rsa.pub
 	"	1	0
