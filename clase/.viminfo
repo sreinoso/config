@@ -17,6 +17,10 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:wq
+:q
+:q!
+:reg
 :wqa
 :w
 :'<,'>d
@@ -29,7 +33,6 @@ $
 :qa
 :'<,'>y
 :tabe ../../chuleta/chuleta.java
-:q
 :tabe ../sudokus/
 :help :g
 :set mouse=a
@@ -42,8 +45,6 @@ $
 :42,45 s/\w.*/
 :.,124"+y
 :'<,'>"+y
-:q!
-:wq
 :WQ
 :%s/\[\]//
 :%s/[]//
@@ -312,7 +313,6 @@ $
 :help c
 :tabe ex4/Garfield.java
 :tabe ex4/Garfield.jav
-:reg
 :colorscheme calmar256-dark
 :.,16y
 :.,12y
@@ -414,6 +414,8 @@ $
 :xa
 :XA
 :%s/XXX/Juan/g
+:tabe HolaPG.java
+:color kellys
 
 # Historial de cadenes cercades (de més a menys recent):
 ? \Vcodeblock\%#
@@ -570,30 +572,36 @@ $
 # Registres:
 "0	LINE	0
 	******************************************
-""1	BLOCK	0
-	 
-	 
-	 
+"1	BLOCK	0
+	$
+	$
+	$
+	$
 "2	BLOCK	0
-	>
-	>
-	>
+	$
+	$
+	$
+	$
 "3	BLOCK	0
-	|
-	|
-	|
-"4	CHAR	0
 	 
-"5	LINE	0
-	
+	 
+	 
+"4	BLOCK	0
+	>
+	>
+	>
+"5	BLOCK	0
+	|
+	|
+	|
 "6	CHAR	0
-	lenguaje
-"7	CHAR	0
-	lenguaje
-"8	LINE	0
-	==========================================
-"9	LINE	0
+	 
+"7	LINE	0
 	
+"8	CHAR	0
+	lenguaje
+"9	CHAR	0
+	lenguaje
 "g	LINE	0
 	System.out.println("BBB");
 "t	LINE	0
@@ -628,18 +636,25 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
-'1  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
-'2  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'3  1  0  ~/vimgit/VIM/README.md
-'4  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'5  67  48  /usr/share/vim/vim73/doc/repeat.txt
-'6  1  0  ~/.cache/.fr-zCZhUQ/hellowsdl2.php
-'7  45  10  ~/CLASE/M2/UF4/comparacioModels2/creaTablas.sql
-'8  106  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/php/moduloTienda/users/model.php
-'9  3  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/mvc_m6/core/db_abstract_model.php
+'0  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
+'1  389  0  ~/.vimrc
+'2  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
+'3  166  40  ~/.bashrc
+'4  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
+'5  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'6  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'7  1  0  ~/vimgit/VIM/README.md
+'8  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'9  67  48  /usr/share/vim/vim73/doc/repeat.txt
 
 # Llista de salts (de més a menys recent):
+-'  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
+-'  1  0  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
+-'  389  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
+-'  166  40  ~/.bashrc
+-'  1  0  ~/.bashrc
 -'  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
 -'  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
@@ -733,15 +748,67 @@ $
 -'  89  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 -'  88  12  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 -'  51  19  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  53  1  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  8  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  6  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  2  55  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  290  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  9  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  12  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
+	"	8	39
+	^	8	40
+	.	8	39
+	+	8	39
+
+> ~/.vimrc
+	"	389	0
+	.	12	0
+	+	71	0
+	+	72	0
+	+	380	4
+	+	73	0
+	+	72	0
+	+	73	0
+	+	12	0
+
+> ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
+	"	1	0
+	.	1	0
+	+	24	24
+	+	24	0
+	+	17	0
+	+	2	0
+	+	1	0
+
+> ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/App.java
+	"	1	0
+
+> ~/CLASE/M3/UF6/repo/holapgsql/src/test/java/org/iesjoandaustria/test/HolaPG.java
+	"	1	0
+	^	1	33
+	.	1	32
+	+	2	32
+	+	1	32
+
+> ~/CLASE/M3/UF6/repo/holapgsql/src/test/java/org/iesjoandaustria/test/.AppTest.java
+	"	1	0
+
+> ~/.bashrc
+	"	166	40
+	^	166	41
+	.	166	40
+	+	163	0
+	+	163	0
+	+	163	60
+	+	163	31
+	+	164	0
+	+	163	31
+	+	159	10
+	+	159	0
+	+	160	29
+	+	164	3
+	+	160	31
+	+	162	0
+	+	165	15
+	+	160	56
+	+	166	40
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
 	"	8	29
@@ -949,25 +1016,6 @@ $
 
 > ~/programame/bitbucket/programame-2015/chuleta/chuleta.java
 	"	17	0
-
-> ~/.bashrc
-	"	160	56
-	^	160	57
-	.	160	56
-	+	163	0
-	+	163	0
-	+	163	60
-	+	163	31
-	+	164	0
-	+	163	31
-	+	159	10
-	+	159	0
-	+	160	29
-	+	164	3
-	+	160	31
-	+	162	0
-	+	165	15
-	+	160	56
 
 > ~/HolaPG.java
 	"	6	34
@@ -1495,17 +1543,6 @@ $
 	"	4	0
 	.	1	0
 	+	1	0
-
-> ~/.vimrc
-	"	12	0
-	.	12	0
-	+	71	0
-	+	72	0
-	+	380	4
-	+	73	0
-	+	72	0
-	+	73	0
-	+	12	0
 
 > ~/plantilla.java
 	"	1	1
@@ -2145,161 +2182,3 @@ $
 	+	37	37
 	+	36	23
 	+	41	32
-
-> ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/Client.java
-	"	89	24
-	^	89	25
-	.	89	24
-	+	94	0
-	+	46	0
-	+	46	0
-	+	46	0
-	+	46	0
-	+	46	7
-	+	39	0
-	+	46	0
-	+	37	46
-	+	38	28
-	+	46	28
-	+	90	0
-	+	46	0
-	+	89	0
-	+	46	0
-	+	72	0
-	+	45	51
-	+	70	53
-	+	45	57
-	+	72	0
-	+	71	13
-	+	89	24
-
-> ~/CLASE/M5/UF2/Refactoring/Extraccio_metodes/__Tagbar__
-	"	10	3
-	.	21	0
-	+	48	0
-	+	48	0
-	+	29	0
-	+	25	0
-	+	21	0
-
-> ~/CLASE/webGlobal/index.html
-	"	8	61
-	^	8	62
-	.	8	61
-	+	2	0
-	+	5	15
-	+	13	26
-	+	46	4
-	+	14	39
-	+	45	0
-	+	15	30
-	+	32	17
-	+	46	0
-	+	15	0
-	+	32	0
-	+	34	27
-	+	39	21
-	+	34	37
-	+	35	29
-	+	34	38
-	+	35	0
-	+	35	12
-	+	36	21
-	+	37	26
-	+	38	17
-	+	35	0
-	+	40	36
-	+	44	20
-	+	41	65
-	+	42	25
-	+	41	35
-	+	42	68
-	+	43	42
-	+	35	0
-	+	11	70
-	+	8	24
-	+	9	25
-	+	11	25
-	+	9	25
-	+	8	20
-	+	9	21
-	+	11	21
-	+	9	60
-	+	11	0
-	+	8	25
-	+	9	21
-	+	8	0
-	+	9	0
-	+	8	25
-	+	9	26
-	+	11	0
-	+	7	0
-	+	8	20
-	+	7	21
-	+	9	21
-	+	16	0
-	+	17	35
-	+	18	35
-	+	17	39
-	+	18	39
-	+	24	0
-	+	19	35
-	+	20	35
-	+	21	35
-	+	22	35
-	+	23	39
-	+	22	39
-	+	21	39
-	+	20	39
-	+	19	39
-	+	10	35
-	+	25	19
-	+	26	0
-	+	26	0
-	+	25	35
-	+	26	0
-	+	25	0
-	+	26	0
-	+	26	0
-	+	16	0
-	+	25	0
-	+	32	0
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	39	0
-	+	38	0
-	+	40	0
-	+	41	0
-	+	44	0
-	+	45	0
-	+	46	0
-	+	47	0
-	+	7	39
-	+	8	64
-	+	9	0
-	+	7	0
-	+	8	61
-
-> ~/CLASE/webGlobal/js/scripts.js
-	"	4	21
-	.	4	0
-	+	1	0
-	+	4	0
-	+	3	18
-	+	5	0
-	+	5	0
-	+	4	0
-	+	5	1
-	+	6	0
-	+	5	0
-	+	4	0
-
-> ~/CLASE/M6/UF3/ejemplos/EjemplosJordi/8.1 efectos animacion.html
-	"	1	0

@@ -163,3 +163,4 @@ CLASSPATH=$CLASSPATH:$HOME/lib/postgresql-9.4-1201.jdbc41.jar
 #CLASSPATH=$CLASSPATH:$HOME/lib/postgresql-9.4-1201.jdbc4.jar
 #lib/
 export CLASSPATH
+PATH=$PATH:~/soft/apache-maven/actual/bin
