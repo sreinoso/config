@@ -17,6 +17,7 @@
 $
 
 # Historial d'ordres (de més a menys recent):
+:qa
 :wq
 :q
 :q!
@@ -30,7 +31,6 @@ $
 :%g/^Pregunta/Normal ºs3
 :%s--\/\*TODO\*\/-g
 :%s///g
-:qa
 :'<,'>y
 :tabe ../../chuleta/chuleta.java
 :tabe ../sudokus/
@@ -636,18 +636,20 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
-'1  389  0  ~/.vimrc
-'2  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
-'3  166  40  ~/.bashrc
-'4  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
-'5  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
-'6  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'7  1  0  ~/vimgit/VIM/README.md
-'8  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
-'9  67  48  /usr/share/vim/vim73/doc/repeat.txt
+'0  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
+'1  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
+'2  389  0  ~/.vimrc
+'3  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
+'4  166  40  ~/.bashrc
+'5  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
+'6  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'7  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'8  1  0  ~/vimgit/VIM/README.md
+'9  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
 
 # Llista de salts (de més a menys recent):
+-'  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
+-'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
 -'  1  0  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
 -'  389  0  ~/.vimrc
@@ -745,11 +747,11 @@ $
 -'  24  0  ~/CLASE/sally/README.rst
 -'  14  16  ~/CLASE/sally/README.rst
 -'  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  89  0  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  88  12  ~/CLASE/M8/UF2/ZEND/ZEND.rst
--'  51  19  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
+	"	2	0
 
 > ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
 	"	8	39
@@ -2169,16 +2171,3 @@ $
 	.	45	59
 	+	70	0
 	+	45	59
-
-> ~/CLASE/M5/UF2/Refactoring/Moviment_de_metodes/Lloguer.java
-	"	46	0
-	^	41	33
-	.	41	32
-	+	24	0
-	+	25	38
-	+	27	19
-	+	30	23
-	+	31	37
-	+	37	37
-	+	36	23
-	+	41	32
