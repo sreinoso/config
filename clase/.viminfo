@@ -636,18 +636,19 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
-'1  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
-'2  389  0  ~/.vimrc
-'3  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
-'4  166  40  ~/.bashrc
-'5  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
-'6  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
-'7  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'8  1  0  ~/vimgit/VIM/README.md
-'9  30  53  ~/manualRST/ExtensionManual/Documentation/Configuration/Index.rst
+'0  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/.gitignore
+'1  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
+'2  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
+'3  389  0  ~/.vimrc
+'4  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
+'5  166  40  ~/.bashrc
+'6  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
+'7  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'8  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
+'9  1  0  ~/vimgit/VIM/README.md
 
 # Llista de salts (de més a menys recent):
+-'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/.gitignore
 -'  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
@@ -746,9 +747,11 @@ $
 -'  27  462  ~/CLASE/sally/README.rst
 -'  24  0  ~/CLASE/sally/README.rst
 -'  14  16  ~/CLASE/sally/README.rst
--'  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/.gitignore
+	"	1	0
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
 	"	2	0
@@ -2164,10 +2167,3 @@ $
 	+	14	14
 	+	15	22
 	+	13	42
-
-> ~/CLASE/M5/UF2/Refactoring/Moviment_de_metodes/Client.java
-	"	44	32
-	^	45	60
-	.	45	59
-	+	70	0
-	+	45	59
