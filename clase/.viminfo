@@ -8,10 +8,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Últim Patró de Cerca:
-~MSle0/^Pregunta
+~MSle0~/^Pregunta
 
 # Últim Substitute Patró de Cerca:
-~MSle0~&^Pregunta
+~MSle0&^Pregunta
 
 # Última cadena substituïda:
 $
@@ -636,18 +636,20 @@ $
 	paraula més
 
 # Marques de fitxer:
-'0  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/.gitignore
-'1  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
-'2  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
-'3  389  0  ~/.vimrc
-'4  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
-'5  166  40  ~/.bashrc
-'6  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
-'7  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
-'8  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
-'9  1  0  ~/vimgit/VIM/README.md
+'0  30  0  ~/Baixades/aaaa/js/cordova.js
+'1  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/.gitignore
+'2  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
+'3  8  39  ~/CLASE/M3/UF6/repo/holapgsql/src/main/java/org/iesjoandaustria/test/HolaPG.java
+'4  389  0  ~/.vimrc
+'5  1  0  ~/CLASE/M3/UF6/repo/holapgsql/pom.xml
+'6  166  40  ~/.bashrc
+'7  8  29  ~/CLASE/M6/UF3/proyectos/moduloTienda/TODO.rst
+'8  25  20  ~/CLASE/M8/UF2/ZEND/ZEND.rst
+'9  1  0  ~/programame/bitbucket/programame-2015/exercicis/entrandoCine/Plantilla.java
 
 # Llista de salts (de més a menys recent):
+-'  30  0  ~/Baixades/aaaa/js/cordova.js
+-'  1  0  ~/Baixades/aaaa/js/cordova.js
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/.gitignore
 -'  2  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
 -'  1  0  ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/mvc_m6/bbdd/bbdd.sql
@@ -746,9 +748,11 @@ $
 -'  1  0  ~/CLASE/sally/README.rst
 -'  27  462  ~/CLASE/sally/README.rst
 -'  24  0  ~/CLASE/sally/README.rst
--'  14  16  ~/CLASE/sally/README.rst
 
 # Historial de marques en fitxers (de més a menys recent):
+
+> ~/Baixades/aaaa/js/cordova.js
+	"	30	0
 
 > ~/CLASE/M6/UF3/proyectos/moduloTienda/moduloTienda/.gitignore
 	"	1	0
@@ -2150,20 +2154,3 @@ $
 	+	36	0
 	+	36	0
 	+	18	0
-
-> ~/CLASE/M5/UF2/Refactoring/Temporals_per_crides/resposta10.rst
-	"	13	42
-	^	13	43
-	.	13	42
-	+	17	0
-	+	7	58
-	+	8	57
-	+	7	0
-	+	8	0
-	+	11	13
-	+	2	46
-	+	11	20
-	+	12	0
-	+	14	14
-	+	15	22
-	+	13	42
